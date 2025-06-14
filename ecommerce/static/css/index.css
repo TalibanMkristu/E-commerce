@@ -1,0 +1,388 @@
+/* Base Styles */
+.auth-body {
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-spinner .spinner-grow {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Background Elements */
+.auth-wrapper {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.bg-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYwIDYwIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9InJnYmEoMjU1LDIxNSwwLDAuMDMpIiBkPSJNMzYgMzRjMC0yLjItMS44LTQtNC00cy00IDEuOC00IDQgMS44IDQgNCA0IDQtMS44IDQtNHoiLz48L2c+PC9zdmc+');
+    opacity: 0.3;
+    z-index: -2;
+}
+
+.bg-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+    z-index: -3;
+}
+
+.particle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Auth Container */
+.auth-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.auth-card {
+    background: rgba(30, 30, 30, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    overflow: hidden;
+}
+
+.auth-header {
+    margin-bottom: 2rem;
+}
+
+.auth-logo {
+    margin-bottom: 1.5rem;
+}
+
+.auth-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0 0;
+}
+
+.gold-text {
+    color: #d4af37;
+    font-weight: 700;
+}
+
+/* Buttons */
+.btn-gold {
+    background: linear-gradient(to right, #d4af37, #f4e5c2);
+    color: #000;
+    border: none;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+.btn-outline-gold {
+    background: transparent;
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    background: rgba(212, 175, 55, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);
+}
+
+/* Footer Styles */
+footer.auth-footer {
+    position: relative;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.auth-divider {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.auth-divider::before,
+.auth-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.auth-divider span {
+    color: #d4af37;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    background: transparent;
+}
+
+/* Social Buttons */
+.social-auth-grid {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.btn-social {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: relative;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    color: white !important;
+}
+
+.btn-social:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-social .social-tooltip {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+.btn-social:hover .social-tooltip {
+    opacity: 1;
+    visibility: visible;
+    bottom: -35px;
+}
+
+/* Social Brand Colors */
+.btn-apple { background: #000000; }
+.btn-apple:hover { border-color: #a2aaad; }
+
+.btn-google { background: #DB4437; }
+.btn-google:hover { border-color: #F4B400; }
+
+.btn-facebook { background: #1877F2; }
+.btn-facebook:hover { border-color: #00B0FF; }
+
+.btn-twitter { background: #1DA1F2; }
+.btn-twitter:hover { border-color: #657786; }
+
+.btn-linkedin { background: #0077B5; }
+.btn-linkedin:hover { border-color: #00A0DC; }
+
+.btn-instagram { 
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.btn-instagram:hover { border-color: #FCAF45; }
+
+/* Footer Text */
+footer .small {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+/* Content Styles */
+.auth-form-container {
+    margin: 2rem 0;
+}
+
+.auth-form-container .lead {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .auth-card {
+        padding: 1.5rem;
+    }
+    
+    .auth-title {
+        font-size: 1.75rem;
+    }
+    
+    .social-auth-grid {
+        gap: 8px;
+    }
+    
+    .btn-social {
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+    }
+}
+
+/* Theme Toggle Styles */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#themeToggleBtn {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: #d4af37;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+}
+
+#themeToggleBtn:hover {
+    background: rgba(212, 175, 55, 0.2);
+    transform: scale(1.1);
+}
+
+#themeToggleBtn i {
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+#themeToggleBtn .fa-sun {
+    opacity: 0;
+}
+
+.dark-theme {
+    --bg-color: #000000; /* Pure black */
+    --text-color: #ffffff;
+    --card-bg: rgba(20, 20, 20, 0.95);
+    --border-color: rgba(212, 175, 55, 0.3);
+}
+
+.dark-theme .auth-body {
+    background-color: var(--bg-color);
+}
+
+.dark-theme .auth-card {
+    background: var(--card-bg);
+    border-color: var(--border-color);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+.dark-theme .auth-title,
+.dark-theme .lead {
+    color: var(--text-color);
+}
+
+.dark-theme .bg-gradient {
+    background: var(--bg-color) !important; /* Force pure black */
+}
+
+.dark-theme .bg-pattern {
+    opacity: 0.15 !important;
+}
+
+.dark-theme .btn-outline-gold {
+    color: #f4e5c2;
+    border-color: #f4e5c2;
+}
+
+.dark-theme .btn-outline-gold:hover {
+    background: rgba(244, 229, 194, 0.1);
+}
+
+.dark-theme footer.auth-footer {
+    background: rgba(0, 0, 0, 0.9);
+    border-top-color: rgba(212, 175, 55, 0.4);
+}
+
+.dark-theme .auth-divider::before,
+.dark-theme .auth-divider::after {
+    border-bottom-color: rgba(212, 175, 55, 0.3);
+}
+
+.dark-theme #themeToggleBtn {
+    background: rgba(212, 175, 55, 0.2);
+    border-color: rgba(212, 175, 55, 0.6);
+}
+
+.dark-theme #themeToggleBtn .fa-moon {
+    opacity: 0;
+}
+
+.dark-theme #themeToggleBtn .fa-sun {
+    opacity: 1;
+}
+
+/* Hide colons for all Django form labels */
+label:after {
+    content: none !important;
+}

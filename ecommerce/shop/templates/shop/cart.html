@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{page}}
+{% endblock %}
+
+{% block content %}
+
+{% block background-image %}
+{% include 'background_image.html' %}
+{% endblock %}
+
+{% include 'messages.html' %}
+
+<section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="cart-list">
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>Product name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for order_item in order_items %}
+                            <tr class="text-center">
+                                <td class="product-remove"><a href="{{order_item.item.get_remove_item_from_cart_url}}"><span class="ion-ios-close"></span></a></td>
+                                
+                                <td class="image-prod"><div class="img" style="background-image:url('{{order_item.item.item_image.url}}');"></div></td>
+                                
+                                <td class="product-name">
+                                    <h3>{{order_item.item.title}}</h3>
+                                    <p>{{order_item.item.description}}</p>
+                                    {% if order_item.item.percentage_discount %}
+                                    <span class="badge badge-danger">Save {{ order_item.item.percentage_discount|floatformat:0 }}%</span>
+                                    {% endif %}
+                                </td>
+                                
+                                <td class="price">
+                                    {% if order_item.item.price_before_discount %}
+                                    <del class="text-muted">${{ order_item.item.price_before_discount|floatformat:2 }}</del><br>
+                                    {% endif %}
+                                    ${{ order_item.item.price|floatformat:2 }}
+                                </td>
+                                
+                                <td class="quantity">
+                                    <div class="input-group mb-3">
+                                        <input type="text" name="quantity" class="quantity form-control input-number" value="{{order_item.quantity}}" min="1" max="100">
+                                    </div>
+                                </td>
+                                
+                                <td class="total">
+                                    {% if order_item.item.price_before_discount %}
+                                    <del class="text-muted">${{ order_item.get_total_before_discount|floatformat:2 }}</del><br>
+                                    {% endif %}
+                                    ${{ order_item.get_total_item_price|floatformat:2 }}
+                                    {% if order_item.get_total_discount_amount > 0 %}
+                                    <div class="text-success">You save ${{ order_item.get_total_discount_amount|floatformat:2 }}</div>
+                                    {% endif %}
+                                </td>
+                            </tr><!-- END TR-->
+                            {% empty %}
+                            <tr>
+                                <td colspan="6">You don't have any order items.</td>
+                            </tr>
+                            <tr>
+                              <td colspan="3"><a href="{% url 'shop:shop' %}" class="btn btn-primary  py-3 px-4">Go to Shopping</a></td>
+                            </tr>
+                            {% endfor %}
+                            {% if order.items.exists %}
+                            <tr>
+                              <td class="" colspan="8"><a href="{% url 'shop:shop' %}" class="btn btn-primary float-right py-3 px-4">Continue shopping</a></td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Coupon Code</h3>
+                    <p>Enter your coupon code if you have one</p>
+                    <form action="#" class="info">
+                        <div class="form-group">
+                            <label for="">Coupon code</label>
+                            <input type="text" class="form-control text-left px-3" placeholder="">
+                        </div>
+                    </form>
+                </div>
+                <p><a href="checkout.html" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
+            </div>
+            <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Estimate shipping and tax</h3>
+                    <p>Enter your destination to get a shipping estimate</p>
+                    <form action="#" class="info">
+                        <div class="form-group">
+                            <label for="">Country</label>
+                            <input type="text" class="form-control text-left px-3" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="country">State/Province</label>
+                            <input type="text" class="form-control text-left px-3" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Zip/Postal Code</label>
+                            <input type="text" class="form-control text-left px-3" placeholder="">
+                        </div>
+                    </form>
+                </div>
+                <p><a href="{% url 'shop:check-out' %}" class="btn btn-primary py-3 px-4">Estimate</a></p>
+            </div>
+            <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Cart Totals</h3>
+                    <p class="d-flex">
+                        <span>Subtotal</span>
+                        <span>${{ order.get_total_before_discount|floatformat:2 }}</span>
+                    </p>
+                    <p class="d-flex">
+                        <span>Delivery</span>
+                        <span>$0.00</span>
+                    </p>
+                    {% if order.get_total_discount > 0 %}
+                    <p class="d-flex">
+                        <span>Discount</span>
+                        <span class="text-success">-${{ order.get_total_discount|floatformat:2 }}</span>
+                    </p>
+                    {% endif %}
+                    <hr>
+                    <p class="d-flex total-price">
+                        <span>Total</span>
+                        <span>${{ order.get_total|floatformat:2 }}</span>
+                    </p>
+                </div>
+                <p><a href="{% url 'shop:check-out' %}" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+    <div class="container py-4">
+        <div class="row d-flex justify-content-center py-5">
+            <div class="col-md-6">
+                <h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
+                <span>Get e-mail updates about our latest shops and special offers</span>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                        <input type="text" class="form-control" placeholder="Enter email address">
+                        <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

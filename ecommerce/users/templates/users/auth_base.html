@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+{% load widget_tweaks %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page_title|default:"Auth" }} | {{ site_name }}</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/auth.css' %}">
+</head>
+<body class="auth-body">
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div class="auth-wrapper">
+        <!-- Background Elements -->
+        <div class="auth-bg-elements">
+            <div class="bg-pattern"></div>
+            <div class="bg-gradient"></div>
+        </div>
+        
+        <div class="auth-container">
+            <div class="auth-card">
+                <!-- Logo Header -->
+                <div class="auth-header text-center mb-4">
+                    <a href="{% url 'home' %}" class="auth-logo">
+                        <img src="{% static 'images/logo.svg' %}" alt="{{ site_name }}" width="220">
+                    </a>
+                    <h2 class="auth-title mt-3">
+                        {% block auth_title %}
+                        <span class="text-primary">{{ auth_title_highlight }}</span> {{ auth_title }}
+                        {% endblock %}
+                    </h2>
+                </div>
+
+                <!-- Messages/Alerts -->
+                {% include 'includes/messages.html' %}
+
+                <!-- Main Form Content -->
+                <div class="auth-form-container">
+                    {% block auth_form %}
+                    <!-- Form content will be overridden by child templates -->
+                    {% endblock %}
+                </div>
+
+                <!-- Footer Links -->
+                <div class="auth-footer text-center mt-4">
+                    {% block auth_footer %}
+                    <p class="auth-redirect mb-3">
+                        {% block auth_redirect_text %}
+                        {{ auth_redirect_text }}
+                        {% endblock %}
+                        <a href="{{ auth_redirect_url }}" class="text-primary">
+                            {% block auth_redirect_link_text %}
+                            {{ auth_redirect_link_text }}
+                            {% endblock %}
+                        </a>
+                    </p>
+                    
+                    {% block social_auth %}
+                    <div class="auth-divider my-3"><span>or continue with</span></div>
+                    <div class="social-auth d-flex justify-content-center gap-2">
+                        {% for provider in social_auth_providers %}
+                        <a href="{% url 'social:begin' provider %}" class="btn btn-social btn-{{ provider }}" 
+                           title="Continue with {{ provider|title }}">
+                            <i class="fab fa-{{ provider }}"></i>
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {% endblock %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{% static 'js/auth.js' %}" defer></script>
+    
+    {% block extra_scripts %}
+    <!-- Additional scripts can be added by child templates -->
+    {% endblock %}
+</body>
+</html>

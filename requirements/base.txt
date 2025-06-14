@@ -1,0 +1,11 @@
+pillow
+django
+django-allauth
+django-crispy-forms
+django-environ
+celery
+redis
+stripe
+gunicorn
+whitenoise
+django_countries

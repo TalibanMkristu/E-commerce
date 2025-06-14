@@ -1,0 +1,54 @@
+{% extends 'main.html' %}
+
+        {% block title %}
+        {{title}}
+        {% endblock %}
+
+        {% block content %}
+        <div class="auth-container">
+                <div class="auth-card">
+                    <!-- Premium Logo Section -->
+                    <div class="auth-header text-center mb-5">
+                        <a href="/" class="logo-link">
+                            <svg width="220" height="60" viewBox="0 0 220 60" class="auth-logo" aria-label="Tracy Collections">
+                                <defs>
+                                    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#d4af37" />
+                                        <stop offset="100%" stop-color="#f4e5c2" />
+                                    </linearGradient>
+                                    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feGaussianBlur stdDeviation="3" result="blur" />
+                                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                                    </filter>
+                                </defs>
+                                <path d="M10,10 L40,10 L40,40 L10,40 Z" fill="url(#logoGradient)" rx="6" class="logo-icon" filter="url(#logoGlow)"/>
+                                <text x="50" y="38" font-family="'Playfair Display', serif" font-size="28" font-weight="700" fill="url(#logoGradient)" filter="url(#logoGlow)">TRACY COLLECTIONS</text>
+                            </svg>
+                        </a>
+                        <h2 class="auth-title">
+                            <span class="gold-text">Welcome to Our</span> Exclusive Collection
+                        </h2>
+                    </div>
+    
+                    <!-- Main Content Section -->
+                    <div class="auth-form-container text-center">
+                        <div class="mb-5">
+                            <p class="lead">Discover our premium collection of luxury items and exclusive members-only benefits. OR visit</p>
+                            <p class="lead">
+                                <a href="{% url 'base:home' %}" class="btn btn-gold btn-lg">
+                                    <i class="fas fa-home me-2"></i>Home
+                                </a>
+                            </p>
+                            <div class="d-grid gap-3 mt-5">
+                                <a href="{% url 'users:login' %}" class="btn btn-gold btn-lg auth-submit-btn">
+                                    <i class="fas fa-sign-in-alt me-2"></i>Sign In
+                                </a>
+                                <a href="{% url 'users:register' %}" class="btn btn-outline-gold btn-lg">
+                                    <i class="fas fa-user-plus me-2"></i>Join Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endblock %}
