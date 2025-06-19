@@ -1,9 +1,9 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.generic import TemplateView, ListView, DetailView, View, FormView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from .models import Item, Order, OrderItem
+from .models import Item, Order, OrderItem, BillingAddress
 from blog.models import Category
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from django.utils import timezone
 from django.contrib import messages
 from .forms import BillingDetailsForm
@@ -28,6 +28,7 @@ class ShopView(ListView):
         return context
 
 class CartView(LoginRequiredMixin, View):
+    login_url = reverse_lazy('users:login')
     def get(self, *args, **kwargs):
         try:
             order = Order.objects.get(user=self.request.user, ordered=False)
@@ -41,21 +42,88 @@ class CartView(LoginRequiredMixin, View):
             messages.info(self.request, "You don't have an active order")
             return redirect("shop:shop")
 
-class CheckOutView(FormView):
+class CheckOutView(LoginRequiredMixin, FormView):
+    login_url = reverse_lazy('users:login')
     form_class = BillingDetailsForm
     template_name = 'shop/checkout.html'
     extra_context = {
         'page': 'checkout',
         'page_name': 'My CheckOut',
-        
     }
-    # success_url=
+
+    def dispatch(self, request, *args, **kwargs):
+        # First, check for active order without triggering form processing
+        if request.method == 'GET':
+            if not Order.objects.filter(user=request.user, ordered=False).exists():
+                messages.warning(request, "You don't have any active order to checkout. Make an order.")
+                return redirect('shop:shop')
+        
+        # Only process form data if it's a POST request
+        if request.method == 'POST':
+            # Handle potential phone number format issues
+            if 'phone_0' in request.POST:
+                mutable_post = request.POST.copy()
+                mutable_post['phone'] = mutable_post['phone_0']
+                request.POST = mutable_post
+        
+        return super().dispatch(request, *args, **kwargs)
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        order = Order.objects.get(user=self.request.user, ordered=False)
-        context['order']=order
+        try:
+            order = Order.objects.get(user=self.request.user, ordered=False)
+            context['order'] = order
+        except Order.DoesNotExist:
+            messages.error(self.request, "No active order found.")
         return context
+    
+    def form_valid(self, form):
+        user = self.request.user
+        print(self.request.POST)
+        print(form.cleaned_data)
+        try:
+            order = Order.objects.get(user=user, ordered=False)
+            
+            if hasattr(order, 'billing_address'):
+                messages.info(self.request, "Billing address already exists for this order")
+                return redirect('payments:checkout')
+            
+            # Process phone number safely
+            phone = form.cleaned_data.get('phone')
+            # if isinstance(phone, list):
+            #     phone = phone[0] if phone else None
+            
+            BillingAddress.objects.create(
+                user=user,
+                order=order,
+                first_name=form.cleaned_data.get('first_name'),
+                last_name=form.cleaned_data.get('last_name'),
+                street_address=form.cleaned_data.get('street_address'),
+                apartment_suite=form.cleaned_data.get('apartment_suite'),
+                town_city=form.cleaned_data.get('town_city'),
+                state_country=form.cleaned_data.get('state_country'),
+                email=form.cleaned_data.get('email'),
+                phone=phone,
+                postcode=form.cleaned_data.get('postcode'),
+                
+            ) 
+            messages.success(self.request, 'Billing details saved successfully!')
+            return redirect('payments:payments')
 
+            
+            
+        except Order.DoesNotExist:
+            messages.error(self.request, 'No active order found')
+            return redirect('shop:cart')
+    
+    def form_invalid(self, form):
+        messages.error(self.request, 'Please correct the errors in the form.')
+        return super().form_invalid(form)
+    
+    def get_success_url(self):
+        return reverse('payments:payments')
+    
+    
 class WishListView(TemplateView):
     template_name = 'shop/wishlist.html'
     extra_context = {
@@ -63,7 +131,7 @@ class WishListView(TemplateView):
         'page_name': 'My WishList',
     }
 
-class SingleProductView(DetailView):
+class SingleProductView(DetailView): 
     model = Item
     template_name = 'shop/single_product.html'
     slug_field = 'slug'
@@ -86,6 +154,7 @@ class SingleProductView(DetailView):
         return context
 
 class AddToCartView(LoginRequiredMixin, View):
+    login_url = reverse_lazy('users:login')
     def get(self, request, slug, *args, **kwargs):
         item = get_object_or_404(Item, slug=slug)
         order_item, created = OrderItem.objects.get_or_create(
@@ -101,10 +170,10 @@ class AddToCartView(LoginRequiredMixin, View):
             if order.items.filter(item__slug=item.slug).exists():
                 order_item.quantity += 1
                 order_item.save()
-                messages.info(request, "Item quantity was updated.")
+                messages.info(request, f"{order_item.item.title} quantity was updated.")
             else:
                 order.items.add(order_item)
-                messages.info(request, "This item was added to your cart.")
+                messages.info(request, f"{order_item.item.title} was added to your cart.")
         else:
             ordered_date = timezone.now()
             order = Order.objects.create(
@@ -112,11 +181,12 @@ class AddToCartView(LoginRequiredMixin, View):
                 ordered_date=ordered_date
             )
             order.items.add(order_item)
-            messages.info(request, "This item was added to your cart.")
+            messages.info(request, f"{order_item.item.title} was added to your cart.")
         
         return redirect("shop:cart")
 
 class RemoveFromCartView(LoginRequiredMixin, View):
+    login_url = reverse_lazy('users:login')
     def get(self, request, slug, *args, **kwargs):
         item = get_object_or_404(Item, slug=slug)
         order_qs = Order.objects.filter(
@@ -135,16 +205,17 @@ class RemoveFromCartView(LoginRequiredMixin, View):
                 )[0]
                 order.items.remove(order_item)
                 order_item.delete()
-                messages.info(request, "This item was removed from your cart.")
+                messages.info(request, f"{order_item.item.title} was removed from your cart.")
                 return redirect("shop:cart")
             else:
-                messages.info(request, "This item was not in your cart.")
+                messages.info(request, f"{order_item.item.title} was not in your cart.")
                 return redirect("shop:product-single", slug=slug)
         else:
             messages.info(request, "You don't have an active order.")
             return redirect("shop:product-single", slug=slug)
         
 class RemoveSingleItemFromCartView(LoginRequiredMixin, View):
+    login_url = reverse_lazy('users:login')
     def get(self, request, slug, *args, **kwargs):
         item = get_object_or_404(Item, slug=slug)
         order_qs = Order.objects.filter(
@@ -167,11 +238,11 @@ class RemoveSingleItemFromCartView(LoginRequiredMixin, View):
                 else:
                     order.items.remove(order_item)
                     order_item.delete()
-                messages.info(request, "This item quantity was updated.")
+                messages.info(request, f"{order_item.item.title} was removed from cart.")
                 return redirect("shop:cart")
             else:
-                messages.info(request, "This item was not in your cart.")
+                messages.info(request, f"{order_item.item.title} was not in your cart.")
                 return redirect("shop:product-single", slug=slug)
         else:
             messages.info(request, "You don't have an active order.")
-            return redirect("shop:product-single", slug=slug)        
+            return redirect("shop:product-single", slug=slug)

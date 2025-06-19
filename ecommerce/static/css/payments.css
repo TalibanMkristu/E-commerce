@@ -1,0 +1,27 @@
+/* Custom animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Payment element focus state */
+.StripeElement--focus {
+    border-color: #6366f1 !important;
+    box-shadow: 0 0 0 1px #6366f1;
+}
+
+/* Success checkmark animation */
+.checkmark-circle {
+    animation: scaleIn 0.3s ease-out forwards;
+}
+
+@keyframes scaleIn {
+    0% { transform: scale(0); opacity: 0; }
+    80% { transform: scale(1.1); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Dark mode transitions */
+.dark .payment-card {
+    transition: background 0.3s, border-color 0.3s;
+}

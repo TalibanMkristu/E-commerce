@@ -1,176 +1,290 @@
 {% extends 'base.html' %}
 
-        {% block title %}
-        {{page}}
-        {% endblock %}
+{% block title %}
+{{page}}
+{% endblock %}
 
-        {% block content %}
-          {% block background-image %}
-          {% include 'background_image.html' %}
-          {% endblock %}
-      
-          <section class="ftco-section">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-xl-7 ftco-animate">
-                              <form action="#" class="billing-form">
-                                  <h3 class="mb-4 billing-heading">Billing Details</h3>
-                        <div class="row align-items-end">
-                            <div class="col-md-6">
-                          <div class="form-group">
-                            {{form.first_name.label_tag}}
-                            {{form.first_name}}
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            {{form.last_name.label_tag}}
-                            {{form.last_name}}
-                          </div>
-                      </div>
-                      <div class="w-100"></div>
-                          <div class="col-md-12">
-                              <div class="form-group">
-                                {{form.state_country.label_tag}}
-                                {{form.state_country}}
-                                <!-- <div class="select-wrap">
-                                <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                <select name="" id="" class="form-control">
-                                  <option value="">France</option>
-                                  <option value="">Italy</option>
-                                  <option value="">Philippines</option>
-                                  <option value="">South Korea</option>
-                                  <option value="">Hongkong</option>
-                                  <option value="">Japan</option>
-                                </select>
-                                </div> -->
-                              </div>
-                          </div>
-                          <div class="w-100"></div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                {{form.street_address.label_tag}}
-                                {{form.street_address}}    
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                {{form.apartment_suite}}
-                              </div>
-                          </div>
-                          <div class="w-100"></div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                {{form.town_city.label_tag}}
-                                {{form.town_city}}    
-                              </div>
-                          </div>
-                          <div class="col-md-6">
-                              <div class="form-group">
-                                {{form.postcode.label_tag}}
-                                {{form.postcode}}    
-                              </div>
-                          </div>
-                          <div class="w-100"></div>
-                          <div class="col-md-6">
-                          <div class="form-group">
-                            {{form.phone.label_tag}}
-                            {{form.phone}}    
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            {{form.email.label_tag}}
-                            {{form.email}}    
+{% block content %}
+  {% block background-image %}
+  {% include 'background_image.html' %}
+  {% endblock %}
 
-                          </div>
-                      </div>
-                      <div class="w-100"></div>
-                      <div class="col-md-12">
-                          <div class="form-group mt-4">
-                                              <div class="radio">
-                                                <label class="mr-3" for="{{ form.create_account.id_for_label }}"><input id="{{ form.create_account.id_for_label }}" type="radio" name="optradio"/>
-                                                  {{form.create_account.label_tag}}
-                                                </label>
-                                                <label for="{{ form.ship_to_different_address.id_for_label }}"><input id="{{ form.ship_to_different_address.id_for_label }}" type="radio" name="optradio"/> {{form.ship_to_different_address.label_tag}}</label>
-                                              </div>
-                                          </div>
-                      </div>
-                      </div>
-                    </form><!-- END -->
-                    </div>
-                    <div class="col-xl-5">
-                    <div class="row mt-5 pt-3">
-                        <div class="col-md-12 d-flex mb-5">
-                            <div class="cart-detail cart-total p-3 p-md-4">
-                                <h3 class="billing-heading mb-4">Cart Total</h3>
-                                <p class="d-flex">
-                                          <span>Subtotal</span>
-                                          <span>${{ order.get_total_before_discount|floatformat:2 }}</span>
-                                      </p>
-                                      <p class="d-flex">
-                                          <span>Delivery</span>
-                                          <span>$0.00</span>
-                                      </p>
-                                      <p class="d-flex">
-                                          <span>Discount</span>
-                                          <span>${{ order.get_total_discount|floatformat:2 }}</span>
-                                      </p>
-                                      <hr>
-                                      <p class="d-flex total-price">
-                                          <span>Total</span>
-                                          <span>${{ order.get_total|floatformat:2 }}</span>
-                                      </p>
-                                      </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="cart-detail p-3 p-md-4">
-                                <h3 class="billing-heading mb-4">Payment Method</h3>
-                                {% for choice in form.payment_method %}
-                                          <div class="form-group">
-                                              <div class="col-md-12">
-                                                  <div class="radio">
-                                                     <label for="{{choice.id_for_label}}">
-                                                      <input id="{{choice.id_for_label}}" type="radio" name="optradio" class="mr-2">
-                                                      {{choice.choice_label}}
-                                                    </label>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                {% endfor %}  
-
-                                          <div class="form-group">
-                                              <div class="col-md-12">
-                                                  <div class="checkbox">
-                                                     <label class="mr-2"> {{form.accept_terms}} {{form.accept_terms.label_tag}} </label>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                          <p><a href="#"class="btn btn-primary py-3 px-4">Place an order</a></p>
-                                        </div>
-                        </div>
-                    </div>
-                </div> <!-- .col-md-8 -->
-              </div>
+  <section class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 ftco-animate">
+          {% if form.errors %}
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <strong>Please correct the following errors:</strong>
+              <ul class="mb-0">
+                {% for field in form %}
+                  {% for error in field.errors %}
+                    <li>{{ field.label }}: {{ error|escape }}</li>
+                  {% endfor %}
+                {% endfor %}
+                {% for error in form.non_field_errors %}
+                  <li>{{ error|escape }}</li>
+                {% endfor %}
+              </ul>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </section> <!-- .section -->
-      
-            <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
-            <div class="container py-4">
-              <div class="row d-flex justify-content-center py-5">
-                <div class="col-md-6">
-                    <h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
-                    <span>Get e-mail updates about our latest shops and special offers</span>
-                </div>
-                <div class="col-md-6 d-flex align-items-center">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
+          {% endif %}
+
+          <form method="POST" action="" class="billing-form" novalidate>
+            {% csrf_token %}
+            <h3 class="mb-4 billing-heading">Billing Details</h3>
+
+            <div class="row align-items-end">
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.first_name.label_tag}}
+                  {{form.first_name}}
+                  {% if form.first_name.errors %}
+                    <small class="text-danger">{{ form.first_name.errors|join:", " }}</small>
+                  {% endif %}
                 </div>
               </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.last_name.label_tag}}
+                  {{form.last_name}}
+                  {% if form.last_name.errors %}
+                    <small class="text-danger">{{ form.last_name.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              
+              <div class="w-100"></div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  {{form.state_country.label_tag}}
+                  {{form.state_country}}
+                  {% if form.state_country.errors %}
+                    <small class="text-danger">{{ form.state_country.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              
+              <div class="w-100"></div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.street_address.label_tag}}
+                  {{form.street_address}}
+                  {% if form.street_address.errors %}
+                    <small class="text-danger">{{ form.street_address.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.apartment_suite.label_tag}}
+                  {{form.apartment_suite}}
+                </div>
+              </div>
+              
+              <div class="w-100"></div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.town_city.label_tag}}
+                  {{form.town_city}}
+                  {% if form.town_city.errors %}
+                    <small class="text-danger">{{ form.town_city.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.postcode.label_tag}}
+                  {{form.postcode}}
+                  {% if form.postcode.errors %}
+                    <small class="text-danger">{{ form.postcode.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              
+              <div class="w-100"></div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.phone.label_tag}}
+                  {{form.phone}}
+                  {% if form.phone.errors %}
+                    <small class="text-danger">{{ form.phone.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{form.email.label_tag}}
+                  {{form.email}}
+                  {% if form.email.errors %}
+                    <small class="text-danger">{{ form.email.errors|join:", " }}</small>
+                  {% endif %}
+                </div>
+              </div>
+              
+              <div class="w-100"></div>
+              <div class="col-md-12">
+                <div style="display: none;" class="form-group">
+                  {{form.password.label_tag}}
+                  {{form.password}}
+                </div>
+              </div>
+              
+              <div class="w-100"></div>
+              <div class="col-md-12">
+                <div class="form-group mt-4">
+                  <div class="radio">
+                    <label class="mr-3" for="{{ form.create_account.id_for_label }}">
+                      <input id="{{ form.create_account.id_for_label }}" type="radio" name="shippimg-optradio"/>
+                      {{form.create_account.label_tag}}
+                    </label>
+                    <label for="{{ form.ship_to_different_address.id_for_label }}">
+                      <input id="{{ form.ship_to_different_address.id_for_label }}" type="radio" name="shipping-optradio"/>
+                      {{form.ship_to_different_address.label_tag}}
+                    </label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label class="mr-2">
+                      {{form.accept_terms}}
+                      {{form.accept_terms.label_tag}}
+                    </label>
+                    {% if form.accept_terms.errors %}
+                      <small class="text-danger d-block">{{ form.accept_terms.errors|join:", " }}</small>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-primary py-3 px-4">Submit billing address</button>
+              </div>
             </div>
-          </section>
-        {% endblock %}
+          </form><!-- END -->
+        </div>
+        
+        <div class="col-xl-5">
+          <div class="row mt-5 pt-3">
+            <div class="col-md-12 d-flex mb-5">
+              <div class="cart-detail cart-total p-3 p-md-4">
+                <h3 class="billing-heading mb-4">Cart Total</h3>
+                <p class="d-flex">
+                  <span>Subtotal</span>
+                  <span>${{ order.get_total_before_discount|floatformat:2 }}</span>
+                </p>
+                <p class="d-flex">
+                  <span>Delivery</span>
+                  <span>$0.00</span>
+                </p>
+                <p class="d-flex">
+                  <span>Discount</span>
+                  <span>${{ order.get_total_discount|floatformat:2 }}</span>
+                </p>
+                <hr>
+                <p class="d-flex total-price">
+                  <span>Total</span>
+                  <span>${{ order.get_total|floatformat:2 }}</span>
+                </p>
+              </div>
+            </div>
+            
+            <div class="col-md-12">
+              <div class="cart-detail p-3 p-md-4">
+                <h3 class="billing-heading mb-4">Payment Methods Available</h3>
+                {% for value, name in form.fields.payment_method.choices %}
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <div class="radio">
+                        <label for="{{name}}">
+                          <input id="{{name}}" type="radio" value="{{value}}" name="payment-optradio" class="mr-2">
+                          {{name}}
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+                {% if form.payment_method.errors %}
+                  <small class="text-danger">{{ form.payment_method.errors|join:", " }}</small>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+    <div class="container py-4">
+      <div class="row d-flex justify-content-center py-5">
+        <div class="col-md-6">
+          <h2 style="font-size: 22px;" class="mb-0">Subscribe to our Newsletter</h2>
+          <span>Get e-mail updates about our latest shops and special offers</span>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <form action="#" class="subscribe-form">
+            <div class="form-group d-flex">
+              <input type="text" class="form-control" placeholder="Enter email address">
+              <input type="submit" value="Subscribe" class="submit px-3">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add error classes to fields with errors
+      // {% for field in form %}
+      //   {% if field.errors %}
+      //     document.getElementById('{{ field.id_for_label }}').classList.add('is-invalid');
+      //   {% endif %}
+      // {% endfor %}
+
+      // Initialize phone number input
+      const phoneInput = document.querySelector('.phone-number-input');
+      if (phoneInput) {
+        const iti = window.intlTelInput(phoneInput, {
+          initialCountry: "ke",
+          preferredCountries: ['ke', 'tz', 'ug', 'us', 'gb'],
+          separateDialCode: true,
+          utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+        
+        // Sync with country select dropdown
+        const countrySelect = document.querySelector('.country-select');
+        if (countrySelect) {
+          countrySelect.addEventListener('change', function() {
+            iti.setCountry(this.value.toLowerCase());
+          });
+          
+          // Update country select when intl-tel-input changes
+          phoneInput.addEventListener('countrychange', function() {
+            countrySelect.value = iti.getSelectedCountryData().iso2.toUpperCase();
+          });
+        }
+      }
+
+      // Show password field when create account is selected
+      const createAccountRadio = document.getElementById('{{ form.create_account.id_for_label }}');
+      const passwordField = document.querySelector('[name="{{ form.password.name }}"]').closest('.form-group');
+      
+      if (createAccountRadio && passwordField) {
+        createAccountRadio.addEventListener('change', function() {
+          if (this.checked) {
+            passwordField.style.display = 'block';
+          } else {
+            passwordField.style.display = 'none';
+          }
+        });
+      }
+    });
+  </script>
+{% endblock %}

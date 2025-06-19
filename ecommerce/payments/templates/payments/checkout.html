@@ -1,0 +1,603 @@
+<!-- templates/payments/checkout.html -->
+{% extends "basePayments.html" %}
+{% load static %}
+
+{% block content %}
+<div x-data="checkout()" 
+     @payment-method-selected.window="handlePaymentMethodChange"
+     class="min-h-screen bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
+  
+  <!-- Secure Payment Banner -->
+  <div class="max-w-2xl mx-auto mb-8 flex items-center justify-center space-x-2 text-sm text-gray-600 dark:text-gray-400">
+    <svg class="h-5 w-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+      <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path>
+    </svg>
+    <span>Secure SSL Encryption</span>
+    <span>•</span>
+    <span>PCI DSS Compliant</span>
+  </div>
+
+  <!-- Progress Tracker -->
+  <div class="max-w-2xl mx-auto mb-12">
+    <div class="flex items-center">
+      {% for step in checkout_steps %}
+      <div class="flex items-center {% if not forloop.first %}flex-1{% endif %}">
+        {% if not forloop.first %}
+        <div class="flex-1 h-px mx-4 bg-gray-300 dark:bg-gray-600"></div>
+        {% endif %}
+        <div class="flex flex-col items-center">
+          <div x-bind:class="{
+                'bg-indigo-600 dark:bg-indigo-500 text-white': currentStep >= {{ forloop.counter }},
+                'bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-400': currentStep < {{ forloop.counter }}
+              }" 
+              class="w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300">
+            {{ forloop.counter }}
+          </div>
+          <span class="mt-2 text-xs font-medium text-gray-500 dark:text-gray-400">{{ step }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Checkout Container -->
+  <div class="max-w-2xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300">
+    
+    <!-- Customer Information Step -->
+    <div x-show="currentStep === 1" x-transition class="p-8">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Payment Information</h2>
+      
+      <form @submit.prevent="validateStep1" class="space-y-6">
+        <div class="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-2">
+          <div>
+            <label for="first-name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">First name</label>
+            <input type="text" id="first-name" x-model="customer.firstName" required
+                   class="mt-1 block w-full border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-white">
+          </div>
+          
+          <div>
+            <label for="last-name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Last name</label>
+            <input type="text" id="last-name" x-model="customer.lastName" required
+                   class="mt-1 block w-full border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-white">
+          </div>
+          
+          <div class="sm:col-span-2">
+            <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Email address</label>
+            <input type="email" id="email" x-model="customer.email" required
+                   class="mt-1 block w-full border border-gray-300 dark:border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-white">
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Receipt will be sent to this address</p>
+          </div>
+          
+          <div class="sm:col-span-2">
+            <label class="flex items-center">
+              <input type="checkbox" x-model="customer.optInMarketing" 
+                     class="rounded border-gray-300 dark:border-gray-600 text-indigo-600 focus:ring-indigo-500 dark:bg-gray-700">
+              <span class="ml-2 text-sm text-gray-700 dark:text-gray-300">Subscribe to our newsletter</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="flex justify-between pt-6">
+          <a href="{% url 'shop:cart' %}" class="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-500">
+            &larr; Back to pricing
+          </a>
+          <button type="submit" 
+                  class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02]">
+            Continue to Payment
+          </button>
+        </div>
+      </form>
+    </div>
+    
+    <!-- Payment Method Selection -->
+    <div x-show="currentStep === 2" x-transition class="p-8">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Payment Method</h2>
+      
+      <div class="space-y-4">
+        <!-- Payment Method Tabs -->
+        <div class="border-b border-gray-200 dark:border-gray-700">
+          <nav class="-mb-px flex space-x-8">
+            <button @click="selectedPaymentMethod = 'card'" 
+                    :class="{
+                      'border-indigo-500 text-indigo-600 dark:text-indigo-400': selectedPaymentMethod === 'card',
+                      'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300': selectedPaymentMethod !== 'card'
+                    }"
+                    class="whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+              Credit/Debit Card
+            </button>
+            <button @click="selectedPaymentMethod = 'paypal'" 
+                    :class="{
+                      'border-indigo-500 text-indigo-600 dark:text-indigo-400': selectedPaymentMethod === 'paypal',
+                      'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300': selectedPaymentMethod !== 'paypal'
+                    }"
+                    class="whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+              PayPal
+            </button>
+            <button @click="selectedPaymentMethod = 'bank'" 
+                    :class="{
+                      'border-indigo-500 text-indigo-600 dark:text-indigo-400': selectedPaymentMethod === 'bank',
+                      'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300': selectedPaymentMethod !== 'bank'
+                    }"
+                    class="whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+              Bank Transfer
+            </button>
+          </nav>
+        </div>
+        
+        <!-- Card Payment -->
+        <div x-show="selectedPaymentMethod === 'card'" x-transition class="space-y-4">
+          <!-- Stripe Elements Container -->
+          <div id="card-element" class="border border-gray-300 dark:border-gray-600 rounded-lg p-4"></div>
+          <div id="card-errors" role="alert" class="text-red-600 dark:text-red-400 text-sm"></div>
+          
+          <!-- Save Payment Method -->
+          <div class="flex items-center">
+            <input id="save-payment" type="checkbox" x-model="savePaymentMethod" 
+                   class="h-4 w-4 rounded border-gray-300 dark:border-gray-600 text-indigo-600 focus:ring-indigo-500 dark:bg-gray-700">
+            <label for="save-payment" class="ml-2 block text-sm text-gray-700 dark:text-gray-300">
+              Save payment method for future purchases
+            </label>
+          </div>
+        </div>
+        
+        <!-- PayPal Payment -->
+        <div x-show="selectedPaymentMethod === 'paypal'" x-transition class="py-8 text-center">
+          <div class="inline-block p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <svg viewBox="0 0 24 24" class="h-12 mx-auto mb-4"  xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.724 18.043h-1.01c-.417 0-.79-.282-.79-.724v-6.12c0-.442.373-.724.79-.724h2.693c2.544 0 3.942 1.22 3.942 3.215 0 1.994-1.398 3.353-3.942 3.353H7.724zm0-5.668v3.706h1.683c1.292 0 2.01-.553 2.01-1.833 0-1.28-.718-1.873-2.01-1.873H7.724zM14.082 18.043h-1.01c-.417 0-.79-.282-.79-.724v-6.12c0-.442.373-.724.79-.724h2.693c2.544 0 3.942 1.22 3.942 3.215 0 1.994-1.398 3.353-3.942 3.353h-1.683zm0-5.668v3.706h1.683c1.292 0 2.01-.553 2.01-1.833 0-1.28-.718-1.873-2.01-1.873h-1.683z" fill="#003087"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.693 14.328c0 2.28-1.756 3.715-4.693 3.715H9.306v1.01c0 .442-.373.724-.79.724H6.724c-.417 0-.79-.282-.79-.724v-6.12c0-.442.373-.724.79-.724h4.693c2.937 0 4.693 1.435 4.693 3.715z" fill="#009cde"/>
+            </svg>
+            <p class="text-gray-600 dark:text-gray-400 mb-4">You'll be redirected to PayPal to complete your payment</p>
+            <button @click="initiatePayPalPayment" type="button" 
+                    class="inline-flex items-center px-6 py-3 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+              Continue with PayPal
+            </button>
+          </div>
+        </div>
+        
+        <!-- Bank Transfer -->
+        <div x-show="selectedPaymentMethod === 'bank'" x-transition class="py-8 text-center">
+          <div class="inline-block p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <svg class="h-12 w-12 mx-auto text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+            </svg>
+            <p class="text-gray-600 dark:text-gray-400 mb-4">We'll email you bank transfer details after checkout</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex justify-between pt-8">
+        <button @click="currentStep = 1" type="button" 
+                class="inline-flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100">
+          &larr; Back to information
+        </button>
+        <button @click="validateStep2" type="button" 
+                class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02]">
+          Review Order
+        </button>
+      </div>
+    </div>
+    
+    <!-- Order Review Step -->
+    <div x-show="currentStep === 3" x-transition class="p-8">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Review Your Order</h2>
+      
+      <div class="space-y-8">
+        <!-- Order Summary -->
+        <div class="bg-gray-50 dark:bg-gray-700 rounded-lg p-6">
+          <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-4">Order Summary</h3>
+          
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <p class="text-gray-600 dark:text-gray-400"><del>Plan</del></p>
+              <p class="font-medium text-gray-900 dark:text-white">
+                <del>{{ plan.name }}</del>
+              </p>
+            </div>
+            
+            <div class="flex justify-between">
+              <p class="text-gray-600 dark:text-gray-400"><del>Billing Cycle</del></p>
+              <p class="font-medium text-gray-900 dark:text-white">{{ billing_cycle|title }}</p>
+            </div>
+            
+            <div class="flex justify-between border-t border-gray-200 dark:border-gray-600 pt-4">
+              <p class="text-gray-600 dark:text-gray-400">Subtotal</p>
+              <p class="font-medium text-gray-900 dark:text-white">$
+                {{ sh_ord.ordered }}
+              </p>
+            </div>
+            
+            {% if plan.tax_amount %}
+            <div class="flex justify-between">
+              <p class="text-gray-600 dark:text-gray-400">Tax</p>
+              <p class="font-medium text-gray-900 dark:text-white">${{ plan.tax_amount|floatformat:2 }}</p>
+            </div>
+            {% endif %}
+            
+            <div class="flex justify-between border-t border-gray-200 dark:border-gray-600 pt-4">
+              <p class="text-lg font-medium text-gray-900 dark:text-white">Total</p>
+              <p class="text-lg font-bold text-gray-900 dark:text-white">$
+                <del>{{ plan.total_amount|floatformat:2 }}</del>{{ order.total|floatformat:2 }}
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Payment Method Review -->
+        <div class="bg-gray-50 dark:bg-gray-700 rounded-lg p-6">
+          <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-4">Payment Method</h3>
+          
+          <div x-show="selectedPaymentMethod === 'card'" class="flex items-center">
+            <div class="mr-4">
+              <div class="w-12 h-8 bg-gray-200 dark:bg-gray-600 rounded flex items-center justify-center">
+                <span class="text-xs font-medium">CARD</span>
+              </div>
+            </div>
+            <div>
+              <p class="font-medium text-gray-900 dark:text-white" x-text="cardBrand + ' ending in ' + cardLast4"></p>
+              <p class="text-sm text-gray-600 dark:text-gray-400">Expires <span x-text="cardExpiry"></span></p>
+            </div>
+          </div>
+          
+          <div x-show="selectedPaymentMethod === 'paypal'" class="flex items-center">
+            <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.724 18.043h-1.01c-.417 0-.79-.282-.79-.724v-6.12c0-.442.373-.724.79-.724h2.693c2.544 0 3.942 1.22 3.942 3.215 0 1.994-1.398 3.353-3.942 3.353H7.724zm0-5.668v3.706h1.683c1.292 0 2.01-.553 2.01-1.833 0-1.28-.718-1.873-2.01-1.873H7.724zM14.082 18.043h-1.01c-.417 0-.79-.282-.79-.724v-6.12c0-.442.373-.724.79-.724h2.693c2.544 0 3.942 1.22 3.942 3.215 0 1.994-1.398 3.353-3.942 3.353h-1.683zm0-5.668v3.706h1.683c1.292 0 2.01-.553 2.01-1.833 0-1.28-.718-1.873-2.01-1.873h-1.683z" fill="#003087"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.693 14.328c0 2.28-1.756 3.715-4.693 3.715H9.306v1.01c0 .442-.373.724-.79.724H6.724c-.417 0-.79-.282-.79-.724v-6.12c0-.442.373-.724.79-.724h4.693c2.937 0 4.693 1.435 4.693 3.715z" fill="#009cde"/>
+            </svg>
+            <p class="font-medium text-gray-900 dark:text-white">PayPal</p>
+          </div>
+          
+          <div x-show="selectedPaymentMethod === 'bank'" class="flex items-center">
+            <svg class="h-6 w-6 mr-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+            </svg>
+            <p class="font-medium text-gray-900 dark:text-white">Bank Transfer</p>
+          </div>
+        </div>
+        
+        <!-- Terms Agreement -->
+        <div class="flex items-start">
+          <div class="flex items-center h-5">
+            <input id="terms" type="checkbox" x-model="agreedToTerms" required
+                   class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 dark:border-gray-600 rounded dark:bg-gray-700">
+          </div>
+          <div class="ml-3 text-sm">
+            <label for="terms" class="font-medium text-gray-700 dark:text-gray-300">I agree to the <a href="" class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500">Terms of Service</a> and <a href="" class="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500">Privacy Policy</a></label>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex justify-between pt-8">
+        <button @click="currentStep = 2" type="button" 
+                class="inline-flex items-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100">
+          &larr; Back to payment
+        </button>
+        <button @click="submitPayment" type="button" 
+                :disabled="!agreedToTerms || processingPayment"
+                class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02] disabled:opacity-75 disabled:cursor-not-allowed">
+          <span x-show="!processingPayment">Complete Purchase</span>
+          <span x-show="processingPayment" class="flex items-center">
+            <svg class="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            Processing Payment...
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Trust Badges -->
+  <div class="max-w-2xl mx-auto mt-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <div class="flex flex-col items-center">
+        <svg class="h-8 w-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z" clip-rule="evenodd"></path>
+          <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z"></path>
+        </svg>
+        <span class="mt-2 text-xs text-gray-500 dark:text-gray-400">PCI DSS Compliant</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <svg class="h-8 w-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+        </svg>
+        <span class="mt-2 text-xs text-gray-500 dark:text-gray-400">256-bit Encryption</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <svg class="h-8 w-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+        </svg>
+        <span class="mt-2 text-xs text-gray-500 dark:text-gray-400">Money Back Guarantee</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <svg class="h-8 w-8 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
+        </svg>
+        <span class="mt-2 text-xs text-gray-500 dark:text-gray-400">24/7 Fraud Monitoring</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function checkout() {
+  return {
+    currentStep: 3,
+    checkoutSteps: ['Information', 'Payment', 'Review'],
+    selectedPaymentMethod: 'card',
+    savePaymentMethod: false,
+    agreedToTerms: false,
+    processingPayment: false,
+    customer: {
+      firstName: '',
+      lastName: '',
+      email: '',
+      optInMarketing: false
+    },
+    payment: {
+      cardBrand: '',
+      cardLast4: '',
+      cardExpiry: ''
+    },
+    stripe: null,
+    elements: null,
+    cardElement: null,
+    
+    init() {
+      // Initialize Stripe Elements
+      this.stripe = Stripe('{{ STRIPE_PUBLIC_KEY }}');
+      
+      const appearance = {
+        theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe',
+        variables: {
+          colorPrimary: '#6366f1',
+          colorBackground: getComputedStyle(document.documentElement).getPropertyValue('--bg-color') || '#ffffff',
+          colorText: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
+          colorDanger: '#ef4444',
+          fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
+          spacingUnit: '4px',
+          borderRadius: '6px'
+        }
+      };
+      
+      this.elements = this.stripe.elements({ appearance });
+      
+      // Initialize card element
+      if (this.selectedPaymentMethod === 'card') {
+        this.initCardElement();
+      }
+      
+      // Watch for dark mode changes
+      const observer = new MutationObserver(() => {
+        this.elements.update({ 
+          appearance: { 
+            theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe' 
+          } 
+        });
+      });
+      
+      observer.observe(document.documentElement, { 
+        attributes: true, 
+        attributeFilter: ['class'] 
+      });
+    },
+    
+    initCardElement() {
+      if (this.cardElement) {
+        this.cardElement.unmount();
+      }
+      
+      this.cardElement = this.elements.create('card', {
+        style: {
+          base: {
+            iconColor: '#6366f1',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
+            fontWeight: '500',
+            fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
+            fontSize: '16px',
+            fontSmoothing: 'antialiased',
+            '::placeholder': {
+              color: '#6b7280'
+            }
+          },
+          invalid: {
+            color: '#ef4444'
+          }
+        }
+      });
+      
+      this.cardElement.mount('#card-element');
+      
+      // Handle real-time validation errors
+      this.cardElement.on('change', (event) => {
+        const displayError = document.getElementById('card-errors');
+        if (event.error) {
+          displayError.textContent = event.error.message;
+          displayError.classList.remove('hidden');
+        } else {
+          displayError.textContent = '';
+          displayError.classList.add('hidden');
+        }
+      });
+    },
+    
+    validateStep1() {
+      // Simple validation - extend as needed
+      if (!this.customer.firstName || !this.customer.lastName || !this.customer.email) {
+        this.showToast('Please fill all required fields', 'error');
+        return;
+      }
+      
+      // Validate email format
+      if (!/^\S+@\S+\.\S+$/.test(this.customer.email)) {
+        this.showToast('Please enter a valid email address', 'error');
+        return;
+      }
+      
+      this.currentStep = 2;
+      this.scrollToTop();
+    },
+    
+    validateStep2() {
+      if (this.selectedPaymentMethod === 'card') {
+        // Validate card details
+        if (!this.cardElement) {
+          this.showToast('Payment method not initialized', 'error');
+          return;
+        }
+        
+        // You might want to check if card is complete here
+        // This is a simplified check - Stripe handles validation
+        this.currentStep = 3;
+        this.scrollToTop();
+      } else {
+        // For non-card methods, proceed to review
+        this.currentStep = 3;
+        this.scrollToTop();
+      }
+    },
+    
+    async submitPayment() {
+      this.processingPayment = true;
+      
+      try {
+        if (this.selectedPaymentMethod === 'card') {
+          await this.processCardPayment();
+        } else if (this.selectedPaymentMethod === 'paypal') {
+          await this.processPayPalPayment();
+        } else if (this.selectedPaymentMethod === 'bank') {
+          await this.processBankTransfer();
+        }
+      } catch (error) {
+        console.error('Payment error:', error);
+        this.showToast('Payment failed: ' + (error.message || 'Unknown error'), 'error');
+        this.processingPayment = false;
+      }
+    },
+    
+    async processCardPayment() {
+      const { paymentMethod, error } = await this.stripe.createPaymentMethod({
+        type: 'card',
+        card: this.cardElement,
+        billing_details: {
+          name: this.customer.firstName + ' ' + this.customer.lastName,
+          email: this.customer.email
+        }
+      });
+      
+      if (error) {
+        throw error;
+      }
+      
+      // Update UI with card details
+      this.payment.cardBrand = paymentMethod.card.brand;
+      this.payment.cardLast4 = paymentMethod.card.last4;
+      this.payment.cardExpiry = `${paymentMethod.card.exp_month}/${paymentMethod.card.exp_year}`;
+      
+      // Submit to your backend
+      const response = await fetch('{% url "payments:checkout" %}', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify({
+          payment_method_id: paymentMethod.id,
+          save_payment_method: this.savePaymentMethod,
+          customer: this.customer
+        })
+      });
+      
+      const result = await response.json();
+      
+      if (result.error) {
+        throw new Error(result.error);
+      }
+      
+      if (result.requires_action) {
+        // Handle 3D Secure authentication
+        const { error: confirmError } = await this.stripe.confirmCardPayment(
+          result.client_secret
+        );
+        
+        if (confirmError) {
+          throw confirmError;
+        }
+      }
+      
+      // Payment succeeded
+      window.location.href = '{% url "payments:payment-success" %}?session_id=' + result.session_id;
+    },
+    
+    async processPayPalPayment() {
+      // Initiate PayPal flow
+      const response = await fetch('{% url "payments:checkout" %}', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify({
+          customer: this.customer
+        })
+      });
+      
+      const result = await response.json();
+      
+      if (result.error) {
+        throw new Error(result.error);
+      }
+      
+      // Redirect to PayPal approval URL
+      window.location.href = result.approval_url;
+    },
+    
+    async processBankTransfer() {
+      // Submit bank transfer request
+      const response = await fetch('{% url "payments:checkout" %}', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify({
+          customer: this.customer
+        })
+      });
+      
+      const result = await response.json();
+      
+      if (result.error) {
+        throw new Error(result.error);
+      }
+      
+      // Redirect to bank transfer instructions
+      window.location.href = '?reference=' + result.reference;
+    },
+    
+    handlePaymentMethodChange(event) {
+      this.selectedPaymentMethod = event.detail.method;
+      
+      if (this.selectedPaymentMethod === 'card' && !this.cardElement) {
+        this.initCardElement();
+      }
+    },
+    
+    showToast(message, type = 'success') {
+      this.$dispatch('notify', {
+        type: type,
+        message: message
+      });
+    },
+    
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  }
+}
+</script>
+{% endblock %}

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Item, OrderItem, Order
+from .models import Item, OrderItem, Order, BillingAddress
 
 # Register your models here.
 @admin.register(Item)
@@ -15,3 +15,5 @@ class OrderItemAdmin(admin.ModelAdmin):
 class OrderAdmin(admin.ModelAdmin):
     list_display = ('user', 'start_date', 'ordered_date', 'ordered', )
     list_filter = ('items', )
+
+admin.site.register(BillingAddress)

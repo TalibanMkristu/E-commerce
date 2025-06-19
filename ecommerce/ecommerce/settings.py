@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'shop.apps.ShopConfig',
     'contacts.apps.ContactsConfig',
+    'payments.apps.PaymentsConfig',
+
 
 ]
 
@@ -151,3 +153,9 @@ LOGOUT_REDIRECT_URL = 'base:index'  # Redirect to 'home' after logout
 
 PHONENUMBER_DEFAULT_REGION = 'KE'  # Kenya
 PHONENUMBER_DB_FORMAT = 'E164'
+
+FIELD_ENCRYPTION_KEY = 'mRgXi4O5nV5dAlrQ5zJ9z5GZJ5mJ6vRn9XqL3jY0zDk='
+
+# from dotenv import load_dotenv
+# load_dotenv()
+# FIELD_ENCRYPTION_KEY = os.environ['FIELD_ENCRYPTION_KEY']

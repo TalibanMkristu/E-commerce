@@ -3,6 +3,8 @@ from django.contrib.auth import get_user_model
 from django.urls import reverse
 from django.shortcuts import redirect
 from datetime import datetime
+from django_countries.fields import CountryField
+from phonenumber_field.modelfields import PhoneNumberField
 
 # Create your models here.
 User = get_user_model()
@@ -125,3 +127,24 @@ class Order(models.Model):
     def get_total_before_discount(self):
         """Calculate total before discount for all items in the order"""
         return sum(order_item.get_total_before_discount() for order_item in self.items.all())
+    
+
+class BillingAddress(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, )
+    order = models.OneToOneField(Order, on_delete=models.CASCADE, related_name='billing_address', null=True, blank=True)
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30, null=True, blank=True)
+    street_address = models.CharField(max_length=30, null=True, blank=True)    
+    apartment_suite = models.CharField(max_length=30, null=True, blank=True)    
+    town_city = models.CharField(max_length=30, null=True, blank=True)    
+    state_country = CountryField(multiple=False)
+    email = models.EmailField()
+    phone = PhoneNumberField(region='KE', null=True, blank=True)
+    postcode = models.CharField(max_length=20)
+    payment_method = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.user.username
+
+class Customer(models.Model):
+    pass

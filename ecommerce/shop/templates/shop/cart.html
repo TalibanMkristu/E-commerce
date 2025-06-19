@@ -10,8 +10,6 @@
 {% include 'background_image.html' %}
 {% endblock %}
 
-{% include 'messages.html' %}
-
 <section class="ftco-section ftco-cart">
     <div class="container">
         <div class="row">
@@ -142,7 +140,7 @@
                         <span>${{ order.get_total|floatformat:2 }}</span>
                     </p>
                 </div>
-                <p><a href="{% url 'shop:check-out' %}" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+                <p><a href="{% url 'payments:checkout' %}" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
             </div>
         </div>
     </div>
