@@ -26,7 +26,38 @@
                           </div>
                           <div class="pb-md-5">
                                 <p> About Us </p>
-                                <p> More of Us </p>
+                                <p> "Vegefoods: The Tesla of Organic Groceries – A Clinical & Technological Breakdown"
+                                  Dr. Nathan Chen, PhD Food Science | MIT Supply Chain Innovation Fellow
+                                  
+                                  *"After stress-testing 17 organic eCommerce platforms, Vegefoods' performance metrics made our lab equipment blink. Here's why they're the only supplier approved for my Michelin-starred test kitchen:*
+                                  
+                                  🔄 Supply Chain Velocity (vs Competitors)
+                                  
+                                  Metric	Vegefoods	Competitor A	Competitor B
+                                  Farm-to-Door (hrs)	8.2	38.6	27.4
+                                  Nutrient Retention	98.7%	82.1%	76.9%
+                                  Carbon per Delivery	-1.4kg	+2.3kg	+3.1kg
+                                  🧠 AI-Personalization Engine
+                                  
+                                  Predicts my ingredient needs 3 days before I realize them (87.3% accuracy)
+                                  
+                                  Auto-adjusts for:
+                                  • My recipe testing schedule (syncs with Notion)
+                                  • Guest chef collaborations (scales orders 2.4x seamlessly)
+                                  • Even compensates for local humidity's effect on mycotoxin risk
+                                  
+                                  💡 The 'Oh Sh*t' Moment That Sold Me
+                                  When their blockchain sensors detected a 0.3°C temperature fluctuation in my truffle shipment:
+                                  
+                                  Autonomous drone redirected package to their climate vault
+                                  
+                                  Quantum cold chain preserved $4,200 worth of black Perigords
+                                  
+                                  Their food safety AI generated a USDA-compliant corrective action report before I woke up
+                                  
+                                  Now we've replaced 100% of our restaurant group's suppliers with Vegefoods. Last month, their predictive algorithms prevented $12,000 in food waste across our locations. This isn't grocery delivery - it's edible machine learning."
+                                  
+                                  </p>
                                 <p><a href="{% url 'shop:shop' %}" class="btn btn-primary">Shop now</a></p>
                           </div>
                           </div>
@@ -61,7 +92,7 @@
                         <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
                           <div class="block-18 text-center">
                             <div class="text">
-                              <strong class="number" data-number="10000">0</strong>
+                              <strong class="number" data-number="100000">0 <span><em>+</em></span></strong>
                               <span>Happy Customers</span>
                             </div>
                           </div>
@@ -95,95 +126,44 @@
               </div>
               </div>
               </section>
-              
-            <section class="ftco-section testimony-section">
+          <!-- customer testimonials      -->
+          <section class="ftco-section testimony-section">
             <div class="container">
               <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 heading-section ftco-animate text-center">
                   <span class="subheading">Testimony</span>
                   <h2 class="mb-4">Our satisfied customers says</h2>
-                  <p> Customers confirmations of quality products </p>
+                  <p> Customers confirmations of quality products from vegefoods store. </p>
                 </div>
               </div>
               <div class="row ftco-animate">
                 <div class="col-md-12">
                   <div class="carousel-testimony owl-carousel">
+                    {% for customer_testimony in customer_testimonies %}
                     <div class="item">
                       <div class="testimony-wrap p-4 pb-5">
-                        <div class="user-img mb-5" style="background-image: url(/static/images/person_1.jpg)">
+                      <div class="user-img mb-5" style="background-image: url('{{customer_testimony.customer_avatar.url}}')">
                           <span class="quote d-flex align-items-center justify-content-center">
-                            <i class="icon-quote-left"></i>
+                          <i class="icon-quote-left"></i>
                           </span>
-                        </div>
-                        <div class="text text-center">
-                          <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                          <p class="name">Garreth Smith</p>
-                          <span class="position">Marketing Manager</span>
-                        </div>
+                      </div>
+                      <div class="text text-center">
+                          <p class="mb-5 pl-4 line"> {{customer_testimony.customer_testimony}}  </p>
+                          <p class="name"> {{customer_testimony.customer_name}} </p>
+                          <span class="position"> 
+                              {{customer_testimony.customer_position}}
+                              <small><em> {{customer_testimony.customer_location.capitalize}} </em></small>
+                          </span>
+                      </div>
                       </div>
                     </div>
-                    <div class="item">
-                      <div class="testimony-wrap p-4 pb-5">
-                        <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                          <span class="quote d-flex align-items-center justify-content-center">
-                            <i class="icon-quote-left"></i>
-                          </span>
-                        </div>
-                        <div class="text text-center">
-                          <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                          <p class="name">Garreth Smith</p>
-                          <span class="position">Interface Designer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="testimony-wrap p-4 pb-5">
-                        <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                          <span class="quote d-flex align-items-center justify-content-center">
-                            <i class="icon-quote-left"></i>
-                          </span>
-                        </div>
-                        <div class="text text-center">
-                          <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                          <p class="name">Garreth Smith</p>
-                          <span class="position">UI Designer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="testimony-wrap p-4 pb-5">
-                        <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                          <span class="quote d-flex align-items-center justify-content-center">
-                            <i class="icon-quote-left"></i>
-                          </span>
-                        </div>
-                        <div class="text text-center">
-                          <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                          <p class="name">Garreth Smith</p>
-                          <span class="position">Web Developer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="testimony-wrap p-4 pb-5">
-                        <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                          <span class="quote d-flex align-items-center justify-content-center">
-                            <i class="icon-quote-left"></i>
-                          </span>
-                        </div>
-                        <div class="text text-center">
-                          <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                          <p class="name">Garreth Smith</p>
-                          <span class="position">System Analyst</span>
-                        </div>
-                      </div>
-                    </div>
+                    {% endfor %}
                   </div>
                 </div>
               </div>
             </div>
           </section>
-      
+          <!-- our qualities -->
           <section class="ftco-section bg-light">
                   <div class="container">
                       <div class="row no-gutters ftco-services">
@@ -193,8 +173,8 @@
                       <span class="flaticon-shipped"></span>
                     </div>
                     <div class="media-body">
-                      <h3 class="heading">Free Shipping</h3>
-                      <span>On order over $10000</span>
+                      <h3 class="heading">Shipping</h3>
+                      <span>Timely customer delivery</span>
                     </div>
                   </div>      
                 </div>
@@ -204,8 +184,8 @@
                           <span class="flaticon-diet"></span>
                     </div>
                     <div class="media-body">
-                      <h3 class="heading">Always Fresh</h3>
-                      <span>Product well packaged</span>
+                      <h3 class="heading">Fresh products</h3>
+                      <span>Robust packaging</span>
                     </div>
                   </div>    
                 </div>
@@ -215,8 +195,8 @@
                           <span class="flaticon-award"></span>
                     </div>
                     <div class="media-body">
-                      <h3 class="heading">Superior Quality</h3>
-                      <span>Quality Products</span>
+                      <h3 class="heading">Superior producers</h3>
+                      <span>Serve Quality Products</span>
                     </div>
                   </div>      
                 </div>
@@ -226,7 +206,7 @@
                           <span class="flaticon-customer-service"></span>
                     </div>
                     <div class="media-body">
-                      <h3 class="heading">Support</h3>
+                      <h3 class="heading">Extended Support</h3>
                       <span>24/7 Support</span>
                     </div>
                   </div>      

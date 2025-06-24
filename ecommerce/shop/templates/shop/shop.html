@@ -28,34 +28,34 @@
                     {% for item in items %}
                     <div class="col-md-6 col-lg-3 ftco-animate">
                           <div class="product">
-                              <a href="{{item.get_absolute_url}}" class="img-prod"><img class="img-fluid" src="{{item.item_image.url}}" alt="">
-                                  <span class="status"> {% if not item.percentage_discount == None %} {{item.percentage_discount}}% {% endif %} </span>
+                              <a href="{{item.get_absolute_url}}" class="img-prod"><img class="img-fluid" src="{{item.item_image.url}}" alt="{{item.title}}">
+                                  <span class="status"> {% if not item.percentage_discount == None %} {{item.percentage_discount|floatformat:1}}% {% endif %} </span>
                                   <div class="overlay"></div>
                               </a>
                               <div class="text py-3 pb-4 px-3 text-center">
                                 <h3> {{item.get_category_display}} </h3>
                                 <h3>
                                     <a href="{{item.get_absolute_url}}"> {{item.title}} 
-                                        <span class="badge badge-pill {{item.get_label_display}}-color"> New </span>
+                                        <span class="badge badge-pill {{item.get_label_display}}-color"> Fresh </span>
                                     </a>
                                 </h3>
                                 <div class="d-flex">
                                       <div class="pricing">
                                           <p class="price"><span class="mr-2 price-dc">
-                                            {% if not item.price_before_discount == None %} ${{item.price_before_discount}} {% endif %}
-                                            </span><span class="price-sale"> ${{item.price}} </span>
+                                            {% if not item.price_before_discount == None %} ${{item.price_before_discount|floatformat:2}} {% endif %}
+                                            </span><span class="price-sale"> ${{item.price|floatformat:2}} </span>
                                           </p>
                                       </div>
                                   </div>
                                   <div class="bottom-area d-flex px-3">
                                       <div class="m-auto d-flex">
-                                          <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                          <a href="{{item.get_absolute_url}}" class="add-to-cart d-flex justify-content-center align-items-center text-center">
                                               <span><i class="ion-ios-menu"></i></span>
                                           </a>
-                                          <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
+                                          <a href="{{item.get_add_to_cart_url}}" class="buy-now d-flex justify-content-center align-items-center mx-1">
                                               <span><i class="ion-ios-cart"></i></span>
                                           </a>
-                                          <a href="#" class="heart d-flex justify-content-center align-items-center ">
+                                          <a href="{{wish.get_add_to_wishlist_url}}" class="heart d-flex justify-content-center align-items-center ">
                                               <span><i class="ion-ios-heart"></i></span>
                                           </a>
                                       </div>

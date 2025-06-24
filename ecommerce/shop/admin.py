@@ -1,11 +1,12 @@
 from django.contrib import admin
-from .models import Item, OrderItem, Order, BillingAddress
+from .models import Item, OrderItem, Order, BillingAddress, CustomerTestimonials, Wishlist
 
 # Register your models here.
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
     list_display = ('title', 'price', 'price_before_discount', 
-                    'percentage_discount', 'category', 'label', 'size')
+                    'percentage_discount', 'category', 'label', 'size',
+                    'stock', )
 
 @admin.register(OrderItem)
 class OrderItemAdmin(admin.ModelAdmin):
@@ -17,3 +18,5 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ('items', )
 
 admin.site.register(BillingAddress)
+admin.site.register(CustomerTestimonials)
+admin.site.register(Wishlist)

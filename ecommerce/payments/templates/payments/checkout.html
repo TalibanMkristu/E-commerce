@@ -3,10 +3,11 @@
 {% load static %}
 
 {% block content %}
+
 <div x-data="checkout()" 
      @payment-method-selected.window="handlePaymentMethodChange"
      class="min-h-screen bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
-  
+      
   <!-- Secure Payment Banner -->
   <div class="max-w-2xl mx-auto mb-8 flex items-center justify-center space-x-2 text-sm text-gray-600 dark:text-gray-400">
     <svg class="h-5 w-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -47,7 +48,7 @@
     <div x-show="currentStep === 1" x-transition class="p-8">
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Payment Information</h2>
       
-      <form @submit.prevent="validateStep1" class="space-y-6">
+      <form @submit.prevent="validateStep1" class="space-y-6" >
         <div class="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-2">
           <div>
             <label for="first-name" class="block text-sm font-medium text-gray-700 dark:text-gray-300">First name</label>
@@ -188,22 +189,25 @@
           <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-4">Order Summary</h3>
           
           <div class="space-y-4">
+            {% if not plan == None %}
             <div class="flex justify-between">
               <p class="text-gray-600 dark:text-gray-400"><del>Plan</del></p>
               <p class="font-medium text-gray-900 dark:text-white">
                 <del>{{ plan.name }}</del>
               </p>
             </div>
-            
+            {% endif %}
+            {% if not billing_cycle == None %}
             <div class="flex justify-between">
               <p class="text-gray-600 dark:text-gray-400"><del>Billing Cycle</del></p>
               <p class="font-medium text-gray-900 dark:text-white">{{ billing_cycle|title }}</p>
             </div>
+            {% endif %}
             
             <div class="flex justify-between border-t border-gray-200 dark:border-gray-600 pt-4">
               <p class="text-gray-600 dark:text-gray-400">Subtotal</p>
               <p class="font-medium text-gray-900 dark:text-white">$
-                {{ sh_ord.ordered }}
+                {{ shop_order.total_before_discount|floatformat:2 }}
               </p>
             </div>
             
@@ -213,11 +217,18 @@
               <p class="font-medium text-gray-900 dark:text-white">${{ plan.tax_amount|floatformat:2 }}</p>
             </div>
             {% endif %}
+
+            {% if shop_order.total_discount > 0 %}
+            <div class="flex justify-between">
+              <p class="text-gray-600 dark:text-gray-400">Discount</p>
+              <p class="font-medium text-gray-900 dark:text-white">${{ shop_order.total_discount|floatformat:2 }}</p>
+            </div>
+            {% endif %}
             
             <div class="flex justify-between border-t border-gray-200 dark:border-gray-600 pt-4">
               <p class="text-lg font-medium text-gray-900 dark:text-white">Total</p>
               <p class="text-lg font-bold text-gray-900 dark:text-white">$
-                <del>{{ plan.total_amount|floatformat:2 }}</del>{{ order.total|floatformat:2 }}
+                <del>{{ plan.total_amount|floatformat:2 }}</del>{{ shop_order.total|floatformat:2 }}
               </p>
             </div>
           </div>
@@ -320,10 +331,10 @@
   </div>
 </div>
 
-<script>
+<script>  
 function checkout() {
   return {
-    currentStep: 3,
+    currentStep: 1,
     checkoutSteps: ['Information', 'Payment', 'Review'],
     selectedPaymentMethod: 'card',
     savePaymentMethod: false,
@@ -338,50 +349,85 @@ function checkout() {
     payment: {
       cardBrand: '',
       cardLast4: '',
-      cardExpiry: ''
+      cardExpiry: '',
+      paymentIntentClientSecret: null
     },
     stripe: null,
     elements: null,
     cardElement: null,
+    isLoading: true,
     
-    init() {
-      // Initialize Stripe Elements
-      this.stripe = Stripe('{{ STRIPE_PUBLIC_KEY }}');
-      
-      const appearance = {
-        theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe',
-        variables: {
-          colorPrimary: '#6366f1',
-          colorBackground: getComputedStyle(document.documentElement).getPropertyValue('--bg-color') || '#ffffff',
-          colorText: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
-          colorDanger: '#ef4444',
-          fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
-          spacingUnit: '4px',
-          borderRadius: '6px'
+    async init() {
+        try {
+          // Initialize Stripe
+          await this.loadStripe();
+          
+          // Set up elements
+          this.setupElements();
+          
+          // Load saved cards if user is authenticated
+          await this.loadSavedCards();
+          
+        } catch (error) {
+          console.error('Initialization error:', error);
+          this.showToast('Failed to initialize payment system', 'error');
+        } finally {
+          this.isLoading = false;
         }
-      };
+      },
       
-      this.elements = this.stripe.elements({ appearance });
-      
-      // Initialize card element
-      if (this.selectedPaymentMethod === 'card') {
-        this.initCardElement();
-      }
-      
-      // Watch for dark mode changes
-      const observer = new MutationObserver(() => {
-        this.elements.update({ 
-          appearance: { 
-            theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe' 
-          } 
+      async loadStripe() {
+        // Load Stripe.js if not already loaded
+        if (!window.Stripe) {
+          await new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://js.stripe.com/v3/';
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.appendChild(script);
+          });
+        }
+        
+        this.stripe = Stripe('{{ STRIPE_PUBLISHABLE_KEY }}');
+      },
+
+      setupElements() {
+        const appearance = {
+          theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe',
+          variables: {
+            colorPrimary: '#6366f1',
+            colorBackground: getComputedStyle(document.documentElement).getPropertyValue('--bg-color') || '#ffffff',
+            colorText: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
+            colorDanger: '#ef4444',
+            fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
+            spacingUnit: '4px',
+            borderRadius: '6px'
+          }
+        };
+        
+        this.elements = this.stripe.elements({ appearance });
+        
+        // Initialize card element based on selected payment method
+        if (this.selectedPaymentMethod === 'card') {
+          this.initCardElement();
+        }
+        
+        // Watch for dark mode changes
+        const observer = new MutationObserver(() => {
+          if (this.elements) {
+            this.elements.update({ 
+              appearance: { 
+                theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe' 
+              } 
+            });
+          }
         });
-      });
-      
-      observer.observe(document.documentElement, { 
-        attributes: true, 
-        attributeFilter: ['class'] 
-      });
-    },
+        
+        observer.observe(document.documentElement, { 
+          attributes: true, 
+          attributeFilter: ['class'] 
+        });
+      },
     
     initCardElement() {
       if (this.cardElement) {
@@ -392,7 +438,7 @@ function checkout() {
         style: {
           base: {
             iconColor: '#6366f1',
-            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || 'aqua',
             fontWeight: '500',
             fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
             fontSize: '16px',
@@ -419,25 +465,129 @@ function checkout() {
           displayError.textContent = '';
           displayError.classList.add('hidden');
         }
+
+        // Populate Alpine data so expressions don't fail
+        if (event.complete && event.brand && event.card) {
+          this.payment.cardBrand = event.brand;
+          this.payment.cardLast4 = event.card.last4;
+          this.payment.cardExpiry = `${event.card.exp_month}/${event.card.exp_year}`;
+        }
       });
     },
     
+    async loadSavedCards() {
+        try {
+          const response = await fetch('{% url "payments:get-saved-cards" %}', {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-CSRFToken': '{{ csrf_token }}',
+              'X-Requested-With': 'XMLHttpRequest',
+            }
+          });
+          
+          if (response.ok) {
+            const cards = await response.json();
+            // Process and display saved cards
+            this.savedCards = cards;
+          }
+        } catch (error) {
+          console.error('Error loading saved cards:', error);
+        }
+      },
+
+    async useSavedCard(cardId) {
+        try {
+          this.processingPayment = true;
+          
+          const response = await fetch('{% url "payments:use-saved-card" %}', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-CSRFToken': '{{ csrf_token }}',
+              'X-Requested-With': 'XMLHttpRequest',
+            },
+            body: JSON.stringify({
+              
+              card_id: cardId
+            })
+          });
+          
+          const result = await response.json();
+          
+          if (result.error) {
+            throw new Error(result.error);
+          }
+          
+          if (result.requires_action) {
+            const { error } = await this.stripe.confirmCardPayment(
+              result.client_secret
+            );
+            
+            if (error) {
+              throw error;
+            }
+          }
+          
+          // Payment succeeded
+          window.location.href = '{% url "payments:payment-success" %}?session_id=' + result.session_id;
+          
+        } catch (error) {
+          console.error('Payment error:', error);
+          this.showToast('Payment failed: ' + (error.message || 'Unknown error'), 'error');
+        } finally {
+          this.processingPayment = false;
+        }
+      },
+
     validateStep1() {
-      // Simple validation - extend as needed
-      if (!this.customer.firstName || !this.customer.lastName || !this.customer.email) {
-        this.showToast('Please fill all required fields', 'error');
-        return;
-      }
-      
-      // Validate email format
-      if (!/^\S+@\S+\.\S+$/.test(this.customer.email)) {
-        this.showToast('Please enter a valid email address', 'error');
-        return;
-      }
-      
-      this.currentStep = 2;
-      this.scrollToTop();
-    },
+    // Simple validation
+    if (!this.customer.firstName || !this.customer.lastName || !this.customer.email) {
+      this.showToast('Please fill all required fields', 'error');
+      return;
+    }
+
+    // Email format
+    if (!/^\S+@\S+\.\S+$/.test(this.customer.email)) {
+      this.showToast('Please enter a valid email address', 'error');
+      return;
+    }
+
+    // Submit to Django as form data
+    const formData = new FormData();
+    formData.append('step', '1');
+    formData.append('first-name', this.customer.firstName);
+    formData.append('last-name', this.customer.lastName);
+    formData.append('email', this.customer.email);
+    if (this.customer.optInMarketing) {
+      formData.append('optInMarketing', 'on');
+    }
+
+    fetch('{% url "payments:checkout" %}', {
+      method: 'POST',
+      headers: {
+        'X-CSRFToken': '{{ csrf_token }}'
+      },
+      body: formData
+    })
+    // .then(response => {
+    //   if (response.redirected) {
+    //     // Backend will redirect to step 2
+    //     window.location.href = response.url;
+    //   } else {
+    //     return response.text().then(html => {
+    //       console.error('Unexpected response during step 1 submission');
+    //       this.showToast('Unexpected error submitting information', 'error');
+    //     });
+    //   }
+    // })
+    // .catch(error => {
+    //   console.error('Error submitting step 1:', error);
+    //   this.showToast('Failed to submit information', 'error');
+    // });
+    this.currentStep = 2;
+    this.scrollToTop();
+  },
     
     validateStep2() {
       if (this.selectedPaymentMethod === 'card') {
@@ -476,67 +626,95 @@ function checkout() {
       }
     },
     
+      // Modified processCardPayment to handle saved cards
     async processCardPayment() {
-      const { paymentMethod, error } = await this.stripe.createPaymentMethod({
-        type: 'card',
-        card: this.cardElement,
-        billing_details: {
-          name: this.customer.firstName + ' ' + this.customer.lastName,
-          email: this.customer.email
+      this.processingPayment = true;
+
+      try {
+        // Step 1: Create a payment intent
+        const intentResponse = await fetch('{% url "payments:checkout" %}', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}',
+            'X-Requested-With': 'XMLHttpRequest',
+          },
+          body: JSON.stringify({
+            action: 'create_payment_intent',
+            use_saved_card: false,
+            save_payment_method: this.savePaymentMethod,
+            customer: this.customer
+          })
+        });
+
+        const intentResult = await intentResponse.json();
+
+        if (intentResult.error) {
+          throw new Error(intentResult.error);
         }
-      });
-      
-      if (error) {
-        throw error;
-      }
-      
-      // Update UI with card details
-      this.payment.cardBrand = paymentMethod.card.brand;
-      this.payment.cardLast4 = paymentMethod.card.last4;
-      this.payment.cardExpiry = `${paymentMethod.card.exp_month}/${paymentMethod.card.exp_year}`;
-      
-      // Submit to your backend
-      const response = await fetch('{% url "payments:checkout" %}', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-CSRFToken': '{{ csrf_token }}'
-        },
-        body: JSON.stringify({
-          payment_method_id: paymentMethod.id,
-          save_payment_method: this.savePaymentMethod,
-          customer: this.customer
-        })
-      });
-      
-      const result = await response.json();
-      
-      if (result.error) {
-        throw new Error(result.error);
-      }
-      
-      if (result.requires_action) {
-        // Handle 3D Secure authentication
-        const { error: confirmError } = await this.stripe.confirmCardPayment(
-          result.client_secret
+
+        this.payment.paymentIntentClientSecret = intentResult.client_secret;
+
+        // Step 2: Confirm payment
+        const { paymentIntent, error } = await this.stripe.confirmCardPayment(
+          intentResult.client_secret,
+          {
+            payment_method: {
+              card: this.cardElement,
+              billing_details: {
+                name: `${this.customer.firstName} ${this.customer.lastName}`,
+                email: this.customer.email
+              }
+            },
+            setup_future_usage: this.savePaymentMethod ? 'off_session' : undefined
+          }
         );
-        
-        if (confirmError) {
-          throw confirmError;
+
+        if (error) {
+          throw error;
         }
+
+        // Step 3: Confirm backend payment
+        const confirmResponse = await fetch('{% url "payments:checkout" %}', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}',
+            'X-Requested-With': 'XMLHttpRequest',
+          },
+          body: JSON.stringify({
+            action: 'confirm_payment',
+            payment_intent_id: paymentIntent.id,
+            save_payment_method: this.savePaymentMethod,
+            customer: this.customer,
+          })
+        });
+
+        const confirmResult = await confirmResponse.json();
+
+        if (confirmResult.error) {
+          throw new Error(confirmResult.error);
+        }
+
+        // Redirect to success page
+        window.location.href = '{% url "payments:payment-success" %}?session_id=' + confirmResult.session_id;
+
+      } catch (error) {
+        console.error('Payment error:', error);
+        this.showToast('Payment failed: ' + (error.message || 'Unknown error'), 'error');
+      } finally {
+        this.processingPayment = false;
       }
-      
-      // Payment succeeded
-      window.location.href = '{% url "payments:payment-success" %}?session_id=' + result.session_id;
     },
-    
+
     async processPayPalPayment() {
       // Initiate PayPal flow
       const response = await fetch('{% url "payments:checkout" %}', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-CSRFToken': '{{ csrf_token }}'
+          'X-CSRFToken': '{{ csrf_token }}',
+          'X-Requested-With': 'XMLHttpRequest',
         },
         body: JSON.stringify({
           customer: this.customer
@@ -559,7 +737,8 @@ function checkout() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-CSRFToken': '{{ csrf_token }}'
+          'X-CSRFToken': '{{ csrf_token }}',
+          'X-Requested-With': 'XMLHttpRequest',
         },
         body: JSON.stringify({
           customer: this.customer

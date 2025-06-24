@@ -37,16 +37,17 @@
     {% include 'payments/_navbar.html' %}
     
     <main class="container mx-auto px-4 py-8">
-        {% include 'messages.html' %}
         {% block content %}
+        {% include 'messages.html' %}
         
         {% endblock %}
     </main>
     
+    {% block scripts %}
     <!-- GSAP for advanced animations -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    
     <!-- Custom JS -->
-    <script src="{% static 'js/payments.js' %}"></script>    
+    <script src="{% static 'js/payments.js' %}"></script>
+    {% endblock %} 
 </body>
 </html>

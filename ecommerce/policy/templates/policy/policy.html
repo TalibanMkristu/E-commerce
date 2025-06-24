@@ -1,0 +1,215 @@
+{% raw %}{% extends "policy/base.html" %}
+
+{% block title %}{{ company_name }} - Privacy Policy (Enterprise Version){% endblock %}
+{% block doc_type %}Privacy Policy{% endblock %}
+{% block document_category %}PRIVACY{% endblock %}
+
+{% block document_title %}Privacy Policy - Enterprise & Security-Focused Version{% endblock %}
+
+{% block content %}
+<article id="privacy">
+    <section class="section" id="controller">
+        <h2 class="section-title">Data Controller and Scope</h2>
+        <div class="paragraph">
+            <p>{{ company_name }}, a registered entity under {{ legal_entity_number }}, acts as the Data Controller under GDPR Article 4(7) for all personal data processed through our Platform.</p>
+            
+            <div class="highlight-box">
+                <p><strong>Jurisdictional Coverage:</strong> This policy applies to all users globally, with additional jurisdiction-specific provisions for:</p>
+                <ul>
+                    <li>European Economic Area (GDPR)</li>
+                    <li>California (CCPA/CPRA)</li>
+                    <li>Brazil (LGPD)</li>
+                    <li>Canada (PIPEDA)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="data-categories">
+        <h2 class="section-title">Data Categories and Purposes</h2>
+        
+        <div class="subsection">
+            <h3 class="subsection-title">Data We Collect</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Examples</th>
+                        <th>Legal Basis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Identity Data</td>
+                        <td>Name, email, government ID</td>
+                        <td>Contract, Legal Obligation</td>
+                    </tr>
+                    <tr>
+                        <td>Transaction Data</td>
+                        <td>Payment amounts, timestamps</td>
+                        <td>Contract, Legitimate Interest</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Data</td>
+                        <td>IP address, device fingerprints</td>
+                        <td>Legitimate Interest</td>
+                    </tr>
+                    <tr>
+                        <td>Usage Data</td>
+                        <td>Clickstream, feature usage</td>
+                        <td>Consent, Legitimate Interest</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="subsection">
+            <h3 class="subsection-title">Processing Purposes</h3>
+            <ol>
+                <li>
+                    <strong>Service Delivery:</strong> To provide and maintain our services
+                    <span class="legal-reference">(GDPR Art. 6(1)(b))</span>
+                </li>
+                <li>
+                    <strong>Security:</strong> To detect and prevent fraud and abuse
+                    <span class="legal-reference">(GDPR Art. 6(1)(f))</span>
+                </li>
+                <li>
+                    <strong>Compliance:</strong> To meet legal and regulatory requirements
+                    <span class="legal-reference">(GDPR Art. 6(1)(c))</span>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="section" id="rights">
+        <h2 class="section-title">Data Subject Rights</h2>
+        <div class="subsection">
+            <h3 class="subsection-title">GDPR Rights</h3>
+            <div class="rights-grid">
+                <div class="right-item">
+                    <h4>Right to Access</h4>
+                    <p>Obtain confirmation of processing and a copy of your data</p>
+                </div>
+                <div class="right-item">
+                    <h4>Right to Rectification</h4>
+                    <p>Correct inaccurate or incomplete personal data</p>
+                </div>
+                <div class="right-item">
+                    <h4>Right to Erasure</h4>
+                    <p>Request deletion under certain conditions</p>
+                </div>
+                <div class="right-item">
+                    <h4>Right to Restriction</h4>
+                    <p>Limit processing of your data</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="subsection">
+            <h3 class="subsection-title">CCPA Rights</h3>
+            <ul>
+                <li>Right to Know about personal information collected</li>
+                <li>Right to Delete personal information</li>
+                <li>Right to Opt-Out of sale of personal information</li>
+                <li>Right to Non-Discrimination for exercising rights</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <p><strong>Request Submission:</strong> Rights requests can be submitted through our <a href="/privacy-requests">Privacy Portal</a> or by emailing <a href="mailto:privacy@{{ company_domain }}">privacy@{{ company_domain }}</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="security-measures">
+        <h2 class="section-title">Data Security Measures</h2>
+        <div class="subsection">
+            <h3 class="subsection-title">Technical Safeguards</h3>
+            <ul>
+                <li>Encryption at rest (AES-256-GCM) and in transit (TLS 1.3)</li>
+                <li>Hardware Security Modules (HSMs) for key management</li>
+                <li>Network segmentation and zero-trust architecture</li>
+                <li>Quarterly penetration testing by CREST-certified firms</li>
+            </ul>
+        </div>
+        
+        <div class="subsection">
+            <h3 class="subsection-title">Organizational Measures</h3>
+            <ul>
+                <li>Role-Based Access Control (RBAC) with least privilege</li>
+                <li>Mandatory security training for all employees</li>
+                <li>Vendor security assessments (SOC 2 Type II reviews)</li>
+                <li>ISO 27001-certified Information Security Management System</li>
+            </ul>
+            
+            <div class="code-block">
+                // Example access control policy<br>
+                if (user.role === 'admin' &&<br>
+                &nbsp;&nbsp;user.hasMFA() &&<br>
+                &nbsp;&nbsp;accessTime.isBusinessHours()) {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;grantAccess();<br>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="data-transfers">
+        <h2 class="section-title">International Data Transfers</h2>
+        <div class="paragraph">
+            <p>When transferring data outside the EEA, we implement appropriate safeguards including:</p>
+            
+            <div class="definition-list">
+                <div class="definition-term">Standard Contractual Clauses (SCCs)</div>
+                <div class="definition-description">EU-approved contractual clauses for data transfers to third countries</div>
+                
+                <div class="definition-term">Transfer Impact Assessments (TIAs)</div>
+                <div class="definition-description">Evaluation of third country laws and supplemental measures</div>
+                
+                <div class="definition-term">Data Localization</div>
+                <div class="definition-description">EU user data stored exclusively in Frankfurt AWS region</div>
+            </div>
+            
+            <p>Our current data processing locations include:</p>
+            <ul>
+                <li>AWS US-East (Primary operations)</li>
+                <li>AWS EU-Frankfurt (EEA users)</li>
+                <li>Google Cloud Tokyo (Asia-Pacific users)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="updates">
+        <h2 class="section-title">Policy Updates and Versioning</h2>
+        <div class="paragraph">
+            <p>We maintain a transparent version history of all policy changes:</p>
+            
+            <div class="version-history">
+                <div class="version-item">
+                    <h3>Version 2.3 (Current)</h3>
+                    <time datetime="2023-01-01">Effective January 1, 2023</time>
+                    <ul>
+                        <li>Added AI processing disclosure requirements</li>
+                        <li>Updated international transfer mechanisms</li>
+                    </ul>
+                </div>
+                
+                <div class="version-item">
+                    <h3>Version 2.2</h3>
+                    <time datetime="2022-07-15">Effective July 15, 2022</time>
+                    <ul>
+                        <li>Incorporated CPRA amendments</li>
+                        <li>Added data retention schedules</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p>Material changes will be communicated via:</p>
+            <ol>
+                <li>Email notification to registered users</li>
+                <li>Dashboard alerts for active sessions</li>
+                <li>Public changelog publication 30 days prior to effect</li>
+            </ol>
+        </div>
+    </section>
+</article>
+{% endblock %}{% endraw %}

@@ -23,6 +23,7 @@
                                 <th>Product name</th>
                                 <th>Price</th>
                                 <th>Quantity</th>
+                                <th>&nbsp;</th>
                                 <th>Total</th>
                             </tr>
                         </thead>
@@ -54,6 +55,8 @@
                                     </div>
                                 </td>
                                 
+                                <td class="product-remove"><a href="{{order_item.item.get_add_to_cart_url}}"><span class="ion-ios-add"></span></a></td>
+
                                 <td class="total">
                                     {% if order_item.item.price_before_discount %}
                                     <del class="text-muted">${{ order_item.get_total_before_discount|floatformat:2 }}</del><br>

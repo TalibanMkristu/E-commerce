@@ -1,0 +1,16 @@
+<svg width="370" height="60" viewBox="0 0 370 60" class="auth-logo" aria-label="Vegefoods">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f4e5c2" />
+    </linearGradient>
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="30" height="30" rx="6" fill="url(#logoGradient)" class="logo-icon" filter="url(#logoGlow)" />
+  <text x="50" y="38" font-family="'Playfair Display', serif" font-size="26" font-weight="700" fill="url(#logoGradient)" filter="url(#logoGlow)">
+    VEGEFOODS GROCERY
+  </text>
+</svg>

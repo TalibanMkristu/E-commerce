@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <circle cx="64" cy="64" r="60" fill="#002D72"/>
+  <g fill="#FFD700">
+    <circle cx="64" cy="14" r="4"/>
+    <circle cx="91" cy="22" r="4"/>
+    <circle cx="110" cy="45" r="4"/>
+    <circle cx="114" cy="75" r="4"/>
+    <circle cx="100" cy="102" r="4"/>
+    <circle cx="70" cy="114" r="4"/>
+    <circle cx="40" cy="114" r="4"/>
+    <circle cx="20" cy="94" r="4"/>
+    <circle cx="14" cy="64" r="4"/>
+    <circle cx="22" cy="34" r="4"/>
+    <circle cx="42" cy="18" r="4"/>
+  </g>
+  <path d="M64 44c-11 0-20 9-20 20s9 20 20 20 20-9 20-20-9-20-20-20zm0 6a6 6 0 1 1 0 12 6 6 0 0 1 0-12z" fill="#fff"/>
+  <text x="37" y="110" fill="white" font-family="Arial" font-size="20" font-weight="bold">GDPR</text>
+</svg>

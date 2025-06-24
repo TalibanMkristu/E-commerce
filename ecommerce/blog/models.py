@@ -8,6 +8,7 @@ import itertools
 class Category(models.Model):
     name = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
+    image = models.ImageField(upload_to='media/images/', null=True, blank=True)
 
     def save(self, *args, **kwargs):
         if not self.slug:

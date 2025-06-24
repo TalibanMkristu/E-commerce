@@ -1,0 +1,111 @@
+**\[TERMS OF SERVICE - ENTERPRISE & COMPLIANCE-LEVEL VERSION]**
+
+**Effective Date:** \[Insert Date Here]
+
+**1. Agreement to Terms**
+By accessing or using the services provided by \[Your Company Name] ("Company", "we", "us", or "our"), including any content, functionality, transactions, or services available via our domain (\[yourdomain.com]), subdomains, APIs, and associated mobile or desktop applications (collectively, the "Platform"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree with these Terms, you may not use our Platform.
+
+**2. Regulatory Compliance and Jurisdictional Disclosures**
+Our operations are compliant with GDPR (EU Regulation 2016/679), CCPA/CPRA, PCI-DSS Level 1, ISO 27001, and applicable eCommerce laws in the US, EU, and other jurisdictions. You are responsible for complying with your local laws, including consumer protection, export control, and sanctions laws.
+
+**3. User Eligibility and Identity Verification**
+Users must be 18+ years old or meet the age of majority in their jurisdiction. We reserve the right to conduct enhanced due diligence (KYC/KYB) in cases of high-value transactions, flagged behavior, or business account registration. Identity verification data is encrypted and stored in secure environments.
+
+**4. Account Security, Credentials, and 2FA**
+All users must use strong passwords. We support multi-factor authentication (2FA) for account access. Users must notify us immediately of suspicious activities. We employ credential hashing (bcrypt with salting) and token-based session expiration policies.
+
+**5. Orders, Transactions, and Dynamic Risk Scoring**
+All transactions are processed via encrypted payment gateways using TLS 1.3 and SHA-256 integrity checks. Payment data is handled solely by compliant third parties (e.g., Stripe, PayPal, Adyen). Orders may be subject to risk-scoring via behavioral analytics, fraud databases, and heuristic algorithms.
+
+**6. Encryption, Secure Processing & Data Residency**
+Data is encrypted at rest (AES-256-GCM) and in transit (TLS 1.3). Sensitive keys are stored in HSMs. We maintain geo-redundant backups and follow least-privilege access control. Data residency for EU users is guaranteed in EU-based data centers.
+
+**7. Advanced Shipping, Insurance, and Supply Chain Disclosure**
+We partner with insured logistics providers. Tracking data is updated in real-time and verified against hash-verified manifests. Any delay, force majeure, or customs intervention is documented and visible to users.
+
+**8. Dispute Resolution, Arbitration & Class Action Waiver**
+Disputes must be resolved through binding arbitration under the UNCITRAL or JAMS rules. All proceedings will be confidential. Class actions and jury trials are waived. A 30-day mediation period precedes formal proceedings.
+
+**9. AI-Based Content Moderation & Transaction Analysis**
+We reserve the right to apply AI/ML-based moderation, fraud detection, and product eligibility enforcement. You consent to such automated decision-making under GDPR Article 22, with the right to human appeal.
+
+**10. Limitation of Liability & SLA Exception Handling**
+\[Your Company Name] is not liable for incidental, consequential, indirect, or punitive damages exceeding the aggregate amount paid by the user in the last twelve (12) months. Downtime is governed by a 99.99% SLA with logged incident reports.
+
+**11. Force Majeure**
+We are not liable for performance failures due to events beyond our reasonable control, including acts of war, natural disasters, systemic Internet failures, government actions, or pandemics.
+
+**12. Contact, Complaints, and Data Protection Officer (DPO)**
+Legal Contact: legal@\[yourdomain.com]
+DPO Contact: dpo@\[yourdomain.com]
+Address: \[Company Legal Address]
+
+---
+
+**\[PRIVACY POLICY - ENTERPRISE & SECURITY-FOCUSED VERSION]**
+
+**Effective Date:** \[Insert Date Here]
+
+**1. Data Controller and Scope**
+This policy applies to all data processed by \[Your Company Name], a registered entity under \[Legal Entity Number], acting as Data Controller under GDPR Article 4(7).
+
+**2. Data Categories and Purposes**
+
+* **Identity Data:** Name, email, government ID (when required)
+* **Payment Data:** Card token, billing address (via third party)
+* **Device Metadata:** Browser type, OS, fingerprinting hash, locale
+* **Behavioral Data:** Clickstream, page views, dwell time, purchase funnel activity
+* **Biometric or AI-enhanced Data:** Only where explicitly consented
+
+Purposes:
+
+* Fulfillment of contract (Article 6(1)(b))
+* Legitimate interest in fraud prevention and platform security
+* Consent-based marketing and analytics
+
+**3. Profiling and Automated Decision-Making**
+We may use automated systems to assess credit risk, detect fraud, or personalize your shopping experience. You may request a human review of automated decisions under GDPR.
+
+**4. Data Security Measures**
+
+* **Encryption Standards:** AES-256-GCM for storage; TLS 1.3 for transport
+* **Access Control:** RBAC with audit logging, enforced MFA for admins
+* **Penetration Testing:** Conducted quarterly by CREST-certified vendors
+* **Incident Response:** 24/7 monitoring and ISO/IEC 27035-aligned breach policy
+
+**5. International Data Transfers**
+We apply SCCs or Transfer Impact Assessments (TIAs) for any non-EEA data flow. Data localization policies apply for specific sectors and jurisdictions.
+
+**6. Data Subject Rights (GDPR + CCPA)**
+
+* Access, rectification, erasure, restriction, portability
+* Right to object and withdraw consent
+* Do Not Sell My Personal Information (CCPA opt-out)
+* Non-discrimination for exercising privacy rights
+
+**7. Retention, Archiving & Data Minimization**
+We only retain data for the minimal duration required to fulfill legal or operational obligations. Order metadata is anonymized after 24 months; audit logs are retained for 7 years as per accounting standards.
+
+**8. Vendor & Subprocessor Disclosures**
+Subprocessors include:
+
+* AWS (hosting)
+* Cloudflare (DDoS protection)
+* Stripe/Adyen/PayPal (payments)
+* HubSpot (opt-in marketing)
+
+Each is bound by DPAs and subject to independent audits.
+
+**9. AI Transparency & Governance**
+We maintain an internal AI Ethics Policy for algorithmic fairness, explainability, and GDPR compliance. No AI training is performed on your data without explicit, informed, revocable consent.
+
+**10. Supervisory Authority Contact**
+EU users may lodge complaints with their local DPA or with the lead authority:
+\[Supervisory Authority Name], \[Country] — \[Contact Info]
+
+**11. Updates and Policy Versioning**
+Changes will be posted on this page and versioned via changelog. If changes affect your rights materially, we will notify you via email or dashboard prompt.
+
+---
+
+**© \[Year] \[Your Company Name]. All rights reserved.**

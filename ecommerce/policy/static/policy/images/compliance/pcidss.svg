@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128">
+  <path d="M12 20 L116 12 L108 116 L20 108 Z" fill="#0A9396"/>
+  <text x="26" y="64" font-size="34" fill="white" font-weight="bold" font-family="Arial">PCI</text>
+  <text x="40" y="100" font-size="22" fill="white" font-family="Arial">DSS</text>
+</svg>

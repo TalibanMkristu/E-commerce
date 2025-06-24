@@ -28,6 +28,7 @@ urlpatterns = [
     path('shop/', include('shop.urls', namespace='shop')),
     path('contacts/', include('contacts.urls', namespace='contacts')),
     path('payments/', include('payments.urls', namespace='payments')),
+    path('privacy-terms/', include('policy.urls', namespace="policy")),
     
 ]
 

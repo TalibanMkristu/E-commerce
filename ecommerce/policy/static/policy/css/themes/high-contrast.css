@@ -1,0 +1,16 @@
+[data-legal-theme="high-contrast"] {
+    --color-text: #000000;
+    --color-bg: #ffffff;
+    --color-primary: #0000ff;
+    --color-secondary: #ff0000;
+    --color-border: #000000;
+    
+    /* High contrast overrides */
+    a {
+        text-decoration: underline;
+    }
+    
+    .nav-link.active {
+        outline: 3px solid var(--color-secondary);
+    }
+}

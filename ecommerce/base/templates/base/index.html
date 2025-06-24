@@ -9,8 +9,8 @@
                 <div class="auth-card">
                     <!-- Premium Logo Section -->
                     <div class="auth-header text-center mb-5">
-                        <a href="/" class="logo-link">
-                            <svg width="220" height="60" viewBox="0 0 220 60" class="auth-logo" aria-label="Tracy Collections">
+                        <a href="{% url 'users:login' %}" class="logo-link">
+                            <svg width="370" height="60" viewBox="0 0 370 60" class="auth-logo" aria-label="traxy-collections">
                                 <defs>
                                     <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                                         <stop offset="0%" stop-color="#d4af37" />
@@ -22,18 +22,19 @@
                                     </filter>
                                 </defs>
                                 <path d="M10,10 L40,10 L40,40 L10,40 Z" fill="url(#logoGradient)" rx="6" class="logo-icon" filter="url(#logoGlow)"/>
-                                <text x="50" y="38" font-family="'Playfair Display', serif" font-size="28" font-weight="700" fill="url(#logoGradient)" filter="url(#logoGlow)">TRACY COLLECTIONS</text>
+                                <text x="50" y="38" font-family="'Playfair Display', serif" font-size="28" font-weight="700" fill="url(#logoGradient)" filter="url(#logoGlow)">VEGEFOODS GROCERY</text>
                             </svg>
                         </a>
                         <h2 class="auth-title">
-                            <span class="gold-text">Welcome to Our</span> Exclusive Collection
+                            <span class="gold-text">Welcome to Our</span> Exclusive <span class="gold-text">Grocery</span>
                         </h2>
                     </div>
     
                     <!-- Main Content Section -->
                     <div class="auth-form-container text-center">
                         <div class="mb-5">
-                            <p class="lead">Discover our premium collection of luxury items and exclusive members-only benefits. OR visit</p>
+                            <p class="lead">Discover our premium collection of fresh organic produces and exclusive members-only benefits
+                                <span class="gold-text">OR</span> visit</p>
                             <p class="lead">
                                 <a href="{% url 'base:home' %}" class="btn btn-gold btn-lg">
                                     <i class="fas fa-home me-2"></i>Home

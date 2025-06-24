@@ -1,0 +1,16 @@
+[data-legal-theme="dark"] {
+    --color-text: #f8f9fa;
+    --color-text-light: #adb5bd;
+    --color-bg: #212529;
+    --color-bg-alt: #343a40;
+    --color-border: #495057;
+    --color-border-dark: #6c757d;
+    
+    /* Adjust other colors as needed */
+}
+
+[data-legal-theme="dark"] .compliance-bar {
+    background-color: var(--color-primary-dark);
+}
+
+/* Additional dark mode overrides */

@@ -1,0 +1,69 @@
+.version-control {
+    --version-select-width: 180px;
+    --version-history-bg: var(--color-bg-alt);
+    
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+}
+
+.version-selector {
+    position: relative;
+}
+
+.version-selector label {
+    display: block;
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+}
+
+.version-selector select {
+    width: var(--version-select-width);
+    padding: var(--spacing-sm);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right var(--spacing-sm) center;
+    background-size: 1em;
+}
+
+.version-history-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--version-history-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all var(--transition-fast);
+}
+
+.version-history-button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    border-color: var(--color-primary);
+}
+
+.version-item {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.version-item:last-child {
+    border-bottom: none;
+}
+
+.version-item-current {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.version-item-deprecated {
+    opacity: 0.7;
+    text-decoration: line-through;
+}

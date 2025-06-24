@@ -54,9 +54,9 @@
                     </ul>
                   </div>
                   
-                  {% for blog in blogs|slice:"3" %}
                   <div class="sidebar-box ftco-animate">
                     <h3 class="heading">Recent Blogs</h3>
+                    {% for blog in blogs|slice:"3" %}
                     <div class="block-21 mb-4 d-flex">
                       <a href="{{blog.get_absolute_url}}" class="blog-img mr-4" style="background-image: url({{blog.background_image.url}});"></a>
                       <div class="text">
@@ -68,9 +68,8 @@
                         </div>
                       </div>
                     </div>
-
+                    {% endfor %}
                   </div>
-                  {% endfor %}
       
                   <div class="sidebar-box ftco-animate">
                     <h3 class="heading">Tag Cloud</h3>

@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -50,6 +54,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'contacts.apps.ContactsConfig',
     'payments.apps.PaymentsConfig',
+    'policy.apps.PolicyConfig',
 
 
 ]
@@ -148,14 +153,28 @@ AUTH_USER_MODEL = 'users.CustomUser'
 LOGOUT_REDIRECT_URL = 'base:index'  # Redirect to 'home' after logout
 
 # email verification fileds
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.zoho.com'  # or smtp.mailgun.org
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'info@yourdomain.com'
+# EMAIL_HOST_PASSWORD = 'your_email_password'
+# DEFAULT_FROM_EMAIL = 'info@yourdomain.com'
+
 
 
 
 PHONENUMBER_DEFAULT_REGION = 'KE'  # Kenya
 PHONENUMBER_DB_FORMAT = 'E164'
 
-FIELD_ENCRYPTION_KEY = 'mRgXi4O5nV5dAlrQ5zJ9z5GZJ5mJ6vRn9XqL3jY0zDk='
-
 # from dotenv import load_dotenv
 # load_dotenv()
 # FIELD_ENCRYPTION_KEY = os.environ['FIELD_ENCRYPTION_KEY']
+
+
+# stripe payments API test key
+STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
+STRIPE_PUBLISHABLE_KEY = config('STRIPE_PUBLISHABLE_KEY')
+
+# models field encryption 
+FIELD_ENCRYPTION_KEY = config('FIELD_ENCRYPTION_KEY')

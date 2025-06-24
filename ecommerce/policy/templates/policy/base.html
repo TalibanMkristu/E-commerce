@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" data-legal-theme="default">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Legal terms and privacy policy for {{ company_name }}">
+    <meta name="author" content="{{ company_name }} Legal Team">
+    
+    <!-- Enhanced Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+    
+    <title>
+        {% block title %}
+            {{ company_name }} - {% block doc_type %}Legal Documentation{% endblock %}
+        {% endblock %}
+    </title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS with Theme Support -->
+    <link rel="stylesheet" href="{% static 'policy/css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'policy/css/themes/dark.css' %}" media="(prefers-color-scheme: dark)" id="dark-theme">
+    <link rel="stylesheet" href="{% static 'policy/css/themes/high-contrast.css' %}" id="high-contrast-theme" disabled>
+    <link rel="stylesheet" href="{% static 'policy/css/themes/default.css' %}" id="legal-theme">
+    
+    <!-- Print CSS -->
+    <link rel="stylesheet" href="{% static 'policy/css/utilities/print.css' %}" media="print">
+    
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+    {% block extra_css %}
+    <style>
+        /* Remove the preloader forcing styles */
+        /* Add goldish and black theme */
+        body.legal-document {
+            background-color: #121212 !important; /* Dark background */
+            color: #e0e0e0;
+        }
+        
+        .legal-header, .legal-content, .legal-document-content,
+        .definitions-glossary, .document-meta {
+            background-color: #1e1e1e !important;
+            color: #e0e0e0;
+            border-color: #333;
+        }
+            /* Navigation styling */
+        .legal-nav .navbar-nav .nav-link {
+            color: #e0e0e0;
+            padding: 0.5rem 1rem;
+            margin: 0 0.25rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .legal-nav .navbar-nav .nav-link:hover,
+        .legal-nav .navbar-nav .nav-link:focus {
+            background-color: rgba(255, 215, 0, 0.1);
+            color: #ffd700;
+        }
+        
+        .legal-nav .navbar-nav .nav-link.active {
+            background-color: rgba(255, 215, 0, 0.2);
+            color: #ffd700;
+            font-weight: 500;
+        }
+        
+        /* Dropdown styling */
+        .legal-nav .dropdown-menu {
+            background-color: #252525;
+            border: 1px solid #ffd70033;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+        }
+        
+        .legal-nav .dropdown-item {
+            color: #e0e0e0;
+            padding: 0.5rem 1.5rem;
+        }
+        
+        .legal-nav .dropdown-item:hover,
+        .legal-nav .dropdown-item:focus {
+            background-color: rgba(255, 215, 0, 0.1);
+            color: #ffd700;
+        }
+        
+        .legal-nav .dropdown-divider {
+            border-color: #444;
+        }
+        
+        /* Animated dropdown */
+        .dropdown-menu-animated {
+            animation: fadeInUp 0.3s ease forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Goldish accent colors */
+        .text-primary, .btn-primary, .bg-primary, .badge.bg-primary {
+            color: #ffd700 !important;
+            background-color: #3a2e00 !important;
+            border-color: #ffd700;
+        }
+
+        /* Goldish accent colors */
+        .text-primary, .btn-primary, .bg-primary, .badge.bg-primary {
+            color: #ffd700 !important;
+            background-color: #3a2e00 !important;
+            border-color: #ffd700;
+        }
+        
+        /* Goldish text gradients */
+        .text-gradient {
+            background: linear-gradient(90deg, #ffd700, #ffec80);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        /* Goldish links */
+        a {
+            color: #ffd700;
+        }
+        
+        /* Dark cards with gold borders */
+        .card {
+            background-color: #252525;
+            border-color: #ffd70033;
+        }
+        
+        /* Dark footer with gold accents */
+        .legal-footer {
+            background-color: #000 !important;
+        }
+        
+        .legal-footer .text-gradient {
+            background: linear-gradient(90deg, #ffd700, #ffec80);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+                /* Preloader styling */
+                #preloader {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        #preloader .spinner-grow {
+            color: #ffd700;
+            width: 3rem;
+            height: 3rem;
+        }
+        
+        #preloader div {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin-left: 1rem;
+        }
+    </style>
+    {% endblock %}
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{% block schema_name %}{{ company_name }} Legal Documentation{% endblock %}",
+        "description": "{% block schema_description %}Legal terms and privacy policy for {{ company_name }}{% endblock %}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ company_name }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{% static 'legal/img/logo.svg' %}"
+            }
+        },
+        "datePublished": "{{ effective_date|date:'Y-m-d' }}",
+        "dateModified": "{{ last_updated|date:'Y-m-d' }}"
+    }
+    </script>
+</head>
+<body class="legal-document bg-light" data-document-id="{{ document_id }}" data-document-version="{{ current_version }}">
+    <!-- Preloader -->
+    <!-- <div id="" class="position-fixed w-100 h-100 bg-white d-flex justify-content-center align-items-center z-3">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="ms-3">Loading Legal Documentation...</div>
+    </div> -->
+    
+    <!-- Accessibility Skip Links -->
+    <div id="a11y-skip-links" class="visually-hidden-focusable">
+        <a href="#main-content" class="skip-link btn btn-primary position-absolute start-0 top-0 animate__animated animate__fadeIn">Skip to content</a>
+        <a href="#document-navigation" class="skip-link btn btn-primary position-absolute start-0 top-0 animate__animated animate__fadeIn">Skip to navigation</a>
+    </div>
+    
+    <!-- Compliance Warning System -->
+    {% if show_version_warning %}
+    <div class="compliance-warning alert alert-warning alert-dismissible fade show mb-0 rounded-0 animate__animated animate__slideInDown" role="alert">
+        <div class="container d-flex align-items-center">
+            <i class="bi bi-exclamation-triangle-fill me-2 fs-4 animate__animated animate__heartBeat animate__infinite"></i>
+            <div class="flex-grow-1">
+                You are viewing an outdated version of this document. <a href="{% url 'policy:legal' %}" class="alert-link">View the current version</a>.
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+    {% endif %}
+    
+    <!-- Enhanced Compliance Bar -->
+    <div class="compliance-bar bg-dark text-white py-2" data-geolocation-api="{% if geolocation_enabled %}enabled{% else %}disabled{% endif %}">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="d-flex flex-wrap gap-3">
+                        <span class="document-type badge bg-primary animate__animated animate__fadeInLeft">
+                            <i class="bi bi-file-earmark-text me-1"></i> ENTERPRISE LEGAL DOCUMENT
+                        </span>
+                        <span class="document-status badge bg-success animate__animated animate__fadeIn animate__delay-1s">
+                            <i class="bi bi-check-circle me-1"></i> STATUS: ACTIVE
+                        </span>
+                        <span class="document-category badge bg-info animate__animated animate__fadeIn animate__delay-2s">
+                            <i class="bi bi-tag me-1"></i> CATEGORY: {% block document_category %}LEGAL{% endblock %}
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end mt-2 mt-md-0">
+                    <div class="jurisdiction-display d-inline-flex align-items-center animate__animated animate__fadeInRight" id="jurisdiction-display">
+                        <span class="jurisdiction-flag me-1">🌐</span>
+                        <span class="jurisdiction-text">Default Jurisdiction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Document Header with Floating Effect -->
+    <header class="legal-header bg-white shadow-sm sticky-top">
+        <div class="container py-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <div class="header-brand d-flex align-items-center mb-3 mb-md-0">
+                    <a href="{% url 'base:home' %}" aria-label="Return to homepage" class="d-flex align-items-center text-decoration-none hover-scale">
+                        <svg width="370" height="60" viewBox="0 0 370 60" class="auth-logo" aria-label="Vegefoods">
+                            <defs>
+                              <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#d4af37" />
+                                <stop offset="100%" stop-color="#f4e5c2" />
+                              </linearGradient>
+                              <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+                                <feGaussianBlur stdDeviation="3" result="blur" />
+                                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                              </filter>
+                            </defs>
+                            <rect x="10" y="10" width="30" height="30" rx="6" fill="url(#logoGradient)" class="logo-icon" filter="url(#logoGlow)" />
+                            <text x="50" y="38" font-family="'Playfair Display', serif" font-size="26" font-weight="700" fill="url(#logoGradient)" filter="url(#logoGlow)">
+                              VEGEFOODS GROCERY
+                            </text>
+                          </svg>
+                        <div class="document-context ms-2">
+                            <span class="document-context-type d-block text-uppercase small text-muted">{% block header_doc_type %}LEGAL DOCUMENT{% endblock %}</span>
+                            <span class="document-context-version small">v{{ current_version }}</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Enhanced Document Navigation with Hover Effects -->
+                <nav id="document-navigation" class="legal-nav navbar navbar-expand-md" aria-label="Document navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#legalNavbar" aria-controls="legalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="legalNavbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a href="{% url 'policy:terms' %}" class="nav-link active hover-underline-animation" data-nav-section="terms">
+                                    <i class="bi bi-file-text me-1"></i> Terms
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{% url 'policy:privacy' %}" class="nav-link hover-underline-animation" data-nav-section="privacy">
+                                    <i class="bi bi-shield-lock me-1"></i> Privacy
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#definitions" class="nav-link hover-underline-animation" data-nav-section="definitions">
+                                    <i class="bi bi-book me-1"></i> Definitions
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle hover-underline-animation" href="#" id="moreNavDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-three-dots-vertical me-1"></i> More
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-animated" aria-labelledby="moreNavDropdown">
+                                    <li><a class="dropdown-item hover-slide-effect" href="#" data-nav-section="security">
+                                        <i class="bi bi-shield-check me-2"></i> Security
+                                    </a></li>
+                                    <li><a class="dropdown-item hover-slide-effect" href="#" data-nav-section="compliance">
+                                        <i class="bi bi-clipboard-check me-2"></i> Compliance
+                                    </a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item hover-slide-effect" href="{% url 'contacts:contacts' %}" data-nav-section="contact">
+                                        <i class="bi bi-envelope me-2"></i> Contact
+                                    </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <!-- Document Tools with Micro-interactions -->
+                <div class="document-tools d-flex gap-2 ms-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary dropdown-toggle hover-grow" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-palette"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-animated dropdown-menu-end" aria-labelledby="themeDropdown">
+                            <li><button class="dropdown-item theme-option hover-slide-effect" data-theme="default">
+                                <i class="bi bi-sun me-2"></i> Light Theme
+                            </button></li>
+                            <li><button class="dropdown-item theme-option hover-slide-effect" data-theme="dark">
+                                <i class="bi bi-moon me-2"></i> Dark Theme
+                            </button></li>
+                            <li><button class="dropdown-item theme-option hover-slide-effect" data-theme="high-contrast">
+                                <i class="bi bi-brightness-high me-2"></i> High Contrast
+                            </button></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="dropdown">
+                        <button class="btn btn-outline-primary dropdown-toggle hover-grow" type="button" id="exportDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-download me-1"></i> Export
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-animated dropdown-menu-end" aria-labelledby="exportDropdown">
+                            <li><button class="dropdown-item hover-slide-effect" data-export="pdf">
+                                <i class="bi bi-file-pdf me-2"></i> PDF
+                            </button></li>
+                            <li><button class="dropdown-item hover-slide-effect" data-export="markdown">
+                                <i class="bi bi-markdown me-2"></i> Markdown
+                            </button></li>
+                            <li><button class="dropdown-item hover-slide-effect" data-export="html">
+                                <i class="bi bi-file-code me-2"></i> HTML
+                            </button></li>
+                            <li><button class="dropdown-item hover-slide-effect" data-export="json">
+                                <i class="bi bi-file-earmark-json me-2"></i> JSON-LD
+                            </button></li>
+                        </ul>
+                    </div>
+                    
+                    <button class="btn btn-primary hover-grow" id="compare-versions">
+                        <i class="bi bi-files me-1"></i> Compare
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content with Scroll Animations -->
+    <main id="main-content" class="legal-content py-5">
+        <div class="container">
+            <!-- Document Metadata with Parallax Effect -->
+            <div class="document-meta bg-white p-4 rounded shadow-sm mb-4 gsap-fade-in">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="document-identity">
+                            <h1 class="document-title display-5 fw-bold mb-3 text-gradient">
+                                {% block document_title %}
+                                Legal Documentation
+                                {% endblock %}
+                                <span class="text-primary">| Vege-legal</span>
+                            </h1>
+                            <div class="document-meta-details d-flex flex-wrap gap-4">
+                                <span class="meta-item animate-float">
+                                    <span class="meta-label fw-bold"><i class="bi bi-calendar-check me-1"></i> Effective:</span>
+                                    <time datetime="{{ effective_date|date:'Y-m-d' }}">{{ effective_date|date:"F j, Y" }}</time>
+                                </span>
+                                <span class="meta-item animate-float" style="animation-delay: 0.2s;">
+                                    <span class="meta-label fw-bold"><i class="bi bi-arrow-repeat me-1"></i> Updated:</span>
+                                    <time datetime="{{ last_updated|date:'Y-m-d' }}">{{ last_updated|date:"F j, Y" }}</time>
+                                </span>
+                                <span class="meta-item animate-float" style="animation-delay: 0.4s;">
+                                    <span class="meta-label fw-bold"><i class="bi bi-fingerprint me-1"></i> ID:</span>
+                                    <span class="meta-value font-monospace">{{ document_id }}</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Version Control System -->
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="version-control bg-light p-3 rounded gsap-scale-in">
+                            <div class="version-selector mb-3">
+                                <label for="version-select" class="form-label fw-bold">Version:</label>
+                                <select id="version-select" class="form-select hover-scale-sm" aria-label="Select document version">
+                                    <option value="current">Current ({{ current_version }})</option>
+                                    {% for version in previous_versions %}
+                                    <option value="{{ version.number }}" 
+                                            data-effective-date="{{ version.date|date:'Y-m-d' }}"
+                                            {% if version.deprecated %}data-deprecated="true"{% endif %}>
+                                        {{ version.number }} ({{ version.date|date:"Y-m-d" }})
+                                        {% if version.deprecated %}(Deprecated){% endif %}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <button class="version-history-button btn btn-outline-secondary w-100 hover-grow" id="version-history-toggle">
+                                <i class="bi bi-clock-history me-2"></i> View Changelog
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Document Content with Scroll-triggered Animations -->
+            <article class="legal-document-content bg-white p-4 p-md-5 rounded shadow-sm mb-4 gsap-fade-up">
+                {% block content %}
+                {% endblock %}
+            </article>
+            
+            <!-- Definitions Glossary with Staggered Animations -->
+            <section id="definitions" class="definitions-glossary bg-white p-4 rounded shadow-sm" aria-labelledby="definitions-heading">
+                <h2 id="definitions-heading" class="glossary-heading mb-4 pb-2 border-bottom gsap-slide-in-right">
+                    <i class="bi bi-book-half me-2"></i>Definitions
+                </h2>
+                <div class="glossary-container">
+                    <!-- Example glossary items with staggered animations -->
+                    <div class="glossary-item mb-3 gsap-stagger-item" style="--stagger-index: 0;">
+                        <div class="card border-0 shadow-sm hover-float">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Company</h3>
+                                <p class="card-text">Refers to {{ company_name }}, the legal entity providing these terms.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glossary-item mb-3 gsap-stagger-item" style="--stagger-index: 1;">
+                        <div class="card border-0 shadow-sm hover-float">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">User</h3>
+                                <p class="card-text">Any individual or entity accessing or using our services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glossary-item mb-3 gsap-stagger-item" style="--stagger-index: 2;">
+                        <div class="card border-0 shadow-sm hover-float">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Services</h3>
+                                <p class="card-text">All products, features, and services offered by {{ company_name }}.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Enhanced Footer with Wave Animation -->
+    <footer class="legal-footer bg-dark text-white pt-5 position-relative">
+        <!-- Wave SVG Animation -->
+        <div class="wave-animation position-absolute top-0 start-0 w-100 overflow-hidden">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="position-relative">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="fill-white"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="fill-white"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="fill-white"></path>
+            </svg>
+        </div>
+        
+        <div class="container pt-5">
+            <div class="row gsap-stagger-footer">
+                <div class="col-lg-6 mb-4 mb-lg-0" style="--stagger-index: 0;">
+                    <div class="legal-copyright">
+                        <h3 class="h5 mb-3 text-gradient">{{ company_name }} Legal</h3>
+                        <p>&copy; {% now "Y" %} {{ company_name }}. All rights reserved.</p>
+                        <div class="legal-identifier small mt-3">
+                            <div class="mb-1">
+                                <span class="fw-bold">Document ID:</span> 
+                                <span class="doc-id font-monospace">{{ document_id }}</span>
+                            </div>
+                            <div class="mb-1">
+                                <span class="fw-bold">Version Hash:</span> 
+                                <span class="doc-hash font-monospace">{{ content_hash }}</span>
+                            </div>
+                            <div>
+                                <span class="doc-signature text-success">
+                                    <i class="bi bi-patch-check-fill me-1"></i> Digitally Signed
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="--stagger-index: 1;">
+                    <h4 class="h5 mb-3">Legal Resources</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="{% url 'policy:privacy' %}" class="text-white-50 text-decoration-none hover-text-white hover-slide-left">Security Policy</a></li>
+                        <li class="mb-2"><a href="{% url 'policy:legal' %}" class="text-white-50 text-decoration-none hover-text-white hover-slide-left">Compliance Center</a></li>
+                        <li class="mb-2"><a href="{% url 'policy:privacy' %}" class="text-white-50 text-decoration-none hover-text-white hover-slide-left">Service Level Agreements</a></li>
+                        <li><a href="{% url 'policy:privacy' %}" class="text-white-50 text-decoration-none hover-text-white hover-slide-left">Data Processing Addendum</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6" style="--stagger-index: 2;">
+                    <div class="footer-compliance">
+                        <h4 class="h5 mb-3">Compliance</h4>
+                        <div class="compliance-logos d-flex flex-wrap gap-3 mb-4">
+                            <img src="{% static 'policy/images/compliance/gdpr.svg' %}" alt="GDPR Compliant" width="50" class="img-fluid hover-grow" loading="lazy">
+                            <img src="{% static 'policy/images/compliance/ccpa.svg' %}" alt="CCPA Compliant" width="50" class="img-fluid hover-grow" loading="lazy">
+                            <img src="{% static 'policy/images/compliance/iso27001.svg' %}" alt="ISO 27001 Certified" width="50" class="img-fluid hover-grow" loading="lazy">
+                            <img src="{% static 'policy/images/compliance/pcidss.svg' %}" alt="PCI DSS Level 1" width="50" class="img-fluid hover-grow" loading="lazy">
+                        </div>
+                        <button class="verify-button btn btn-outline-light w-100 hover-grow" id="verify-document">
+                            <i class="bi bi-shield-check me-2"></i> Verify Document
+                        </button>
+                        <div id="verification-result" class="verification-result mt-2 small" aria-live="polite"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center py-3 mt-4 border-top border-secondary">
+                <p class="mb-0 small">This document is legally binding and electronically signed.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Version History Modal -->
+    <div class="modal fade" id="version-history-modal" tabindex="-1" aria-labelledby="version-history-heading" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h2 id="version-history-heading" class="modal-title">
+                        <i class="bi bi-clock-history me-2"></i> Document Version History
+                    </h2>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="timeline">
+                        <div class="timeline-item animate__animated animate__fadeIn">
+                            <div class="timeline-badge bg-success">
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5 class="timeline-title">Version {{ current_version }}</h5>
+                                    <p class="text-muted small">
+                                        <i class="bi bi-calendar me-1"></i> 
+                                        <time datetime="{{ last_updated|date:'Y-m-d' }}">{{ last_updated|date:"F j, Y" }}</time>
+                                    </p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Current active version</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item hover-slide-left">Updated privacy policy section</li>
+                                        <li class="list-group-item hover-slide-left">Added new data processing clauses</li>
+                                        <li class="list-group-item hover-slide-left">Revised terms of service</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {% for version in previous_versions %}
+                        <div class="timeline-item animate__animated animate__fadeIn" style="animation-delay: '{{ forloop.counter|add:1 }}'00ms;">
+                            <div class="timeline-badge {% if version.deprecated %}bg-danger{% else %}bg-secondary{% endif %}">
+                                <i class="bi bi-file-earmark-text-fill"></i>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5 class="timeline-title">Version {{ version.number }}</h5>
+                                    <p class="text-muted small">
+                                        <i class="bi bi-calendar me-1"></i> 
+                                        <time datetime="{{ version.date|date:'Y-m-d' }}">{{ version.date|date:"F j, Y" }}</time>
+                                        {% if version.deprecated %}
+                                        <span class="badge bg-danger ms-2">Deprecated</span>
+                                        {% endif %}
+                                    </p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>{{ version.changelog|default:"No changelog available" }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary hover-grow" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <button type="button" class="btn btn-primary btn-floating btn-lg rounded-circle position-fixed bottom-0 end-0 m-4 d-none hover-pulse" id="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+    
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{% static 'policy/js/vendor/purify.min.js' %}"></script>
+    <script src="{% static 'policy/js/legal.js' %}"></script>
+    <script src="{% static 'policy/js/utils/apiClient.js' %}"></script>
+    <script src="{% static 'policy/js/utils/domHelpers.js' %}"></script>
+    <script src="{% static 'policy/js/utils/polyfills.js' %}"></script>
+    <script src="{% static 'policy/js/modules/documentNavigation.js' %}"></script>
+    <script src="{% static 'policy/js/modules/themeManager.js' %}"></script>
+    <script src="{% static 'policy/js/modules/exportManager.js' %}"></script>
+    <script src="{% static 'policy/js/modules/versionControl.js' %}"></script>
+    
+    <!-- Animation Configuration -->
+    <script>
+        // GSAP Animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize GSAP with ScrollTrigger
+            gsap.registerPlugin(ScrollTrigger);
+            const preloader = document.getElementById("preloader");
+            // Hide preloader
+            if (preloader) {
+                gsap.to("#preloader", {
+                    duration: 0.5,
+                    opacity: 0,
+                    ease: "power2.inOut",
+                    delay: 0.5,
+
+                    onComplete: () => {
+                        const preloader = document.getElementById("preloader");
+                        preloader.style.display = "none";
+                        preloader.style.pointerEvents = "none";
+                    }
+                });
+            }
+            
+            // Animate elements with gsap-fade-in class
+            gsap.utils.toArray(".gsap-fade-in").forEach(el => {
+                gsap.from(el, {
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 80%"
+                    },
+                    opacity: 0,
+                    y: 50,
+                    duration: 0.8,
+                    ease: "power2.out"
+                });
+            });
+            
+            // Animate elements with gsap-fade-up class
+            gsap.utils.toArray(".gsap-fade-up").forEach(el => {
+                gsap.from(el, {
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 90%"
+                    },
+                    opacity: 0,
+                    y: 30,
+                    duration: 0.6,
+                    ease: "power2.out"
+                });
+            });
+            
+            // Animate elements with gsap-slide-in-right class
+            gsap.utils.toArray(".gsap-slide-in-right").forEach(el => {
+                gsap.from(el, {
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 85%"
+                    },
+                    x: 100,
+                    opacity: 0,
+                    duration: 0.7,
+                    ease: "back.out(1)"
+                });
+            });
+            
+            // Animate elements with gsap-scale-in class
+            gsap.utils.toArray(".gsap-scale-in").forEach(el => {
+                gsap.from(el, {
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 85%"
+                    },
+                    scale: 0.8,
+                    opacity: 0,
+                    duration: 0.6,
+                    ease: "elastic.out(1, 0.5)"
+                });
+            });
+            
+            // Stagger animations for glossary items
+            gsap.utils.toArray(".gsap-stagger-item").forEach(el => {
+                const delay = parseFloat(el.style.getPropertyValue('--stagger-index')) * 0.15;
+                gsap.from(el, {
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 90%"
+                    },
+                    opacity: 0,
+                    y: 30,
+                    duration: 0.5,
+                    delay: delay,
+                    ease: "power2.out"
+                });
+            });
+            
+            // Stagger animations for footer items
+            gsap.utils.toArray(".gsap-stagger-footer").forEach(el => {
+                const children = el.querySelectorAll('[style*="--stagger-index"]');
+                children.forEach(child => {
+                    const delay = parseFloat(child.style.getPropertyValue('--stagger-index')) * 0.2;
+                    gsap.from(child, {
+                        scrollTrigger: {
+                            trigger: el,
+                            start: "top 90%"
+                        },
+                        opacity: 0,
+                        y: 30,
+                        duration: 0.6,
+                        delay: delay,
+                        ease: "power2.out"
+                    });
+                });
+            });
+            
+            // Back to top button behavior
+            const backToTopButton = document.getElementById('back-to-top');
+            if (backToTopButton) {
+                ScrollTrigger.create({
+                    trigger: "main",
+                    start: "top top",
+                    end: "bottom bottom",
+                    onUpdate: (self) => {
+                        if (self.progress > 0.2) {
+                            backToTopButton.classList.remove('d-none');
+                            gsap.to(backToTopButton, { 
+                                opacity: 1,
+                                duration: 0.3
+                            });
+                        } else {
+                            gsap.to(backToTopButton, { 
+                                opacity: 0,
+                                duration: 0.3,
+                                onComplete: () => backToTopButton.classList.add('d-none')
+                            });
+                        }
+                    }
+                });
+                
+                backToTopButton.addEventListener('click', () => {
+                    gsap.to(window, {
+                        duration: 0.8,
+                        scrollTo: 0,
+                        ease: "power2.inOut"
+                    });
+                });
+            }
+            
+            // Hover effects for cards
+            gsap.utils.toArray(".hover-float").forEach(el => {
+                el.addEventListener("mouseenter", () => {
+                    gsap.to(el, {
+                        y: -5,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+                el.addEventListener("mouseleave", () => {
+                    gsap.to(el, {
+                        y: 0,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+            });
+        });
+    </script>
+    
+    {% block extra_scripts %}
+    {% endblock %}
+    
+    <!-- Document Verification System -->
+    <script type="module">
+        import { DocumentVerifier } from "{% static 'policy/js/modules/documentVerifier.js' %}";
+        const verifier = new DocumentVerifier({
+            documentId: "{{ document_id }}",
+            version: "{{ current_version }}",
+            hash: "{{ content_hash }}",
+            verificationEndpoint: "{% url 'policy:document-verification' %}"
+        });
+        window.legalDocumentVerifier = verifier;
+    </script>
+</body>
+</html>

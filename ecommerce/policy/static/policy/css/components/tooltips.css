@@ -1,0 +1,56 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    text-align: center;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-sm);
+    position: absolute;
+    z-index: var(--z-index-dropdown);
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--color-primary) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Tippy.js overrides */
+.tippy-box {
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    font-size: 0.85rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+}
+
+.tippy-arrow {
+    color: var(--color-primary);
+}
+
+.tippy-content {
+    padding: var(--spacing-xs) var(--spacing-sm);
+}
