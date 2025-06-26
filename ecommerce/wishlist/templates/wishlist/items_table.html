@@ -1,0 +1,82 @@
+<section class="ftco-section ftco-cart">
+    <div class="container mt-1">
+        <div class="row">
+        <div class="col-md-12 ftco-animate">
+            <div class="cart-list">
+                <table class="table">
+                    <thead class="thead-primary">
+                      <tr class="text-center">
+                        <th>&nbsp;</th>
+                        <th>Product List</th>
+                        <th>Price</th>
+                        <th>Alert At</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <!-- itme model in shop = product  -->
+                        {% for item in wishlist.items.all %}
+                        <tr class="text-center">
+                          
+                          <td class="image-prod"><div class="img" style="background-image:url('{{item.product.item_image.url}}');"></div></td>
+                          
+                          <td class="product-name">
+                              <h3>{{item.product.title}}</h3>
+                              <p>{{item.product.description}}</p>
+                              {% if item.product.percentage_discount %}
+                              <span class="badge badge-danger">Save {{ item.product.percentage_discount|floatformat:0 }}%</span>
+                              {% endif %}
+                          </td>
+                          
+                          <td class="price">
+                              {% if item.product.price < item.original_price %}
+                              <del class="text-muted">${{ item.original_price|floatformat:2 }}</del><br>
+                              {% endif %}
+                              <span class="text-danger">${{ item.product.price|floatformat:2 }}</span>
+                          </td>
+                          
+                          <td class="set-alert">
+                            {% if item.desired_price %}
+                            ${{item.desired_price}}
+                            {% else %}
+                            <button class="btn btn-sm btn-outline-secondary set-alert" data-item-id="{{item.id}}">
+                                Set Alert
+                            </button>
+                            {% endif %}
+                          </td>
+                          
+                          <td >
+                            <div class="btn-group">
+                                <a href="{% url 'wishlist:move_to_cart' item.id %}" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a><br>
+                                <a href="{% url 'wishlist:remove_from_wishlist' item.id %}" class="btn btn-sm btn-danger">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                          </td>
+                      </tr><!-- END TR-->
+                    {% empty %}  
+                      <tr>
+                          <td colspan="4" class="text-center">This wishlist is empty.</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4" class="text-center">
+                          <a href="{% url 'shop:shop' %}" class="btn btn-primary  py-3 px-4 mx-auto">
+                            Add Wishlist
+                          </a>
+                        </td>
+                      </tr>
+                    {% if item.exists %}
+                      <tr>
+                        <td class="text-center" colspan="4"><a href="#" class="btn btn-primary float-right py-3 px-4">Continue with Wishlist</a></td>
+                      </tr>
+                    {% endif %}
+                    {% endfor %}
+                    </tbody>
+                  </table>
+              </div>
+        </div>
+        </div>
+    </div>
+</section>

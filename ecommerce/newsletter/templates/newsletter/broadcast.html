@@ -1,0 +1,484 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<style>
+    .newsletter-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    }
+    
+    .compose-card {
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        border: none;
+    }
+    
+    .compose-header {
+        background: linear-gradient(135deg, #6b46c1 0%, #4299e1 100%);
+        color: white;
+        padding: 1.5rem 2rem;
+        position: relative;
+    }
+    
+    .compose-header h2 {
+        font-weight: 600;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .compose-body {
+        padding: 2rem;
+        background-color: #f8fafc;
+    }
+    
+    .form-label {
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-control, .form-select {
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        border: 1px solid #e2e8f0;
+        transition: all 0.3s ease;
+    }
+    
+    .form-control:focus, .form-select:focus {
+        border-color: #6b46c1;
+        box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.2);
+    }
+    
+    #editor {
+        height: 300px;
+        background: white;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+    }
+    
+    .ql-toolbar {
+        border-radius: 8px 8px 0 0;
+        background: #f8fafc;
+    }
+    
+    .ql-container {
+        border-radius: 0 0 8px 8px;
+    }
+    
+    .recipients-select {
+        width: 100% !important;
+    }
+    
+    .select2-container--default .select2-selection--multiple {
+        border: 1px solid #e2e8f0 !important;
+        border-radius: 8px !important;
+        min-height: 45px !important;
+        padding: 0.375rem !important;
+    }
+    
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: #6b46c1 !important;
+        border: none !important;
+        color: white !important;
+        border-radius: 6px !important;
+        padding: 0.25rem 0.5rem !important;
+    }
+    
+    .file-upload {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .file-upload-input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .file-upload-label {
+        display: block;
+        padding: 0.75rem 1rem;
+        background-color: #f8fafc;
+        border: 1px dashed #cbd5e0;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .file-upload-label:hover {
+        background-color: #edf2f7;
+        border-color: #a0aec0;
+    }
+    
+    .send-btn {
+        background: linear-gradient(135deg, #6b46c1 0%, #4299e1 100%);
+        border: none;
+        padding: 0.75rem 2rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(107, 70, 193, 0.2);
+    }
+    
+    .send-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(107, 70, 193, 0.3);
+    }
+    
+    .preview-btn {
+        background-color: #e2e8f0;
+        color: #2d3748;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    
+    .preview-btn:hover {
+        background-color: #cbd5e0;
+    }
+    
+    .stats-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        margin-bottom: 1.5rem;
+    }
+    
+    .stats-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #6b46c1;
+    }
+    
+    .stats-label {
+        color: #718096;
+        font-size: 0.875rem;
+    }
+    
+    .preview-modal .modal-content {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    
+    .preview-header {
+        background: linear-gradient(135deg, #6b46c1 0%, #4299e1 100%);
+        color: white;
+    }
+    
+    @media (max-width: 768px) {
+        .compose-body {
+            padding: 1.5rem;
+        }
+        
+        .btn-group {
+            width: 100%;
+        }
+        
+        .btn-group .btn {
+            width: 50%;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="newsletter-container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="compose-card">
+                <div class="compose-header">
+                    <h2><i class="fas fa-paper-plane me-2"></i>Compose Newsletter</h2>
+                </div>
+                <div class="compose-body">
+                    <form method="post" enctype="multipart/form-data" id="newsletter-form">
+                        {% csrf_token %}
+                        
+                        {% if form.non_field_errors %}
+                            <div class="alert alert-danger">
+                                {{ form.non_field_errors }}
+                            </div>
+                        {% endif %}
+                        
+                        <div class="mb-4">
+                            <label for="{{ form.subject.id_for_label }}" class="form-label">Subject</label>
+                            <input type="text" name="{{ form.subject.name }}" class="form-control" 
+                                   id="{{ form.subject.id_for_label }}" placeholder="Your newsletter subject" 
+                                   value="{{ form.subject.value|default:'' }}" required>
+                            {% if form.subject.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {{ form.subject.errors }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="form-label">Message Content</label>
+                            <div id="editor">{{ form.message.value|default:'' }}</div>
+                            <textarea name="{{ form.message.name }}" id="hidden-message" style="display:none;"></textarea>
+                            {% if form.message.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {{ form.message.errors }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="form-label">Attachment</label>
+                            <div class="file-upload">
+                                <label class="file-upload-label" for="{{ form.attachment.id_for_label }}">
+                                    <i class="fas fa-cloud-upload-alt me-2"></i>
+                                    <span id="file-name">Choose file or drag & drop here</span>
+                                </label>
+                                <input type="file" name="{{ form.attachment.name }}" 
+                                       class="file-upload-input" id="{{ form.attachment.id_for_label }}">
+                            </div>
+                            {% if form.attachment.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {{ form.attachment.errors }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="mb-4">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" name="{{ form.send_to_all.name }}" 
+                                       id="{{ form.send_to_all.id_for_label }}" {% if form.send_to_all.value %}checked{% endif %}>
+                                <label class="form-check-label" for="{{ form.send_to_all.id_for_label }}">
+                                    Send to all subscribers
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4" id="recipient-group" style="display: none;">
+                            <label for="{{ form.recipients.id_for_label }}" class="form-label">Select Recipients</label>
+                            <select name="{{ form.recipients.name }}" id="{{ form.recipients.id_for_label }}" 
+                                    class="recipients-select" multiple="multiple">
+                                {% for choice in form.recipients.field.choices %}
+                                    <option value="{{ choice.0 }}" {% if choice.0 in form.recipients.value %}selected{% endif %}>
+                                        {{ choice.1 }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                            {% if form.recipients.errors %}
+                                <div class="invalid-feedback d-block">
+                                    {{ form.recipients.errors }}
+                                </div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="d-flex justify-content-between mt-5">
+                            <button type="button" class="preview-btn" data-bs-toggle="modal" data-bs-target="#previewModal">
+                                <i class="fas fa-eye me-2"></i>Preview
+                            </button>
+                            <button type="submit" class="btn send-btn">
+                                <i class="fas fa-paper-plane me-2"></i>Send Newsletter
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="stats-card">
+                <h5 class="mb-4"><i class="fas fa-chart-line me-2"></i>Newsletter Stats</h5>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <div class="stats-value">{{ total_subscribers }}</div>
+                        <div class="stats-label">Total Subscribers</div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="stats-value">{{ active_subscribers }}</div>
+                        <div class="stats-label">Active Subscribers</div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="stats-value">{{ last_month_sent }}</div>
+                        <div class="stats-label">Sent Last Month</div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="stats-value">{{ avg_open_rate }}%</div>
+                        <div class="stats-label">Avg. Open Rate</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-card">
+                <h5 class="mb-4"><i class="fas fa-history me-2"></i>Recent Campaigns</h5>
+                <div class="list-group">
+                    {% for campaign in recent_campaigns %}
+                    <div class="list-group-item border-0 px-0 py-2">
+                        <div class="d-flex justify-content-between">
+                            <strong>{{ campaign.subject }}</strong>
+                            <span class="text-muted small">{{ campaign.sent_at|date:"M d" }}</span>
+                        </div>
+                        <div class="d-flex justify-content-between small">
+                            <span>{{ campaign.recipients_count }} recipients</span>
+                            <span>{{ campaign.open_rate }}% open rate</span>
+                        </div>
+                    </div>
+                    {% empty %}
+                    <div class="text-muted">No recent campaigns</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Preview Modal -->
+<div class="modal fade preview-modal" id="previewModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header preview-header">
+                <h5 class="modal-title">Newsletter Preview</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h4 id="preview-subject">[Subject will appear here]</h4>
+                <hr>
+                <div id="preview-content" class="mt-4"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="send-test-btn">
+                    <i class="fas fa-envelope me-2"></i>Send Test Email
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+    // Initialize rich text editor
+    const quill = new Quill('#editor', {
+        theme: 'snow',
+        modules: {
+            toolbar: [
+                ['bold', 'italic', 'underline', 'strike'],
+                ['blockquote', 'code-block'],
+                [{ 'header': 1 }, { 'header': 2 }],
+                [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                [{ 'script': 'sub'}, { 'script': 'super' }],
+                [{ 'indent': '-1'}, { 'indent': '+1' }],
+                [{ 'direction': 'rtl' }],
+                [{ 'size': ['small', false, 'large', 'huge'] }],
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+                [{ 'color': [] }, { 'background': [] }],
+                [{ 'font': [] }],
+                [{ 'align': [] }],
+                ['clean'],
+                ['link', 'image', 'video']
+            ]
+        }
+    });
+    
+    // Initialize select2 for recipients
+    $('.recipients-select').select2({
+        placeholder: "Select recipients",
+        allowClear: true
+    });
+    
+    // Toggle recipient group visibility
+    const sendToAllCheckbox = document.getElementById('{{ form.send_to_all.id_for_label }}');
+    const recipientGroup = document.getElementById('recipient-group');
+    
+    function toggleRecipientGroup() {
+        recipientGroup.style.display = sendToAllCheckbox.checked ? 'none' : 'block';
+    }
+    
+    sendToAllCheckbox.addEventListener('change', toggleRecipientGroup);
+    toggleRecipientGroup();
+    
+    // File upload display
+    const fileInput = document.getElementById('{{ form.attachment.id_for_label }}');
+    const fileName = document.getElementById('file-name');
+    
+    fileInput.addEventListener('change', function() {
+        if (this.files.length > 0) {
+            fileName.textContent = this.files[0].name;
+        } else {
+            fileName.textContent = 'Choose file or drag & drop here';
+        }
+    });
+    
+    // Form submission handler
+    document.getElementById('newsletter-form').addEventListener('submit', function() {
+        // Get HTML content from Quill and put it in hidden textarea
+        const htmlContent = document.querySelector('#editor .ql-editor').innerHTML;
+        document.getElementById('hidden-message').value = htmlContent;
+    });
+    
+    // Preview modal functionality
+    $('#previewModal').on('show.bs.modal', function() {
+        const subject = document.getElementById('{{ form.subject.id_for_label }}').value;
+        const content = document.querySelector('#editor .ql-editor').innerHTML;
+        
+        document.getElementById('preview-subject').textContent = subject || '[No subject]';
+        document.getElementById('preview-content').innerHTML = content || '<p>No content yet</p>';
+    });
+    
+    // Send test email functionality
+    document.getElementById('send-test-btn').addEventListener('click', async function() {
+        const subject = document.getElementById('{{ form.subject.id_for_label }}').value;
+        const content = document.querySelector('#editor .ql-editor').innerHTML;
+        
+        if (!subject || !content) {
+            alert('Please fill in both subject and content before sending a test');
+            return;
+        }
+        
+        const testEmail = prompt('Enter email address to send test to:');
+        if (!testEmail) return;
+        
+        this.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
+        this.disabled = true;
+        
+        try {
+            const response = await fetch('{% url "send_test_email" %}', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                body: JSON.stringify({
+                    email: testEmail,
+                    subject: subject,
+                    content: content
+                })
+            });
+            
+            const result = await response.json();
+            if (result.success) {
+                alert('Test email sent successfully!');
+            } else {
+                alert('Error sending test email: ' + (result.error || 'Unknown error'));
+            }
+        } catch (error) {
+            alert('Error sending test email: ' + error.message);
+        } finally {
+            this.innerHTML = '<i class="fas fa-envelope me-2"></i>Send Test Email';
+            this.disabled = false;
+        }
+    });
+</script>
+{% endblock %}

@@ -23,3 +23,10 @@ class Contacts(models.Model):
     
     def formatedAddress(self):
         return self.address.replace(',', '<br>')
+
+class CustomerMessages(models.Model):
+    name = models.CharField(max_length=50)
+    email = models.EmailField()
+    subject = models.CharField(max_length=50)
+    message = models.TextField()
+    

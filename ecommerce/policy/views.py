@@ -15,7 +15,7 @@ class LegalDocumentView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context.update({
-            'company_name': 'Your Company',
+            'company_name': 'Vege Grocery',
             'company_domain': 'yourdomain.com',
             'company_address': '123 Legal Street\nCompliance City',
             'legal_entity_number': 'LEI-12345678',
@@ -71,7 +71,7 @@ class TermsOfServiceView(LegalDocumentView):
     
     def get_sections(self):
         # Would come from database or structured files
-        return [...]
+        return ['release coming soon']
 
 class PrivacyPolicyView(LegalDocumentView):
     """Advanced Privacy Policy view"""
@@ -81,7 +81,7 @@ class PrivacyPolicyView(LegalDocumentView):
     def get_document_content(self):
         return json.dumps({
             'title': 'Privacy Policy',
-            'sections': self.get_sections(),
+            # 'sections': self.get_sections(),
             'effective_date': self.get_effective_date().isoformat(),
         })
 

@@ -41,6 +41,13 @@ class Item(models.Model):
     def get_absolute_url(self):
         return reverse('shop:product-single', kwargs={'slug': self.slug})
     
+    def get_add_to_wishlist_url(self):
+        return reverse('wishlist:add_to_wishlist', kwargs={'product_id': self.id})
+
+    def get_remove_from_wishlist_url(self):
+        return reverse('wishlist:remove_from_wishlist', kwargs={'item_id': self.id})
+
+    
     def get_add_to_cart_url(self):
         return reverse("shop:add-to-cart", kwargs={'slug': self.slug}) 
 
@@ -173,15 +180,3 @@ class CustomerTestimonials(models.Model):
     customer_position = models.CharField(max_length=50, default="customer")
     customer_testimony = models.TextField(null=True, blank=True)
     customer_location = models.CharField(max_length=50, null=True, blank=True)
-
-class Wishlist(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    item = models.ManyToManyField(Item)
-    ordered = models.BooleanField(default=False)
-    quantity = models.PositiveIntegerField(default=1)
-
-    def get_add_to_wishlist_url(self):
-     return reverse("shop:add-wish-list", kwargs={'slug': self.slug}) 
-    
-    def get_remove_from_wishlist_url(self):
-     return reverse("shop:remove-wish-list", kwargs={'slug': self.slug}) 

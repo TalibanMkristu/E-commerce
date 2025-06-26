@@ -1,4 +1,4 @@
-{% raw %}{% extends "policy/base.html" %}
+{% extends "policy/base.html" %}
 
 {% block title %}{{ company_name }} - Terms of Service (Enterprise Version){% endblock %}
 {% block doc_type %}Terms of Service{% endblock %}
@@ -7,6 +7,278 @@
 {% block document_title %}Terms of Service - Enterprise & Compliance-Level Version{% endblock %}
 
 {% block content %}
+<style>
+    /* Base Styles with Gold Palette */
+    :root {
+        --gold-primary: #D4AF37;
+        --gold-secondary: #F5D07A;
+        --gold-light: #FFE8B6;
+        --gold-dark: #B8860B;
+        --gold-accent: #FFD700;
+        --dark-bg: #1A1A1A;
+        --light-bg: #F8F5EE;
+        --text-dark: #333333;
+        --text-light: #F5F5F5;
+    }
+    
+    body {
+        background-color: var(--light-bg);
+        color: var(--text-dark);
+        font-family: 'Georgia', 'Times New Roman', serif;
+        line-height: 1.6;
+    }
+    
+    /* Header with Gold Accents */
+    .legal-header {
+        background: linear-gradient(135deg, var(--dark-bg) 0%, #2A2A2A 100%);
+        border-bottom: 4px solid var(--gold-primary);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .legal-header .logo {
+        filter: drop-shadow(0 0 5px var(--gold-accent));
+    }
+    
+    .document-context {
+        color: var(--gold-light);
+    }
+    
+    /* Section Styling */
+    .section {
+        background-color: white;
+        border-left: 5px solid var(--gold-primary);
+        border-radius: 0 8px 8px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin: 2rem 0;
+        padding: 2rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, var(--gold-primary), var(--gold-accent));
+    }
+    
+    .section-title {
+        color: var(--gold-dark);
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--gold-light);
+        position: relative;
+    }
+    
+    .section-title::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100px;
+        height: 2px;
+        background: var(--gold-primary);
+    }
+    
+    .subsection-title {
+        color: var(--gold-dark);
+        font-weight: 600;
+        margin: 1.5rem 0 1rem;
+    }
+    
+    /* Highlight Boxes */
+    .highlight-box {
+        background: linear-gradient(to right, rgba(212, 175, 55, 0.1), rgba(255, 215, 0, 0.05));
+        border-left: 4px solid var(--gold-primary);
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        border-radius: 0 8px 8px 0;
+        position: relative;
+    }
+    
+    .highlight-box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" stroke="%23D4AF37" stroke-width="0.5" stroke-opacity="0.2"><path d="M0,0 L100,100 M100,0 L0,100"/></svg>');
+        opacity: 0.1;
+    }
+    
+    /* Definition Lists */
+    .definition-list {
+        margin: 1.5rem 0;
+        border: 1px solid var(--gold-light);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .definition-term {
+        background-color: rgba(212, 175, 55, 0.1);
+        padding: 0.8rem 1rem;
+        font-weight: 600;
+        color: var(--gold-dark);
+        border-bottom: 1px solid var(--gold-light);
+    }
+    
+    .definition-description {
+        padding: 1rem;
+        background-color: white;
+    }
+    
+    /* Tables */
+    .compliance-table, .sla-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+    
+    .compliance-table th, .sla-table th {
+        background-color: var(--gold-primary);
+        color: white;
+        padding: 1rem;
+        text-align: left;
+    }
+    
+    .compliance-table td, .sla-table td {
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid var(--gold-light);
+    }
+    
+    .compliance-table tr:nth-child(even), .sla-table tr:nth-child(even) {
+        background-color: rgba(212, 175, 55, 0.05);
+    }
+    
+    .compliance-table tr:hover, .sla-table tr:hover {
+        background-color: rgba(212, 175, 55, 0.1);
+    }
+    
+    /* Code Blocks */
+    .code-block {
+        background-color: #2A2A2A;
+        color: #F5F5F5;
+        padding: 1.5rem;
+        border-radius: 8px;
+        font-family: 'Courier New', monospace;
+        margin: 1.5rem 0;
+        border-left: 4px solid var(--gold-accent);
+        overflow-x: auto;
+    }
+    
+    /* Contact Grid */
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+    
+    .contact-item {
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        border-top: 3px solid var(--gold-primary);
+    }
+    
+    .contact-item h3 {
+        color: var(--gold-dark);
+        margin-bottom: 1rem;
+    }
+    
+    /* Lists */
+    ul, ol {
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+    }
+    
+    ul li, ol li {
+        margin-bottom: 0.5rem;
+        position: relative;
+    }
+    
+    ul li::before {
+        content: "•";
+        color: var(--gold-primary);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+    
+    ol {
+        counter-reset: item;
+    }
+    
+    ol li {
+        counter-increment: item;
+    }
+    
+    ol li::before {
+        content: counter(item) ".";
+        color: var(--gold-primary);
+        font-weight: bold;
+        display: inline-block;
+        width: 1.5em;
+        margin-left: -1.5em;
+    }
+    
+    /* Links */
+    a {
+        color: var(--gold-dark);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-bottom: 1px dotted var(--gold-primary);
+    }
+    
+    a:hover {
+        color: var(--gold-primary);
+        border-bottom: 1px solid var(--gold-primary);
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .section {
+            padding: 1.5rem;
+        }
+        
+        .contact-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    /* Print Styles */
+    @media print {
+        body {
+            background-color: white;
+            color: black;
+            font-size: 12pt;
+        }
+        
+        .section {
+            border: none;
+            box-shadow: none;
+            page-break-inside: avoid;
+        }
+        
+        a {
+            color: black;
+            text-decoration: underline;
+            border: none;
+        }
+        
+        .highlight-box, .definition-list {
+            border: 1px solid #ddd;
+        }
+    }
+    </style>
 <article id="terms">
     <section class="section" id="agreement">
         <h2 class="section-title">Agreement to Terms</h2>
@@ -202,4 +474,4 @@
         </div>
     </section>
 </article>
-{% endblock %}{% endraw %}
+{% endblock %}

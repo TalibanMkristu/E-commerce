@@ -4,7 +4,7 @@
     <head>
         <title>
             {% block title %}
-            VegeGroccer
+            VegeGroccerpv+
             {% endblock %}
             | VegeGroccer
         </title>
@@ -41,6 +41,80 @@
         <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
         <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+        <style>
+            /* Notification container styling */
+            .notification-container {
+                position: fixed;
+                bottom: 20px;
+                left: 20px;
+                z-index: 1000;
+                max-width: 300px;
+            }
+            
+            /* Notification styling */
+            .notification {
+                background-color: #1e1e1e;
+                border-left: 4px solid #ffd700;
+                border-bottom: 4px solid #ffd700;
+                color: #e0e0e0;
+                padding: 15px;
+                margin-bottom: 10px;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                transform: translateX(-100%);
+                opacity: 0.5;
+                transition: all 0.3s ease;
+                display: none;
+            }
+            
+            .notification.show {
+                display: flex;
+                transform: translateX(0);
+                opacity: 1;
+            }
+            
+            .notification.hide {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            
+            .notification-avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+                object-fit: cover;
+                border: 2px solid #ffd700;
+            }
+            
+            .notification-content {
+                flex: 1;
+            }
+            
+            .notification .title {
+                color: #ffd700;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            
+            .notification .message {
+                font-size: 14px;
+            }
+            
+            .notification .time {
+                font-size: 12px;
+                color: #999;
+                text-align: right;
+                margin-top: 5px;
+            }
+            
+            .notification .location {
+                font-size: 12px;
+                color: #aaa;
+                margin-top: 3px;
+            }
+        </style>        
     </head>
     <body class="goto-here">
 
@@ -54,13 +128,41 @@
 
         {% endblock %}
 
-
+        {% block newsletter %}
+        <!-- Newsletter -->
+        <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+            <div class="container py-4">
+                <div class="row d-flex justify-content-center py-5">
+                <div class="col-md-6">
+                    <h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
+                    <span>Get e-mail updates about our latest shops and special offers</span>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                        <input type="text" class="form-control" placeholder="Enroll Your Subscription Today" readonly>
+                        <a href="{% url 'newsletter:newsletter' %}" class="btn btn-primary  py-3 px-4">
+                            Subscribe
+                        </a>
+                    </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+        {% endblock %}
+        <div class="notification-container" id="notificationContainer"></div>
         {% block footer %}
         {% include 'footer.html' %}
         {% endblock %}
 
     <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+        <div id="ftco-loader" class="show fullscreen">
+            <svg class="circular" width="48px" height="48px">
+                <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+                <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+            </svg>
+        </div>
 
         {% block script %}
         <script src="{% static 'js/jquery.min.js' %}"></script>
@@ -110,6 +212,147 @@
             });
         </script>
  
+        <script>
+            // Configuration
+            const config = {
+                avatarPath: '{% static "images/" %}', // Update this path
+                avatarFiles: ['person_1.jpg', 'person_2.jpg', 'person_3.jpg', 'person_4.jpg'], // Add your avatar filenames
+                minDelay: 2000,  // 2 seconds
+                maxDelay: 5000,  // 5 seconds
+                displayTime: 5000 // 5 seconds
+            };
+            
+            // Dynamic message generators
+            const messageGenerators = {
+                testimonials: () => {
+                    const adjectives = ['Amazing', 'Excellent', 'Fantastic', 'Wonderful', 'Superb', 'Outstanding', 'Terrific', 'Marvelous', 'Exceptional', 'Phenomenal'];
+                    const nouns = ['service', 'quality', 'selection', 'delivery', 'experience', 'products', 'prices', 'support', 'website', 'variety'];
+                    const actions = ['recommend', 'love', 'appreciate', 'enjoy', 'admire', 'value', 'trust', 'prefer', 'choose', 'frequent'];
+                    
+                    const templates = [
+                        `${randomChoice(adjectives)} ${randomChoice(nouns)}! I ${randomChoice(actions)} this store.`,
+                        `I've never seen such ${randomChoice(adjectives)} ${randomChoice(nouns)} before!`,
+                        `${randomChoice(['Just', 'Recently'])} received my order - ${randomChoice(adjectives)}!`,
+                        `The ${randomChoice(nouns)} here is ${randomChoice(adjectives)}. ${randomChoice(['Will be back!', 'Highly recommend!'])}`,
+                        `${randomChoice(['10/10', '5 stars', 'A+'])} for ${randomChoice(nouns)}!`
+                    ];
+                    
+                    return {
+                        title: randomChoice(['Happy Customer', 'Satisfied Shopper', 'Loyal Customer', 'First-time Buyer']),
+                        content: randomChoice(templates),
+                        type: 'testimonial'
+                    };
+                },
+                
+                orders: () => {
+                    const products = [
+                        'Organic Bananas (2kg)', 
+                        'Fresh Avocados (5 pieces)', 
+                        'Free-range Eggs (12 pack)',
+                        'Organic Spinach (500g)',
+                        'Local Honey (250ml)',
+                        'Artisan Bread',
+                        'Grass-fed Beef (1kg)',
+                        'Seasonal Berries (300g)',
+                        'Cold-pressed Juice (1L)',
+                        'Organic Tomatoes (1kg)'
+                    ];
+                    
+                    const actions = [
+                        'just ordered',
+                        'purchased',
+                        'added to cart',
+                        'is buying',
+                        'checked out with'
+                    ];
+                    
+                    const locations = [
+                        'from London',
+                        'in Manchester',
+                        'from Edinburgh',
+                        'in Birmingham',
+                        'from Leeds',
+                        'in Bristol',
+                        'from Glasgow',
+                        'in Liverpool'
+                    ];
+                    
+                    return {
+                        title: 'New Order',
+                        content: `Someone ${randomChoice(actions)} ${randomChoice(products)}`,
+                        location: randomChoice(locations),
+                        type: 'order'
+                    };
+                }
+            };
+            
+            // Helper function to randomly choose an array element
+            function randomChoice(array) {
+                return array[Math.floor(Math.random() * array.length)];
+            }
+            
+            // Function to get random avatar
+            function getRandomAvatar() {
+                if (config.avatarFiles && config.avatarFiles.length > 0) {
+                    return config.avatarPath + randomChoice(config.avatarFiles);
+                }
+                return ''; // Fallback if no avatars configured
+            }
+            
+            // Function to create a notification
+            function createNotification(item) {
+                const container = document.getElementById('notificationContainer');
+                const notification = document.createElement('div');
+                notification.className = 'notification';
+                
+                const now = new Date();
+                const timeString = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                
+                notification.innerHTML = `
+                    <img src="${getRandomAvatar()}" alt="Avatar" class="notification-avatar" onerror="this.style.display='none'">
+                    <div class="notification-content">
+                        <div class="title">${item.title}</div>
+                        <div class="message">${item.content}</div>
+                        ${item.location ? `<div class="location">${item.location}</div>` : ''}
+                        <div class="time">${timeString}</div>
+                    </div>
+                `;
+                
+                container.appendChild(notification);
+                
+                // Trigger animation
+                setTimeout(() => {
+                    notification.classList.add('show');
+                }, 10);
+                
+                // Remove after display time
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                    notification.classList.add('hide');
+                    
+                    // Remove from DOM after animation completes
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+                }, config.displayTime);
+            }
+            
+            // Function to show random notifications
+            function showRandomNotification() {
+                // Randomly choose between testimonial and order
+                const notificationType = randomChoice(['testimonials', 'orders']);
+                const notification = messageGenerators[notificationType]();
+                
+                createNotification(notification);
+                
+                // Set next notification with random delay
+                const delay = config.minDelay + Math.random() * (config.maxDelay - config.minDelay);
+                setTimeout(showRandomNotification, delay);
+            }
+            
+            // Start showing notifications after initial delay
+            setTimeout(showRandomNotification, 3000);
+        </script>
         {% endblock %}
 
         {% block extra_scripts %}

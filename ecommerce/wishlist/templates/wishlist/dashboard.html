@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Your Wishlists</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="{% url 'wishlist:create_wishlist' %}">
+                        {% csrf_token %}
+                        <div class="input-group mb-3">
+                            {{ create_form.name }}
+                            <button class="btn btn-primary ml-2" type="submit">Create</button>
+                        </div>
+                    </form>
+                    
+                    <ul class="list-group">
+                        {% for wishlist in wishlists %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center {% if wishlist.is_default %}active{% endif %}">
+                            <a href="{% url 'wishlist:wishlist_detail' wishlist.id %}">
+                                {{ wishlist.name }}
+                                <span class="badge bg-secondary">{{ wishlist.get_items_count }}</span>
+                            </a>
+                            {% if not wishlist.is_default %}
+                            <a href="#" class="text-danger" onclick="confirmDelete('{{ wishlist.id }}')">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-12 mx-auto">
+            {% if not default_wishlist == None %}
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <h4>{{ default_wishlist.name }}</h4>
+                    <div>
+                        <a href="{% url 'wishlist:bulk_add_to_cart' default_wishlist.id %}" class="btn btn-sm btn-success">
+                            <i class="fas fa-shopping-cart"></i> Add All to Cart
+                        </a>
+                        <button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#shareModal">
+                            <i class="fas fa-share"></i> Share
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {% include 'wishlist/items_table.html' with wishlist=default_wishlist %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Share Modal -->
+<div class="modal fade" id="shareModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" action="{% url 'wishlist:share_wishlist' default_wishlist.id %}">
+                {% csrf_token %}
+                <div class="modal-header">
+                    <h5 class="modal-title">Share {{ default_wishlist.name }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Shareable Link</label>
+                        <input type="text" class="form-control" value="{{ default_wishlist.get_absolute_url }}" readonly>
+                    </div>
+                    {{ share_form }}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

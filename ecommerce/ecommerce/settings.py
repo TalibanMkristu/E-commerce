@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'base.apps.BaseConfig',
     'widget_tweaks',
     'django_countries',
+    'django.contrib.humanize',  # For natural time formatting
     'phonenumber_field',
     'about.apps.AboutConfig',
     'blog.apps.BlogConfig',
@@ -55,6 +56,8 @@ INSTALLED_APPS = [
     'contacts.apps.ContactsConfig',
     'payments.apps.PaymentsConfig',
     'policy.apps.PolicyConfig',
+    'newsletter.apps.NewsletterConfig',
+    'wishlist.apps.WishlistConfig',
 
 
 ]
@@ -153,16 +156,17 @@ AUTH_USER_MODEL = 'users.CustomUser'
 LOGOUT_REDIRECT_URL = 'base:index'  # Redirect to 'home' after logout
 
 # email verification fileds
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.zoho.com'  # or smtp.mailgun.org
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'info@yourdomain.com'
-# EMAIL_HOST_PASSWORD = 'your_email_password'
-# DEFAULT_FROM_EMAIL = 'info@yourdomain.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'  # or smtp.mailgun.org
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'mceemoney1@gmail.com'
+EMAIL_HOST_PASSWORD = config('EMAIL_APP_PASSWORD')
+DEFAULT_FROM_EMAIL = 'mceemoney1@gmail.com'
+SITE_URL = 'traxycollections.pythonanywhere.com'  # For confirmation links
+SITE_NAME = 'Vege Grocer'  # Used in emails
 
-
-
+PASSWORD_RESET_TIMEOUT = 14400
 
 PHONENUMBER_DEFAULT_REGION = 'KE'  # Kenya
 PHONENUMBER_DB_FORMAT = 'E164'

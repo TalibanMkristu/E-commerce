@@ -1,12 +1,13 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.generic import TemplateView, ListView, DetailView, View, FormView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from .models import Item, Order, OrderItem, BillingAddress, Wishlist
+from .models import Item, Order, OrderItem, BillingAddress
 from blog.models import Category
 from django.urls import reverse, reverse_lazy
 from django.utils import timezone
 from django.contrib import messages
 from .forms import BillingDetailsForm
+from wishlist.models import WishlistItem
 
 # Create your views here.
 class ShopView(ListView):
@@ -22,9 +23,10 @@ class ShopView(ListView):
         context = super().get_context_data(**kwargs)
         items = Item.objects.all().order_by('-percentage_discount')
         categories = Category.objects.all()
+        wishlist_item = WishlistItem.objects.all()
         context['items'] = items
         context['categories'] = categories
-            
+        context['wishlist_item']=wishlist_item
         return context
 
 class CartView(LoginRequiredMixin, View):
@@ -133,8 +135,6 @@ class WishListView(TemplateView):
     }
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        wishlist = Wishlist.objects.all()
-        context['wishlist']=wishlist
         return context
 
 class SingleProductView(DetailView): 
@@ -262,40 +262,4 @@ class RemoveSingleItemFromCartView(LoginRequiredMixin, View):
         else:
             messages.info(request, "You don't have an active order.")
             return redirect("shop:product-single", slug=slug)
-        
-class AddToWishlist(View):
-    def get(self, request, slug, *a, **k):
-        item = get_object_or_404(Item, slug=slug)
-        wish = Wishlist.objects.get_or_create(
-            item=item,
-            user=self.request.user,
-            ordered=False
-        )
-        if wish.item.filter(item__slug=item.slug).exists():
-            wish.quantity += 1
-            wish.save()
-            messages.info(self.request, f"{wish.item.name} quantity increased.")
-        else:
-            wish.item.add(item)
-            messages.success(self.request, f"{wish.item.name} added to wishlist.")
-        return redirect(reverse('shop:wish-list'))
-    
-class RemoveFromWishlist(View):
-    def get(self, request, slug, *a, **k):
-        item = get_object_or_404(Item, slug=slug)
-        wish = Wishlist.objects.filter(
-            user = self.request.user,
-            item=item,
-            ordered=False,
-        )
-        if wish:
-            if wish.item.filter(item__slug=item.slug).exists():
-                if wish.quantity > 1:
-                    wish.quantity -= 1
-                    wish.save()
-                    messages.info(self.request, f"{wish.item.name} quaantity decreased.")
-                else:
-                    wish.item.remove(wish.iten)
-                    wish.delete()
-                    messages.info(self.request, f"{wish.item.name} removed from wishlist.")
-        return redirect(reverse('shop:wishlist'))
+  
