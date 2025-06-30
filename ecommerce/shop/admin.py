@@ -4,6 +4,7 @@ from .models import Item, OrderItem, Order, BillingAddress, CustomerTestimonials
 # Register your models here.
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
+    prepopulated_fields = { 'slug': ('item_url',)  }    
     list_display = ('title', 'price', 'price_before_discount', 
                     'percentage_discount', 'category', 'label', 'size',
                     'stock', )

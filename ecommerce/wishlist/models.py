@@ -64,7 +64,9 @@ class WishlistItem(models.Model):
 
 @receiver(post_save, sender=Product)
 def check_price_drop(sender, instance, **kwargs):
-    if 'price' in kwargs.get('update_fields', []) or not kwargs.get('created', False):
+    update_fields = kwargs.get('update_fields')
+    created = kwargs.get('created', False)
+    if (update_fields is None or 'price' in update_fields) or not created:
         for item in WishlistItem.objects.filter(product=instance):
             if instance.price < item.original_price:
                 if item.desired_price and instance.price <= item.desired_price:

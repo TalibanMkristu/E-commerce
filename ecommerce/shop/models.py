@@ -22,7 +22,7 @@ SIZE_CHOICES = (
 
 class Item(models.Model):
     title = models.CharField(max_length=100)
-    price = models.FloatField()
+    price = models.FloatField(null=True, blank=True)
     item_url = models.URLField(null=True, blank=True)
     item_image = models.ImageField(upload_to='media/images/', blank=True, null=True)
     stock = models.IntegerField(default=1)
@@ -30,7 +30,7 @@ class Item(models.Model):
     price_before_discount = models.FloatField(null=True, blank=True)  # Changed to FloatField
     category = models.CharField(choices=CATEGORY_CHOICES, max_length=2, default='VG')
     label = models.CharField(choices=LABEL_CHOICES, max_length=1, default='P')
-    slug = models.SlugField(default='test-products', unique=True)
+    slug = models.SlugField(null=True, blank=True)
     rating = models.FloatField(default=4.6, blank=True, null=True)
     description = models.TextField(blank=True, null=True, default='This is test description for items')
     size = models.CharField(choices=SIZE_CHOICES, max_length=2, default='M')
