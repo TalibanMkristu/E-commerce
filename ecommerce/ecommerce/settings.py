@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'django_countries',
     'django.contrib.humanize',  # For natural time formatting
-    'phonenumber_field',
+    # 'phonenumber_field',
     'about.apps.AboutConfig',
     'blog.apps.BlogConfig',
     'shop.apps.ShopConfig',
@@ -141,6 +141,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR / 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR / 'staticfiles')
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR / 'media')
@@ -182,3 +183,6 @@ STRIPE_PUBLISHABLE_KEY = config('STRIPE_PUBLISHABLE_KEY')
 
 # models field encryption 
 FIELD_ENCRYPTION_KEY = config('FIELD_ENCRYPTION_KEY')
+
+# upload storage
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

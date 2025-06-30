@@ -1,0 +1,44 @@
+databases:
+  - name: your-db-name
+    databaseName: your-db-name
+    user: your-db-user
+    plan: free  # or "starter", "standard" for production
+
+services:
+  - type: web
+    name: your-django-app
+    env: python
+    region: ohio  # or singapore, frankfurt, etc.
+    plan: free  # or "starter", "standard" for production
+    buildCommand: |
+      pip install -r requirements/base.txt
+      python manage.py migrate
+      python manage.py collectstatic --noinput
+    startCommand: gunicorn ecommerce.wsgi:application
+    envVars:
+      - key: DEBUG
+        value: False
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
+      - key: DB_NAME
+        fromDatabase:
+          name: your-db-name
+          property: databaseName
+      - key: DB_USER
+        fromDatabase:
+          name: your-db-name
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: your-db-name
+          property: password
+      - key: DB_HOST
+        fromDatabase:
+          name: your-db-name
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: your-db-name
+          property: port
