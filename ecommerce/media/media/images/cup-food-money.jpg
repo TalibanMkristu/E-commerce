@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" >
+<head>
+  <base href="http://garrett-smith.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Garrett-Smith, MacArthur Plaza, Bethesda, Potomac, Maryland, commercial leasing, offices, building management" />
+  <meta name="rights" content="All rights reserved." />
+  <meta name="author" content="Administrator" />
+  <meta name="title" content="MacArthur Plaza - A Garrett-Smith Property -  Home - Garrett &amp; Smith: MacArthur Plaza" />
+  <meta name="description" content="MacArthur Plaza is a commercial building managed by Garrett-Smith Company. The website offers information about leasing space in the building as well as other tips and tricks on office development." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>MacArthur Plaza - A Garrett-Smith Property -  Home - Garrett &amp; Smith: MacArthur Plaza</title>
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?3ab6d4490e67378d035cce4c84ffa080" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?7361405241320e69bc1bfb093eb0a2f7" type="text/css" />
+  <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/beez_20/css/position.css" type="text/css" media="screen,projection"  />
+  <link rel="stylesheet" href="/templates/beez_20/css/layout.css" type="text/css" media="screen,projection"  />
+  <link rel="stylesheet" href="/templates/beez_20/css/print.css" type="text/css" media="print"  />
+  <link rel="stylesheet" href="/templates/beez_20/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/beez_20/css/personal.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_ariimageslider/mod_ariimageslider/js/themes/nivo-slider.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_ariimageslider/mod_ariimageslider/js/themes/default/style.css" type="text/css" />
+  <style type="text/css">
+#ais_95_wrapper,#ais_95{width:677px;height:300px;}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/plugins/system/jcemediabox/js/jcemediabox.js?2ee2100a9127451a41de5a4c2c62e127" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/templates/beez_20/javascript/jquery-1.7.1.min.js" type="text/javascript"></script>
+  <script src="/templates/beez_20/javascript/md_stylechanger.js" type="text/javascript"></script>
+  <script src="/templates/beez_20/javascript/hide.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+  <script src="/modules/mod_ariimageslider/mod_ariimageslider/js/jquery.noconflict.js" type="text/javascript"></script>
+  <script src="/modules/mod_ariimageslider/mod_ariimageslider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'Close','next':'Next','previous':'Previous','cancel':'Cancel','numbers':'{$current} of {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes",mediafallback:0,mediaselector:"audio,video"});jQuery(window).load(function() { var $ = window.jQueryNivoSlider || jQuery; $("#ais_95").nivoSlider({"directionNavHide":false}); });
+  </script>
+  <!--[if IE]><link rel="stylesheet" href="/modules/mod_ariimageslider/mod_ariimageslider/js/themes/nivo-slider.ie.css" type="text/css" /><![endif]-->
+  <!--[if lt IE 7]><link rel="stylesheet" href="/modules/mod_ariimageslider/mod_ariimageslider/js/themes/default/style.ie6.css" type="text/css" /><![endif]-->
+  <!--[if IE]><link rel="stylesheet" href="/modules/mod_ariimageslider/mod_ariimageslider/js/themes/default/style.ie.css" type="text/css" /><![endif]-->
+
+
+<!--[if lte IE 6]>
+<link href="/templates/beez_20/css/ieonly.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#line {
+  width:98% ;
+}
+.logoheader {
+  height:200px;
+}
+#header ul.menu {
+  display:block !important;
+  width:98.2% ;
+}
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<link href="/templates/beez_20/css/ie7only.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+
+<script type="text/javascript">
+  var big ='72%';
+  var small='53%';
+  var altopen='is open';
+  var altclose='is closed';
+  var bildauf='/templates/beez_20/images/plus.png';
+  var bildzu='/templates/beez_20/images/minus.png';
+  var rightopen='Open info';
+  var rightclose='Close info';
+  var fontSizeTitle='Font size';
+  var bigger='Bigger';
+  var reset='Reset';
+  var smaller='Smaller';
+  var biggerTitle='Increase size';
+  var resetTitle='Revert styles to default';
+  var smallerTitle='Decrease size';
+</script>
+<meta name="google-site-verification" content="uE8q0tovxODtDplW_h0ghNtZJZxCth3NJZHzZ6hAP6I" />
+<!-- Global site tag (gtag.js) - Google Ads: 10835328587 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10835328587"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10835328587');
+</script>
+<script>
+  gtag('config', 'AW-10835328587/d8sqCJmT0ZUDEMv8164o', {
+    'phone_conversion_number': '(301) 656-7252'
+  });
+  window.addEventListener('load', function(){
+    jQuery('#custom-footer a[href="/contact-us"]').click(function(){
+      gtag('event', 'conversion', {'send_to': 'AW-10835328587/0mktCMPPwpQDEMv8164o'});
+    });
+  });
+</script>
+
+
+</head>
+
+<body>
+
+<div id="all">
+        <div class="clear"></div>    
+        <div id="custom_top">
+                <div class="logoheader">
+                        <div id="custom-logo">
+                                                        <a href="http://www.garrett-smith.com/">
+                                <img src="/images/stories/aa_new_top.png"  alt="MacArthur Plaza" />
+                            </a>
+                                                                                    <span class="header1">
+                                                        </span>
+                        </div>
+                        
+                        <div id="custom-top-right">
+                            
+
+<div class="custom"  >
+	<table>
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;"><br /> <a href="/images/MacDevbio_2020.pdf"><img src="/images/stories/b2.png" alt="" width="203" height="28" /></a><a href="/images/stories/PalisadesBlurb-MacP.Website.png"><img src="/images/stories/b1.png" alt="b1" width="203" height="28" /></a> <br /> <span style="color: #000000;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 12pt;">Small Offices in Bethesda/Potomac</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #000000;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 12pt;">Convenient to Virginia, Maryland & DC</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #000000;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 12pt;">Call 301-656-7252 for availability & tour</span></strong></span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+
+                        </div>
+                        <div class="clear"></div>
+                
+                </div><!-- end logoheader -->
+                
+            </div>
+        
+        <div id="back">
+
+                <div id="header">
+                                
+                                        <ul class="skiplinks">
+                                                <li><a href="#main" class="u2">Skip to content</a></li>
+                                                <li><a href="#nav" class="u2">Jump to main navigation and login</a></li>
+                                                                                        <li><a href="#additional" class="u2">Jump to additional information</a></li>
+                                                                                   </ul>
+                                        <h2 class="unseen">Nav view search</h2>
+                                        <h3 class="unseen">Navigation</h3>
+                                        
+                                        <div id="line">
+                                        
+                                        <h3 class="unseen">Search</h3>
+                                        
+<ul class="menu">
+<li class="item-435 current active"><a href="/" >Home</a></li><li class="item-468"><a href="/about-us" >About Us</a></li><li class="item-469"><a href="/office-floorplans" >Office Floorplans</a></li><li class="item-470"><a href="/available-office-space" >Available Office Space</a></li><li class="item-472"><a href="/news" >News</a></li><li class="item-471"><a href="/contact-us" >Contact Us</a></li></ul>
+
+                                        </div> <!-- end line -->
+
+
+                        </div><!-- end header -->
+                        <div id="contentarea2">
+
+                                                                                
+                                        
+                                            <div id="wrapper_slider">
+                                                
+                                            </div>
+                                            
+                                            <div id="wrapper" >
+    
+                                                    <div id="main">
+    
+                                                                                                                <div id="top"><div id="ais_95_wrapper" class="ari-image-slider-wrapper ari-is-theme-default ari-image-slider-wCtrlNav">
+	<div id="ais_95" class="ari-image-slider nivoSlider">
+					<img src="/images/slider/slider1.jpg" alt="" title="" class="imageslider-item" />
+							<img src="/images/slider/slider2.jpg" alt="" title="" class="imageslider-item" style="display:none" />
+				
+	</div>
+			<div class="nivo-controlNavHolder">
+			<div class="nivo-controlNav">
+							<a rel="0" class="nivo-control active">
+					<span style="width:px;height:px" class="nivo-thumbNavWrapper">
+						0						<span class="nivo-arrow-border"></span>
+						<span class="nivo-arrow"></span>
+					</span>
+				</a>
+							<a rel="1" class="nivo-control">
+					<span style="width:px;height:px" class="nivo-thumbNavWrapper">
+						1						<span class="nivo-arrow-border"></span>
+						<span class="nivo-arrow"></span>
+					</span>
+				</a>
+						</div>
+		</div>
+	</div>
+                                                            </div>
+                                                        
+                                                            
+<div id="system-message-container">
+</div>
+                                                            <div class="item-page">
+
+
+
+
+
+
+
+
+
+<ul>
+<li>
+<h1><strong><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"> SMALL: <span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong>One single office available now. $1,095/month<span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong>.</strong></span></span></span></strong></span></span></span></span></span></span></span></span><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"></span></span></span></span></span></span></strong></span></span></span></strong></strong><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><br /></strong></span></span></span></strong></h1>
+</li>
+<li>
+<h1><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"> MEDIUM: <strong>S</strong><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;">uite with two separate offices available now. $2,495/month.</span></span></span></strong></span></span></span></strong></strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"></span></span></span></span></span></span></span></span></span></span></span></span></span><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><br /></strong></span></span></span></strong></h1>
+</li>
+<li>
+<h1><span style="color: #ff0000;"><span style="color: #ff0000;"> <strong><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;">LARGE: Now available, 4,000 SF contiguous space. Build-to-suit.</span></span></span></strong></span></span></span></strong></strong><strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"><strong><br /></strong></span></span></span></strong></span></span></h1>
+<strong><span style="color: #ff0000;"><span style="color: #ff0000;"><span style="color: #ff0000;"></span></span></span></strong></li>
+</ul>
+<p style="font-family: georgia,palatino;"><a href="/images/MacAerial_to_web.jpg"><span style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: normal;"><img src="/images/stories/ASD(1)(1).jpg" alt="images" width="492" height="269" class="noicon" style="margin: 0px 5px 5px 0px; float: left;" /></span></a></p>
+<p style="font-family: georgia,palatino; font-size: 14px; text-align: left;"><span style="color: #808080;"><span style="font-family: georgia,palatino; line-height: normal;">MacArthur Plaza specializes in </span><a href="/available-office-space" target="_self" style="font-family: georgia,palatino; line-height: normal;"><span style="color: #808080;">small offices</span></a><span style="font-family: georgia, palatino; line-height: normal;"> maximizing window space. Both heat and air conditioning are provided 24/7, regardless of the season, at no additional cost. Broadband internet is included in the base rent. Parking is free, as are all utilities except telephone. Additionally, offices in MacArthur Plaza II (6500 Seven Locks Road) receive <span style="color: #ff0000;"><strong>Coworking Services</strong></span>, including a large conference room and a services room with state-of-the-art Sharp MX2640 (copier/fax/scanner), refrigerator and Keurig coffee service.</span></span></p>
+<h2 style="font-family: georgia,palatino;"><strong>Floorplans of currently available offices are <span style="color: #008080;"><a href="/available-office-space" target="_self"><span style="color: #008080;">HERE</span></a></span>.</strong></h2>
+<p style="font-family: georgia,palatino; font-size: 14px;">MacArthur Plaza offers convenience! convenience! convenience! United State Post Office (Cabin John 20818), FedEx drop box, three restaurants, hair salon and spa, cleaners, and natural food, beer and wine stores.</p>
+<ul style="font-family: georgia,palatino; font-size: 14px;">
+<li style="font-family: georgia,palatino; font-size: 14px;">Bethesda Co-Op Food Store — <span style="color: #008080;"><a href="http://www.bethesdacoop.org" target="_blank"><span style="color: #008080;">www.bethesdacoop.org</span></a></span></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">Salon Jean and Day Spa — <span style="color: #008080;"><a href="http://www.salonjean.com" target="_blank"><span style="color: #008080;">www.salonjean.com </span></a></span></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">The Market on the Boulevard — <span style="color: #008080;"><a href="http://www.themarketon.com"><span style="color: #008080;">www.themarketon.com</span></a></span></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">Fish Taco Mexican Taqueria — <span style="color: #008080;"><a href="http://www.fishtacoonline.com"><span style="color: #008080;">www.fishtacoonline.com</span></a></span>    <span style="color: #008080;"><a href="http://www.zagat.com/r/fish-taco-cabin-john"><span style="color: #008080;">ZAGAT review</span></a></span></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">Sal's Italian Kitchen — <a href="https://salsitaliankitchen.net/">https://salsitaliankitchen.net/</a></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">Wild Tomato Restaurant and Bar — <span style="color: #008080;"><a href="http://www.wildtomatorestaurant.com"><span style="color: #008080;">www.wildtomatorestaurant.com</span></a>    <a href="http://www.zagat.com/r/wild-tomato-cabin-john"><span style="color: #008080;">ZAGAT review</span></a></span></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">United States Post Office, Cabin John, MD 20818 —<span style="color: #008080;"> <a href="http://www.usps.com"><span style="color: #008080;">www.usps.com</span></a></span></li>
+<li style="font-family: georgia,palatino; font-size: 14px;">Financial Brokerage Services, Inc. — <span style="color: #008080;"><a href="http://www.financialbrokerageservices.com"><span style="color: #008080;">www.financialbrokerageservices.com</span></a></span></li>
+</ul>
+<p style="font-family: georgia,palatino; font-size: 14px;"><span style="font-size: 10pt;">Special Cabin John treasure: the <span style="text-decoration: underline;"><a href="https://www.canaltrust.org/pyv/cabin-john/">C&O Canal Towpath</a></span> is short walk south of MacArthur Plaza on 79th Street. Popular with hikers and bikers, as well as paddlers who enjoy the neighboring Potomac and its offshoots, a stroll<span style="font-size: 10pt;"> along the Towpath is the best midday or after work rejuvenation.</span></span></p>
+<p><span style="font-family: georgia, palatino; font-size: 10pt;">Finally, Mike Garrett and Bob Smith have owned MacArthur Plaza for over 34 years and oversee the management personally. Our professional management company is <strong>Klinedinst Management, Inc.</strong> 301-656-7252 or 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy78192 = 'br&#97;d' + '&#64;';
+ addy78192 = addy78192 + 'kl&#105;n&#101;d&#105;nstmgmt' + '&#46;' + 'c&#111;m?s&#117;bj&#101;ct=M&#97;cArth&#117;r%20Pl&#97;z&#97;%20&#105;nf&#111;/t&#111;&#117;r';
+ var addy_text78192 = 'CLICK HERE TO EMAIL.';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy78192 + '\'>');
+ document.write(addy_text78192);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>This email address is being protected from spambots. You need JavaScript enabled to view it.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script></span></p> 
+	
+</div>
+
+    
+                                                    </div><!-- end main -->
+    
+                                            </div><!-- end wrapper -->
+                                        
+
+                                                                        <h2 class="unseen">
+                                                Additional information                                        </h2>
+                                        <!--div id="close">
+                                                <a href="#" onclick="auf('right')">
+                                                        <span id="bild">
+                                                                </span></a>
+                                        </div-->
+
+
+                                        <div id="right">
+                                                <a id="additional"></a>
+                                                <div class="moduletable">
+ 
+
+<div class="custom"  >
+	<p style="text-align: center;"><img class="noicon" style="margin: 0px 5px 5px 0px;" alt="Web logo KMI phone" src="/images/stories/Web_logo_KMI_phone.png" height="154" width="207" /><span style="font-size: 14px;"><span style="font-size: 14px;"> </span><span style="font-size: 14px;"><span style="font-size: 14px;"> </span></span></span></p>
+<p style="text-align: center;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;">Retail and office buildings<br />  leased and managed by </span></span></span></p>
+<p style="text-align: center;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;">Klinedinst Management, Inc.</span></span><br /><strong><img class="noicon" style="margin: 0px 5px 5px 0px;" alt="KMI.LOGO 1" src="/images/stories/KMI.LOGO_1.jpg" height="100" width="204" /><br /> </strong><a href="/contact-us" target="_self"><img style="margin-top: 5px; margin-bottom: 5px; margin-left: 0px; vertical-align: bottom;" alt="bot" src="/images/stories/bot.png" height="41" width="200" /></a> </span></p>
+<p><a href="/office-floorplans" target="_self"><span style="font-size: 14px;"> <img style="margin: 5px auto; vertical-align: bottom; display: block;" alt="BB" src="/images/stories/BB.png" height="41" width="200" /> </span></a></p>
+<p> </p></div>
+</div>
+
+                                                <div class="moduletable">
+ <h3><span
+	class="backh"><span class="backh2"><span class="backh3">Our Location</span></span></span></h3>
+ <script type="text/javascript">
+	function iFrameHeight() {
+		var h = 0;
+		if (!document.all) {
+			h = document.getElementById('blockrandom').contentDocument.height;
+			document.getElementById('blockrandom').style.height = h + 60 + 'px';
+		} else if (document.all) {
+			h = document.frames('blockrandom').document.body.scrollHeight;
+			document.all.blockrandom.style.height = h + 20 + 'px';
+		}
+	}
+</script>
+
+<iframe onload="iFrameHeight()"	id="blockrandom"
+	name=""
+	src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6500+seven+locks+road&amp;aq=&amp;sll=38.974466,-77.161639&amp;sspn=0.006506,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=6500+Seven+Locks+Rd,+Cabin+John,+Maryland+20818&amp;t=m&amp;ll=38.974491,-77.161617&amp;spn=0.023354,0.036564&amp;z=14&amp;iwloc=&amp;output=embed"
+	width="190"
+	height="310"
+	scrolling="auto"
+	frameborder="1"
+	class="wrapper" >
+	No Iframes</iframe>
+</div>
+
+                                                <div class="moduletable">
+ <h3><span
+	class="backh"><span class="backh2"><span class="backh3">Latest News and Blogs</span></span></span></h3>
+ <ul class="latestnews">
+	<li>
+		<a href="/news/93-fish-taco-best-in-take-out">
+			Fish Taco BEST in Take-Out</a>
+	</li>
+	<li>
+		<a href="/news/92-wild-tomato-wins-again-and-sal-s">
+			Wild Tomato wins AGAIN...and Sal's</a>
+	</li>
+	<li>
+		<a href="/news/91-wild-tomato-voted-best">
+			Wild Tomato voted BEST!</a>
+	</li>
+	<li>
+		<a href="/news/90-sal-s-italian-kitchen-now-open">
+			Sal's Italian Kitchen NOW OPEN!</a>
+	</li>
+	<li>
+		<a href="/news/89-cabin-john-article-in-washington-post">
+			Cabin John article in Washington Post</a>
+	</li>
+</ul>
+</div>
+
+                                        </div><!-- end right -->
+                                        
+                        
+                                <div class="wrap"></div>
+
+                                </div> <!-- end contentarea -->
+                
+                <div id="custom-footer">
+                    <div id="custom-footer-text">
+                        
+
+<div class="custom"  >
+	<div style="font-family: georgia,palatino; text-align: center;"><a href="/contact-us"><span style="font-family: Times New Roman;"><span style="font-size: 22px;"><strong>MacArthur Plaza</strong></span></span>   MacArthur Boulevard at Seven Locks Road • Cabin John • Maryland • 20818  •  301-656-7252</a></div>
+<div style="font-family: georgia,palatino; text-align: center;">Copyright © 2016 Garrett &amp; Smith, LLC. All rights reserved.<br /> <br /> <a href="http://www.cavewebworks.com" target="_blank"><img alt="" src="/images/stories/logo-cave2.png" height="18" width="150" /></a></div></div>
+
+                    </div>  
+                </div>
+                
+                </div><!-- back -->
+                
+                
+                
+                </div><!-- all -->
+                
+                <div id="footer-outer">
+                        
+                        <!--div id="footer-sub">
+
+
+                                <div id="footer">
+
+                                        
+                                        <p>
+                                                 <a href="http://www.joomla.org/">Joomla!&#174;</a>
+                                        </p>
+
+
+                                </div><!-- end footer -->
+
+                        </div -->
+
+                </div>
+        
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2878332-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        </body>
+</html>
+<script>
+    $(window).load(function(){
+       if( $('#ais_91_wrapper').length ){
+           $('#right').css( 'margin-top', '-316px' );
+       }else{
+           $('#right').css( 'margin-top', '0' );
+           $('#wrapper_slider').css( 'display', 'none' );
+           $('#contentarea2').css( 'padding-top', '11px' );
+       }
+    });
+</script>

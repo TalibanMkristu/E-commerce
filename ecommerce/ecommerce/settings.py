@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 from decouple import config
 from dotenv import load_dotenv
+import dj_database_url
 
 load_dotenv()
 
@@ -98,10 +99,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(default=os.getenv('DATABASE_URL'), conn_max_age=600)
 }
 
 
@@ -142,6 +140,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR / 'static'),)
 STATIC_ROOT = os.path.join(BASE_DIR / 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR / 'media')
@@ -164,7 +163,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'mceemoney1@gmail.com'
 EMAIL_HOST_PASSWORD = config('EMAIL_APP_PASSWORD')
 DEFAULT_FROM_EMAIL = 'mceemoney1@gmail.com'
-SITE_URL = 'traxycollections.pythonanywhere.com'  # For confirmation links
+SITE_URL = '#'  # For confirmation links
 SITE_NAME = 'Vege Grocer'  # Used in emails
 
 PASSWORD_RESET_TIMEOUT = 14400

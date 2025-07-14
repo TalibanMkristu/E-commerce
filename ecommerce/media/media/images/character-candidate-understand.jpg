@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<title>Tyler</title>
+<link rel="alternate" type="application/rss+xml" title="Tyler &raquo; Feed" href="https://tyler.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tyler &raquo; Comments Feed" href="https://tyler.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tyler.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-block-site-logo-inline-css'>
+.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}
+</style>
+<style id='wp-block-navigation-link-inline-css'>
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{border-top:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+</style>
+<link rel='stylesheet' id='wp-block-navigation-css' href='https://tyler.com/wp-includes/blocks/navigation/style.min.css?ver=6.8.1' media='all' />
+<style id='wp-block-button-inline-css'>
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;width:100%;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}
+</style>
+<style id='wp-block-buttons-inline-css'>
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}
+</style>
+<style id='wp-block-group-inline-css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+</style>
+<style id='mxvdg-design-filter-static-style-inline-css'>
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./includes/gutenberg/src/design-filter-static/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+
+
+</style>
+<style id='wp-block-post-content-inline-css'>
+.wp-block-post-content{display:flow-root}
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;-webkit-backdrop-filter:blur(16px) saturate(180%);backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+</style>
+<style id='wp-block-columns-inline-css'>
+.wp-block-columns{align-items:normal!important;box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);--wp--preset--font-size--large: clamp(22.041px, 1.378rem + ((1vw - 3.2px) * 1.586), 36px);--wp--preset--font-size--x-large: clamp(25.014px, 1.563rem + ((1vw - 3.2px) * 1.93), 42px);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--work-sans-regular: Work Sans;--wp--preset--font-family--prata-regular: Prata;--wp--preset--font-family--ibm-plex-sans-thin: IBM Plex Sans Thin;--wp--preset--font-family--ibm-plex-sans: IBM Plex Sans;--wp--preset--font-family--inter: Inter;--wp--preset--font-family--hedvig-letters-serif-regular: Hedvig Letters Serif;--wp--preset--font-family--young-serif-regular: Young Serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 1200px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.5rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.5rem; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.5rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.5rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.5rem;}:root :where(.is-layout-grid){gap: 1.5rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: #ffffff;color: #000000;font-family: var(--wp--preset--font-family--system-font);font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.455), 1.125rem);line-height: 1.6;--wp--style--root--padding-top: 0;--wp--style--root--padding-right: clamp(1.5rem, 5vw, 2rem);--wp--style--root--padding-bottom: 0;--wp--style--root--padding-left: clamp(1.5rem, 5vw, 2rem);}a:where(:not(.wp-element-button)){color: #000000;text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}:root :where(a:where(:not(.wp-element-button)):focus){text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):active){text-decoration: none;}h1, h2, h3, h4, h5, h6{font-weight: 400;line-height: 1.4;}h1{font-size: clamp(2.032rem, 2.032rem + ((1vw - 0.2rem) * 2.896), 3.625rem);line-height: 1.2;}h2{font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);line-height: 1.2;}h3{font-size: clamp(1.378rem, 1.378rem + ((1vw - 0.2rem) * 1.585), 2.25rem);}h4{font-size: clamp(1.119rem, 1.119rem + ((1vw - 0.2rem) * 1.147), 1.75rem);}h5{font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.455), 1.125rem);font-weight: 700;text-transform: uppercase;}h6{font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.455), 1.125rem);text-transform: uppercase;}:root :where(.wp-element-button, .wp-block-button__link){background-color: blue;border-radius: 0;border-width: 0;color: #ffffff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}:root :where(.wp-element-button:visited, .wp-block-button__link:visited){color: #000000;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: #000000;color: #ffffff;}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){background-color: #000000;color: #ffffff;}:root :where(.wp-element-button:active, .wp-block-button__link:active){background-color: #000000;color: #ffffff;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-work-sans-regular-font-family{font-family: var(--wp--preset--font-family--work-sans-regular) !important;}.has-prata-regular-font-family{font-family: var(--wp--preset--font-family--prata-regular) !important;}.has-ibm-plex-sans-thin-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans-thin) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-hedvig-letters-serif-regular-font-family{font-family: var(--wp--preset--font-family--hedvig-letters-serif-regular) !important;}.has-young-serif-regular-font-family{font-family: var(--wp--preset--font-family--young-serif-regular) !important;}
+:root :where(.wp-block-button .wp-block-button__link){border-radius: 7px;border-top-width: 0px;border-top-style: none;border-right-width: 0px;border-right-style: none;border-bottom-width: 0px;border-bottom-style: none;border-left-width: 0px;border-left-style: none;padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;}
+:root :where(.wp-block-navigation){font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: none;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):focus){text-decoration: none;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):active){text-decoration: none;}
+</style>
+<style id='block-style-variation-styles-inline-css'>
+:root :where(.wp-block-button.is-style-outline--2 .wp-block-button__link){background: transparent none;border-color: currentColor;border-width: 2px;border-style: solid;color: currentColor;padding-top: 0.667em;padding-right: 1.33em;padding-bottom: 0.667em;padding-left: 1.33em;}
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='variations-editor-frontend-style-css' href='https://tyler.com/wp-content/themes/variations/assets/css/editor-frontend.css?ver=4.2.3.4' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-container-core-navigation-is-layout-2e4e4d9d{gap:2rem;justify-content:center;}.wp-container-core-group-is-layout-6c531013{flex-wrap:nowrap;}.wp-container-core-group-is-layout-c86400fe{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-group-is-layout-0e48a1e6 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:1750px;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-group-is-layout-0e48a1e6 > .alignwide{max-width:1750px;}.wp-container-core-group-is-layout-0e48a1e6 .alignfull{max-width:none;}.wp-container-core-group-is-layout-0e48a1e6 > .alignfull{margin-right:calc(1rem * -1);margin-left:calc(1rem * -1);}.wp-container-core-group-is-layout-0e48a1e6 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-0e48a1e6 > * + *{margin-block-start:1rem;margin-block-end:0;}.wp-container-core-group-is-layout-481dc8fc > .alignfull{margin-right:calc(0px * -1);margin-left:calc(0px * -1);}.wp-elements-271731f406373be99d67469efe7998be a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base);}.wp-elements-271731f406373be99d67469efe7998be a:where(:not(.wp-element-button)):hover{color:var(--wp--preset--color--base);}.wp-container-core-navigation-is-layout-5355fa85{flex-wrap:nowrap;justify-content:flex-end;}.wp-container-core-columns-is-layout-8a046079{flex-wrap:nowrap;gap:0px 0px;}.wp-container-core-group-is-layout-b36adc6b > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:1750px;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-group-is-layout-b36adc6b > .alignwide{max-width:1750px;}.wp-container-core-group-is-layout-b36adc6b .alignfull{max-width:none;}.wp-container-core-group-is-layout-b36adc6b > .alignfull{margin-right:calc(2rem * -1);margin-left:calc(2rem * -1);}.wp-container-core-group-is-layout-b36adc6b > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-b36adc6b > * + *{margin-block-start:0px;margin-block-end:0;}
+</style>
+<style id='wp-block-template-skip-link-inline-css'>
+
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+</style>
+<link rel='stylesheet' id='mxvdg_font_awesome-css' href='https://tyler.com/wp-content/plugins/variations-design-generator/assets/font-awesom-5/css/fontawesome.css?ver=10.4.7' media='all' />
+<link rel='stylesheet' id='mxvdg_slick_style-css' href='https://tyler.com/wp-content/plugins/variations-design-generator/assets/slick/style.css?ver=10.4.7' media='all' />
+<link rel='stylesheet' id='mxvdg_style-css' href='https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/css/style.css?ver=10.4.7' media='all' />
+<link rel='stylesheet' id='mxvdg_jquery_ui_style-css' href='https://tyler.com/wp-content/plugins/variations-design-generator/assets/jquery-ui/jquery-ui.min.css?ver=10.4.7' media='all' />
+<link rel='stylesheet' id='variations-frontend-style-css' href='https://tyler.com/wp-content/themes/variations/assets/css/frontend.css?ver=4.2.3.4' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://tyler.com/wp-content/themes/variations-child/style.css?ver=4.2.3.4' media='all' />
+<link rel='stylesheet' id='custom-child-style-css' href='https://tyler.com/wp-content/themes/variations-child/assets/css/custom-child.css?ver=4.2.3.4' media='all' />
+<script src="https://tyler.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://tyler.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1" id="react-jsx-runtime-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/autop.min.js?ver=9fb50649848277dd318d" id="wp-autop-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/blob.min.js?ver=9113eed771d446f4a556" id="wp-blob-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=14d44daebf663d05d330" id="wp-block-serialization-default-parser-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/deprecated.min.js?ver=e1f84915c5e8ae38964c" id="wp-deprecated-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/dom.min.js?ver=f3a673a30f968c8fa314" id="wp-dom-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2" id="wp-escape-html-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/element.min.js?ver=a4eeeadd23c0d7ab1d2d" id="wp-element-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=e0f9f1d78d83f5196979" id="wp-is-shallow-equal-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src="https://tyler.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3" id="wp-keycodes-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/priority-queue.min.js?ver=9c21c957c7e50ffdbf48" id="wp-priority-queue-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/compose.min.js?ver=84bcf832a5c99203f3db" id="wp-compose-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/private-apis.min.js?ver=0f8478f1ba7e0eea562b" id="wp-private-apis-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/redux-routine.min.js?ver=8bb92d45458b29590f53" id="wp-redux-routine-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3" id="wp-data-js"></script>
+<script id="wp-data-js-after">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+</script>
+<script src="https://tyler.com/wp-includes/js/dist/html-entities.min.js?ver=2cd3358363e0675638fb" id="wp-html-entities-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/rich-text.min.js?ver=74178fc8c4d67d66f1a8" id="wp-rich-text-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/shortcode.min.js?ver=b7747eee0efafd2f0c3b" id="wp-shortcode-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/warning.min.js?ver=ed7c8b0940914f4fe44b" id="wp-warning-js"></script>
+<script src="https://tyler.com/wp-includes/js/dist/blocks.min.js?ver=84530c06a3c62815b497" id="wp-blocks-js"></script>
+<script src="https://tyler.com/wp-content/themes/variations-child/assets/js/frontend-child.js?ver=4.2.3.4" id="variations_child-frontend-script-js"></script>
+<link rel="https://api.w.org/" href="https://tyler.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://tyler.com/wp-json/wp/v2/pages/10" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tyler.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.1" />
+<link rel="canonical" href="https://tyler.com/" />
+<link rel='shortlink' href='https://tyler.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://tyler.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftyler.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://tyler.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftyler.com%2F&#038;format=xml" />
+
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:1629353,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61176908-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-61176908-1');
+        </script>
+
+<script type="importmap" id="wp-importmap">
+{"imports":{"@wordpress\/interactivity":"https:\/\/tyler.com\/wp-includes\/js\/dist\/script-modules\/interactivity\/index.min.js?ver=55aebb6e0a16726baffb"}}
+</script>
+<script type="module" src="https://tyler.com/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=61572d447d60c0aa5240" id="@wordpress/block-library/navigation/view-js-module"></script>
+<link rel="modulepreload" href="https://tyler.com/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=55aebb6e0a16726baffb" id="@wordpress/interactivity-js-modulepreload"><style class='wp-fonts-local'>
+@font-face{font-family:"Work Sans";font-style:normal;font-weight:400;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/work-sans/work-sans.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/work-sans/work-sans.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/work-sans/work-sans.ttf') format('truetype');}
+@font-face{font-family:Prata;font-style:normal;font-weight:400;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/prata/prata.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/prata/prata.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/prata/prata.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans Thin";font-style:normal;font-weight:100;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Thin.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Thin.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans-thin_normal_100.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:400;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Regular.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Regular.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans_normal_400.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans";font-style:italic;font-weight:400;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Italic.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Italic.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans_italic_400.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:700;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Bold.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Bold.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans_normal_700.ttf') format('truetype');}
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/inter/Inter-Regular.woff2') format('woff2'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/inter/Inter-Regular.woff') format('woff'), url('https://tyler.com/wp-content/themes/variations/assets/fonts/inter/inter_normal_100-900.ttf') format('truetype');}
+@font-face{font-family:"Hedvig Letters Serif";font-style:normal;font-weight:400;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/hedvig-letters-serif/hedvig-letters-serif-regular.ttf') format('truetype');}
+@font-face{font-family:"Young Serif";font-style:normal;font-weight:400;font-display:fallback;src:url('https://tyler.com/wp-content/themes/variations/assets/fonts/young-serif/young-serif.ttf') format('truetype');}
+</style>
+<link rel="icon" href="https://tyler.com/wp-content/uploads/2023/11/favicon-1.png" sizes="32x32" />
+<link rel="icon" href="https://tyler.com/wp-content/uploads/2023/11/favicon-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://tyler.com/wp-content/uploads/2023/11/favicon-1.png" />
+<meta name="msapplication-TileImage" content="https://tyler.com/wp-content/uploads/2023/11/favicon-1.png" />
+</head>
+
+<body class="home wp-singular page-template page-template-full-width page page-id-10 wp-custom-logo wp-embed-responsive wp-theme-variations wp-child-theme-variations-child">
+
+        <div class="mx_loading_screen">
+            <div class="mx_loading_image">
+                <img src="https://tyler.com/wp-content/plugins/variations-design-generator/assets/images/loading-page.gif?v=2" alt="" />
+            </div>
+        </div>
+
+
+<div class="wp-site-blocks"><header class="wp-block-template-part">
+<div class="wp-block-group tyler-header has-global-padding is-layout-constrained wp-container-core-group-is-layout-0e48a1e6 wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:2.4rem;padding-right:1rem;padding-bottom:2.4rem;padding-left:1rem">
+<div class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-c86400fe wp-block-group-is-layout-flex" style="padding-top:0"><div class="wp-block-site-logo"><a href="https://tyler.com/" class="custom-logo-link" rel="home" aria-current="page"><img width="105" height="21" src="https://tyler.com/wp-content/uploads/2023/11/Logo.svg" class="custom-logo" alt="Tyler" decoding="async" /></a></div>
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex"><nav style="color: #171717; font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem);line-height:1.4;" class="has-text-color is-responsive items-justified-center wp-block-navigation has-inter-font-family is-content-justification-center is-layout-flex wp-container-core-navigation-is-layout-2e4e4d9d wp-block-navigation-is-layout-flex" aria-label="Main Menu" 
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+				data-wp-on-async--click="actions.openMenuOnClick"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z" /></svg></button>
+				<div class="wp-block-navigation__responsive-container"  id="modal-1" 
+				data-wp-class--has-modal-open="state.isMenuOpen"
+				data-wp-class--is-menu-open="state.isMenuOpen"
+				data-wp-watch="callbacks.initMenu"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+				data-wp-on-async--focusout="actions.handleMenuFocusout"
+				tabindex="-1"
+			>
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" 
+				data-wp-bind--aria-modal="state.ariaModal"
+				data-wp-bind--aria-label="state.ariaLabel"
+				data-wp-bind--role="state.roleAttribute"
+			>
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+				data-wp-on-async--click="actions.closeMenuOnClick"
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" 
+				data-wp-watch="callbacks.focusFirstElement"
+			 id="modal-1-content">
+								<ul style="color: #171717; font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem);line-height:1.4;" class="wp-block-navigation__container has-text-color is-responsive items-justified-center wp-block-navigation has-inter-font-family"><li style="font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem);" class=" wp-block-navigation-item current-menu-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/" aria-current="page"><span class="wp-block-navigation-item__label">Home</span></a></li><li style="font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/templates/"><span class="wp-block-navigation-item__label">Templates</span></a></li><li style="font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/packages/"><span class="wp-block-navigation-item__label">Packages</span></a></li><li style="font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem);" class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/how-it-works/"><span class="wp-block-navigation-item__label">How it works</span></a></li></ul>
+							</div>
+						</div>
+					</div>
+				</div></nav>
+
+
+<div class="wp-block-buttons mx-search-button is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--2"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:50%;background-color:#000000"><img decoding="async" width="15" height="15" class="wp-image-1252" style="width: 15px;" src="https://tyler.com/wp-content/uploads/2023/11/ICon.svg" alt=""></a></div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<main class="wp-block-group mx-d-line has-global-padding is-layout-constrained wp-container-core-group-is-layout-481dc8fc wp-block-group-is-layout-constrained" style="min-height:0px;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style="min-height:0vh;" class="entry-content variations-design-container wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<!-- warnings -->
+
+
+
+<div class="mx_editable_elements_group">
+    <!-- set business details -->
+    
+<div id="mx_editable_header_app">
+    <mx_editable_header_form></mx_editable_header_form>    
+</div>
+
+<p class="has-text-align-center has-link-color has-inter-font-family wp-elements-19d2d471777728d26fc76da9b6a9f0da" style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.682), 1.25rem);">Beautiful, Researched WordPress Templates.</p>
+<br></div>
+
+<div class="mx_design_wrapper mx_design_wrapper_static mx_design_pate_type-all_items">
+    <h2 class="mx_design_heading">List of designs</h2>
+    <div id="mx_ddp_container_static">
+
+        <!-- filter header -->        
+        
+<!-- <div class="mx_filtering_search_wrapper">
+    <div class="mx_ddp_taxonomy_design_switcher_wrapper">
+        <ul>
+            <li class="mx_active_switcher_item">
+                <a href="/templates/"><i class="far fa-globe"></i> Templates</a>
+            </li>
+            <li class="">
+                <a href="/sections/"><i class="far fa-table"></i> Sections</a>
+            </li>
+        </ul>
+    </div>    
+</div> -->
+
+
+        <div class="mx_filtering_taxonomy_result_wrapper">
+
+            <div class="mx_filtering_taxonomy_result_container">
+
+                <!-- taxonomies ... -->
+                
+
+    <div class="mx_ddp_taxonomy_wrapper">
+        <div class="mx_ddp_taxonomy_websites_design_wrapper">
+            <h3>Websites</h3>
+            <div class="mx_ddp_taxonomy_websites_design_items_wrapper">
+
+                <div class="mx_taxonomy_slider">
+
+                    <div class="mx_taxonomy_slide mx_active_term">
+                        <a href="/templates/">
+                            <img decoding="async" src="https://tyler.com/wp-content/plugins/variations-design-generator/assets/images/all.svg" class="mx_taxonomy_icon" alt="" />
+                            <span>All</span>
+                        </a>
+                    </div>
+
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/blog">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/blog.svg' class='mx_taxonomy_icon' />                                    <span>Blog</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/consulting">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/consulting.svg' class='mx_taxonomy_icon' />                                    <span>Consulting</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/health-fitness">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/health-fitness.svg' class='mx_taxonomy_icon' />                                    <span>Health &amp; Fitness</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/multipurpose">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/multipurpose.svg' class='mx_taxonomy_icon' />                                    <span>Multipurpose</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/online-store">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/online-store.svg' class='mx_taxonomy_icon' />                                    <span>Online Store</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/photography">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/photography.svg' class='mx_taxonomy_icon' />                                    <span>Photography</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/services">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/professional-services.svg' class='mx_taxonomy_icon' />                                    <span>Services</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                        
+                            
+                            <div class="mx_taxonomy_slide ">
+
+                                <a href="/designs/travel-lifestyle">
+                                    <img src='https://tyler.com/wp-content/uploads/2023/11/travel-lifestyle.svg' class='mx_taxonomy_icon' />                                    <span>Travel &amp; Lifestyle</span>
+                                </a>
+                                
+                            </div>
+
+                        
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+                <!-- ... taxonomies -->
+
+                
+                    <!-- website items ... -->
+                    
+
+    <div class="mx_design_type-websites_design">
+        <div class="mx-designs-list mx-init-state">
+
+                    
+                <div id="item-2806" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/island/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/island-screenshot.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/island/" class="mx-ddp-title">Island</a></div>
+                </div>
+            
+                    
+                <div id="item-579" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/river/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/River-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/river/" class="mx-ddp-title">River</a></div>
+                </div>
+            
+                    
+                <div id="item-1451" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/stone/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Stone-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/stone/" class="mx-ddp-title">Stone</a></div>
+                </div>
+            
+                    
+                <div id="item-22312" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/misty/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2024/03/misty.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/misty/" class="mx-ddp-title">Misty</a></div>
+                </div>
+            
+                    
+                <div id="item-1392" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/coast/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Coast-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/coast/" class="mx-ddp-title">Coast</a></div>
+                </div>
+            
+                    
+                <div id="item-1378" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/summer/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Summer.png" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/summer/" class="mx-ddp-title">Summer</a></div>
+                </div>
+            
+                    
+                <div id="item-1361" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/love-nature/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/LoveNature-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/love-nature/" class="mx-ddp-title">Love Nature</a></div>
+                </div>
+            
+                    
+                <div id="item-1264" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/cube/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Cube-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/cube/" class="mx-ddp-title">Cube</a></div>
+                </div>
+            
+                    
+                <div id="item-1213" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/coral/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Coral-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/coral/" class="mx-ddp-title">Coral</a></div>
+                </div>
+            
+                    
+                <div id="item-1169" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/tasty/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Tasty-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/tasty/" class="mx-ddp-title">Tasty</a></div>
+                </div>
+            
+                    
+                <div id="item-1152" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/fresh/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Fresh-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/fresh/" class="mx-ddp-title">Fresh</a></div>
+                </div>
+            
+                    
+                <div id="item-1131" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/stream/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Stream-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/stream/" class="mx-ddp-title">Stream</a></div>
+                </div>
+            
+                    
+                <div id="item-1101" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/lush/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Lush-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/lush/" class="mx-ddp-title">Lush</a></div>
+                </div>
+            
+                    
+                <div id="item-1072" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/ocean/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Ocean-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/ocean/" class="mx-ddp-title">Ocean</a></div>
+                </div>
+            
+                    
+                <div id="item-1051" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/dolphin/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Dolphin-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/dolphin/" class="mx-ddp-title">Dolphin</a></div>
+                </div>
+            
+                    
+                <div id="item-814" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/habitat/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Habitat-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/habitat/" class="mx-ddp-title">Habitat</a></div>
+                </div>
+            
+                    
+                <div id="item-797" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/fiber/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Fiber-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/fiber/" class="mx-ddp-title">Fiber</a></div>
+                </div>
+            
+                    
+                <div id="item-751" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/surf/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Surf-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/surf/" class="mx-ddp-title">Surf</a></div>
+                </div>
+            
+                    
+                <div id="item-750" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/hike/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/Hike-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/hike/" class="mx-ddp-title">Hike</a></div>
+                </div>
+            
+                    
+                <div id="item-713" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/view/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/11/View-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/view/" class="mx-ddp-title">View</a></div>
+                </div>
+            
+                    
+                <div id="item-664" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/spring/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Spring-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/spring/" class="mx-ddp-title">Spring</a></div>
+                </div>
+            
+                    
+                <div id="item-651" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/harvest/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Harvest-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/harvest/" class="mx-ddp-title">Harvest</a></div>
+                </div>
+            
+                    
+                <div id="item-609" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/marble/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Marble-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/marble/" class="mx-ddp-title">Marble</a></div>
+                </div>
+            
+                    
+                <div id="item-596" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/aurora/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Aurora-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/aurora/" class="mx-ddp-title">Aurora</a></div>
+                </div>
+            
+                    
+                <div id="item-445" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/marsh/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Marsh-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/marsh/" class="mx-ddp-title">Marsh</a></div>
+                </div>
+            
+                    
+                <div id="item-351" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/traveling/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Travelling-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/traveling/" class="mx-ddp-title">Traveling</a></div>
+                </div>
+            
+                    
+                <div id="item-314" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/pebble/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Pebble-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/pebble/" class="mx-ddp-title">Pebble</a></div>
+                </div>
+            
+                    
+                <div id="item-143" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/peak/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Peak-Featured-Image-1.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/peak/" class="mx-ddp-title">Peak</a></div>
+                </div>
+            
+                    
+                <div id="item-139" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/sky/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Sky-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/sky/" class="mx-ddp-title">Sky</a></div>
+                </div>
+            
+                    
+                <div id="item-106" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/sunshine/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Sunshine-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/sunshine/" class="mx-ddp-title">Sunshine</a></div>
+                </div>
+            
+                    
+                <div id="item-100" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/style/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Style-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/style/" class="mx-ddp-title">Style</a></div>
+                </div>
+            
+                    
+                <div id="item-95" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/photography/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Photography-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/photography/" class="mx-ddp-title">Photography</a></div>
+                </div>
+            
+                    
+                <div id="item-88" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/clay/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Clay-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/clay/" class="mx-ddp-title">Clay</a></div>
+                </div>
+            
+                    
+                <div id="item-81" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/wood/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Wood-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/wood/" class="mx-ddp-title">Wood</a></div>
+                </div>
+            
+                    
+                <div id="item-73" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/pine/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Pine-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/pine/" class="mx-ddp-title">Pine</a></div>
+                </div>
+            
+                    
+                <div id="item-54" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/mind/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Mind-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/mind/" class="mx-ddp-title">Mind</a></div>
+                </div>
+            
+                    
+                <div id="item-36" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/nest/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Nest-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/nest/" class="mx-ddp-title">Nest</a></div>
+                </div>
+            
+                    
+                <div id="item-18" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/earth/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Earth-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/earth/" class="mx-ddp-title">Earth</a></div>
+                </div>
+            
+                    
+                <div id="item-71" class="mx-design-container">
+                    <div class="mx-ddp-image-wrap"><a href="https://tyler.com/templates/blank/" class="mx-ddp-image"><img decoding="async" src="https://tyler.com/wp-content/uploads/2023/10/Blank-Featured-Image.jpg" alt="Aurora" loading="lazy"></a></div>
+                    <div class="mx-ddp-content"><a href="https://tyler.com/templates/blank/" class="mx-ddp-title">Blank</a></div>
+                </div>
+            
+            
+        </div>
+    </div>
+
+                    <!-- ... website items -->
+
+                
+                
+            </div>
+        </div>
+    </div>
+</div></div></main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-block-group tyler-footer has-text-color has-background has-inter-font-family has-global-padding is-layout-constrained wp-container-core-group-is-layout-b36adc6b wp-block-group-is-layout-constrained" style="color:#fffffd;background-color:#171717;margin-top:0px;margin-bottom:0px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem;font-style:normal;font-weight:400">
+<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-8a046079 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.464), 1.13rem);">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-left has-base-color has-text-color has-link-color has-xxx-small-font-size wp-elements-271731f406373be99d67469efe7998be">© 2025 Tyler.com, Inc</p>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0">
+<figure class="wp-block-image aligncenter size-large"><a href="/"><img decoding="async" src="https://tyler.com/wp-content/themes/variations/assets/images/logos/logo-white.svg" alt="" class="wp-image-71"/></a></figure>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"><nav class="items-justified-right no-wrap wp-block-navigation is-content-justification-right is-nowrap is-layout-flex wp-container-core-navigation-is-layout-5355fa85 wp-block-navigation-is-layout-flex" aria-label="Footer navigation 2"><ul class="wp-block-navigation__container items-justified-right no-wrap wp-block-navigation"><li class=" wp-block-navigation-item current-menu-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/" aria-current="page"><span class="wp-block-navigation-item__label">Home</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/templates"><span class="wp-block-navigation-item__label">Templates</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/packages/"><span class="wp-block-navigation-item__label">Packages</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://tyler.com/how-it-works/"><span class="wp-block-navigation-item__label">How it works</span></a></li></ul></nav></div>
+</div>
+</div>
+</footer></div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/variations-child\/*","\/wp-content\/themes\/variations\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+        <div class="mx_search_popup" style="display: none;">
+
+            <div class="mx_search_popup_container">
+
+                <button type="button" id="mx_close_search">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                
+<div class="mx-ddp-search">
+    <form class="mx-input-group" method="get" action="/templates/">
+        <input type="text" placeholder="Search Template" class="form-control border-0" name="search" value="" required />
+        <div class="mx-input-group-prepend"><button type="submit" class="input-group-text bg-white border-0"><i class="fas fa-search"></i> Search </button></div>
+    </form>
+</div>
+            </div>
+
+        </div>
+
+    
+<div id="mx_user_feedback_form">
+    <mx_user_feedback_form_body
+        v-if="types.length>0"
+        :types="types"
+        :is_json="is_json"
+    ></mx_user_feedback_form_body>
+</div><script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.id = 'wp-skip-link';
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerText = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/assets/slick/script.js?ver=10.4.7" id="mxvdg_slick_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/assets/wookmark.min.js?ver=10.4.7" id="mxvdg_wookmark_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js/common.js?ver=10.4.7" id="mxvdg_common_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js/tooltips.js?ver=10.4.7" id="mxvdg_tooltips_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/assets/vue/vue.production.js?ver=10.4.7" id="mxvdg_vue_js-js"></script>
+<script id="mxvdg_design_filtering_script-js-extra">
+var mx_ddpdata_obj_front = {"chat":[{"role":"system","content":"You are an AI that creates the content of a WordPress webpage. \r\n\r\nThe webpage content should be exciting and should showcase great confidence in what you are doing as a business. You are a specialist in your area of business. \r\n\r\nThe business for which the webpage you want to create is: [BUSINESS].\r\n\r\nFollow the users flow to create each piece of text for the website. \r\n\r\nAlways create the content in a way that is related to each other and not independent. \r\n\r\nFavor quality of the text above anything else, it is very important that the text is of high quality and is not generic. But keep the language really simple, so that a 3th grade student can understand it. Use sentences under 150 characters. Please use a conversational tone and a minimum of academic words."}],"taglines_chat":[{"role":"system","content":"You are a tool that generates taglines for websites. You create extremely simple and short examples of taglines for a website with SEO in mind. All the taglines are different from each other and are extremely straightforward. The length or each tagline is about 50 characters. Make each tagline only one phrase. As response return JSON array without any additional info.","mx_type":"system"},{"role":"user","content":"Create 10 examples of taglines. The business for which the tagline you want to create is: [BUSINESS]","mx_type":"10 results"},{"role":"user","content":"Create just 1 tagline about: [BUSINESS]","mx_type":"1 result"}],"nonce":"05f4904724","ajax_url":"https:\/\/tyler.com\/wp-admin\/admin-ajax.php","loading_img":"https:\/\/tyler.com\/wp-content\/plugins\/variations-design-generator\/assets\/images\/loading.gif","loading_page":"https:\/\/tyler.com\/wp-content\/plugins\/variations-design-generator\/assets\/images\/loading-page.gif","no_phot":"https:\/\/tyler.com\/wp-content\/plugins\/variations-design-generator\/assets\/images\/no-photo.jpg","texts":{"error_getting":"Error getting Data from database!","no_questions":"Nothing found!","nothing_found":"Nothing found!"},"post_type":"websites_design","post_id":"10","pagination_type":"load_more","websites_per_page":"200","patterns_per_page":"500","tax_ids":[]};
+</script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/design-filtering.min.js?ver=10.4.7" id="mxvdg_design_filtering_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/copy-pattern.min.js?ver=10.4.7" id="mxvdg_copy_pattern_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/copy-website.min.js?ver=10.4.7" id="mxvdg_copy_website_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/editable-header.min.js?ver=10.4.7" id="mxvdg_editable_header_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/taglines.min.js?ver=10.4.7" id="mxvdg_taglines_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/image-changer.min.js?ver=10.4.7" id="mxvdg_image_changer_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/assets/jquery-ui/jquery-ui.min.js?ver=10.4.7" id="mxvdg_jquery_ui_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/script.min.js?ver=10.4.7" id="mxvdg_helpers_script-js"></script>
+<script src="https://tyler.com/wp-content/plugins/variations-design-generator/includes/frontend/assets/js-min/user-feedback-form.min.js?ver=10.4.7" id="mxvdg_user_feedback_script-js"></script>
+<script src="https://tyler.com/wp-content/themes/variations/assets/js/frontend.js?ver=4.2.3.4" id="variations-frontend-script-js"></script>
+</body>
+</html>

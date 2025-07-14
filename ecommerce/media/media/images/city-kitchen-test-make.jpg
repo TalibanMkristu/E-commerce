@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google AdWords: 1061258582 AW-1061258582--> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1061258582"></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-1061258582'); </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MB7BS8F5');</script>
+<!-- End Google Tag Manager -->
+<title>
+		Powell Electronics | Homepage</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="keywords">
+<meta name="description">
+<meta name="robots" content="index,follow">
+<link rel="shortcut icon" type="image/x-icon" media="all" href="/_ui/responsive/theme-powell/images/favicon.ico" />
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-powell/css/style.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/assistedservicepromotionaddon/responsive/common/css/assistedservicepromotionaddon.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/assistedservicestorefront/responsive/common/css/assistedservicestorefront.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/assistedservicestorefront/responsive/common/css/storeFinder.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/assistedservicestorefront/responsive/common/css/customer360.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/configurablebundleaddon/responsive/common/css/configurablebundleaddon.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/customerticketingaddon/responsive/common/css/customerticketingaddon.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/i18ndictionary/responsive/common/css/i18ndictionary.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/orderselfserviceaddon/responsive/common/css/orderselfserviceaddon.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/powelladdon/responsive/common/css/powelladdon.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/smarteditaddon/responsive/common/css/smarteditaddon.css"/>
+		<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/textfieldconfiguratortemplateaddon/responsive/common/css/textfieldconfiguratortemplateaddon.css"/>
+		<script src="/_ui/shared/js/analyticsmediator.js"></script>
+<!-- Google Tag Manager Data Layer -->
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+    'isAuthenticated': 'false',
+});
+
+
+
+window.mediator.subscribe('productClick_gtm', function(data) {
+    if (data.productCode && data.productName)
+    {
+        trackProductClick_gtm(data.productCode, data.productName, data.productPrice, data.productManufacturer, data.productUrl);
+    }
+});
+
+function trackProductClick_gtm(productCode, productName, productPrice, productManufacturer, productUrl) {
+    window.dataLayer.push({
+        'event': 'productClick',
+        'ecommerce': {
+            'click': {
+                'actionField': {'list': ''},
+                    'products': [{
+                          'id': productCode,
+                          'name': productName,
+                          'price': productPrice
+                      }]
+               }
+          },
+        'eventCallback': function() {
+            if (productUrl) {
+                document.location = productUrl;
+             }
+          }
+    });
+
+    
+    window.dataLayer.push({ ecommerce: null });
+    window.dataLayer.push({
+        event: 'select_item',
+        ecommerce: {
+            items: [{
+                    item_name: productName,
+                    item_id: productCode,
+                    affiliation: 'Powell Electronics',
+                    currency: 'USD',
+                    price: productPrice,
+                    item_brand: productManufacturer,
+                    
+                    item_list_name: '',
+                    index: 0,
+                    quantity: '1'
+                }]
+        },
+        eventCallback: function() {
+            if (productUrl) {
+                document.location = productUrl;
+            }
+        }
+    });
+}
+
+window.mediator.subscribe('addToCart_gtm', function(data) {
+    if (data.productCode && data.productName)
+    {
+        trackAddToCart_gtm(data.productCode, data.productName, data.productPrice, data.productManufacturer, data.quantityAdded);
+    }
+});
+
+function trackAddToCart_gtm(productCode, productName, productPrice, productManufacturer, quantityAdded) {
+    window.dataLayer.push({
+        'event': 'addToCart',
+        'ecommerce': {
+            'currencyCode': 'USD',
+            'add': {
+                'products': [{
+                      'id': productCode,
+                      'name': productName,
+                      'price': productPrice,
+                      'brand': productManufacturer,
+                     'quantity': Number(quantityAdded)
+                 }]
+            }
+        }
+    });
+
+    
+    window.dataLayer.push({ ecommerce: null });
+    window.dataLayer.push({
+        event: 'add_to_cart',
+        ecommerce: {
+            items: [{
+                    item_name: productName,
+                    item_id: productCode,
+                    affiliation: 'Powell Electronics',
+                    currency: 'USD',
+                    price: productPrice,
+                    item_brand: productManufacturer,
+                    
+                    index: 0,
+                    quantity: Number(quantityAdded ? quantityAdded : 1)
+                }]
+        }
+    });
+}
+
+window.mediator.subscribe('removeFromCart_gtm', function(data) {
+    if (data.productCode && data.productName)
+    {
+        trackRemoveFromCart_gtm(data.productCode, data.productName, data.productPrice, data.productManufacturer, data.quantityRemoved);
+    }
+});
+
+function trackRemoveFromCart_gtm(productCode, productName, productPrice, productManufacturer, quantityRemoved) {
+    window.dataLayer.push({
+        'event': 'removeFromCart',
+          'ecommerce': {
+            'currencyCode': 'USD',
+            'remove': {
+                  'products': [{
+                      'id': productCode,
+                      'name': productName,
+                      'price': productPrice,
+                      'quantity': Number(quantityRemoved)
+                   }]
+            }
+          }
+    });
+
+    
+    window.dataLayer.push({
+        event: 'remove_from_cart',
+        ecommerce: {
+            items: [{
+                    item_name: productName,
+                    item_id: productCode,
+                    affiliation: 'Powell Electronics',
+                    currency: 'USD',
+                    price: productPrice,
+                    item_brand: productManufacturer,
+                    
+                    index: 0,
+                    quantity: Number(quantityRemoved ? quantityRemoved : 1)
+                }]
+        }
+    });
+}
+
+window.mediator.subscribe('onBannerClick_gtm', function(data) {
+    if (data.bannerId && data.bannerName && data.bannerCreative && data.bannerPos && data.bannerUrl)
+    {
+        trackOnBannerClick_gtm(data.bannerId, data.bannerName, data.bannerCreative, data.bannerPos, data.bannerUrl);
+    }
+});
+
+function trackOnBannerClick_gtm(bannerId, bannerName, bannerCreative, bannerPos, bannerUrl) {
+    window.dataLayer.push({
+        'event': 'promotionClick',
+        'ecommerce': {
+           'promoClick': {
+             'promotions': [
+              {
+                'id': bannerId,
+                'name': bannerName,
+                'creative': bannerCreative,
+                'position': bannerPos
+              }]
+           }
+        },
+        'eventCallback': function() {
+             if (bannerUrl) {
+                 document.location = bannerUrl;
+             }
+        }
+    });
+}
+</script>
+<!-- End Google Tag Manager Data Layer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body class="page-homepage pageType-ContentPage template-pages-layout-homeLayoutPage pageLabel-homepage smartedit-page-uid-homepage smartedit-page-uuid-eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6InBvd2VsbENvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ== smartedit-catalog-version-uuid-powellContentCatalog/Online  language-en">
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB7BS8F5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<main data-currency-iso-code="USD">
+			<a href="#skip-to-content" class="skiptocontent" data-role="none">Skip to content</a>
+			<a href="#skiptonavigation" class="skiptonavigation" data-role="none">Skip to navigation menu</a>
+
+
+			<div class="yCmsContentSlot">
+<div id="js-cookie-notification" class="alert alert-info alert-dismissable cookie-alert--top">
+        We use cookies to ensure that we give you the best experience on our website. If you continue, you agree with our policy statement.<button class="js-cookie-notification-accept btn btn-small btn-primary">
+            Accept</button>
+	</div>
+</div><header class="js-mainHeader" id="stickyHeader">
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="">
+						<div class="yCmsComponent">
+<div class="ribbon-banner text-center .container-fluid	">
+    <div class="variant_2 row">
+                <span class="text">
+                    Welcome to Powell’s <strong>new </strong>website!  <strong><a href="https://www.powell.com/powell/en/USD/login" target="_self" rel="nofollow noopener noreferrer">Log In/Sign Up</a></strong>  to use all our site features and tools.</span>
+            </div>
+        </div></div></div>
+				</div>
+			</div>
+			<nav class="navigation navigation--top hidden-xs desktop-header-top">
+				<div class="row header-background">
+					<div>
+						<div class="nav__left js-site-logo img-logo-smith-header">
+							<div class="yCmsComponent yComponentWrapper">
+<div class="banner__component simple-banner">
+	<a href="/powell/en/USD/"><img title="Powell Logo"
+					alt="Powell Logo" src="/medias/powell-logo-responsive.png?context=bWFzdGVyfGltYWdlc3wxOTQ1OHxpbWFnZS9wbmd8YUdFNUwyaGtZUzh6TXpVMU56TTVOakE1TlRBd05pOXdiM2RsYkd4ZmJHOW5iMTl5WlhOd2IyNXphWFpsTG5CdVp3fDVhMDg5MmY2Mjk4MWM1N2Y5ZWUwZDEzYWYwNjlkMjhjMjRjM2NjYThlZDIyZDZhMDBmOGM4YTJiODczZGNhN2Q" class="logo"></a>
+			</div></div></div>
+					</div>
+					<div class="header-middle-container ">
+						<div class="row">
+							<div class="col-sm-2 hidden-xs hidden-sm mobile-menu">
+								<button class="btn js-toggle-sm-navigation" type="button">
+									<span class="glyphicon glyphicon-align-justify"></span>
+								</button>
+							</div>
+							<div class="col-sm-12 col-md-12">
+								<div class="site-search searchbox-container" >
+									<div class="yCmsComponent">
+<div class="ui-front">
+	<form class="headersearchbox" name="search_form_SearchBox" method="get"
+		action="/powell/en/USD/search/">
+		<div class="input-group">
+				<span class="input-group-btn"> <button class="btn btn-link js_search_button header-search-button" type="submit" disabled="true">
+						<img src="/_ui/responsive/theme-powell/images/searchIcon.svg" alt="" title="" />
+</button>
+				</span>
+				<input type="text" id="js-site-search-input"
+					class="form-control js-site-search-input  input-group-addon header-search-bar" name="text" value=""
+                    maxlength="100" placeholder="Search by part # or product name"
+					data-options="{
+						&#034;autocompleteUrl&#034; : &#034;/powell/en/USD/search/autocomplete/SearchBox&#034;,
+						&#034;minCharactersBeforeRequest&#034; : &#034;3&#034;,
+						&#034;waitTimeBeforeRequest&#034; : &#034;500&#034;,
+						&#034;displayProductImages&#034; : &#034;true&#034;,
+						&#034;missingImageUrl&#034; : &#034;/_ui/responsive/theme-powell/images/missing_product_EN_300x300.jpg&#034;
+					}">
+			</div>
+	</form>
+
+</div>
+</div></div>
+							</div>
+						</div>
+					</div>
+					<div class="header-login" >
+						<div class="col-sm-12 col-md-8">
+							<div class="nav__right">
+								<div class="header-login" >
+									<div class="user-icon-container" >
+											<img src="/_ui/responsive/theme-powell/images/user.svg" alt="" title="" />
+</div>
+									<ul class="nav__links nav__links--account">
+										<div class="login-url">
+                                                    <a href="/powell/en/USD/login">
+                                                            Log In</a>
+                                                    </div>
+                                            <a class="close hidden" href="">
+												Close</a>
+										</ul>
+									<div>
+										<ul class="nav__links nav__links--shop_info">
+											<li>
+												<div class="yCmsContentSlot componentContainer">
+<div class="yCmsComponent">
+<a href="/powell/en/USD/cart" class="js-mini-cart-link mini_cart_icon_link btn btn-primary btn-block mini-cart-checkout-button"
+			
+	   data-mini-cart-url="/powell/en/USD/cart/rollover/MiniCart"
+	   data-mini-cart-refresh-url="/powell/en/USD/cart/miniCart/SUBTOTAL"
+	   data-mini-cart-name="Cart"
+	   data-mini-cart-empty-name="Empty Cart"
+	   data-mini-cart-items-text="Items"
+	>
+		
+				&nbsp;<div class="mini-cart-count js-mini-cart-count cart-circle invisible"><span class=" nav-items-total">0</span></div>
+		<div class="image-format-cart"><img src="/_ui/responsive/theme-powell/images/cart.svg" alt="" title="" />
+</div>
+
+	</a>
+</div>
+<div class="js-mini-cart-container"></div>
+</div></div></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+				<div class="hidden-xs hidden js-secondaryNavCompany collapse" id="accNavComponentDesktopTwo">
+				<ul class="nav__links js-nav__links">
+
+				</ul>
+			</div>
+
+			<nav class="navigation navigation--middle js-navigation--middle">
+				<div class="hidden-lg hidden-md hidden-sm">
+					<div class="mobile__nav__row mobile__nav__row--table">
+						<div class="mobile__nav__row--table-group mobile-header-container">
+							<div class="mobile-header-top">
+								<div class="col-xs-4 mobile__nav__row--table-cell visible-xs hidden-sm mobile-header-hamburguer">
+									<button class="mobile__nav__row--btn btn mobile__nav__row--btn-menu js-toggle-sm-navigation"
+											type="button">
+										<img src="/_ui/responsive/theme-powell/images/hamburguer.svg" alt="" title="" />
+</button>
+								</div>
+								<div class="col-xs-4 mobile__nav__row--table-cell visible-xs hidden-sm  logo-box">
+									<div class="branding-mobile hidden-md hidden-lg ">
+										<div class="js-mobile-logo img-logo-smith-header">
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-4 hidden-sm mobile-right-icons">
+									<div class="mobile-header-userIcon ">
+										<a href="/powell/en/USD/login" class="nav__links nav__links--products nav__links--mobile js-userAccount-Links js-nav-collapse-body offcanvasGroup1 collapse in hidden-md hidden-lg">
+												<img src="/_ui/responsive/theme-powell/images/user.svg" alt="" title="" />
+</a>
+										</div>
+									<div class="hidden-md hidden-lg">
+										<div class="yCmsContentSlot miniCartSlot mobile__nav__row--table hidden-sm hidden-md hidden-lg">
+<div class="yCmsComponent mobile__nav__row--table-cell header-cart-image">
+<a href="/powell/en/USD/cart" class="js-mini-cart-link mini_cart_icon_link btn btn-primary btn-block mini-cart-checkout-button"
+			
+	   data-mini-cart-url="/powell/en/USD/cart/rollover/MiniCart"
+	   data-mini-cart-refresh-url="/powell/en/USD/cart/miniCart/SUBTOTAL"
+	   data-mini-cart-name="Cart"
+	   data-mini-cart-empty-name="Empty Cart"
+	   data-mini-cart-items-text="Items"
+	>
+		
+				&nbsp;<div class="mini-cart-count js-mini-cart-count cart-circle invisible"><span class=" nav-items-total">0</span></div>
+		<div class="image-format-cart"><img src="/_ui/responsive/theme-powell/images/cart.svg" alt="" title="" />
+</div>
+
+	</a>
+</div>
+<div class="js-mini-cart-container"></div>
+</div></div></div>
+								</div>
+							</div>
+
+							<div class="row hidden-md hidden-lg mobile-header-bottom">
+								<div class="site-search searchbox-container" >
+									<div class="yCmsComponent">
+<div class="ui-front">
+	<form class="headersearchbox" name="search_form_SearchBox" method="get"
+		action="/powell/en/USD/search/">
+		<div class="input-group">
+				<span class="input-group-btn"> <button class="btn btn-link js_search_button header-search-button" type="submit" disabled="true">
+						<img src="/_ui/responsive/theme-powell/images/searchIcon.svg" alt="" title="" />
+</button>
+				</span>
+				<input type="text" id="js-site-search-input"
+					class="form-control js-site-search-input  input-group-addon header-search-bar" name="text" value=""
+                    maxlength="100" placeholder="Search by part # or product name"
+					data-options="{
+						&#034;autocompleteUrl&#034; : &#034;/powell/en/USD/search/autocomplete/SearchBox&#034;,
+						&#034;minCharactersBeforeRequest&#034; : &#034;3&#034;,
+						&#034;waitTimeBeforeRequest&#034; : &#034;500&#034;,
+						&#034;displayProductImages&#034; : &#034;true&#034;,
+						&#034;missingImageUrl&#034; : &#034;/_ui/responsive/theme-powell/images/missing_product_EN_300x300.jpg&#034;
+					}">
+			</div>
+	</form>
+
+</div>
+</div></div>
+							</div>
+						</div>
+					</div>
+					<div class="row desktop__nav"></div>
+				</div>
+			</nav>
+			<a class="col-lg-12 col-md-12 hidden-xs" id="skiptonavigation"></a>
+			<nav class="navigation header-categories-container navigation--bottom js_navigation--bottom js-enquire-offcanvas-navigation" role="navigation">
+		<ul class="sticky-nav-top hidden-lg hidden-md js-sticky-user-group hidden-md hidden-lg">
+				</ul>
+		<div class="container navigation__overflow header-navigation-categories">
+			<div class="row">
+
+				<ul class="nav__links nav__links--products js-offcanvas-links">
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub  ">
+							<span class="yCmsComponent nav__link js_nav__link header-nav-bottom">
+<a href="/powell/en/USD/Products/c/10000" title="Products">Products</a></span><span class="glyphicon  glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down"></span>
+								<div class="sub__navigation js_sub__navigation col-md-3 col-lg-2">
+									<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Main menu</a>
+									<div class="row">
+										<div class="sub-navigation-section col-md-12">
+													<ul class="sub-navigation-list ">
+														<li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10001" title="Circuit Protection">Circuit Protection</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10002" title="Connectors">Connectors</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10003" title="Electromechanical">Electromechanical</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10004" title="Enclosures">Enclosures</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10005" title="Industrial Automation">Industrial Automation</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10006" title="Optoelectronics">Optoelectronics</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10007" title="Passive Components">Passive Components</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10008" title="Power">Power</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10009" title="RF &amp; Wireless">RF &amp; Wireless</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10011" title="Sensors">Sensors</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10012" title="Test &amp; Measurement">Test &amp; Measurement</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10013" title="Tools &amp; Supplies">Tools &amp; Supplies</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10014" title="Wire &amp; Cable">Wire &amp; Cable</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/c/10020" title="Miscellaneous">Miscellaneous</a></li></ul>
+												</div>
+											</div>
+								</div>
+							</li>
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub  ">
+							<span class="yCmsComponent nav__link js_nav__link header-nav-bottom">
+<a href="/powell/en/USD/manufacturers_a_to_z" title="Manufacturers">Manufacturers</a></span><span class="glyphicon  glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down"></span>
+								<div class="sub__navigation js_sub__navigation col-md-3 col-lg-2">
+									<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Main menu</a>
+									<div class="row">
+										<div class="sub-navigation-section col-md-12">
+													<ul class="sub-navigation-list ">
+														<li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/AirBorn" title="AirBorn">AirBorn</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/Amphenol-Industrial" title="Amphenol Industrial">Amphenol Industrial</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/amphenol_aerospace" title="Amphenol Military &amp; Aerospace ">Amphenol Military &amp; Aerospace </a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/Glenair" title="Glenair">Glenair</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/Honeywell" title="Honeywell">Honeywell</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/Samtec" title="Samtec">Samtec</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/TE_Connectivity" title="TE Connectivity">TE Connectivity</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturers_a_to_z" title="Manufacturers A to Z">Manufacturers A to Z</a></li></ul>
+												</div>
+											</div>
+								</div>
+							</li>
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub  ">
+							<span class="yCmsComponent nav__link js_nav__link header-nav-bottom">
+<a href="/powell/en/USD/quote/create" title="Resources &amp; Tools">Resources &amp; Tools</a></span><span class="glyphicon  glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down"></span>
+								<div class="sub__navigation js_sub__navigation col-md-3 col-lg-2">
+									<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Main menu</a>
+									<div class="row">
+										<div class="sub-navigation-section col-md-12">
+													<ul class="sub-navigation-list ">
+														<li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/corporate_responsibility" title="Corporate Responsibility">Corporate Responsibility</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="tariff_compliance_policy" title="Tariff Compliance">Tariff Compliance</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/amphenol_aerospace/d38999_class_g_connectors" title="Outgassing Capabilities">Outgassing Capabilities</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="https://tools.powell.com" title="Part Builders" target="_blank" rel="noopener noreferrer">Part Builders</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="https://s4staticassets.blob.core.windows.net/catalogs/powelllinecard.pdf" title="Powell Line Card" target="_blank" rel="noopener noreferrer">Powell Line Card</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/quote/create" title="Request A Quote">Request A Quote</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="sosa_mosa_vita_resources" title="SOSA, MOSA, and VITA Resources">SOSA, MOSA, and VITA Resources</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/supply_chain_management" title="Supply Chain Management">Supply Chain Management</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/value_added_assembly" title="Value Added Assemby">Value Added Assemby</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="https://www.youtube.com/playlist?list&#61;PLOunwsyHS67exCjqtFXkJ9x16A9gizKCH" title="Webinars" target="_blank" rel="noopener noreferrer">Webinars</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/powell_whitepapers" title="Whitepapers and Technical Articles">Whitepapers and Technical Articles</a></li></ul>
+												</div>
+											</div>
+								</div>
+							</li>
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub  ">
+							<span class="yCmsComponent nav__link js_nav__link header-nav-bottom">
+<a href="#" title="Markets Served">Markets Served</a></span><span class="glyphicon  glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down"></span>
+								<div class="sub__navigation js_sub__navigation col-md-3 col-lg-2">
+									<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Main menu</a>
+									<div class="row">
+										<div class="sub-navigation-section col-md-12">
+													<ul class="sub-navigation-list ">
+														<li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/5G_networking_3M" title="5G Networks">5G Networks</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/Agriculture_Amphenol_Sine" title="Agriculture and Heavy Equipment Market">Agriculture and Heavy Equipment Market</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/commercial_air" title="Commercial Air">Commercial Air</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/electric_vehicles" title="Electric Vehicles">Electric Vehicles</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/Energy_Storage_and_Batteries_by_Adam_Tech" title="Energy Storage and Batteries">Energy Storage and Batteries</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/eMobility_Market" title="eMobility">eMobility</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/eVTOL_Harwin" title="eVTOL Market">eVTOL Market</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/Factory_Automation" title="Factory Automation">Factory Automation</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/fiber_optic" title="Fiber Optic">Fiber Optic</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/manufacturer/powell_agricultural_solutions_old" title="ISOBUS Solutions">ISOBUS Solutions</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/medical_equipment" title="Medical Equipment Market">Medical Equipment Market</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/military_aerospace_market" title="Military Aerospace">Military Aerospace</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/military_ground" title="Military Ground">Military Ground</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/rail_and_mass_transit" title="Rail/Mass Transit">Rail/Mass Transit</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/Solar_and_Alternative_Energy" title="Solar and Alternative Energy">Solar and Alternative Energy</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/market_served/space" title="Space Market">Space Market</a></li></ul>
+												</div>
+											</div>
+								</div>
+							</li>
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub  ">
+							<span class="yCmsComponent nav__link js_nav__link header-nav-bottom">
+<a href="/powell/en/USD/contactInformation" title="Contact Information">Contact Information</a></span><span class="glyphicon  glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down"></span>
+								<div class="sub__navigation js_sub__navigation col-md-3 col-lg-2">
+									<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Main menu</a>
+									<div class="row">
+										<div class="sub-navigation-section col-md-12">
+													<ul class="sub-navigation-list ">
+														<li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/contactInformation" title="Contact Us">Contact Us</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/branch_locations" title="Branch Locations">Branch Locations</a></li><li class="yCmsComponent nav__link--secondary">
+<a href="/powell/en/USD/quote/create" title="Request A Quote">Request A Quote</a></li></ul>
+												</div>
+											</div>
+								</div>
+							</li>
+					<li class="auto nav__links--primary ">
+							<span class="yCmsComponent nav__link js_nav__link header-nav-bottom">
+<a href="/powell/en/USD/upcoming_events" title="Events and Shows">Events and Shows</a></span></li>
+					</ul>
+			</div>
+		</div>
+	</nav>
+	<hr class="header-line hidden-xs">
+</header>
+
+		<a id="skip-to-content"></a>
+		
+			<div class="main__inner-wrapper">
+				<div class="span-24 section1 advert">
+			<div  class="hero-banner owl-carousel owl-theme js-owl-carousel js-owl-rotating-simple" data-slideSpeed="">
+                            <div class="row row-no-gutters equal banner__component--responsive " data-banner-id="" data-banner-name="" data-banner-creative="GALLERY" data-banner-pos="" data-banner-url="">
+
+	<!-- Google Tag Manager Data Layer -->
+	<script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+			'event' : 'promoView',
+			'ecommerce': {
+				'promoView': {
+					'promotions': [{
+						'id': '',
+						'name': '',
+						'creative': 'GALLERY',
+						'position': ''
+					}]
+				}
+			}
+		});
+	</script>
+	<!-- End Google Tag Manager Data Layer -->
+
+	<a class="bclass row row-no-gutters equal col-lg-12" href="#" data-url='/powell/en/USD/manufacturer/Harwin/Gecko_G125_Series_Connectors' data-title='medium-Powell Banner March 25.jpg'>
+				<!-- <div class="col-md-8 col-md-push-4  col-lg-7 col-lg-push-5 banner-image"> -->
+				<div class="col-md-8 col-lg-7 col-lg-push-5 banner-image">
+					<img class="js-responsive-image " data-media='{&#034;1201&#034;:&#034;/medias/medium-Powell-Banner-March-25.jpg?context=bWFzdGVyfGltYWdlc3w2NzM3MXxpbWFnZS9qcGVnfGFEazNMMmhtTWk4ME5EUTRNemt4TmpJMk56VTFNQzl0WldScGRXMHRVRzkzWld4c0lFSmhibTVsY2lCTllYSmphQ0F5TlM1cWNHY3w4OWEzZDY4YzBhMzI0NmUxNGZjNjYyMDdkODE5YmZiYjAzYjE4MjlmMzBjMzE3MTY3NjAwZGVkZDkyMTEwNDFh&#034;}' alt='medium-Powell Banner March 25.jpg' title='medium-Powell Banner March 25.jpg' style="">
+				</div>
+				<!-- <div class="col-md-4 col-md-pull-8 col-lg-5 col-lg-pull-7 gradient banner-text  "> -->
+				<div class="col-md-4  col-lg-5 col-lg-pull-7 gradient banner-text  ">
+					<div class="vcenter">
+						<span class="title-text">Optimize SWaP-C with Micro-Miniature Connectors</span>
+						<span class="subtitle-text">Harwin's Gecko (G125 Series) connectors are your solution for low-profile, dual-row interconnects. Perfect for stacking and cable mating in tight PCB spaces. Shop now!</span>
+					</div>
+				</div>
+			</a>
+		</div>
+<div class="row row-no-gutters equal banner__component--responsive " data-banner-id="" data-banner-name="" data-banner-creative="GALLERY" data-banner-pos="" data-banner-url="">
+
+	<!-- Google Tag Manager Data Layer -->
+	<script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+			'event' : 'promoView',
+			'ecommerce': {
+				'promoView': {
+					'promotions': [{
+						'id': '',
+						'name': '',
+						'creative': 'GALLERY',
+						'position': ''
+					}]
+				}
+			}
+		});
+	</script>
+	<!-- End Google Tag Manager Data Layer -->
+
+	<a class="bclass row row-no-gutters equal col-lg-12" href="#" data-url='/powell/en/USD/manufacturer/te_connectivity/cii_relays' data-title='te-cii-relays-hero-banner.png'>
+				<!-- <div class="col-md-8 col-md-push-4  col-lg-7 col-lg-push-5 banner-image"> -->
+				<div class="col-md-8 col-lg-7 col-lg-push-5 banner-image">
+					<img class="js-responsive-image " data-media='{&#034;1201&#034;:&#034;/medias/te-cii-relays-hero-banner.png?context=bWFzdGVyfGltYWdlc3w0NTM1Mzl8aW1hZ2UvcG5nfGFHTTJMMmhsWWk4ME5EUTRNemt4TmpRMk5ERTFPQzkwWlMxamFXa3RjbVZzWVhsekxXaGxjbTh0WW1GdWJtVnlMbkJ1Wnd8ZjM5N2I1M2FlMmM1ZGVhYmUxNmU5ZTRiZDcwYjllNzNkMWE3OWQ0NDgyNTFkZTE2ZmQ1YWY1NjNiOGJkNWMyNw&#034;}' alt='te-cii-relays-hero-banner.png' title='te-cii-relays-hero-banner.png' style="">
+				</div>
+				<!-- <div class="col-md-4 col-md-pull-8 col-lg-5 col-lg-pull-7 gradient banner-text  "> -->
+				<div class="col-md-4  col-lg-5 col-lg-pull-7 gradient banner-text  ">
+					<div class="vcenter">
+						<span class="title-text">Maximum Efficiency, Compact Design: CII Mid-Range Relays</span>
+						<span class="subtitle-text">Built for military, aerospace, and commercial applications, TE Connectivity's CII Mid-Range Relays ensure peak performance under demanding conditions. Shop now!</span>
+					</div>
+				</div>
+			</a>
+		</div>
+<div class="row row-no-gutters equal banner__component--responsive " data-banner-id="" data-banner-name="" data-banner-creative="GALLERY" data-banner-pos="" data-banner-url="">
+
+	<!-- Google Tag Manager Data Layer -->
+	<script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+			'event' : 'promoView',
+			'ecommerce': {
+				'promoView': {
+					'promotions': [{
+						'id': '',
+						'name': '',
+						'creative': 'GALLERY',
+						'position': ''
+					}]
+				}
+			}
+		});
+	</script>
+	<!-- End Google Tag Manager Data Layer -->
+
+	<a class="bclass row row-no-gutters equal col-lg-12" href="#" data-url='/powell/en/USD/manufacturer/NKK_Switches/MBN_Series_Miniature_Pushbutton_Switches' data-title='nkk mbn pushbuttons hero banner.png'>
+				<!-- <div class="col-md-8 col-md-push-4  col-lg-7 col-lg-push-5 banner-image"> -->
+				<div class="col-md-8 col-lg-7 col-lg-push-5 banner-image">
+					<img class="js-responsive-image " data-media='{&#034;1201&#034;:&#034;/medias/nkk-mbn-pushbuttons-hero-banner.png?context=bWFzdGVyfGltYWdlc3w0NTk3ODR8aW1hZ2UvcG5nfGFHTTVMMmhsT0M4ME5EUTRNemt4TmpVeU9UWTVOQzl1YTJzZ2JXSnVJSEIxYzJoaWRYUjBiMjV6SUdobGNtOGdZbUZ1Ym1WeUxuQnVad3wwNDQ0ZDJhM2Q0MTYwNjk0ZWE5NTRiZGZjYmEwMmEzMDQ5NDcxYWE4NjZjZWY0YTc0NTI1ZjdmZjk1NThkYWVj&#034;}' alt='nkk mbn pushbuttons hero banner.png' title='nkk mbn pushbuttons hero banner.png' style="">
+				</div>
+				<!-- <div class="col-md-4 col-md-pull-8 col-lg-5 col-lg-pull-7 gradient banner-text  "> -->
+				<div class="col-md-4  col-lg-5 col-lg-pull-7 gradient banner-text  ">
+					<div class="vcenter">
+						<span class="title-text">Discover the MBN Series Miniature Pushbutton Switches</span>
+						<span class="subtitle-text">Feel the difference with our tactile pushbuttons, crafted for precision and reliability in the most challenging settings! Shop now!</span>
+					</div>
+				</div>
+			</a>
+		</div>
+</div>
+
+</div>
+	<div class="span-20 section2 advert">
+		<div class="spacer" ></div>
+<div class="container smithComponentBackground">
+    <p class="title-category">Find by Category</p>
+    <div class="row-smithCategory show-only-four">
+        <div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Connectors/Commercial-Connectors/Backshells/c/1001061" data-url="/Products/Connectors/Commercial-Connectors/Backshells/c/1001061" title="Backshells">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/backshell.png?context=bWFzdGVyfHJvb3R8ODczN3xpbWFnZS9wbmd8YURJeUwyZ3hNaTh6TXpVNE16azFORFF5Tnprek5DOWlZV05yYzJobGJHd3VjRzVufDA2NmRmZTYxYWE0NTdmODI0MDI4MDlmYjEyMDlkMmM1MTBjNTg3ZmM1ZGU5MjE5NzYyYTE2YTYyYTVlNDZkNTE&#034;}'  >
+            <div class="category smith-title-a-category">
+                Backshells</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Connectors/c/10002" data-url="/Products/Connectors/c/10002" title="Connectors">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/connector.png?context=bWFzdGVyfHJvb3R8ODM3M3xpbWFnZS9wbmd8YURJNUwyZzNNUzh6TXpVNE16azFNemMzTWpVM05DOWpiMjV1WldOMGIzSXVjRzVufDBmNWFlN2RiMDYyNGQwNjdkNWZkODkxNTNlZmM1NTA3MmVmNmQ4MzYzMTMzYzY4YzM2MjVmOTNhZTk5MWNjMTk&#034;}'  >
+            <div class="category smith-title-a-category">
+                Connectors</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Circuit-Protection/Thermal-Management/Fans---AC/c/1001086" data-url="/Products/Circuit-Protection/Thermal-Management/Fans---AC/c/1001086" title="Fans - AC">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/fans.png?context=bWFzdGVyfHJvb3R8ODI0NXxpbWFnZS9wbmd8YURKaUwyZzJaUzh6TXpVNE16azFNemd6T0RFeE1DOW1ZVzV6TG5CdVp3fDI3ZjczZmJkMTk3MWU1Yzg3MjJjMzY0ODBmMWRmMmYyNDc3Y2U3ZTgwNDk2ZDA5YzBlZDgwMTk1OWVkMzc3ZTY&#034;}'  >
+            <div class="category smith-title-a-category">
+                Fans - AC</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Wire-and-Cable/Shrink-Boot/c/100414" data-url="/Products/Wire-and-Cable/Shrink-Boot/c/100414" title="Shrink Boot">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/heatshrinks.png?context=bWFzdGVyfHJvb3R8NjU4NXxpbWFnZS9wbmd8YUdReUwyZzVOeTgwTkRNMk1UazVORGd5T1RnMU5DOW9aV0YwYzJoeWFXNXJjeTV3Ym1jfGI1ODRjYjkxMDJhZDA2MTkxNjQ4Nzg3MTQ3MzMzMjE2NjUwOGNmNGNiMDk4YzY1OGJhMWE2Zjg2NTE3OGIyNGE&#034;}'  >
+            <div class="category smith-title-a-category">
+                Shrink Boot</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Passive-Components/c/10007" data-url="/Products/Passive-Components/c/10007" title="Passive Components">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/passive.png?context=bWFzdGVyfHJvb3R8Njk2MnxpbWFnZS9wbmd8YURaakwyZzJZUzh6TXpVNE16azFNemsyT1RFNE1pOXdZWE56YVhabExuQnVad3w5YTNjNGZhOTJiNGVlYzllMDQ0NzlhN2ZhZDYxMjdjMTQyNDYyYzU5ZjUzMWExMjRhZGZkYzNjMGZjNmI5OThl&#034;}'  >
+            <div class="category smith-title-a-category">
+                Passive Components</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Electromechanical/Relays/c/100152" data-url="/Products/Electromechanical/Relays/c/100152" title="Relays">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/relays.png?context=bWFzdGVyfHJvb3R8NTkzOXxpbWFnZS9wbmd8YUdGbUwyZ3haaTh6TXpVNE16azFOREF6TkRjeE9DOXlaV3hoZVhNdWNHNW58YzJlOTZjMTkxMzY5ZmY5NGZjZmY5OGNiNmQ3Y2U0NjEyNDUwZjI0NmE5NWE4NWZjMDUzMDE2NjkyM2UyZDcxNA&#034;}'  >
+            <div class="category smith-title-a-category">
+                Relays</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/RF-and-Wireless/c/10009" data-url="/Products/RF-and-Wireless/c/10009" title="RF and Wireless">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/rf-wireless.png?context=bWFzdGVyfHJvb3R8NzExM3xpbWFnZS9wbmd8YURrekwyZzVPQzgwTkRNMk1UazVORGc1TlRNNU1DOXlaaTEzYVhKbGJHVnpjeTV3Ym1jfGYxZjFkOWY5YjdkNzYzOWZkZmFjNDNlODIxYzBiYTdjMjJlYjZjYzdkZGYwMzMyMzg1MTFjNDQ3YjlhMzY2ZWI&#034;}'  >
+            <div class="category smith-title-a-category">
+                RF and Wireless</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Sensors/c/10011" data-url="/Products/Sensors/c/10011" title="Sensors">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/sensors.png?context=bWFzdGVyfHJvb3R8NjEwOHxpbWFnZS9wbmd8YUdSbUwyZ3hPQzh6TXpVNE16azFOREl6TVRNeU5pOXpaVzV6YjNKekxuQnVad3w1YTNkOGU0NzlmNzI0YjM5NjI0NTg4Mzk4MDQ5NzE5ZGU5Njg5NDY4MTY0MGQ0MWFmOTVmYTk1NjZjNTA2MDlk&#034;}'  >
+            <div class="category smith-title-a-category">
+                Sensors</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Electromechanical/Switches/c/100153" data-url="/Products/Electromechanical/Switches/c/100153" title="Switches">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/switches.png?context=bWFzdGVyfHJvb3R8ODQ1MHxpbWFnZS9wbmd8YUdZd0wyZ3hZaTh6TXpVNE16azFOREUyTlRjNU1DOXpkMmwwWTJobGN5NXdibWN8ZjgyNTMwZGY5ZmFiYzAwNjBhZTk2MGIxOTQ5MGQ1NmMxM2Y3OTA0MThiYThhZmQ1NmQ3YTBiZDZlMGM1MjdkNw&#034;}'  >
+            <div class="category smith-title-a-category">
+                Switches</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Wire-and-Cable/c/10014" data-url="/Products/Wire-and-Cable/c/10014" title="Wire and Cable">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/wire-cable.png?context=bWFzdGVyfHJvb3R8NTc3N3xpbWFnZS9wbmd8YURNeEwyZ3hPQzh6TXpVNE16azFOREk1TmpnMk1pOTNhWEpsSUdOaFlteGxMbkJ1Wnd8M2U4NjIxYzFiYTQ5NmU1NGNiMjA1NWIwMjhkYWMzNWM3OGU1MjRmNWFkZDg4NmNiZjk4NTVmMDU1NjVkNGUzYg&#034;}'  >
+            <div class="category smith-title-a-category">
+                Wire and Cable</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/Miscellaneous/c/10020" data-url="/Products/Miscellaneous/c/10020" title="Miscellaneous">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/misc.png?context=bWFzdGVyfHJvb3R8MzQ5OHxpbWFnZS9wbmd8YURJd0wyZ3hOUzh6TXpVNE16azFORE0yTWpNNU9DOXRhWE5qTG5CdVp3fDA2NjM5YmRjOGE3YjIwZmIxNzVmNDQzN2IxZDNkODljYjZhYjFhYjkxMjBlZmZkYTA4MjczYTM2Yjc1MDBiNDM&#034;}'  >
+            <div class="category smith-title-a-category">
+                Miscellaneous</div>
+        </a>
+    </div><div class="yCmsComponent item">
+<a class="bclass box-category" href="/powell/en/USD/Products/c/10000" data-url="/Products/c/10000" title="View All Products">
+            <img class="js-responsive-image"  width="30%"  data-media='{&#034;1201&#034;:&#034;/medias/powell-logo-responsive.png?context=bWFzdGVyfHJvb3R8MTk0NTh8aW1hZ2UvcG5nfGFHVTNMMmcwT1M4ek16VTRNemsxTlRBeE56YzFPQzl3YjNkbGJHd3RiRzluYnkxeVpYTndiMjV6YVhabExuQnVad3xjODRmMDE1MmZiZTk2MDgzNmI5ZGZmZWEzMGMxMGQ1ODQxYTBjZTVmNmY5Zjg5NTdlNTg3MDMzYTZhZDcxNzRh&#034;}'  >
+            <div class="category smith-title-a-category">
+                View All Products</div>
+        </a>
+    </div><a id="see-all-button" class="js-see-all" >See all</a>
+    </div>
+</div>
+<div class="content"><style type="text/css">
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 50%;
+}
+</style>
+<div style="width: 100%; text-align: center;">
+     <h1>Powell Electronics Corporate Overview</h1><br /><br />
+<iframe class="youtube-video" src="https://www.youtube.com/embed/zhSvfc70Tus?si=zanMP3OR9BIpjAmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></div><div class="spacer" > </div>
+<div class="value-prop">
+        <div class="title">
+            We are your solutions partner for high-reliability, harsh-environment connector and IoT design, manufacturing, and supply chain.</div>
+        <div class="subtitle">
+            As a premier industry resource for all electronic components and value-add services, Powell provides custom solutions for any unique application.</div>
+</div>
+<div class="spacer" > </div>
+
+
+</div>
+	<div class="span-4 section3 advert last">
+		<div class="tools-container">
+	<div class="container-fluid " >
+		<div class="row">
+			<div class="title text-center col-md-12">
+				<div class="content">Featured Products</div></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/Cinch_Connectivity/dura-con"><img class="imgWH" src="/medias/cinch-duracon.png?context&#61;bWFzdGVyfHJvb3R8MTM0MTcwfGltYWdlL3BuZ3xhREU1TDJoak55ODBORE0yT1RRNU1UUTJNREV5Tmk5amFXNWphQzFrZFhKaFkyOXVMbkJ1Wnd8NjI3ZDE3MGZkN2RjODhlNWU4ZmVjMWJiMWEyZDhhNzIxZjQ2OGE0MWNjMDExMDdkMDk1ZGQ1Zjg1NjM3ZDdiNg" /><span class="tool-title">Dura-Con™ MIL-DTL-83513 Connectors</span><span class="tool-subtitle">Cinch DURA-CON MIL-DTL-83513 Micro-D metal shell connectors are qualified and listed on the Defense Logisitic Agency&#39;s (DLA) Qualified Product Database (QPD).</span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/amphenol_aerospace/radcrimp_connectors"><img class="imgWH" src="/medias/amphenol-radcrimp.png?context&#61;bWFzdGVyfHJvb3R8MzUyMzl8aW1hZ2UvcG5nfGFHWmtMMmhsTkM4ME5ETTJNVGsyTmpFNU1EWXlNaTloYlhCb1pXNXZiQzF5WVdSamNtbHRjQzV3Ym1jfDk5OGFlM2MxZTRlYzc4OTBmMzYwMjg2YzhkNDQ2NTc2NmFiOWMyOGFmYjgxYTE0OWM1ZjY3M2FkZmQ2OGRkMWM" /><span class="tool-title">RadCrimp™ Connectors</span><span class="tool-subtitle">A robust DC connector rated to UL 1500V DC specifications. The RadCrimp™ Solar Splice with Melni Spiral Termination Technology removes improper mating from the equation.</span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/amphenol_sine/at_series"><img class="imgWH" src="/medias/AT-Series.jpg?context&#61;bWFzdGVyfHJvb3R8MTE1MjJ8aW1hZ2UvanBlZ3xhRFptTDJnME15ODBORE0yTWpReE16TXdPVGs0TWk5QlZDMVRaWEpwWlhNdWFuQm58ZjdmNzA3MTgxOTA5ZDM0MjI2MGM0N2M0MzkyOTkxY2YyM2Q3NTk1YjBkODY5MDA3Zjc2MTc1MjU5NzBjODFlMA" /><span class="tool-title">AT Series™ Connectors</span><span class="tool-subtitle"> AT Series™ connectors are a high-performance, IP68/69K rated (mated), thermoplastic, cost-effective solution with superior environmental seals and seal retention capabilities.</span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/TE_Connectivity/SOSA_Aligned_and_VPX_Compliant_Interconnects"><img class="imgWH" src="/medias/te-connectivity-sosa-interconnects-fp.png?context&#61;bWFzdGVyfGltYWdlc3wxNDYyMjd8aW1hZ2UvcG5nfGFEaGlMMmd3Wmk4ME5EUTNNakU0TlRnME56Z3pPQzkwWlMxamIyNXVaV04wYVhacGRIa3RjMjl6WVMxcGJuUmxjbU52Ym01bFkzUnpMV1p3TG5CdVp3fGQ4ZGYzYjI5ZjllMGMxNDY0M2UzOTY1N2E4NTc4OTNjY2E5ZWVjZGU0NDEwMzk5YzI1N2EwYmRkOWRiYzY3MGM" /><span class="tool-title">Solutions for Rugged Embedded Computing</span><span class="tool-subtitle">Explore embedded computing trends, and standards for rugged interconnects from the SOSA™ and VITA standards organization.</span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/Hammond_Manufacturing/Modification_Services"><img class="imgWH" src="/medias/hammond-mods.png?context&#61;bWFzdGVyfGltYWdlc3wyMDU4NTJ8aW1hZ2UvcG5nfGFEWXhMMmhpWmk4ME5EUTFOak15TlRNeE5qWXpPQzlvWVcxdGIyNWtMVzF2WkhNdWNHNW58MGRkNjI2NGNhOWZhZjVlYjkwNWZhMjRjZTc2ZGNkNTdlZTcwY2NjMGJlYTZjZjhlMDVkNTdmODcxMmQ5MzdlZg" /><span class="tool-title">Hammond Modification Services</span><span class="tool-subtitle">Almost every enclosure will need some kind of modification to be useful. Hammond can deliver quality products made to your exact specifications. </span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/Honeywell/VRS_Sensors"><img class="imgWH" src="/medias/honeywell-vrs-sensors.jpeg?context&#61;bWFzdGVyfGltYWdlc3wyNzM3MHxpbWFnZS9qcGVnfGFEUTFMMmhpWVM4ME5EUXpOVE15TWpNd05qVTVNQzlvYjI1bGVYZGxiR3d0ZG5KekxYTmxibk52Y25NdWFuQmxad3xiZjE1ZjU4NGE2YjVlYjc0YWE2YzgwOWQ2MzBkZGVhZGVjMjYxMmZmNGU2M2Y0NmRlNWIwNjUyNDU1ZDg5MWM0" /><span class="tool-title">VRS Sensors</span><span class="tool-subtitle">VRS Sensors from Honeywell offer a wide range of products that meets industrial high output/resolution/temperature and hazardous location as well as general purpose requirements.</span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/quell" target="_blank" rel="noopener noreferrer"><img class="imgWH" src="/medias/quell-blue.jpg?context&#61;bWFzdGVyfHJvb3R8MTgzNDZ8aW1hZ2UvanBlZ3xhREE0TDJnMU55ODBORE0yTWpFek5EWTFNRGt4TUM5eGRXVnNiQzFpYkhWbExtcHdad3w5ZDM1YzE1NmI2MmEzMDRmZTRhOTJmYWViZWJhZjkyOGQ5ZTEwZmQwZjc5Yzc3YjQwN2EwYjMxODQxOGY3ODVl" /><span class="tool-title">EESeal® EMI Filter Inserts</span><span class="tool-subtitle">All the benefits of a bulky filtered connector in a slim, cost-effective insert, custom-fitted to your specific connector needs. Add EMI or transient protection to your connector in seconds with these easy, slip-on filter inserts from Quell.</span></a></div></div><div class="col-md-6"><div class="tool"><a href="/powell/en/USD/manufacturer/Samtec/Discrete_Wire_Solutions"><img class="imgWH" src="/medias/samtec-discrete-wire-solutions.png?context&#61;bWFzdGVyfGltYWdlc3wzNjE0OTd8aW1hZ2UvcG5nfGFEZG1MMmc1Tmk4ME5EUTROalUzTURZM01qRTFPQzl6WVcxMFpXTXRaR2x6WTNKbGRHVXRkMmx5WlMxemIyeDFkR2x2Ym5NdWNHNW58Yzc4YzUxODlkYjYwMmFiZjc2NmNhNmM4N2ZjYTI1ZjUzZmE4NmQzZGNmYjQ2MTFkYzg0NGEyYTk0ZDU1YjQxZg" /><span class="tool-title">Discrete Wire Solutions</span><span class="tool-subtitle">Samtec is uniquely positioned as a full support supplier of discrete wire products, from components and tooling to complete cable assemblies.</span></a></div></div></div>
+	</div>
+</div>
+
+
+</div>
+	<div class="span-4 section4 advert last">
+    		<div class="spacer"></div>
+<div class="manofacturers" >
+    <div class="container container-manufacturers">
+        <div class="row">
+            <div class="text-center">
+                <p class="tittle-featured">Our Supplier Partners</p>
+                <a class="link-all-featured" href="/powell/en/USD/manufacturers_a_to_z">
+                    See all</a>
+            </div>
+            <br>
+            <div class="col-lg-4 col-sm-4">
+                    <div class="big-items" >
+                       <a class="bclass" href='/powell/en/USD/manufacturer/te_connectivity' data-url='/powell/en/USD/manufacturer/te_connectivity'>
+            <img class="" width="100%" src="/medias/?context=bWFzdGVyfHJvb3R8MzM2MDl8aW1hZ2UvcG5nfGFEUmpMMmcxT1M4ek16VTFOek01TnpjMk5qRTNOQXwwNTU4YWUzNTFhOGE5MTM5NjUzMjNlYmRhYzM1NDE3YjRlOTJjYzBmYjNhZGUwZGUyOWJhZjcwODNjMDFjNDQ4">
+        </a>
+    </div>
+                </div>
+            <div class="col-lg-4 col-sm-4">
+                    <div class="big-items" >
+                       <a class="bclass" href='/powell/en/USD/manufacturer/3m' data-url='/powell/en/USD/manufacturer/3m'>
+            <img class="" width="100%" src="/medias/3m-large.png?context=bWFzdGVyfHJvb3R8NDE4MzV8aW1hZ2UvcG5nfGFEQTBMMmd6TlM4ME5ETTJPVGcxTURjNU5EQXhOQzh6YlMxc1lYSm5aUzV3Ym1jfGRiZjU0ZTliMzE2YTBkNWNkMWIzNGI1MTBkZDEwMTE0OGYxNTAwOTQwYjUwOTE5Y2M3Njg5MGVmMDNkMmUzN2I">
+        </a>
+    </div>
+                </div>
+            <div class="col-lg-4 col-sm-4">
+                    <div class="big-items" >
+                       <a class="bclass" href='/powell/en/USD/manufacturer/glenair' data-url='/powell/en/USD/manufacturer/glenair'>
+            <img class="" width="100%" src="/medias/Glenair-large-437x432.jpg?context=bWFzdGVyfHJvb3R8MTAzNjF8aW1hZ2UvanBlZ3xhRGc0TDJnNFlpODBORE0yTVRjeU5EUTVNemcxTkM5SGJHVnVZV2x5WDJ4aGNtZGxYelF6TjNnME16SXVhbkJufDVmZmNiZDkyYzMzOTk2YTgwMmY2N2QwYjgwZGRjZGU2N2U5ODIyYmM0NjM4NWMzNTVhMGJkZDAyM2NmNGNkZmQ">
+        </a>
+    </div>
+                </div>
+            </div>
+    </div>
+    <br>
+    <div class="col-lg-12 margin-featured">
+        <div class="owl-carousel owl-theme js-owl-carousel js-owl-featured-manufacturers">
+            <a class="bclass" href='/powell/en/USD/manufacturer/Samtec' data-url='/powell/en/USD/manufacturer/Samtec'>
+            <img class="" width="100%" src="/medias/Samtec-small-437x207.jpg?context=bWFzdGVyfHJvb3R8NjUxMnxpbWFnZS9qcGVnfGFHTTRMMmc0WVM4ME5ETTJNVGN5TkRReU9ETXhPQzlUWVcxMFpXTmZjMjFoYkd4Zk5ETTNlREl3Tnk1cWNHY3wwYjMzYzZlYzRmMTcyMDI1YzM3MzAwOWU4ZDk1Yjg1NzNmZDUzNDFlNGViOGM3YjA4ZDM3YzhhY2Y5YzRhMTZk">
+        </a>
+    <a class="bclass" href='https://shop.powell.com/powell/en/USD/manufacturer/Harwin' data-url='https://shop.powell.com/powell/en/USD/manufacturer/Harwin'>
+            <img class="" width="100%" src="/medias/harwin-logo-small.png?context=bWFzdGVyfHJvb3R8NTYwNnxpbWFnZS9wbmd8YUdVeUwyZzRZaTgwTkRNM01UZzRNVGd5TURFNU1DOW9ZWEozYVc0dGJHOW5ieTF6YldGc2JDNXdibWN8NTY1YTIxM2JmMGE1NDdjMDljM2RiNmVhN2U4YzNhZGMxNTg5MmQ2MTA2NTM0ZDFlYWZhNTE4ZGE5MWJhZDc5ZQ">
+        </a>
+    <a class="bclass" href='/powell/en/USD/manufacturer/AirBorn' data-url='/powell/en/USD/manufacturer/AirBorn'>
+            <img class="" width="100%" src="/medias/airborn-small-437x207.jpg?context=bWFzdGVyfHJvb3R8NDYxMnxpbWFnZS9qcGVnfGFHTTVMMmc0Tnk4ME5ETTJNVGN5TkRNMk1qYzRNaTloYVhKaWIzSnVYM050WVd4c1h6UXpOM2d5TURjdWFuQm58MTJkOWM2ZmRlMTA5NmZhMzcwZDY4MWI2N2FhOGJiZTMyMWVmNmRiNDFlNWFhYmMyYmE5MmQ1MDE3NDhmOTI5OQ">
+        </a>
+    <a class="bclass" href='/powell/en/USD/manufacturer/positronic' data-url='/powell/en/USD/manufacturer/positronic'>
+            <img class="" width="100%" src="/medias/positronic-logo-small.png?context=bWFzdGVyfHJvb3R8MTYzMzF8aW1hZ2UvcG5nfGFHVTBMMmd4Wmk4ME5ETTJNakV4TnpBeU1UY3lOaTl3YjNOcGRISnZibWxqTFd4dloyOHRjMjFoYkd3dWNHNW58MWI3OWRjOTAwY2QzNTQ4NDk4NzJjNjJmOTYzY2EzNTlhNzUxOWYyODU4ZGM0MTY3MTk0MDVjMWZmNTE1YTc1YQ">
+        </a>
+    </div>
+    </div>
+</div>
+
+
+
+
+</div>
+    <div class="span-4 section5 advert last">
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="content"><p class="tittle-service">TOOLS & SERVICES</p><p class="description-service">We offer automated engineering solutions and connector ODM services to empower and drive the manufacturing industry.</p><p class="subDescription-service">Powell can be your trusted partner. We are an authorized, QPL&#39;ed distributor for over 50 military specifications, ISO9120 certified, to support your custom and complex packaging and supply chain needs.</p></div></div>
+        <div class="col-lg-6">
+            <!-- Google Tag Manager Data Layer -->
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event' : 'promoView',
+        'ecommerce': {
+            'promoView': {
+                'promotions': [{
+                    'id': '',
+                    'name': '',
+                    'creative': 'GALLERY',
+                    'position': ''
+                }]
+            }
+        }
+    });
+</script>
+<!-- End Google Tag Manager Data Layer -->
+
+<div class="simple-banner banner__component--responsive" data-banner-id="" data-banner-name="" data-banner-creative="GALLERY" data-banner-pos="" data-banner-url="">
+
+	<img class="js-responsive-image" data-media='{&#034;480&#034;:&#034;/medias/?context=bWFzdGVyfHJvb3R8NDY3MzE4fGltYWdlL3BuZ3xhR1UxTDJoaVppOHpNelUxTnpNNU5qZzBPRFkzTUF8OWQwMGJmNDAyODIyOGIxNDQ0MDgzNjYxYjNlYjI3NWFiZjY0ZGQ4ODc5YWYzYmY2NDBkZDBlMmJlMmUzMTRmOA&#034;,&#034;768&#034;:&#034;/medias/?context=bWFzdGVyfHJvb3R8NDY3MzE4fGltYWdlL3BuZ3xhR1V6TDJoak1pOHpNelUxTnpNNU5qYzRNekV6TkF8ZjJmMjIwODdlNTRhZTZhOGMwYjAxZmE3MjljMjNlZTZlOGI4ODY2ZDgxOTBlY2JjZTdjY2E0ZDZjZTY2ZTMzMg&#034;,&#034;1200&#034;:&#034;/medias/?context=bWFzdGVyfHJvb3R8NDY3MzE4fGltYWdlL3BuZ3xhRGRrTDJoaVl5OHpNelUxTnpNNU5qazBOamszTkF8MDZiMzVmY2Q0MWM0MjNkY2EwMDk5Yzc1ZGM0OWRlODA3YTYwMDhmOWJkZWQ2NWQ5Mjc2NTdmM2MyMWU0ZDVjYw&#034;,&#034;1201&#034;:&#034;/medias/?context=bWFzdGVyfHJvb3R8NDY3MzE4fGltYWdlL3BuZ3xhR014TDJnM01TOHpNelUxTnpNNU56QXhNalV4TUF8OTM3YzQ1OGFmNGIxNThjYzg5MTJhNmIyMWQ3N2M5ZjdlZTk5NTk0YTdkNWFhZTczYmI3NTJjOTlhZWZkZTI5YQ&#034;}' alt='' title='' style="">
+		</div>
+</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-sm-12 col-md-12">
+            <div class="content"><p class="image-attribute"><img src="/_ui/responsive/theme-powell/images/Value.png" /></p><p class="tittle-attribute">Value Added Assembly</p><p class="description-attribute">Powell offers the value added services you need to reduce procurement costs and maintain a competitive advantage. Critical components are bonded for same day delivery and 48 hour turnaround is available on stock to build designs.</p></div></div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
+            <div class="content"><p class="image-attribute"><img src="/_ui/responsive/theme-powell/images/Supply.png" /></p><p class="tittle-attribute">Supply Chain Management</p><p class="description-attribute">Powell has the experience, flexibility and resources to customize a solution for your unique supply chain and on time delivery requirements. Powell handles your day to day demands and challenges, improving your efficiency and increasing profitability.</p></div></div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
+            <div class="content"><p class="image-attribute"><img src="/_ui/responsive/theme-powell/images/Other.png" /></p><p class="tittle-attribute">Vacuum Degassing</p><p class="description-attribute">Degassing (or gas-off) is required of connectors and other components in space applications. As the name implies, the connectors must go through a vacuum outgassing procedure to remove harmful materials, per rigorous NASA or military specifications.</p></div></div>
+
+    </div>
+</div>
+<div class="spacer"></div>
+    <div class="helpsupport row col-equal">
+        <div class="help-support-needhelp-container col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="content"><div class="title-help-support">Need help?</div><div class="description-help-support">We have lots of ways for you to contact us when you need us. From expanded web sales service numbers to a branch location near you, reach out and let us help today.</div></div></div>
+        <div class="icon-support-container col-lg-8 col-md-6 col-sm-12" >
+            <div class="row"  >
+                <div class="component-container col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content"><div class='salessupport-image'></div><div class='salessupport-title'>Web Sales Support</div><div class='salessupport-subtitle'>800-776-8765</div></div></div>
+                <div class="component-container col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content"><div class='localsalessupport-image'></div><div class='localsalessupport-title'>Local Sales Support</div><div class='localsalessupport-subtitle'>800-235-7880</div></div></div>
+                <div class="component-container col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content"><div class='find-a-branch-image'></div><div class='find-a-branch-title'>Find a Branch</div><div class='find-a-branch-subtitle'><a href='/branch_locations'><span style='color:#3498db;'>Locations</span></a></div></div></div>
+                <div class="component-container col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content"><div class='wordmark-image'></div><div class='wordmark-title'>Powell Corporate</div><div class='wordmark-subtitle'><a href='/contactInformation'><span style='color:#2980b9;'>Contact Us</span></a></div></div></div>
+                </div>
+        </div>
+    </div></div>
+</div>
+
+			<footer>
+    <div class="container-fluid footerSmith">
+                    <div class="footer__nav--container row">
+                        <div class="col-lg-2-footer col-md-2 col-sm-2 col-xs-6 paragraphs-style-aboutandsupport">
+                                <p class="great-p-smith-footer">About Powell</p>
+                                <div class="yCmsComponent footer__link a-footer">
+<a href="https://s4staticassets.blob.core.windows.net/catalogs/powelllinecard.pdf" title="Powell Line Card" target="_blank" rel="noopener noreferrer">Powell Line Card</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/about_us" title="About Us">About Us</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/branch_locations" title="Branch Locations">Branch Locations</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/career_opportunities" title="Careers">Careers</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/corporate_responsibility" title="Corporate Responsibility">Corporate Responsibility</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/ecia" title="ECIA Authorized Dealer">ECIA Authorized Dealer</a></div></div>
+                        <div class="col-lg-2-footer col-md-2 col-sm-2 col-xs-6 paragraphs-style-aboutandsupport">
+                                <p class="great-p-smith-footer">Support</p>
+                                <div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/shipping_cost" title="Shipping Cost">Shipping Cost</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="/powell/en/USD/return_policy" title="Return Policy">Return Policy</a></div><div class="yCmsComponent footer__link a-footer">
+<a href="tariff_compliance_policy" title="Tariff Compliance">Tariff Compliance</a></div></div>
+                        <div class="col-lg-3-footer col-md-2 col-sm-3 col-xs-12 customer-service-style">
+                            <div class="content"><p class='great-p-smith-footer'>Customer Service</p><div class='customer-compon-positon col-xs-6 col-md-12 col-lg-12'><p class='paragraphs-style-customer-service'>Web Sales & Support</p><p class='paragraphs-style-customer-service'>(800) 776-8765</p></div><div class='customer-compon-positon col-xs-6 col-md-12 col-lg-12'><p class='paragraphs-style-customer-service'>Local Sales & Support</p><p class='paragraphs-style-customer-service'>(800) 235-7880</p></div></div></div>
+                        <div class="col-lg-3-footer col-md-2 col-sm-3 col-xs-12 customer-stay-info-style">
+
+                            <div class="content"><p class="great-p-smith-footer">Stay Informed</p><p>Subscribe to our newsletter to stay up to date on the latest from Powell.</p><p><button class="btn-sing-footer" onclick="window.open('https://lp.constantcontactpages.com/su/MAw7DMo/powellnewsletter', '_blank')">Sign Up Now</button></p></div></div>
+
+                        <div class="col-lg-5 col-md-3 col-sm-2 style-social col-xs-12 socialmedia-service-style">
+                                <a class="margin-icon" href="https://twitter.com/PowellElec">
+                                            <img src="/_ui/responsive/theme-powell/images/Twitter.svg" alt="" title="" />
+</a>
+                                    <a class="margin-icon" href="https://www.facebook.com/PowellElectronics/">
+                                            <img src="/_ui/responsive/theme-powell/images/Facebook.svg" alt="" title="" />
+</a>
+                                    <a class="margin-icon" href="https://www.linkedin.com/company/powell-electronics/">
+                                            <img src="/_ui/responsive/theme-powell/images/LinkedIn.svg" alt="" title="" />
+</a>
+                                    <a class="margin-icon" href="https://www.youtube.com/user/powellelectronics">
+                                            <img src="/_ui/responsive/theme-powell/images/Youtube.svg" alt="" title="" />
+</a>
+                                    </div>
+                        </div>
+
+                    <div class="row footerBottomSmith">
+                        <div class="col-lg-9 col-md-8 col-xs-12 footer-bottom">
+                                <div class="yCmsComponent a-footer">
+<a href="/powell/en/USD/privacy_policy" title="Privacy &amp; Cookie Notice">Privacy &amp; Cookie Notice</a></div><div class="blank-between-links"> | </div>
+                                        <div class="yCmsComponent a-footer">
+<a href="/powell/en/USD/termsAndConditions" title="Terms And Conditions" target="_blank" rel="noopener noreferrer">Terms And Conditions</a></div><div class="blank-between-links"> | </div>
+                                        <div class="yCmsComponent a-footer">
+<a href="/powell/en/USD/Accessibility" title="Accessibility Policy">Accessibility Policy</a></div></div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-12">
+                            <div class="container_copyright border-none">Copyright © 2022 Powell Electronics, Inc.</div>
+                        </div>
+                    </div>
+                </div>
+
+        </footer>
+
+</main>
+
+	<form name="accessiblityForm">
+		<input type="hidden" id="accesibility_refreshScreenReaderBufferField" name="accesibility_refreshScreenReaderBufferField" value=""/>
+	</form>
+	<div id="ariaStatusMsg" class="skip" role="status" aria-relevant="text" aria-live="polite"></div>
+
+	<script>
+		/*<![CDATA[*/
+		
+		var ACC = { config: {} };
+			ACC.config.contextPath = '';
+			ACC.config.encodedContextPath = '\/powell\/en\/USD';
+			ACC.config.commonResourcePath = '\/_ui\/responsive\/common';
+			ACC.config.themeResourcePath = '\/_ui\/responsive\/theme-powell';
+			ACC.config.siteResourcePath = '\/_ui\/responsive\/site-powell';
+			ACC.config.rootPath = '\/_ui\/responsive';
+			ACC.config.CSRFToken = 'd202cf38-cb8b-48e0-aa96-65efa8b4286e';
+			ACC.pwdStrengthVeryWeak = 'Very weak';
+			ACC.pwdStrengthWeak = 'Weak';
+			ACC.pwdStrengthMedium = 'Medium';
+			ACC.pwdStrengthStrong = 'Strong';
+			ACC.pwdStrengthVeryStrong = 'Very strong';
+			ACC.pwdStrengthUnsafePwd = 'password.strength.unsafepwd';
+			ACC.pwdStrengthTooShortPwd = 'Too short';
+			ACC.pwdStrengthMinCharText = 'Minimum length is %d characters';
+			ACC.accessibilityLoading = 'Loading... Please wait...';
+			ACC.accessibilityStoresLoaded = 'Stores loaded';
+			ACC.config.googleApiKey='';
+			ACC.config.googleApiVersion='3.7';
+			ACC.quoteQuoteErrorEmptyFields='Please enter a valid name and description';
+			ACC.quoteQuoteErrorSubmission='Something went wrong during quote submission';
+			ACC.quoteQuoteSuccessSubmission='RFQ Submitted Successfully';
+
+			
+			ACC.autocompleteUrl = '\/powell\/en\/USD\/search\/autocompleteSecure';
+
+			
+			ACC.config.loginUrl = '\/powell\/en\/USD\/login';
+
+			
+			ACC.config.authenticationStatusUrl = '\/powell\/en\/USD\/authentication\/status';
+
+			
+		/*]]>*/
+	</script>
+	<script>
+	/*<![CDATA[*/
+	ACC.addons = {};	//JS namespace for addons properties
+
+	
+		ACC.addons['assistedservicepromotionaddon'] = [];
+		
+		ACC.addons['i18ndictionary'] = [];
+		
+		ACC.addons['textfieldconfiguratortemplateaddon'] = [];
+		
+		ACC.addons['orderselfserviceaddon'] = [];
+		
+		ACC.addons['smarteditaddon'] = [];
+		
+		ACC.addons['configurablebundleaddon'] = [];
+		
+		ACC.addons['customerticketingaddon'] = [];
+		
+		ACC.addons['b2bacceleratoraddon'] = [];
+		
+		ACC.addons['assistedservicestorefront'] = [];
+		
+				ACC.addons['assistedservicestorefront']['asm.timer.min'] = 'min';
+			
+		ACC.addons['commerceorgaddon'] = [];
+		
+		ACC.addons['powelladdon'] = [];
+		
+	/*]]>*/
+</script>
+<script src="/_ui/shared/js/generatedVariables.js"></script>
+	<script src="/_ui/responsive/common/js/jquery-3.4.1.min.js"></script>
+		
+		<script src="/_ui/responsive/common/js/enquire.min.js"></script>
+		<script src="/_ui/responsive/common/js/Imager.min.js"></script>
+		<script src="/_ui/responsive/common/js/purify.min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.blockUI-2.66.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.colorbox-min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.form.min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.hoverIntent.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.pstrength.custom-1.2.0.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.syncheight.custom.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.tabs.custom.js"></script>
+		<script src="/_ui/responsive/common/js/jquery-ui-1.12.1.min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.zoom.custom.js"></script>
+		<script src="/_ui/responsive/common/js/owl.carousel.custom.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.tmpl-1.0.0pre.min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.currencies.min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.waitforimages.min.js"></script>
+		<script src="/_ui/responsive/common/js/jquery.slideviewer.custom.1.2.js"></script>
+		
+		<script src="/_ui/responsive/common/js/acc.register.js"></script>
+		<script src="/_ui/responsive/common/js/acc.carouselAddToCart.js"></script>
+		<script src="/_ui/responsive/common/js/acc.address.js"></script>
+		<script src="/_ui/responsive/common/js/acc.autocomplete.js"></script>
+		<script src="/_ui/responsive/common/js/acc.carousel.js"></script>
+		<script src="/_ui/responsive/common/js/acc.cart.js"></script>
+		<script src="/_ui/responsive/common/js/acc.cartitem.js"></script>
+		<script src="/_ui/responsive/common/js/acc.checkout.js"></script>
+		<script src="/_ui/responsive/common/js/acc.checkoutsteps.js"></script>
+		<script src="/_ui/responsive/common/js/acc.cms.js"></script>
+		<script src="/_ui/responsive/common/js/acc.colorbox.js"></script>
+		<script src="/_ui/responsive/common/js/acc.common.js"></script>
+		<script src="/_ui/responsive/common/js/acc.forgottenpassword.js"></script>
+		<script src="/_ui/responsive/common/js/acc.global.js"></script>
+		<script src="/_ui/responsive/common/js/acc.hopdebug.js"></script>
+		<script src="/_ui/responsive/common/js/acc.imagegallery.js"></script>
+		<script src="/_ui/responsive/common/js/acc.langcurrencyselector.js"></script>
+		<script src="/_ui/responsive/common/js/acc.minicart.js"></script>
+		<script src="/_ui/responsive/common/js/acc.navigation.js"></script>
+		<script src="/_ui/responsive/common/js/acc.order.js"></script>
+		<script src="/_ui/responsive/common/js/acc.paginationsort.js"></script>
+		<script src="/_ui/responsive/common/js/acc.payment.js"></script>
+		<script src="/_ui/responsive/common/js/acc.paymentDetails.js"></script>
+		<script src="/_ui/responsive/common/js/acc.pickupinstore.js"></script>
+		<script src="/_ui/responsive/common/js/acc.product.js"></script>
+		<script src="/_ui/responsive/common/js/acc.productDetail.js"></script>
+		<script src="/_ui/responsive/common/js/acc.quickview.js"></script>
+		<script src="/_ui/responsive/common/js/acc.ratingstars.js"></script>
+		<script src="/_ui/responsive/common/js/acc.refinements.js"></script>
+		<script src="/_ui/responsive/common/js/acc.sanitizer.js"></script>
+		<script src="/_ui/responsive/common/js/acc.silentorderpost.js"></script>
+		<script src="/_ui/responsive/common/js/acc.tabs.js"></script>
+		<script src="/_ui/responsive/common/js/acc.termsandconditions.js"></script>
+		<script src="/_ui/responsive/common/js/acc.track.js"></script>
+		<script src="/_ui/responsive/common/js/acc.storefinder.js"></script>
+		<script src="/_ui/responsive/common/js/acc.futurelink.js"></script>
+		<script src="/_ui/responsive/common/js/acc.productorderform.js"></script>
+		<script src="/_ui/responsive/common/js/acc.savedcarts.js"></script>
+		<script src="/_ui/responsive/common/js/acc.multidgrid.js"></script>
+		<script src="/_ui/responsive/common/js/acc.quickorder.js"></script>
+		<script src="/_ui/responsive/common/js/acc.quote.js"></script>
+		<script src="/_ui/responsive/common/js/acc.consent.js"></script>
+		<script src="/_ui/responsive/common/js/acc.cookienotification.js"></script>
+		<script src="/_ui/responsive/common/js/acc.closeaccount.js"></script>
+		<script src="/_ui/responsive/common/js/acc.csv-import.js"></script>
+		<script type="text/javascript" src="/_ui/responsive/common/js/acc.gtm.js"></script>
+		<script src="/_ui/responsive/common/js/_autoload.js"></script>
+		<script src="/_ui/responsive/common/js/acc.validation.js"></script>
+		
+		<script src="/_ui/responsive/common/js/acc.taxexempt.js"></script>
+
+		<script src="/_ui/addons/assistedservicepromotionaddon/responsive/common/js/assistedservicepromotionaddon.js"></script>
+		<script src="/_ui/addons/assistedservicestorefront/responsive/common/js/assistedservicestorefront.js"></script>
+		<script src="/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.pager.js"></script>
+		<script src="/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.min.js"></script>
+		<script src="/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js"></script>
+		<script src="/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.checkoutsummary.js"></script>
+		<script src="/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.paymentType.js"></script>
+		<script src="/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.replenishment.js"></script>
+		<script src="/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.orderform.js"></script>
+		<script src="/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.approval.js"></script>
+		<script src="/_ui/addons/b2bacceleratoraddon/responsive/common/js/secureportal.js"></script>
+		<script src="/_ui/addons/commerceorgaddon/responsive/common/js/commerceorgnavigation.js"></script>
+		<script src="/_ui/addons/commerceorgaddon/responsive/common/js/commerceorgaddon.js"></script>
+		<script src="/_ui/addons/commerceorgaddon/responsive/common/js/jquery.validate.js"></script>
+		<script src="/_ui/addons/configurablebundleaddon/responsive/common/js/configurablebundleaddon.js"></script>
+		<script src="/_ui/addons/customerticketingaddon/responsive/common/js/customerticketingaddon.js"></script>
+		<script src="/_ui/addons/i18ndictionary/responsive/common/js/i18ndictionary.js"></script>
+		<script src="/_ui/addons/orderselfserviceaddon/responsive/common/js/orderselfserviceaddon.js"></script>
+		<script src="/_ui/addons/orderselfserviceaddon/responsive/common/js/cms/cancelorderaction.js"></script>
+		<script src="/_ui/addons/orderselfserviceaddon/responsive/common/js/cms/returnorderaction.js"></script>
+		<script src="/_ui/addons/powelladdon/responsive/common/js/acc.paymentType.js"></script>
+		<script src="/_ui/addons/powelladdon/responsive/common/js/acc.bomUpload.js"></script>
+		<script src="/_ui/addons/smarteditaddon/shared/common/js/webApplicationInjector.js"></script>
+		<script src="/_ui/addons/smarteditaddon/shared/common/js/reprocessPage.js"></script>
+		<script src="/_ui/addons/smarteditaddon/shared/common/js/adjustComponentRenderingToSE.js"></script>
+		<script src="/_ui/addons/smarteditaddon/responsive/common/js/smarteditaddon.js"></script>
+		<script src="/_ui/addons/textfieldconfiguratortemplateaddon/responsive/common/js/textfieldconfiguratortemplateaddon.js"></script>
+		<script src="https://componentsearchengine.com/common/functions.js"></script>
+		<script src="https://powell.componentsearchengine.com/common/plugin.js?t=1"></script>
+	</body>
+
+</html>

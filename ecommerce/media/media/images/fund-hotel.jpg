@@ -1,0 +1,2618 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://peterson.com/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<script>var et_site_url='https://peterson.com';var et_post_id='725';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><title>Peterson Ray | visual communications design</title>
+<style id="et-divi-userfonts">@font-face { font-family: "Ernestine"; font-display: swap;  src: url("https://peterson.com/wp-content/uploads/et-fonts/ErnestineCompPro.ttf") format("truetype"); }</style><meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="Peterson Ray &raquo; Feed" href="https://peterson.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Peterson Ray &raquo; Comments Feed" href="https://peterson.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/peterson.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<meta content="Peterson Ray v.1.0.0" name="generator"/><style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://peterson.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://peterson.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-sos-css' href='https://peterson.com/wp-content/plugins/divi-sos/css/divi-sos.css?ver=1.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='media_boxes-css' href='https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/css/mediaBoxes.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='media_boxes-font-awesome-css' href='https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Font%20Awesome/css/font-awesome.min.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='media_boxes-fancybox-css' href='https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Fancybox/jquery.fancybox.min.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='media_boxes-magnific-popup-css' href='https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Magnific%20Popup/magnific-popup.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='media_boxes-extra-style-css' href='https://peterson.com/wp-content/plugins/wp_media_boxes/plugin_extra/extra_style.css?ver=1.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://peterson.com/wp-content/themes/Divi/style.css?ver=6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css' href='https://peterson.com/wp-content/themes/peterson-ray/style.css?ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hover-box-styles-css' href='https://peterson.com/wp-content/plugins/hover-box/styles/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://peterson.com/wp-includes/css/dashicons.min.css?ver=6.8' type='text/css' media='all' />
+<script type="text/javascript" src="https://peterson.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="divi-sos-js-extra">
+/* <![CDATA[ */
+var divi_sos = {"ajaxurl":"https:\/\/peterson.com\/wp-admin\/admin-ajax.php","layouts":{"1605":{"iframe":"<iframe class=\"divi-sos-iframe\" src=\"https:\/\/peterson.com\/divi-sos-layout-loader\/?divi_sos_layout_id=1605\" scrolling=\"yes\"><\/iframe>","transition":"fade","background":"none","loader":"light","close":"","close_color":"#000000","close_background_color":"","automatic":"","automatic_delay":"0","cookie":""},"1606":{"iframe":"<iframe class=\"divi-sos-iframe\" src=\"https:\/\/peterson.com\/divi-sos-layout-loader\/?divi_sos_layout_id=1606\" scrolling=\"yes\"><\/iframe>","transition":"fade","background":"none","loader":"light","close":"1","close_color":"#ffffff","close_background_color":"","automatic":"","automatic_delay":"0","cookie":""},"1607":{"iframe":"<iframe class=\"divi-sos-iframe\" src=\"https:\/\/peterson.com\/divi-sos-layout-loader\/?divi_sos_layout_id=1607\" scrolling=\"yes\"><\/iframe>","transition":"fade","background":"dark","loader":"light","close":"1","close_color":"#ffffff","close_background_color":"#00c6e0","automatic":"","automatic_delay":"0","cookie":""},"1608":{"iframe":"<iframe class=\"divi-sos-iframe\" src=\"https:\/\/peterson.com\/divi-sos-layout-loader\/?divi_sos_layout_id=1608\" scrolling=\"yes\"><\/iframe>","transition":"fade","background":"none","loader":"light","close":"1","close_color":"#ffffff","close_background_color":"","automatic":"","automatic_delay":"0","cookie":""},"1609":{"iframe":"<iframe class=\"divi-sos-iframe\" src=\"https:\/\/peterson.com\/divi-sos-layout-loader\/?divi_sos_layout_id=1609\" scrolling=\"yes\"><\/iframe>","transition":"fade","background":"none","loader":"dark","close":"1","close_color":"#ffffff","close_background_color":"","automatic":"","automatic_delay":"0","cookie":""}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/divi-sos/js/divi-sos.min.js?ver=1.1.3" id="divi-sos-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Isotope/jquery.isotope.min.js?ver=1.1.2" id="media_boxes-isotope-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/imagesLoaded/jquery.imagesLoaded.min.js?ver=1.1.2" id="media_boxes-images-loaded-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Transit/jquery.transit.min.js?ver=1.1.2" id="media_boxes-transit-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/jQuery%20Easing/jquery.easing.js?ver=1.1.2" id="media_boxes-easing-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Waypoints/waypoints.min.js?ver=1.1.2" id="media_boxes-waypoints-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/jQuery%20Visible/jquery.visible.min.js?ver=1.1.2" id="media_boxes-visible-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Fancybox/jquery.fancybox.min.js?ver=1.1.2" id="media_boxes-fancybox-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Modernizr/modernizr.custom.min.js?ver=1.1.2" id="media_boxes-modernizr-custom-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/components/Magnific%20Popup/jquery.magnific-popup.min.js?ver=1.1.2" id="media_boxes-magnific-popup-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/js/jquery.mediaBoxes.dropdown.js?ver=1.1.2" id="media_boxes-media-boxes-dropdown-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin/js/jquery.mediaBoxes.js?ver=1.1.2" id="media_boxes-media-boxes-js-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/wp_media_boxes/plugin_extra/init.js?ver=1.1.2" id="media_boxes-media-boxes-js-init-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/themes/peterson-ray/ds-script.js?ver=6.8" id="ds-theme-script-js"></script>
+<link rel="https://api.w.org/" href="https://peterson.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://peterson.com/wp-json/wp/v2/pages/725" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://peterson.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8" />
+<link rel="canonical" href="https://peterson.com/" />
+<link rel='shortlink' href='https://peterson.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://peterson.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpeterson.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://peterson.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpeterson.com%2F&#038;format=xml" />
+					<style type="text/css">
+					.overlay-loader {position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: #ffffff; opacity: 1;z-index: 999999;height: 100%;width: 100%;overflow: hidden !important;margin: auto;}
+					.loader{position: absolute;left: 50%;top: 42%;background-repeat: no-repeat;background-position: center;-webkit-background-size: cover;background-size: cover;}
+					@keyframes lds-blocks {0% {background: #c5686d;opacity:0.3;}8.333333333333334% {background: #c5686d;opacity:0.3;}8.416666666666666% {background: #c5686d;}100% {background: #c5686d;}}
+					@-webkit-keyframes lds-blocks {0% {background: #c5686d;opacity:0.3;}8.333333333333334% {background: #c5686d;opacity:0.3;}8.416666666666666% {background: #c5686d;}100% {background: #c5686d;}}
+					.lds-blocks {position: relative;margin:0px 0 0 -50px;}
+					.lds-blocks div {position: absolute;width: 40px;height: 40px;background: #c5686d;-webkit-animation: lds-blocks 1s linear infinite;animation: lds-blocks 1s linear infinite;}
+					.lds-blocks {width: 100px !important;height: 100px !important;-webkit-transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);}
+					</style>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="preload" href="https://peterson.com/wp-content/themes/Divi/core/admin/fonts/modules.ttf" as="font" crossorigin="anonymous"><link rel="shortcut icon" href="" /><link rel="stylesheet" id="et-core-unified-725-cached-inline-styles" href="https://peterson.com/wp-content/et-cache/725/et-core-unified-725-17499312027496.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
+<body class="home wp-singular page-template-default page page-id-725 wp-theme-Divi wp-child-theme-peterson-ray et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
+	<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://peterson.com/">
+						<img src="https://peterson.com/wp-content/uploads/2018/12/logo.png" alt="Peterson Ray" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-286"><a href="#">Client Stories</a>
+<ul class="sub-menu">
+	<li id="menu-item-920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-920"><a href="https://peterson.com/atmos-energy/">Atmos Energy</a></li>
+	<li id="menu-item-921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-921"><a href="https://peterson.com/seton-hall-university/">Seton Hall University</a></li>
+	<li id="menu-item-922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-922"><a href="https://peterson.com/city-of-plano/">City of Plano</a></li>
+	<li id="menu-item-30364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30364"><a href="https://peterson.com/wtxff/">WTXFF</a></li>
+	<li id="menu-item-30847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30847"><a href="https://peterson.com/baylor-scott-white/">Baylor Scott &#038; White</a></li>
+	<li id="menu-item-30846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30846"><a href="https://peterson.com/dbu/">DBU</a></li>
+</ul>
+</li>
+<li id="menu-item-287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a href="https://peterson.com/our-story/">Our Story</a></li>
+<li id="menu-item-1121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1121"><a href="https://peterson.com/our-process/">Our Process</a></li>
+<li id="menu-item-31232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31232"><a href="https://peterson.com/blog/">Our Blog</a></li>
+<li id="menu-item-288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-288"><a href="#divi-sos-1609">Contact</a></li>
+</ul>						</nav>
+					
+					
+					
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://peterson.com/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+			<div id="et-main-area">
+							<div class="overlay-loader">
+							<div class="loader">
+									<div class="lds-css ng-scope">
+<div class="lds-blocks" style="100%;height:100%"><div style="left:17px;top:17px;animation-delay:0s"></div><div style="left:59px;top:17px;animation-delay:0.08333333333333333s"></div><div style="left:101px;top:17px;animation-delay:0.16666666666666666s"></div><div style="left:143px;top:17px;animation-delay:0.25s"></div><div style="left:17px;top:59px;animation-delay:0.9166666666666666s"></div><div style="left:143px;top:59px;animation-delay:0.3333333333333333s"></div><div style="left:17px;top:101px;animation-delay:0.8333333333333334s"></div><div style="left:143px;top:101px;animation-delay:0.4166666666666667s"></div><div style="left:17px;top:143px;animation-delay:0.75s"></div><div style="left:59px;top:143px;animation-delay:0.6666666666666666s"></div><div style="left:101px;top:143px;animation-delay:0.5833333333333334s"></div><div style="left:143px;top:143px;animation-delay:0.5s"></div></div></div>
+							</div>
+						</div>	
+			
+<div id="main-content">
+
+
+			
+				<article id="post-725" class="post-725 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div id="et-boc" class="et-boc">
+			
+		<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0 et_animated">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint et_pb_image_sticky">
+				
+				
+				<span class="et_pb_image_wrap "><img decoding="async" src="https://peterson.com/wp-content/uploads/2019/01/tell-your-story-cropped.jpg" alt="" title="" height="auto" width="auto" srcset="https://peterson.com/wp-content/uploads/2019/01/tell-your-story-cropped.jpg 564w, https://peterson.com/wp-content/uploads/2019/01/tell-your-story-cropped-300x146.jpg 300w" sizes="(max-width: 564px) 100vw, 564px" class="wp-image-161" /></span>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_1 et_pb_equal_columns et_pb_gutters1">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_hover_box et_pb_hover_box_0 et_hover_enabled et_clickable et_pb_section_video_on_hover">
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<div class="cwp_hoverbox_wrapper zoom   zoom_in">
+				<div class="cwp_hover-box">
+				  <div class="cwp_front">   
+					<div class="et_pb_front_hoverbox_image"><span class="et_pb_image_wrap"><img decoding="async" src="https://peterson.com/wp-content/uploads/2020/04/cs-atmos-hm-1a.jpg" alt=""/></span></div>
+					<div class="et_pb_hoverbox_container">
+						
+						<div class="cwp_front_description">
+						     
+						</div>
+						</div>
+					</div>
+				  <div class="cwp_back">   
+					<div class="et_pb_hoverbox_container">
+						<h4 class="et_pb_module_header">Atmos Energy</h4>
+					<div class="cwp_back_description">CLIENT STORY<br />
+<img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/double-line-2.png"></div>
+					<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper">
+				
+			</div> 
+					</div>
+					</div>
+				</div>
+			</div>
+				</div>
+			</div>
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img loading="lazy" decoding="async" width="90" height="90" src="https://peterson.com/wp-content/uploads/2019/01/icon-discovery-lg.png" alt="" class="et-waypoint et_pb_animation_top wp-image-498" /></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Discovery.</span></h4>
+						<div class="et_pb_blurb_description"><p>To begin, we conduct “intuitive” research to help us understand what makes you unique. This process is geared toward the final product: meaningful design.<br /> <img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/double-line-2.png" /></p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_hover_box et_pb_hover_box_1 et_hover_enabled et_clickable et_pb_section_video_on_hover">
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<div class="cwp_hoverbox_wrapper zoom   zoom_in">
+				<div class="cwp_hover-box">
+				  <div class="cwp_front">   
+					<div class="et_pb_front_hoverbox_image"><span class="et_pb_image_wrap"><img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/cs-shu-him.jpg" alt=""/></span></div>
+					<div class="et_pb_hoverbox_container">
+						
+						<div class="cwp_front_description">
+						     
+						</div>
+						</div>
+					</div>
+				  <div class="cwp_back">   
+					<div class="et_pb_hoverbox_container">
+						<h4 class="et_pb_module_header">Seton Hall University</h4>
+					<div class="cwp_back_description">CLIENT STORY<br />
+<img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/double-line-2.png"></div>
+					<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper">
+				
+			</div> 
+					</div>
+					</div>
+				</div>
+			</div>
+				</div>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_2 et_pb_equal_columns et_pb_gutters1">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img loading="lazy" decoding="async" width="90" height="90" src="https://peterson.com/wp-content/uploads/2019/01/icon-strategy-lg.png" alt="" class="et-waypoint et_pb_animation_top wp-image-497" /></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Strategy.</span></h4>
+						<div class="et_pb_blurb_description"><p><span>From our research we develop a messaging strategy, customized to fit your needs. Your new “message platform” will guide all future communications.</span><br /> <img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/double-line-2.png" /></p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_hover_box et_pb_hover_box_2 et_hover_enabled et_clickable et_pb_section_video_on_hover">
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<div class="cwp_hoverbox_wrapper zoom   zoom_in">
+				<div class="cwp_hover-box">
+				  <div class="cwp_front">   
+					<div class="et_pb_front_hoverbox_image"><span class="et_pb_image_wrap"><img decoding="async" src="https://peterson.com/wp-content/uploads/2020/01/plano-timeline-hmpage-1.jpg" alt=""/></span></div>
+					<div class="et_pb_hoverbox_container">
+						
+						<div class="cwp_front_description">
+						     
+						</div>
+						</div>
+					</div>
+				  <div class="cwp_back">   
+					<div class="et_pb_hoverbox_container">
+						<h4 class="et_pb_module_header">City of Plano</h4>
+					<div class="cwp_back_description">CLIENT STORY<br />
+<img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/double-line-2.png"></div>
+					<div class="et_pb_button_module_wrapper et_pb_button_2_wrapper">
+				
+			</div> 
+					</div>
+					</div>
+				</div>
+			</div>
+				</div>
+			</div>
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_2 et_animated  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img loading="lazy" decoding="async" width="90" height="90" src="https://peterson.com/wp-content/uploads/2019/01/icon-design-lg-1.png" alt="" class="et-waypoint et_pb_animation_top wp-image-530" /></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Design.</span></h4>
+						<div class="et_pb_blurb_description"><p>Finally, we use your message platform to bring your story to life. We create thoughtful and intelligent design to set you apart from the competition.<br /> <img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/double-line-2.png" /></p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_3 et_pb_row_fullwidth">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_1 our-work-img">
+				
+				
+				<span class="et_pb_image_wrap "><img decoding="async" src="https://peterson.com/wp-content/uploads/2019/02/our-work-1.png" alt="" title="" height="auto" width="auto" class="wp-image-944" /></span>
+			</div><div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"> <style> 
+ #media-boxes-container-5e8cc561c18c8 .mb_global_skin.post_title-1 { 
+ font-size : 16px !important; 
+ line-height : 16px !important; 
+ color : #454545 !important; 
+ font-family : 'Ernestine',Helvetica,Arial,Lucida,sans-serif !important; 
+ font-weight : 600 !important; 
+ text-decoration : none !important; 
+ font-style : normal !important; 
+ text-transform : uppercase !important; 
+ text-align : inherit !important; 
+ letter-spacing : 0px !important; 
+ word-spacing : 0px !important; 
+ position : relative !important; 
+ top : 0px !important; 
+ left : 0px !important; 
+ display : block !important; 
+ overflow : visible !important; 
+ float : none !important; 
+ clear : none !important; 
+ margin-top : 0px !important; 
+ margin-right : 0px !important; 
+ margin-bottom : 0px !important; 
+ margin-left : 0px !important; 
+ padding-top : 10px !important; 
+ padding-right : 0px !important; 
+ padding-bottom : 10px !important; 
+ padding-left : 0px !important; 
+ border-top-width : 0px !important; 
+ border-right-width : 0px !important; 
+ border-bottom-width : 0px !important; 
+ border-left-width : 0px !important; 
+ border-top-left-radius : 0px !important; 
+ border-top-right-radius : 0px !important; 
+ border-bottom-left-radius : 0px !important; 
+ border-bottom-right-radius : 0px !important; 
+ border-color : #ffffff !important; 
+ border-style : none !important; 
+ background-color : rgba(255,255,255,0.91) !important; 
+ } 
+ #media-boxes-container-5e8cc561c18c8 .mb_global_skin.post_title-1:hover { 
+} 
+ </style> 
+ 
+ <style> 
+ #media-boxes-container-5e8cc561c18c8 .mb_global_skin.thumbnail-overlay { 
+ 
+ background-color    : #ffffff !important; 
+ padding-top         : 0px !important; 
+ padding-right       : 0px !important; 
+ padding-bottom      : 0px !important; 
+ padding-left        : 0px !important; 
+ text-align          : center !important; 
+ vertical-align      : middle !important; 
+ } 
+ #media-boxes-container-5e8cc561c18c8 .mb_global_skin.media-box-content { 
+ display : none !important;  
+ background-color    : #ffffff !important; 
+ padding-top         : 20px !important; 
+ padding-right       : 20px !important; 
+ padding-bottom      : 20px !important; 
+ padding-left        : 20px !important; 
+ text-align          : left !important; 
+ } 
+ </style> 
+ <style> 
+ #media-boxes-container-5e8cc561c18c8 .mb_hide_if_empty:empty{ display: none !important; 
+ } 
+ </style> 
+ 
+										<style>
+											#media-boxes-container-5e8cc561c18c8 .media-boxes-load-more-button{
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    font-size: 14px !important;
+    height: 15px;
+    padding: 10px 15px 10px 15px;
+    margin: 0px auto;
+    line-height: 15px;
+
+    -webkit-box-shadow: 0 1px 1px rgba(34,25,25,0.2);
+       -moz-box-shadow: 0 1px 1px rgba(34,25,25,0.2);
+         -o-box-shadow: 0 1px 1px rgba(34,25,25,0.2);
+        -ms-box-shadow: 0 1px 1px rgba(34,25,25,0.2);
+            box-shadow: 0 1px 1px rgba(34,25,25,0.2);
+
+    -webkit-box-sizing: content-box !important;
+       -moz-box-sizing: content-box !important;
+            box-sizing: content-box !important;
+
+}
+
+#media-boxes-container-5e8cc561c18c8 .media-boxes-loading{
+
+}
+
+#media-boxes-container-5e8cc561c18c8 .media-boxes-no-more-entries{
+
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+
+}
+											#media-boxes-container-5e8cc561c18c8 .media-boxes-no-more-entries{
+	display: none;
+}
+
+#media-boxes-container-5e8cc561c18c8  .media-boxes-filter {
+     margin-left: calc(50% - 171px) !important;
+     font-weight: 600;
+     /*margin-left: auto !important;
+     margin-right: auto !important;
+     float: right !important;*/
+     display: block !important;
+}
+
+.mb_global_skin.thumbnail-overlay {
+     opacity: 0.9 !important;
+}
+										</style>
+									
+	    					<div id='media-boxes-container-5e8cc561c18c8'>
+	    						<div class='media-boxes-filters-container drop_zone_1'></div> 
+	    						<div class='media-boxes-filters-container drop_zone_2'>
+		                <ul class='media-boxes-filter media-boxes-filters-5e8cc561c18c8' data-id='filter_2'>
+		                  <li><a href='#' class='selected' data-filter='*'>All</a></li>
+		                  <li><a href='#'  data-filter='.category_7'>Corporate</a></li><li><a href='#'  data-filter='.category_8'>Education</a></li>
+		                </ul>
+					
+		                <ul class='media-boxes-filter media-boxes-filters-5e8cc561c18c8' data-id='filter_1'>
+		                  <li><a href='#' class='selected' data-filter='*'>All</a></li>
+		                  <li><a href='#'  data-filter='.category_2'>Identity</a></li><li><a href='#'  data-filter='.category_4'>Print</a></li><li><a href='#'  data-filter='.category_5'>Online</a></li><li><a href='#'  data-filter='.category_6'>Motion</a></li>
+		                </ul>
+					</div>
+    							<div id='mediaboxes-grid-5e8cc561c18c8' class='media-boxes-grid' data-settings='{&quot;boxesToLoadStart&quot;:16,&quot;boxesToLoad&quot;:16,&quot;minBoxesPerFilter&quot;:16,&quot;lazyLoad&quot;:true,&quot;horizontalSpaceBetweenBoxes&quot;:18,&quot;verticalSpaceBetweenBoxes&quot;:18,&quot;columns&quot;:4,&quot;resolutions&quot;:[{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:1440,&quot;columns&quot;:4},{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:1280,&quot;columns&quot;:4},{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:1024,&quot;columns&quot;:3},{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:966,&quot;columns&quot;:3},{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:768,&quot;columns&quot;:2},{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:640,&quot;columns&quot;:2},{&quot;columnWidth&quot;:&quot;auto&quot;,&quot;maxWidth&quot;:480,&quot;columns&quot;:1}],&quot;waitUntilThumbWithRatioLoads&quot;:false,&quot;waitForAllThumbsNoMatterWhat&quot;:false,&quot;LoadingWord&quot;:&quot;Loading...&quot;,&quot;loadMoreWord&quot;:&quot;Load More&quot;,&quot;noMoreEntriesWord&quot;:&quot;No More Entries&quot;,&quot;thumbnailOverlay&quot;:true,&quot;overlayEffect&quot;:&quot;direction-aware&quot;,&quot;overlaySpeed&quot;:200,&quot;overlayEasing&quot;:&quot;default&quot;,&quot;deepLinkingOnFilter&quot;:false,&quot;multipleFilterLogic&quot;:&quot;AND&quot;,&quot;filterContainer&quot;:&quot;.media-boxes-filters-5e8cc561c18c8&quot;,&quot;deepLinkingOnSearch&quot;:false,&quot;search&quot;:&quot;.media-boxes-search-5e8cc561c18c8&quot;,&quot;searchTarget&quot;:&quot;.media-box-content, .thumbnail-overlay&quot;,&quot;sortContainer&quot;:&quot;.media-boxes-sort-5e8cc561c18c8&quot;,&quot;popup&quot;:&quot;fancybox&quot;,&quot;showOnlyVisibleBoxesInPopup&quot;:false,&quot;considerFilteringInPopup&quot;:true,&quot;deepLinkingOnPopup&quot;:true,&quot;magnificpopup&quot;:{&quot;gallery&quot;:true,&quot;alignTop&quot;:false,&quot;preload&quot;:[0,3]},&quot;fancybox&quot;:{&quot;loop&quot;:true,&quot;margin&quot;:[44,0],&quot;keyboard&quot;:true,&quot;arrows&quot;:true,&quot;infobar&quot;:false,&quot;toolbar&quot;:false,&quot;buttons&quot;:[&quot;slideShow&quot;,&quot;fullScreen&quot;,&quot;&quot;,&quot;close&quot;],&quot;idleTime&quot;:3,&quot;protect&quot;:false,&quot;animationEffect&quot;:&quot;fade&quot;,&quot;animationDuration&quot;:330,&quot;transitionEffect&quot;:&quot;fade&quot;,&quot;transitionDuration&quot;:330,&quot;slideShow&quot;:{&quot;autoStart&quot;:false,&quot;speed&quot;:40000},&quot;fullScreen&quot;:{&quot;autoStart&quot;:false},&quot;thumbs&quot;:{&quot;autoStart&quot;:false,&quot;hideOnClose&quot;:true},&quot;touch&quot;:{&quot;vertical&quot;:true,&quot;momentum&quot;:true}},&quot;animation_on_thumbnail_overlay_hover&quot;:[]}'>
+    								    
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/01/encapture-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/06/encapture-thumb-2-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >Encapture Website</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/01/encapture-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/06/dbu-990-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/06/dbu-thumb-2-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >Dallas Baptist University</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/06/dbu-990-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/06/dbu-990-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/09/GAS-identity-990x398-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/09/GAS-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >Grapevine Animal Services</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/08/paysand-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/08/paysand-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >PAY SAND &#8211; HUNT OIL EMPLOYEE MAGAZINE</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/08/plano-covers-2018-990x640-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/08/plano-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >PLANO ECONOMIC DEVELOPMENT CAMPAIGN 2018</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/08/plano-comm-profile-2019-990x640-1.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/08/plano-progress-report-2018-990x640-1.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/08/plano-timeline-2018-990x640-1.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/08/atmos-ar-2017-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/08/atmos-ar-thumb-2-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS ANNUAL REPORT 2017</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/08/atmos-ar-green-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/08/atmos-ar-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS ANNUAL REPORT 2018</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/08/atmos-ar-green-990x435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/08/atmos-visions-2018-990x435-2.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/08/atmos-visions-2018-thumb-1-2-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS VISIONS 2018</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/08/atmos-visions-on-stump-2018-990x435.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/atmos-10k-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/atmos-10k-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS 10K</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/atmos-visions-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/atmos-visions-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS VISIONS 2016</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/atmos-visions-2017-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/atmos-visions-2017-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS VISIONS 2017</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/01/atmos-visions-2017-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/trophy-dental-990x435-1-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/trophy-dental-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >TROPHY DENTAL</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/c8c-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/c8c-i-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >COORDIN8CARE IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/c8c-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/c8c-w-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >COORDIN8CARE WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/01/c8c-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/c8c-leave-behind-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/c8c-lb-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >COORDIN8CARE LEAVE BEHIND CARDS</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/thinkpad-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/thinkpad-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THINKPADSOLUTIONS IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/01/thinkpad-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/thinkpad-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THINKPADSOLUTIONS WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/01/thinkpad-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/l2h-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/l2h-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >LAUGH2HEALTHY IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/trta-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/trta-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THOMSON REUTERS E-BOOK</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/biw-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/biw-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BAY ISLAND WOODWORKS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/biw-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/iv-revival-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/iv-revival-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >IV REVIVAL WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/iv-revival-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/dbu-w-990-435-2.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/dbu-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >DBU &#8211; WHY DBU WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/dbu-w-990-435-1.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/kosmos-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/kosmos-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >KOSMOS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/kosmos-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/proof-leadership-990x435-1-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/proof-leadership-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >PROOF LEADERSHIP GROUP</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/atmos-2-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/atmos-2-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS ENERGY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/atmos-2-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/atmos-2-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/hms-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/hms-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HMS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/hms-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/hms-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/hms-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/hms-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/leaders-open-990x435-1-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/leaders-open-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >LEADERS OPEN 2016</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/biw-2-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/biw-2-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BAY ISLAND WOODWORKS ADS</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ht-2-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/hometeam-2-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOMETEAM PEST DEFENSE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-2-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-2-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-2-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/biw-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/biw-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BAY ISLAND WOODWORKS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/biw-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/biw-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/biw-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/biw-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/biw-990-435-6.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/katy-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/katy-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THE KATY TRAIL</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/katy-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/katy-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/katy-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/katy-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/katy-990-435-6.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/biw-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/biw-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BAY ISLAND WOODWORKS IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/tdf-2015-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/tdf-2015-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THE DALLAS FOUNDATION</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-2015-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-2015-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-2015-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-2015-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/01/wtxff-1a.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/01/wtxff-thumb-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >Women Texas Film Festival</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/01/wtxff-2a.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/01/wtxff-3a.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/01/wtxff-4a.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2020/01/wtxff-5a.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/monks-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/monks-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >MONKS OVEN</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/tdf-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/tdf-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THE DALLAS FOUNDATION</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tdf-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/atmos-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/atmos-thumb-1-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ATMOS ENERGY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/atmos-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/atmos-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/atmos-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/atmos-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ldl-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ldl-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >LD LOWE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ldl-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ldl-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ldl-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/sherry-smith-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/sherry-smith-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >SHERRY SMITH AESTHETICIAN</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ht-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ht-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOMETEAM PEST DEFENSE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ht-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/iv-revival-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/iv-revival-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >IV REVIVAL</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ldl-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ldl-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >LD LOWE WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ldl-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ms-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ms-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >MARIO SINACOLA WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ms-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/nolan-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/nolan-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >NOLAN COMPANY WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/nolan-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/fr-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/fr-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >FEDERAL RESERVE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/fr-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/fr-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/fr-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/hometeam-w-990-435-2.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/hometeam-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOMETEAM WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/hometeam-w-990-435-1.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ti-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ti-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >TEXAS INSTRUMENTS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ti-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ti-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/luminant-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/luminant-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >LUMINANT</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/mpi-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/mpi-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >MPI</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/mpi-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/mpi-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/healing-house-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/healing-house-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HEALING HOUSE</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/cd-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/cd-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >CD DESIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/cd-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/cd-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/bb-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/bb-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BALFOUR BEATTY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/bb-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/bb-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/bb-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/brinker-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/brinker-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BRINKER INTERNATIONAL</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/brinker-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/nolan-p-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/nolan-p-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >NOLAN COMPANY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/nolan-p-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/nolan-p-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/nolan-p-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/nolan-p-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/baylor-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/baylor-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BAYLOR HEALTHCARE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/baylor-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/baylor-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/baylor-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/anchor-point-990x435-1-2.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/anchor-point-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ANCHOR POINT STRATEGIES</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/tegrity-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/tegrity-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >TEGRITY HOMES</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tegrity-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tegrity-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/tegrity-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/red-red-wine-990x435-1-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/red-red-wine-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >RED RED WINE</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/rough-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/rough-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ROUGH MAGAZINE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/rough-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/noc-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/noc-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >NOC</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-6.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-7.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-9.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-10.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-11.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-12.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-13.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-14.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-15.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-16.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-17.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-18.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-19.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-20.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-21.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-22.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/noc-990-435-23.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/axion-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/axion-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >AXION HOTELIER</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/nnsp-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/nnsp-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >NNSP</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/archer-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/archer-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ARCHER INVESTIGATIONS</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/crossroads-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/crossroads-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >CROSSROADS COFFEEHOUSE &#038; MUSIC CO.</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/mrr-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/mrr-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >MUSIC ROAD RECORDS</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/pibwib-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/pibwib-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >PIBWIB</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ht-taexx-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ht-taexx-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOMETEAM/TAEXX</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/dpi-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/dpi-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >DALLAS POTTERY INVITATIONAL</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/dpi-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/go-fresh-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/go-fresh-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >GO FRESH MOBILE MARKET</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/halff-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/halff-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HALFF ASSOCIATES</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/halff-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/bsw-swaddle-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/bsw-swaddle-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BSW SWADDLE</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/rockhouse-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/rockhouse-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ROCKHOUSE FILMS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/rockhouse-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/zi-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/zi-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >Z INTERACTIVE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/zi-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/02/ud-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/ud-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >UNIVERSITY OF DALLAS</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/02/ud-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_6 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://vimeo.com/37121839?title=0&amp;byline=0&amp;portrait=0' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/hpu-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOWARD PAYNE UNIVERSITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_6 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://www.youtube.com/watch?v=rcic052aiR4' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/01/tdf-v-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >THE DALLAS FOUNDATION</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/applewild-p-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/applewild-p-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >APPLEWILD SCHOOL</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/applewild-p-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/applewild-p-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/applewild-p-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_7' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2020/04/pracom-990x435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2020/04/pracom-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >PRACOM</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/hpu-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/hpu-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOWARD PAYNE UNIVERSITY WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/hpu-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/shu-09-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >SETON HALL UNIVERSITY CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-6.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-7.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-09-990-435-8.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/gfu-being-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/gfu-being-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >GEORGE FOX UNIVERSITY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-being-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/applewild-w-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/applewild-w-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >APPLEWILD SCHOOL WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/applewild-w-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/gfu-a-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/gfu-a-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >GFU ATHLETICS IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/shu-12-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >SETON HALL UNIVERSITY CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-6.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-7.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-12-990-435-8.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/iwu-p-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/iwu-p-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >INDIANA WESLEYAN UNIVERSITY CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/iwu-p-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/iwu-p-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/iwu-p-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/bcd-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/bcd-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BAYLOR COLLEGE OF DENTISTRY IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/uaf-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/uaf-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >UNIVERISTY OF ALASKA FAIRBANKS CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/uaf-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/hpu-p-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/hpu-p-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >HOWARD PAYNE UNIVERSITY CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/hpu-p-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/hpu-p-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/utd-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/utd-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >UNIVERSITY OF TEXAS DALLAS MBA IDENTITY</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/applewild-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/applewild-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >APPLEWILD SCHOOL IDENTITY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/applewild-i-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/applewild-i-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/gfu-i-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/gfu-i-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >GEORGE FOX UNIVERSITY IDENTITY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-i-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/smu-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/smu-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >SMU MAGAZINE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/smu-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/smu-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/smu-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/gfu-book-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/gfu-book-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >GEORGE FOX UNIVERSITY PRINT</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-book-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-book-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-book-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_2 category_3 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/bucknell-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/bucknell-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >BUCKNELL UNIVERSITY IDENTITY</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/bucknell-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_5 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/oru-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/oru-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >ORAL ROBERTS UNIVERSITY WEBSITE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/oru-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/gfu-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >GEORGE FOX UNIVERSITY CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-6.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-7.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/gfu-09-990-435-8.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/shu-06-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/shu-06-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >SETON HALL UNIVERSITY CAMPAIGN</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-06-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-06-990-435-3.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-06-990-435-4.jpg" data-type="image" data-title="" style="display: none;"></div>  <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/shu-06-990-435-5.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/umf-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/umf-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >UNIVERSITY OF MONTANA FOUNDATION</div> 
+					                		</div>
+
+					                		
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/utd-p-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/utd-p-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >UNIVERSITY OF TEXAS DALLAS EXECUTIVE MBA</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/utd-p-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					         
+							<div class='media-box  category_3 category_4 category_8' >
+					            
+										<div class='media-box-image mb-open-popup'  data-type='image' data-src='https://peterson.com/wp-content/uploads/2019/09/santa-clara-990-435-1.jpg' data-title=''    >
+					                		<div  data-width='400' data-height='250'   data-thumbnail='https://peterson.com/wp-content/uploads/2019/09/santa-clara-thumb-1-400x250.jpg'></div>
+					                
+					                		<div class='thumbnail-overlay  mb_global_skin'>
+					                			 <div class='post_title-1   mb_hide_if_empty mb_global_skin'  >SANTA CLARA MAGAZINE</div> 
+					                		</div>
+
+					                		 <div class="mb-open-popup" data-src="https://peterson.com/wp-content/uploads/2019/09/santa-clara-990-435-2.jpg" data-type="image" data-title="" style="display: none;"></div> 
+					            		</div>
+									
+
+					            <div class='media-box-content mb_global_skin'>
+					            	
+					            </div>
+									
+					            
+					        </div>
+					     
+    							</div>
+    						</div> </div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_2 et_section_regular" >
+				
+				
+				
+				
+					
+				
+				
+			</div> <!-- .et_pb_section -->		</div><!-- .et_builder_inner_content -->
+	</div><!-- .et-l -->
+	
+			
+		</div><!-- #et-boc -->
+							</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+	<span class="et_pb_scroll_top et-pb-icon"></span>
+
+
+			<footer id="main-footer">
+				
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="#" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="#" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-google-plus">
+		<a href="#" class="icon">
+			<span>Google</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-rss">
+		<a href="https://peterson.com/feed/" class="icon">
+			<span>RSS</span>
+		</a>
+	</li>
+
+</ul><p id="footer-info">Designed by <a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a> | Powered by <a href="http://www.wordpress.org">WordPress</a></p>					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/peterson-ray\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script type="text/javascript">
+				jQuery(window).load(function(){	
+												if(  jQuery( '.et-bfb' ).length <= 0 && jQuery( '.et-fb' ).length <= 0  ){ 
+								jQuery('.loader').delay(350).fadeOut('fast'); 
+								jQuery('.overlay-loader').delay(650).fadeOut('fast'); 
+							}else{
+								jQuery(".overlay-loader").css('display','none');
+							}
+									});
+			</script>
+			<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_row_0","style":"slideTop","repeat":"once","duration":"1500ms","delay":"0ms","intensity":"100%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_image_0","style":"zoom","repeat":"once","duration":"3000ms","delay":"0ms","intensity":"100%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_0","style":"fold","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_1","style":"fold","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_blurb_2","style":"fold","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"}];
+					var et_link_options_data = [{"class":"et_pb_hover_box_0","url":"https:\/\/peterson.com\/?page_id=30236","target":"_self"},{"class":"et_pb_hover_box_1","url":"https:\/\/peterson.com\/?page_id=29312","target":"_self"},{"class":"et_pb_hover_box_2","url":"https:\/\/peterson.com\/?page_id=30154","target":"_self"}];
+			</script>
+	<script type="text/javascript" src="https://peterson.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/peterson.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6" id="contact-form-7-js"></script>
+<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+var et_pb_custom = {"ajaxurl":"https:\/\/peterson.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/peterson.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/peterson.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"06244fc5d1","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"e5a5902ecc","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"725","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://peterson.com/wp-content/themes/Divi/js/custom.unified.js?ver=4.8.1" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/plugins/hover-box/scripts/frontend-bundle.min.js?ver=1.0.0" id="hover-box-frontend-bundle-js"></script>
+<script type="text/javascript" src="https://peterson.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.8.1" id="et-core-common-js"></script>
+</body>
+</html>

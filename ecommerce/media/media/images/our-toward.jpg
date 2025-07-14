@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" />
+    <title>Thompson Information Services</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--navigation css start here-->
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <!--navigation css end here-->
+    <!--banner start here-->
+    <link rel="stylesheet" type="text/css" href="slider/jcarousel.connected-carousels.css" />
+    <script type="text/javascript" src="slider/jquery.js"></script>
+    <script type="text/javascript" src="slider/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="slider/jcarousel.connected-carousels.js"></script>
+    <script type="text/javascript" src="js/cbpHorizontalMenu.min.js"></script>
+    <!--banner end here-->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66NYL43MRR"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-66NYL43MRR');
+</script>
+    
+    <!-- Piwik -->
+
+<script type="text/javascript">
+
+    var _paq = _paq || [];
+
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+
+    _paq.push(["setCookieDomain", "*.www.thompson.com"]);
+
+    _paq.push(["setDomains", ["*.www.thompson.com", "*.thompson.com", "*.www.thompson.com", "*.thompson.com"]]);
+
+    _paq.push(['trackPageView']);
+
+    _paq.push(['enableLinkTracking']);
+
+    (function () {
+
+        var u = "//analytics.thompson.com/";
+
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+
+        _paq.push(['setSiteId', '3']);
+
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+
+        g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+
+    })();
+
+</script>
+
+<noscript><p><img src="//analytics.thompson.com/piwik.php?idsite=3&rec=1" style="border:0;" alt="" /></p></noscript>
+
+<!-- End Piwik Code -->
+
+    
+<!-- Added By SPP 20 oct 2021 #10530-->
+
+    <script>
+//-------------------------------------------------------
+var z_account = "A949F781-FFFA-4A3A-B638-130DE2FD7810";
+var z_collector = "consub.informz.net";
+var z_cookieDomain = ".thompson.com";
+//-------------------------------------------------------
+(function (e, o, n, r, t, a, s) { e[t] || (e.GlobalSnowplowNamespace = e.GlobalSnowplowNamespace || [], e.GlobalSnowplowNamespace.push(t), e[t] = function () { (e[t].q = e[t].q || []).push(arguments) }, e[t].q = e[t].q || [], a = o.createElement(n), s = o.getElementsByTagName(n)[0], a.async = 1, a.src = r, s.parentNode.insertBefore(a, s)) }(window, document, "script", "https://cdn.informz.net/web_trk/sp.js", "informz_trk")), informz_trk("newTracker", "infz", z_collector + "/web_trk/collector/", { appId: z_account, cookieDomain: z_cookieDomain }), informz_trk("setUserIdFromLocation", "_zs"), informz_trk("enableActivityTracking", 30, 15); informz_trk("trackPageView", null);
+</script>
+	<meta property="og:image" content="images/thompson-og-logo.png">
+	<meta name="twitter:image" content="images/thompson-og-logo.png">
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjhkZPS5IabfwCp0xC+zJwJO9dQJegjFt5S0Zxa68YaoBcEI" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+        <!--HEADER CODE START HERE-->
+        <div id="header">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="Default.aspx">
+                        <img src="images/logo.jpg" alt="logo" /></a>
+                </div>
+                <nav id="cbp-hrmenu" class="cbp-hrmenu">
+        <ul class="fright">
+          <a href="about-us.aspx" class="menulink1"></a>
+          <li><a href="about-us.aspx">ABOUT</a></li>
+          <li id="industry_li"><a href="#" id="industry" class="arrow">INDUSTRY COVERAGE</a>
+            <div class="cbp-hrsub submenuwidthmenubg">
+              <div class="cbp-hrsub-inner">
+                <div>
+                  <ul class="submenuwidth">
+                    <li><a href="grants-development-management.aspx">Grants Development &amp; Management</a></li>
+                    <li><a href="government-contracting.aspx">Government Contracting</a></li>
+                    <li><a href="food-drug.aspx">Food &amp; Drug</a></li>
+                    <li><a href="energy.aspx">Energy</a></li>
+                    <li><a href="financial-management.aspx">Private Equity & Investment Management</a></li>
+                    <li><a href="controlled-substances.aspx">Controlled Substances</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <a href="News.aspx" class="menulink1"></a>
+          <li><a href="News.aspx">NEWS</a></li>
+          <a href="Contact-Us.aspx" class="menulink1"></a>
+          <li><a href="Contact-Us.aspx" class="pright">CONTACT US</a></li>
+        </ul>
+      </nav>
+            </div>
+        </div>
+        <!--HEADER CODE END HERE-->
+        <!--MIDDLE CODE START HERE-->
+        <div>
+            
+
+    <div class="fclear"></div>
+    <!--HEADER CODE END HERE-->
+    <div class="banner">
+        <div class="banner-wrapper">
+            <div class="connected-carousels">
+                <div class="stage">
+                    <div class="carousel carousel-stage">
+                        <ul>
+                            <li><a href="grants-development-management.aspx" class="bannerlink"></a>
+                                <img src="images/banner2.jpg" alt="banner2" /></li>
+                            <li><a href="government-contracting.aspx" class="bannerlink"></a>
+                                <img src="images/banner11.jpg" alt="banner11" /></li>
+                            <li><a href="food-drug.aspx" class="bannerlink"></a>
+                                <img src="images/banner6.jpg" alt="banner6" /></li>
+                            <li><a href="energy.aspx" class="bannerlink"></a>
+                                <img src="images/banner7.jpg" alt="banner7" /></li>
+                            <li><a href="financial-management.aspx" class="bannerlink"></a>
+                                <img src="images/banner10.jpg" alt="banner10" /></li>
+                            <li><a href="controlled-substances.aspx" class="bannerlink"></a>
+                                <img src="images/banner12.jpg" alt="banner12" /></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="prev prev-stage"><span>&lsaquo;</span></a> <a href="#" class="next next-stage"><span>&rsaquo;</span></a>
+                </div>
+                <div class="navigation">
+                    <a href="#" class="prev prev-navigation">&lsaquo;</a> <a href="#" class="next next-navigation">&rsaquo;</a>
+                    <div class="carousel carousel-navigation newnavigation">
+                        <ul>
+                            <li onclick="location.href='grants-development-management.aspx'">
+                                <img alt="thumb2" src="images/thumb2.png" /><span class="banner-title"><a href="grants-development-management.aspx" target="_blank">Grants Development &amp; Management</a></span></li>
+                            <li onclick="location.href='government-contracting.aspx'">
+                                <img alt="thumb11" src="images/thumb11.png" /><span class="banner-title"><a href="government-contracting.aspx" target="_blank">Government<br />
+                                    Contracting</a></span></li>
+                            <li onclick="location.href='food-drug.aspx'">
+                                <img alt="thumb6" src="images/thumb6.png" /><span class="banner-title"><a href="food-drug.aspx" target="_blank">Food &amp; Drug</a></span></li>
+                            <li onclick="location.href='energy.aspx'">
+                                <img alt="thumb7" src="images/thumb7.png" /><span class="banner-title"><a href="energy.aspx" target="_blank">Energy<br />
+                                </a></span></li>
+                            <li onclick="location.href='financial-management.aspx'">
+                                <img alt="thumb10" src="images/thumb10.png" style="margin-left: 0px !important;" /><span class="banner-title"><a href="financial-management.aspx" target="_blank">Private Equity & Investment Management </a></span></li>
+                            <li onclick="location.href='controlled-substances.aspx'">
+                                <img alt="thumb10" src="images/thumb12.png" style="margin-left: 0px !important;" /><span class="banner-title"><a href="controlled-substances.aspx" target="_blank">Controlled Substances </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fclear"></div>
+    <div id="middle">
+        <div class="wrapper">
+            <div class="mid_con">
+                <p>
+                    Thompson Information Services, a division of CBIS, is a leading provider of compliance information, training and in-depth data across a range of subject areas federal grants, government contracting, FDA, energy, and financial services.<br />
+                    <br />
+                    For more than 40 years Thompson Information Services has provided users with compliance resources, training, online databases, and customized data delivery. Our dedicated staff has extensive experience capturing and delivering relevant, accurate and highly useful information to our clients. For more information on our complete line of information services please visit our industry pages.
+                </p>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+        <!--MIDDLE CODE END HERE-->
+        <div class="fclear"></div>
+        <div id="footer">
+            <div class="footer_linkboxbg">
+                <div class="wrapper">
+                    <div class="footer_linkbox footer_linkbox_first">
+                        <h4>quick links</h4>
+                        <ul>
+                            <li><a href="about-us.aspx">About</a></li>
+                            <li><a href="News.aspx">News</a></li>
+                            <li><a href="Contact-Us.aspx">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_linkbox footer_linkbox_third">
+                        <h4>our Industries</h4>
+                        <ul class="thirdul">
+                            <li><a href="grants-development-management.aspx">Grants Development &amp; Management</a></li>
+                            <li><a href="government-contracting.aspx">Government Contracting</a></li>
+                            <li><a href="food-drug.aspx">Food &amp; Drug</a></li>
+                        </ul>
+                        <ul class="fourthul">
+                            <li><a href="energy.aspx">Energy</a></li>
+                            <li><a href="financial-management.aspx">Private Equity & Investment Management</a></li>
+                            <li><a href="controlled-substances.aspx">Controlled Substances</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_linkbox footer_linkbox_fourth mright pright" style="border-right: none;">
+                        <h4>Contact us</h4>
+                        <div class="footer_addbox">
+                            <strong>Thompson Information Services</strong>
+                            1530 Wilson Boulevard, Suite 400, Arlington, VA 22209
+                        </div>
+                        <div class="footer_callbox">
+                            <div class="footer_callbox_icon">
+                                <img src="images/call.png" alt="call" />
+                            </div>
+                            <div class="footer_callbox_text">1-800-677-3789</div>
+                        </div>
+                        <div class="footer_callbox">
+                            <div class="footer_callbox_icon">
+                                <img src="images/email.png" alt="email" />
+                            </div>
+                            <div class="footer_callbox_text"><a href="/cdn-cgi/l/email-protection#56253324203f353316223e393b262539387835393b"><span class="__cf_email__" data-cfemail="67140215110e040227130f080a171408094904080a">[email&#160;protected]</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyrightboxbg">
+                <div class="wrapper">
+                    <div class="footer_copyright_text">Copyright &copy; 2025 <strong>Thompson Information Services</strong>. All Rights Reserved. </div>
+                    <div class="footer_bot_rightlink">
+                        <ul>
+                            <li><a href="https://www.columbiabooks.com/terms.aspx" target="_blank">Terms and Conditions</a></li>
+                            <li><a href="https://www.columbiabooks.com/privacy.aspx" target="_blank">Privacy Policy</a></li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER CODE START HERE-->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/cbpHorizontalMenu.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                cbpHorizontalMenu.init();
+                $("#brand_li").mouseover(function () {
+                    $("#brand").click();
+                });
+                $("#brand_li").mouseout(function () {
+                    $("#brand").click();
+                });
+                $("#industry_li").mouseover(function () {
+                    $("#industry").click();
+                });
+                $("#industry_li").mouseout(function () {
+                    $("#industry").click();
+                });
+            });
+        </script>
+
+        
+               <style type="text/css">
+            .msgcookie {
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                background-color: #333;
+                z-index: 60;
+            }
+
+                .msgcookie a {
+                    background: none;
+                    top: 32px;
+                    right: 23px;
+                    color: #ffffff;
+                    text-decoration: underline;
+                }
+
+                .msgcookie div.popup {
+                    line-height: 1.5;
+                    padding: 0px;
+                    color: #ffffff;
+                    font-family: calibri,"Times New Roman",Times,serif;
+                }
+
+            .button1 {
+                display: inline-block;
+                font-size: 20px;
+                font-weight: bold;
+                background-color: #61b403;
+                color: #fff;
+                padding: 0 30px;
+                height: 32px;
+                line-height: 30px;
+                cursor: pointer;
+            }
+
+            .cookies_text {
+                float: left;
+                border-right: #5e5e5e solid 1px;
+                padding: 14px 5px 8px 5px;
+                margin-right: 0px;
+                width: 85%;
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .cookies_button {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                float: right;
+                width: 11%;
+            }
+
+            @media screen and (max-width: 989px) {
+                .cookies_text {
+                    border-right: #5e5e5e solid 0px;
+                    width: 98%;
+                }
+
+                .cookies_button {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        </style>
+        <div class="msgcookie" id="menu01" style="display: none;">
+            <a href="#" class="close-button" id="menu02" onclick="setCustomCookie2()" style="display: none;">?</a>
+            <div class="popup">
+                <div class="cookies_text">We use cookies to improve your experience on our website. By closing this banner or interacting with our site, you acknowledge and agree to our use of cookies. Click <a href="https://www.columbiabooks.com/privacy.aspx#cookiespolicy" target="_blank">here</a> to learn more.</div>
+                <div class="cookies_button" role="button">
+                    <div class="button1" onclick="setCustomCookie()">Close</div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function setCustomCookie() {
+                setCookie('isAcceptTH', true, 365);
+                var div = document.getElementById('menu01');
+                div.style.display = 'none';
+            }
+
+            function setCustomCookie2() {
+                setCookie('isAcceptTH', true, 365);
+                var div1 = document.getElementById('menu01');
+                div1.style.display = 'none';
+                var div = document.getElementById('menu02');
+                div.style.display = 'none';
+            }
+
+            function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = cname + "=" + cvalue + "; " + expires + "; path=/";
+                console.log(cname + "=" + cvalue + "; " + expires);
+            }
+
+            function getCookie(cname) {
+                var name = cname + "=";
+                var decodedCookie = decodeURIComponent(document.cookie);
+                console.log("Decode = " + decodedCookie);
+                var ca = decodedCookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return null;
+            }
+
+            var cookie = getCookie('isAcceptTH');
+            if (cookie == null || cookie == 'undefined') {
+                var div = document.getElementById('menu01');
+                div.style.display = 'block';
+            }
+        </script>
+        
+        
+      
+        <script>
+            //-------------------------------------------------------
+            var z_account = "7CAEC975-DB7C-4595-A513-40810993CB2B";
+            var z_collector = "grants.informz.net";
+            var z_cookieDomain = ".thompson.com";
+            //-------------------------------------------------------
+            (function (e, o, n, r, t, a, s) { e[t] || (e.GlobalSnowplowNamespace = e.GlobalSnowplowNamespace || [], e.GlobalSnowplowNamespace.push(t), e[t] = function () { (e[t].q = e[t].q || []).push(arguments) }, e[t].q = e[t].q || [], a = o.createElement(n), s = o.getElementsByTagName(n)[0], a.async = 1, a.src = r, s.parentNode.insertBefore(a, s)) }(window, document, "script", "https://" + z_collector + "/web_trk/sp.js", "informz_trk")), informz_trk("newTracker", "infz", z_collector + "/web_trk/collector/", { appId: z_account, cookieDomain: z_cookieDomain }), informz_trk("setUserIdFromLocation", "_zs"), informz_trk("enableActivityTracking", 30, 15); informz_trk("trackPageView", null);
+</script>
+</body>
+</form>
+</html>

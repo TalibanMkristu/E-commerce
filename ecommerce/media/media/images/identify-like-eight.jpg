@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Make holmes.biz yours today. Request your free quote now!</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Break Frames -->
+    <script>if (top !== self) { top.location.replace(self.location.href); }</script>
+
+</head>
+
+<body>
+
+    <header id="introBanner" class="row">
+        <div id="domainName">
+            <h1>holmes.biz</h1>
+            <h2 id="status">is available</h2>
+        </div>
+    </header>
+
+    <section id="ctaContainer">
+        <div class="row">
+        <div class="ctaLeft column">
+            <div id="intro">
+                <h2>Congratulations</h2>
+                <p>
+                The domain name holmes.biz is available! 
+                </p>
+                <p>
+                <!--Build your website, blog, email, and so much more on holmes.biz-->
+                Want to own this name? Just fill out the form <span class="formRight">on the right</span><span class="formBelow">below</span> for more info.
+                <!--Fill out the form <span class="formRight">on the right</span><span class="formBelow">below</span> for more info.-->
+                </p>
+            </div>
+        </div>
+        <div class="ctaRight column">
+            <div id="contactForm">
+                <h3>REQUEST MORE INFORMATION</h3>
+                <p>Call <a href="tel:18555388880" style="white-space: nowrap;">1-855-538-8880</a> or fill out this form now for an <strong>instant price quotation.</strong></p>
+                <form action="#" method="POST" enctype="multipart/form-data" onsubmit="submitForm()">
+                    <input type="hidden" name="action" value="submit"> 
+                    <input type="hidden" name="experiment" value="" id="experimentStatus">
+                    <div>
+                        <fieldset>
+                            <input name="nameofsender" type="text" placeholder="Your Name (required)">
+                            <input name="lastofsender" type="text" placeholder="Your Last Name (required)">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <input name="emailofsender" type="email" placeholder="Your email address (required)">
+                            <textarea name="messageofsender" placeholder="Your Comments (required)"></textarea>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <button type="submit" id="contactButton" class="contactButton">CLICK HERE TO CONTINUE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div id="scroll">
+        <div class="scroll-down">
+        </div>
+    </div>    
+    <script>
+        window.onscroll = function() {hideMousey()};
+
+        function hideMousey() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("scroll").style.display = "none";
+            document.getElementById("tickerTape").style.display = "none";
+            
+          } else {
+            document.getElementById("scroll").style.display = "block";
+            document.getElementById("tickerTape").style.display = "block";
+          }
+        }
+    </script>
+    -->
+    </section>
+
+    
+    <section id="erlContainer">
+        <div class="introDiv">
+            <h2>
+                How to Buy this Name
+             </h2>
+        </div>
+        <div class="row">
+            <div class="column left">
+                <div id="erlIntro">
+                    <!--<h2>Where to buy.</h2>-->
+                    <p>
+                    To purchase holmes.biz direct from us please complete the <strong>request more information</strong> form <span class="formRight">on the top right</span><span class="formBelow">above</span>. 
+                    <!--To purchase holmes.biz direct from us please fill out the quotation request form near the top of this page.-->
+                    </p>
+                    <p>
+                    You may also click any of the Logos <span class="formRight">on the right</span><span class="formBelow">below</span> to purchase from your favorite registrar or reseller.
+                    </p>
+                </div>
+            </div>
+            <div class="column right">
+                <div id="erlList">
+                    <ul>
+                        <li><a href="https://www.godaddy.com/forsale/holmes.biz" target="_blank"><img style="width: 160px; margin-top: 6px;" src="external_registrar_links/images/godaddy.png" alt="GoDaddy"></a></li>
+<li><a href="https://www.namecheap.com/domains/registration/results/?domain=holmes.biz" target="_blank"><img style="width: 200px;" src="external_registrar_links/images/namecheapV2.png" alt="NameCheap"></a></li>
+<li><a href="https://www.name.com/domain/search/holmes.biz" target="_blank"><img style="width: 175px; margin-top: 3px;" src="external_registrar_links/images/name-com.png" alt="Name.com"></a></li>
+<li><a href="https://sedo.com/checkdomainoffer.php?domain=holmes.biz&campaignId=51773" target="_blank"><img style="width: 100px; margin-top: 22px;" src="external_registrar_links/images/sedo.jpg" alt="Sedo"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rrContainer">
+        <div class="introDiv">
+            <h2>
+                Risk Free Guarantee
+             </h2>
+        </div>
+        <div id="rrBox">
+            <div class="row">
+                <div class="rrLeft column">
+                    <div id="rrImage">
+                        <img src="images/satisfaction-guaranteed.png" alt="Satisfaction Guaranteed Emblem">
+                    </div>
+                </div>
+                <div class="rrRight column">
+                    <div id="rrIntro">
+                        <!--<h3>Our promise to you.</h3>-->
+                        <p>
+                        We want you to be completely satisfied with your purchase. When you buy direct from us we will Guarantee your purchase for 1 year. 
+                        </p>
+                        <p>
+                        If you are not 100% satisfied with your new domain name you may return it for a full refund within the first 12 months after purchase.
+                        </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://excellent.name/contact.php">Contact Us</a>
+            </li>
+            <li>
+                <a href="https://excellent.name/privacy.php">Privacy Policy</a>
+            </li>
+            <li>
+                &copy; 1998-2025<a href="https://bayinternet.com"> Bay Internet Group </a> <span>all rights reserved.</span>
+            </li>        
+        </ul>
+    </footer>
+
+    <script>
+
+    // Form submission.
+    function submitForm() {
+        var button = document.getElementById("contactButton");
+        button.style.backgroundColor = "#32cd32";
+        button.innerHTML = "ONE MOMENT PLEASE";
+        button.disabled=true;
+    }
+
+    </script>
+    
+    <!-- Mautic -->
+    <script>
+        (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+            w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+            m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://bayinternet.com/marketing/mtc.js','mt');
+
+        mt('send', 'pageview');
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16033332-30">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-16033332-30');
+    </script>
+    
+    <!-- MS Clarity -->
+    <script>
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "jfvyh2fteg");
+    </script>
+    
+    <!-- 99X -->
+    <script src="//99x.co/focus/16.js" type="text/javascript" charset="utf-8" async="async"></script>
+        
+</body>
+
+</html>

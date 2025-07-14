@@ -330,334 +330,453 @@
     </div>
   </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script>
-    function checkout() {
-    return {
-        currentStep: 1,
-        checkoutSteps: ['Information', 'Payment', 'Review'],
-        selectedPaymentMethod: 'card',
-        savePaymentMethod: false,
-        agreedToTerms: false,
-        processingPayment: false,
-        customer: {
-        firstName: '',
-        lastName: '',
-        email: '',
-        optInMarketing: false
-        },
-        payment: {
-        cardBrand: '',
-        cardLast4: '',
-        cardExpiry: '',
-        paymentIntentClientSecret: null
-        },
-        paymentMethodId: null,
-        stripe: null,
-        elements: null,
-        cardElement: null,
-        isLoading: true,
-        
-        async init() {
+
+<script>  
+function checkout() {
+  return {
+    currentStep: 1,
+    checkoutSteps: ['Information', 'Payment', 'Review'],
+    selectedPaymentMethod: 'card',
+    savePaymentMethod: false,
+    agreedToTerms: false,
+    processingPayment: false,
+    customer: {
+      firstName: '',
+      lastName: '',
+      email: '',
+      optInMarketing: false
+    },
+    payment: {
+      cardBrand: '',
+      cardLast4: '',
+      cardExpiry: '',
+      paymentIntentClientSecret: null
+    },
+    stripe: null,
+    elements: null,
+    cardElement: null,
+    isLoading: true,
+    
+    async init() {
         try {
-            // Initialize Stripe
-            await this.loadStripe();
-            
-            // Set up elements
-            this.setupElements();
-            
-            // Load saved cards if user is authenticated
-            await this.loadSavedCards();
-            
+          // Initialize Stripe
+          await this.loadStripe();
+          
+          // Set up elements
+          this.setupElements();
+          
+          // Load saved cards if user is authenticated
+          await this.loadSavedCards();
+          
         } catch (error) {
-            console.error('Initialization error:', error);
-            this.showToast('Failed to initialize payment system', 'error');
+          console.error('Initialization error:', error);
+          this.showToast('Failed to initialize payment system', 'error');
         } finally {
-            this.isLoading = false;
+          this.isLoading = false;
         }
-        },
+      },
+      
+      async loadStripe() {
+        // Load Stripe.js if not already loaded
+        if (!window.Stripe) {
+          await new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://js.stripe.com/v3/';
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.appendChild(script);
+          });
+        }
         
-        async loadStripe() {
-        try {
-            if (!window.Stripe) {
-            await new Promise((resolve, reject) => {
-                const script = document.createElement('script');
-                script.src = 'https://js.stripe.com/v3/';
-                script.onload = resolve;
-                script.onerror = () => reject(new Error('Failed to load Stripe.js'));
-                document.head.appendChild(script);
-            });
-            }
-            
-            this.stripe = Stripe('{{ STRIPE_PUBLISHABLE_KEY }}');
-            if (!this.stripe) {
-            throw new Error('Failed to initialize Stripe');
-            }
-        } catch (error) {
-            console.error('Stripe initialization error:', error);
-            throw error;
-        }
-        },
+        this.stripe = Stripe('{{ STRIPE_PUBLISHABLE_KEY }}');
+      },
 
-        setupElements() {
-        try {
-            const appearance = {
-            theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe',
-            variables: {
-                colorPrimary: '#6366f1',
-                colorBackground: getComputedStyle(document.documentElement).getPropertyValue('--bg-color') || '#ffffff',
-                colorText: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
-                colorDanger: '#ef4444',
-                fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
-                spacingUnit: '4px',
-                borderRadius: '6px'
-            }
-            };
-            
-            this.elements = this.stripe.elements({ appearance });
-            this.initCardElement();
-            
-            // Watch for dark mode changes
-            const observer = new MutationObserver(() => {
-            if (this.elements) {
-                this.elements.update({ 
-                appearance: { 
-                    theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe' 
-                } 
-                });
-            }
-            });
-            
-            observer.observe(document.documentElement, { 
-            attributes: true, 
-            attributeFilter: ['class'] 
-            });
-        } catch (error) {
-            console.error('Error setting up elements:', error);
-            this.showToast('Failed to initialize payment form', 'error');
-        }
-        },
+      setupElements() {
+        const appearance = {
+          theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe',
+          variables: {
+            colorPrimary: '#6366f1',
+            colorBackground: getComputedStyle(document.documentElement).getPropertyValue('--bg-color') || '#ffffff',
+            colorText: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
+            colorDanger: '#ef4444',
+            fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
+            spacingUnit: '4px',
+            borderRadius: '6px'
+          }
+        };
         
-        initCardElement() {
-        try {
-            if (this.cardElement) {
-            this.cardElement.unmount();
-            }
-            
-            this.cardElement = this.elements.create('card', {
-            style: {
-                base: {
-                iconColor: '#6366f1',
-                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || '#1a1a1a',
-                fontWeight: '500',
-                fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
-                fontSize: '16px',
-                fontSmoothing: 'antialiased',
-                '::placeholder': {
-                    color: '#6b7280'
-                }
-                },
-                invalid: {
-                color: '#ef4444'
-                }
-            }
-            });
-            
-            this.cardElement.mount('#card-element');
-            
-            this.cardElement.on('change', (event) => {
-            const displayError = document.getElementById('card-errors');
-            if (event.error) {
-                displayError.textContent = event.error.message;
-                displayError.classList.remove('hidden');
-            } else {
-                displayError.textContent = '';
-                displayError.classList.add('hidden');
-            }
-            });
-        } catch (error) {
-            console.error('Error initializing card element:', error);
-            this.showToast('Failed to initialize card form', 'error');
-        }
-        },
+        this.elements = this.stripe.elements({ appearance });
         
-        async validateStep1() {
-        if (!this.customer.firstName || !this.customer.lastName || !this.customer.email) {
-            this.showToast('Please fill all required fields', 'error');
-            return false;
+        // Initialize card element based on selected payment method
+        if (this.selectedPaymentMethod === 'card') {
+          this.initCardElement();
+        }
+        
+        // Watch for dark mode changes
+        const observer = new MutationObserver(() => {
+          if (this.elements) {
+            this.elements.update({ 
+              appearance: { 
+                theme: document.documentElement.classList.contains('dark') ? 'night' : 'stripe' 
+              } 
+            });
+          }
+        });
+        
+        observer.observe(document.documentElement, { 
+          attributes: true, 
+          attributeFilter: ['class'] 
+        });
+      },
+    
+    initCardElement() {
+      if (this.cardElement) {
+        this.cardElement.unmount();
+      }
+      
+      this.cardElement = this.elements.create('card', {
+        style: {
+          base: {
+            iconColor: '#6366f1',
+            color: getComputedStyle(document.documentElement).getPropertyValue('--text-color') || 'aqua',
+            fontWeight: '500',
+            fontFamily: 'Inter, system-ui, -apple-system, sans-serif',
+            fontSize: '16px',
+            fontSmoothing: 'antialiased',
+            '::placeholder': {
+              color: '#6b7280'
+            }
+          },
+          invalid: {
+            color: '#ef4444'
+          }
+        }
+      });
+      
+      this.cardElement.mount('#card-element');
+      
+      // Handle real-time validation errors
+      this.cardElement.on('change', (event) => {
+        const displayError = document.getElementById('card-errors');
+        if (event.error) {
+          displayError.textContent = event.error.message;
+          displayError.classList.remove('hidden');
+        } else {
+          displayError.textContent = '';
+          displayError.classList.add('hidden');
         }
 
-        if (!/^\S+@\S+\.\S+$/.test(this.customer.email)) {
-            this.showToast('Please enter a valid email address', 'error');
-            return false;
+        // Populate Alpine data so expressions don't fail
+        if (event.complete && event.brand && event.card) {
+          this.payment.cardBrand = event.brand;
+          this.payment.cardLast4 = event.card.last4;
+          this.payment.cardExpiry = `${event.card.exp_month}/${event.card.exp_year}`;
         }
-
+      });
+    },
+    
+    async loadSavedCards() {
         try {
-            const response = await fetch('{% url "payments:checkout" %}', {
+          const response = await fetch('{% url "payments:get-saved-cards" %}', {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-CSRFToken': '{{ csrf_token }}',
+              'X-Requested-With': 'XMLHttpRequest',
+            }
+          });
+          
+          if (response.ok) {
+            const cards = await response.json();
+            // Process and display saved cards
+            this.savedCards = cards;
+          }
+        } catch (error) {
+          console.error('Error loading saved cards:', error);
+        }
+      },
+
+    async useSavedCard(cardId) {
+        try {
+          this.processingPayment = true;
+          
+          const response = await fetch('{% url "payments:use-saved-card" %}', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'X-CSRFToken': '{{ csrf_token }}',
-                'X-Requested-With': 'XMLHttpRequest',
+              'Content-Type': 'application/json',
+              'X-CSRFToken': '{{ csrf_token }}',
+              'X-Requested-With': 'XMLHttpRequest',
             },
             body: JSON.stringify({
-                step: 1,
-                customer: this.customer
-            }),
-            credentials: 'include'
-            });
+              
+              card_id: cardId
+            })
+          });
+          
+          const result = await response.json();
+          
+          if (result.error) {
+            throw new Error(result.error);
+          }
+          
+          if (result.requires_action) {
+            const { error } = await this.stripe.confirmCardPayment(
+              result.client_secret
+            );
             
-            if (!response.ok) throw new Error('Network error');
-            
-            this.currentStep = 2;
-            this.scrollToTop();
-            return true;
-        } catch (error) {
-            console.error('Error submitting step 1:', error);
-            this.showToast('Failed to submit information', 'error');
-            return false;
-        }
-        },
-        
-        async validateStep2() {
-        if (this.selectedPaymentMethod === 'card') {
-            if (!this.cardElement) {
-            this.showToast('Payment method not initialized', 'error');
-            return false;
-            }
-            
-            try {
-            const {paymentMethod, error} = await this.stripe.createPaymentMethod({
-                type: 'card',
-                card: this.cardElement,
-            });
-
             if (error) {
-                this.showToast(error.message, 'error');
-                return false;
+              throw error;
             }
+          }
+          
+          // Payment succeeded
+          window.location.href = '{% url "payments:payment-success" %}?session_id=' + result.session_id;
+          
+        } catch (error) {
+          console.error('Payment error:', error);
+          this.showToast('Payment failed: ' + (error.message || 'Unknown error'), 'error');
+        } finally {
+          this.processingPayment = false;
+        }
+      },
 
-            this.paymentMethodId = paymentMethod.id;
-            this.payment.cardBrand = paymentMethod.card.brand;
-            this.payment.cardLast4 = paymentMethod.card.last4;
-            this.payment.cardExpiry = `${paymentMethod.card.exp_month}/${paymentMethod.card.exp_year}`;
-            } catch (error) {
-            console.error('Card validation error:', error);
-            this.showToast('Failed to validate card details', 'error');
-            return false;
-            }
+    validateStep1() {
+    // Simple validation
+    if (!this.customer.firstName || !this.customer.lastName || !this.customer.email) {
+      this.showToast('Please fill all required fields', 'error');
+      return;
+    }
+
+    // Email format
+    if (!/^\S+@\S+\.\S+$/.test(this.customer.email)) {
+      this.showToast('Please enter a valid email address', 'error');
+      return;
+    }
+
+    // Submit to Django as form data
+    const formData = new FormData();
+    formData.append('step', '1');
+    formData.append('first-name', this.customer.firstName);
+    formData.append('last-name', this.customer.lastName);
+    formData.append('email', this.customer.email);
+    if (this.customer.optInMarketing) {
+      formData.append('optInMarketing', 'on');
+    }
+
+    fetch('{% url "payments:checkout" %}', {
+      method: 'POST',
+      headers: {
+        'X-CSRFToken': '{{ csrf_token }}'
+      },
+      body: formData
+    })
+    // .then(response => {
+    //   if (response.redirected) {
+    //     // Backend will redirect to step 2
+    //     window.location.href = response.url;
+    //   } else {
+    //     return response.text().then(html => {
+    //       console.error('Unexpected response during step 1 submission');
+    //       this.showToast('Unexpected error submitting information', 'error');
+    //     });
+    //   }
+    // })
+    // .catch(error => {
+    //   console.error('Error submitting step 1:', error);
+    //   this.showToast('Failed to submit information', 'error');
+    // });
+    this.currentStep = 2;
+    this.scrollToTop();
+  },
+    
+    validateStep2() {
+      if (this.selectedPaymentMethod === 'card') {
+        // Validate card details
+        if (!this.cardElement) {
+          this.showToast('Payment method not initialized', 'error');
+          return;
         }
         
+        // You might want to check if card is complete here
+        // This is a simplified check - Stripe handles validation
         this.currentStep = 3;
         this.scrollToTop();
-        return true;
-        },
-        
-        async submitPayment() {
-        if (!this.agreedToTerms) {
-            this.showToast('You must agree to the terms', 'error');
-            return;
+      } else {
+        // For non-card methods, proceed to review
+        this.currentStep = 3;
+        this.scrollToTop();
+      }
+    },
+    
+    async submitPayment() {
+      this.processingPayment = true;
+      
+      try {
+        if (this.selectedPaymentMethod === 'card') {
+          await this.processCardPayment();
+        } else if (this.selectedPaymentMethod === 'paypal') {
+          await this.processPayPalPayment();
+        } else if (this.selectedPaymentMethod === 'bank') {
+          await this.processBankTransfer();
         }
-        
-        this.processingPayment = true;
-        
-        try {
-            if (this.selectedPaymentMethod === 'card') {
-            await this.processCardPayment();
-            } else if (this.selectedPaymentMethod === 'paypal') {
-            await this.processPayPalPayment();
-            } else if (this.selectedPaymentMethod === 'bank') {
-            await this.processBankTransfer();
-            }
-        } catch (error) {
-            console.error('Payment error:', error);
-            this.showToast(error.message || 'Payment failed', 'error');
-        } finally {
-            this.processingPayment = false;
-        }
-        },
-        
-        async processCardPayment() {
-        try {
-            // Create or get payment intent
-            const intentResponse = await fetch('{% url "payments:checkout" %}', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-CSRFToken': '{{ csrf_token }}',
-                'X-Requested-With': 'XMLHttpRequest',
-            },
-            body: JSON.stringify({
-                action: 'create_payment_intent',
-                save_payment_method: this.savePaymentMethod,
-                customer: this.customer,
-                payment_method_id: this.paymentMethodId
-            }),
-            credentials: 'include'
-            });
+      } catch (error) {
+        console.error('Payment error:', error);
+        this.showToast('Payment failed: ' + (error.message || 'Unknown error'), 'error');
+        this.processingPayment = false;
+      }
+    },
+    
+      // Modified processCardPayment to handle saved cards
+    async processCardPayment() {
+      this.processingPayment = true;
 
-            if (!intentResponse.ok) {
-            const errorData = await intentResponse.json();
-            throw new Error(errorData.error || 'Payment setup failed');
-            }
-
-            const intentResult = await intentResponse.json();
-            
-            // Confirm the payment
-            const {paymentIntent, error} = await this.stripe.confirmCardPayment(
-            intentResult.client_secret,
-            {
-                payment_method: {
-                card: this.cardElement,
-                billing_details: {
-                    name: `${this.customer.firstName} ${this.customer.lastName}`,
-                    email: this.customer.email
-                }
-                }
-            }
-            );
-
-            if (error) throw error;
-
-            // Finalize payment
-            const confirmResponse = await fetch('{% url "payments:checkout" %}', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-CSRFToken': '{{ csrf_token }}',
-                'X-Requested-With': 'XMLHttpRequest',
-            },
-            body: JSON.stringify({
-                action: 'confirm_payment',
-                payment_intent_id: paymentIntent.id
-            }),
-            credentials: 'include'
-            });
-
-            if (!confirmResponse.ok) throw new Error('Payment confirmation failed');
-
-            window.location.href = '{% url "payments:payment-success" %}?session_id=' + paymentIntent.id;
-
-        } catch (error) {
-            console.error('Payment error:', error);
-            throw error;
-        }
-        },
-        
-        showToast(message, type = 'success') {
-        this.$dispatch('notify', {
-            type: type,
-            message: message
+      try {
+        // Step 1: Create a payment intent
+        const intentResponse = await fetch('{% url "payments:checkout" %}', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}',
+            'X-Requested-With': 'XMLHttpRequest',
+          },
+          body: JSON.stringify({
+            action: 'create_payment_intent',
+            use_saved_card: false,
+            save_payment_method: this.savePaymentMethod,
+            customer: this.customer
+          })
         });
-        },
-        
-        scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+
+        const intentResult = await intentResponse.json();
+
+        if (intentResult.error) {
+          throw new Error(intentResult.error);
         }
+
+        this.payment.paymentIntentClientSecret = intentResult.client_secret;
+
+        // Step 2: Confirm payment
+        const { paymentIntent, error } = await this.stripe.confirmCardPayment(
+          intentResult.client_secret,
+          {
+            payment_method: {
+              card: this.cardElement,
+              billing_details: {
+                name: `${this.customer.firstName} ${this.customer.lastName}`,
+                email: this.customer.email
+              }
+            },
+            setup_future_usage: this.savePaymentMethod ? 'off_session' : undefined
+          }
+        );
+
+        if (error) {
+          throw error;
+        }
+
+        // Step 3: Confirm backend payment
+        const confirmResponse = await fetch('{% url "payments:checkout" %}', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}',
+            'X-Requested-With': 'XMLHttpRequest',
+          },
+          body: JSON.stringify({
+            action: 'confirm_payment',
+            payment_intent_id: paymentIntent.id,
+            save_payment_method: this.savePaymentMethod,
+            customer: this.customer,
+          })
+        });
+
+        const confirmResult = await confirmResponse.json();
+
+        if (confirmResult.error) {
+          throw new Error(confirmResult.error);
+        }
+
+        // Redirect to success page
+        window.location.href = '{% url "payments:payment-success" %}?session_id=' + confirmResult.session_id;
+
+      } catch (error) {
+        console.error('Payment error:', error);
+        this.showToast('Payment failed: ' + (error.message || 'Unknown error'), 'error');
+      } finally {
+        this.processingPayment = false;
+      }
+    },
+
+    async processPayPalPayment() {
+      // Initiate PayPal flow
+      const response = await fetch('{% url "payments:checkout" %}', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}',
+          'X-Requested-With': 'XMLHttpRequest',
+        },
+        body: JSON.stringify({
+          customer: this.customer
+        })
+      });
+      
+      const result = await response.json();
+      
+      if (result.error) {
+        throw new Error(result.error);
+      }
+      
+      // Redirect to PayPal approval URL
+      window.location.href = result.approval_url;
+    },
+    
+    async processBankTransfer() {
+      // Submit bank transfer request
+      const response = await fetch('{% url "payments:checkout" %}', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}',
+          'X-Requested-With': 'XMLHttpRequest',
+        },
+        body: JSON.stringify({
+          customer: this.customer
+        })
+      });
+      
+      const result = await response.json();
+      
+      if (result.error) {
+        throw new Error(result.error);
+      }
+      
+      // Redirect to bank transfer instructions
+      window.location.href = '?reference=' + result.reference;
+    },
+    
+    handlePaymentMethodChange(event) {
+      this.selectedPaymentMethod = event.detail.method;
+      
+      if (this.selectedPaymentMethod === 'card' && !this.cardElement) {
+        this.initCardElement();
+      }
+    },
+    
+    showToast(message, type = 'success') {
+      this.$dispatch('notify', {
+        type: type,
+        message: message
+      });
+    },
+    
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
-    }
-</script>            'X-Requested-With': 'XMLHttpRequest',
+  }
+}
+</script>
 {% endblock %}

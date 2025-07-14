@@ -2,11 +2,12 @@
 import logging
 import json
 import stripe
-from datetime import datetime
+import stripe.error
+from datetime import time, datetime
 from django.conf import settings
 from django.views.generic import View, TemplateView
 from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from django.http import JsonResponse, HttpResponse
 from django.contrib import messages
 from django.views.decorators.csrf import csrf_exempt
@@ -17,8 +18,8 @@ from .models import Order, SavedPaymentMethod
 from shop.models import Order as ShopOrder
 from django.views.decorators.http import require_POST
 
-logger = logging.getLogger(__name__)
 stripe.api_key = settings.STRIPE_SECRET_KEY
+STRIPE_PUBLISHABLE_KEY = settings.STRIPE_PUBLISHABLE_KEY
 
 class BillCheckoutView(LoginRequiredMixin, View):
     template_name = 'payments/checkout.html'
@@ -26,6 +27,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
     
     def get(self, request, *args, **kwargs):
         try:
+            # Get current shop order
             shop_order = ShopOrder.objects.get(user=request.user, ordered=False)
             
             context = {
@@ -35,6 +37,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 'current_step': request.GET.get('step', '1'),
             }
             
+            # Add customer info if available
             if 'customer_info' in request.session:
                 context.update(request.session['customer_info'])
                 
@@ -44,14 +47,40 @@ class BillCheckoutView(LoginRequiredMixin, View):
             messages.error(request, "No active order found")
             return redirect(reverse('shop:cart'))
         except Exception as e:
-            logger.error(f"Error loading checkout: {str(e)}")
-            messages.error(request, "Error loading checkout page")
+            messages.error(request, f"Error loading checkout: {str(e)}")
             return redirect(reverse('shop:cart'))
     
     def post(self, request, *args, **kwargs):
+        # Process AJAX requests
+        if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+            return self.handle_ajax_request(request)
+        
+        # Process form submissions
+        step = request.POST.get('step', '1')
+                
+        if step == '1':
+            return self.process_step1(request)
+        elif step == '2':
+            return self.process_step2(request)
+        elif step == '3':
+            return self.process_step3(request)
+        else:
+            messages.error(request, "Invalid checkout step")
+            return redirect(reverse('payments:checkout'))
+    def handle_ajax_request(self, request):
         try:
             data = json.loads(request.body)
             action = data.get('action')
+
+            customer = data.get('customer')
+            if customer:
+                request.session['customer_info'] = {
+                    'first_name': customer.get('firstName', '').strip(),
+                    'last_name': customer.get('lastName', '').strip(),
+                    'email': customer.get('email', '').strip().lower(),
+                    'opt_in_marketing': customer.get('optInMarketing', False)
+                }
+                request.session.modified = True
             
             if action == 'create_payment_intent':
                 return self.create_payment_intent(request)
@@ -59,12 +88,10 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 return self.confirm_payment(request, data)
             else:
                 return JsonResponse({'error': 'Invalid action'}, status=400)
-                
         except json.JSONDecodeError:
             return JsonResponse({'error': 'Invalid JSON'}, status=400)
         except Exception as e:
-            logger.error(f"Checkout error: {str(e)}")
-            return JsonResponse({'error': 'Server error'}, status=500)
+            return JsonResponse({'error': str(e)}, status=400)
     
     def process_step1(self, request):
         try:
@@ -74,7 +101,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 'email': request.POST.get('email', '').strip().lower(),
                 'opt_in_marketing': request.POST.get('optInMarketing') == 'on'
             }
-            
+            # Validate data
             if not all([customer_info['first_name'], customer_info['last_name'], customer_info['email']]):
                 messages.error(request, "Please fill in all required fields")
                 return redirect(reverse('payments:checkout'))
@@ -83,14 +110,14 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 messages.error(request, "Please enter a valid email address")
                 return redirect(reverse('payments:checkout'))
             
+            # Store in session
             request.session['customer_info'] = customer_info
             request.session.modified = True
             
             return redirect(reverse('payments:checkout') + '?step=2')
             
         except Exception as e:
-            logger.error(f"Error processing step 1: {str(e)}")
-            messages.error(request, "Error processing your information")
+            messages.error(request, f"Error processing information: {str(e)}")
             return redirect(reverse('payments:checkout'))
     
     def process_step2(self, request):
@@ -107,8 +134,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
             return redirect(reverse('payments:checkout') + '?step=3')
             
         except Exception as e:
-            logger.error(f"Error processing step 2: {str(e)}")
-            messages.error(request, "Error selecting payment method")
+            messages.error(request, f"Error selecting payment method: {str(e)}")
             return redirect(reverse('payments:checkout') + '?step=2')
     
     def process_step3(self, request):
@@ -131,7 +157,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
                     messages.error(request, "Payment not completed")
                     return redirect(reverse('payments:checkout') + '?step=2')
                 
-                return self.handle_payment_success(request, intent)
+                return self.handle_payment_success(request, intent, ajax=True)
                 
             elif request.session['payment_method'] == 'paypal':
                 return self.process_paypal_payment(request)
@@ -140,61 +166,32 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 return self.process_bank_transfer(request)
                 
         except stripe.error.StripeError as e:
-            logger.error(f"Stripe error in step 3: {str(e)}")
-            messages.error(request, f"Payment error: {str(e.user_message)}")
+            messages.error(request, f"Payment error: {str(e)}")
             return redirect(reverse('payments:checkout') + '?step=2')
         except Exception as e:
-            logger.error(f"Error processing step 3: {str(e)}")
-            messages.error(request, "Error processing payment")
+            messages.error(request, f"Error processing payment: {str(e)}")
             return redirect(reverse('payments:checkout'))
-    
     def create_payment_intent(self, request):
         try:
             if 'customer_info' not in request.session:
                 return JsonResponse({'error': 'Customer information missing'}, status=400)
                 
             shop_order = ShopOrder.objects.get(user=request.user, ordered=False)
-            amount = int(shop_order.total * 100)
-            
-            # Check if we have an existing payment intent
-            payment_intent_id = request.session.get('payment_intent_id')
-            
-            if payment_intent_id:
-                # Retrieve existing intent first
-                existing_intent = stripe.PaymentIntent.retrieve(payment_intent_id)
-                
-                # Only modify if in a modifiable state
-                if existing_intent.status in ['requires_payment_method', 'requires_confirmation', 'requires_action']:
-                    # Check if amount changed
-                    if existing_intent.amount != amount:
-                        intent = stripe.PaymentIntent.modify(
-                            payment_intent_id,
-                            amount=amount,
-                            metadata={
-                                'user_id': request.user.id,
-                                'order_id': shop_order.id,
-                                'customer_email': request.session['customer_info']['email']
-                            }
-                        )
-                    else:
-                        intent = existing_intent
-                else:
-                    # Create new intent if existing one is in terminal state
-                    intent = stripe.PaymentIntent.create(
-                        amount=amount,
-                        currency='usd',
-                        payment_method_types=['card'],
-                        metadata={
-                            'user_id': request.user.id,
-                            'order_id': shop_order.id,
-                            'customer_email': request.session['customer_info']['email']
-                        },
-                        receipt_email=request.session['customer_info']['email']
-                    )
+            # Create or update payment intent
+            if 'payment_intent_id' in request.session:
+                intent = stripe.PaymentIntent.modify(
+                    request.session['payment_intent_id'],
+                    amount=int(shop_order.total * 100),
+                    currency='usd',
+                    metadata={
+                        'user_id': request.user.id,
+                        'order_id': shop_order.id,
+                        'customer_email': request.session['customer_info']['email']
+                    }
+                )
             else:
-                # Create new intent if none exists
                 intent = stripe.PaymentIntent.create(
-                    amount=amount,
+                    amount=int(shop_order.total * 100),
                     currency='usd',
                     payment_method_types=['card'],
                     metadata={
@@ -214,81 +211,51 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 'paymentIntentId': intent.id
             })
             
-        except ShopOrder.DoesNotExist:
-            return JsonResponse({'error': 'No active order found'}, status=400)
         except stripe.error.StripeError as e:
-            logger.error(f"Stripe error creating payment intent: {str(e)}")
-            return JsonResponse({'error': str(e.user_message)}, status=400)
+            return JsonResponse({'error': str(e)}, status=400)
         except Exception as e:
-            logger.error(f"Error creating payment intent: {str(e)}")
-            return JsonResponse({'error': 'System error'}, status=500)
+            return JsonResponse({'error': str(e)}, status=400)
     
     def confirm_payment(self, request, data):
         try:
             payment_intent_id = data.get('paymentIntentId')
-            if not payment_intent_id or payment_intent_id != request.session.get('payment_intent_id'):
+            if payment_intent_id != request.session.get('payment_intent_id'):
                 return JsonResponse({'error': 'Invalid payment intent'}, status=400)
             
             intent = stripe.PaymentIntent.retrieve(payment_intent_id)
-            
-            # Verify the amount matches
-            shop_order = ShopOrder.objects.get(user=request.user, ordered=False)
-            expected_amount = int(shop_order.total * 100)
-            
-            if intent.amount != expected_amount:
-                return JsonResponse({
-                    'error': f'Amount mismatch. Expected {expected_amount}, got {intent.amount}'
-                }, status=400)
-                
             if intent.status == 'succeeded':
                 return self.handle_payment_success(request, intent, ajax=True)
                 
             elif intent.status == 'requires_action':
                 return JsonResponse({
                     'requiresAction': True,
-                    'clientSecret': intent.client_secret,
-                    'paymentMethod': intent.payment_method
+                    'clientSecret': intent.client_secret
                 })
                 
             elif intent.status == 'requires_payment_method':
-                logger.error(f'Payment failed for intent {intent.id}: {intent.last_payment_error}')
                 return JsonResponse({
-                    'error': intent.last_payment_error.message if intent.last_payment_error 
-                            else 'Payment failed. Please try another payment method.'
+                    'error': 'Payment failed. Please try another payment method.'
                 }, status=400)
                 
             else:
-                logger.warning(f'Unexpected payment status for intent {intent.id}: {intent.status}')
                 return JsonResponse({
                     'error': f'Unexpected payment status: {intent.status}'
                 }, status=400)
                 
         except stripe.error.StripeError as e:
-            logger.error(f'Stripe error in confirm_payment: {str(e)}')
-            return JsonResponse({'error': str(e.user_message)}, status=400)
+            return JsonResponse({'error': str(e)}, status=400)
         except Exception as e:
-            logger.error(f'Error in confirm_payment: {str(e)}')
-            return JsonResponse({'error': 'Payment confirmation failed'}, status=500)
+            return JsonResponse({'error': str(e)}, status=400)
     
     def handle_payment_success(self, request, payment_intent, ajax=False):
         try:
             shop_order = ShopOrder.objects.get(user=request.user, ordered=False)
             customer_info = request.session.get('customer_info', {})
-            
-            # Check for existing order to prevent duplicates
-            existing_order = Order.objects.filter(
-                stripe_payment_intent_id=payment_intent.id
-            ).first()
-            
-            if existing_order:
-                if ajax:
-                    return JsonResponse({
-                        'success': True,
-                        'redirectUrl': reverse('payments:payment-success') + f'?order_id={existing_order.id}'
-                    })
-                return redirect(reverse('payments:payment-success') + f'?order_id={existing_order.id}')
-            
-            # Create new payment order
+            existing_order = Order.objects.filter(stripe_payment_intent_id = payment_intent.id).first()
+            # avoid duplicates
+            # if existing_order:
+            #     return JsonResponse({'success': True, 'redirectUrl': reverse('payments:payment-success') + f'?order_id={existing_order.id}'})            
+            # Create payment order
             order = Order.objects.create(
                 user=request.user,
                 shop_order=shop_order,
@@ -305,9 +272,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
                 payment_details={
                     'payment_intent': payment_intent.id,
                     'amount_received': payment_intent.amount_received,
-                    'payment_method': payment_intent.payment_method if isinstance(payment_intent.payment_method, str) 
-                                      else payment_intent.payment_method.id if payment_intent.payment_method 
-                                      else None,
+                    'payment_method': payment_intent.payment_method.id if payment_intent.payment_method else None,
                 },
                 opt_in_marketing=customer_info.get('opt_in_marketing', False)
             )
@@ -317,8 +282,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
             shop_order.save()
             
             # Save payment method if requested
-            if request.POST.get('save_payment_method') == 'true' and \
-               hasattr(payment_intent, 'payment_method') and payment_intent.payment_method:
+            if request.POST.get('save_payment_method') == 'true':
                 self.save_payment_method(request, payment_intent)
             
             # Clear session
@@ -330,14 +294,12 @@ class BillCheckoutView(LoginRequiredMixin, View):
             if ajax:
                 return JsonResponse({
                     'success': True,
-                    'redirectUrl': reverse('payments:payment-success') + f'?order_id={order.id}',
-                    'session_id': order.stripe_payment_intent_id
+                    'redirectUrl': reverse('payments:payment-success') + f'?order_id={order.id}'
                 })
             
             return redirect(reverse('payments:payment-success') + f'?order_id={order.id}')
             
         except Exception as e:
-            logger.error(f'Error handling payment success: {str(e)}')
             if ajax:
                 return JsonResponse({'error': str(e)}, status=400)
             messages.error(request, f"Error completing order: {str(e)}")
@@ -345,9 +307,7 @@ class BillCheckoutView(LoginRequiredMixin, View):
     
     def save_payment_method(self, request, payment_intent):
         try:
-            if request.session.get('payment_method') == 'card' and \
-               hasattr(payment_intent, 'payment_method') and payment_intent.payment_method:
-                
+            if request.session.get('payment_method') == 'card' and payment_intent.payment_method:
                 payment_method = stripe.PaymentMethod.retrieve(payment_intent.payment_method)
                 
                 SavedPaymentMethod.objects.update_or_create(
@@ -362,141 +322,120 @@ class BillCheckoutView(LoginRequiredMixin, View):
                         'card_exp_year': payment_method.card.exp_year,
                     }
                 )
+            SavedPaymentMethod.update_from_stripe()
                 
         except Exception as e:
             logger.error(f"Error saving payment method: {str(e)}")
 
     def process_paypal_payment(self, request):
-        try:
-            # In a real implementation, this would:
-            # 1. Create a PayPal order
-            # 2. Store the PayPal order ID
-            # 3. Redirect to PayPal approval URL
-            
-            # For demo purposes, simulate success
-            return self.handle_payment_success(request, {'id': f'paypal_{datetime.now().timestamp()}'})
-            
-        except Exception as e:
-            logger.error(f"Error processing PayPal payment: {str(e)}")
-            messages.error(request, "Error processing PayPal payment")
-            return redirect(reverse('payments:checkout') + '?step=2')
+        # Implement PayPal integration here
+        # This would typically redirect to PayPal for approval
+        # Then have a return URL that processes the completed payment
+        
+        # For now, just simulate success
+        return self.handle_payment_success(request, {'id': 'simulated_paypal_id'})
     
     def process_bank_transfer(self, request):
-        try:
-            # Generate bank transfer reference
-            reference = f"BANK-{request.session['customer_info']['email']}-{int(datetime.now().timestamp())}"
-            
-            # In a real implementation, you would:
-            # 1. Create an order record with "pending" status
-            # 2. Send email with bank details
-            # 3. Redirect to instructions page
-            
-            return redirect(reverse('payments:bank-transfer-instructions') + f'?reference={reference}')
-            
-        except Exception as e:
-            logger.error(f"Error processing bank transfer: {str(e)}")
-            messages.error(request, "Error processing bank transfer")
-            return redirect(reverse('payments:checkout') + '?step=2')
+        # Generate bank transfer reference
+        reference = f"BANK-{request.session['customer_info']['email']}-{int(time.time())}"
+        
+        # In a real implementation, you would:
+        # 1. Create an order record with "pending" status
+        # 2. Send email with bank details
+        # 3. Redirect to instructions page
+        
+        return redirect(reverse('payments:bank-transfer-instructions') + f'?reference={reference}')
 
 
-class PaymentSuccessView(LoginRequiredMixin, View):
+class PaymentSuccessView(View):
     def get(self, request, *args, **kwargs):
-        try:
-            order_id = request.GET.get('order_id')
-            session_id = request.GET.get('session_id')
-            
-            if order_id:
-                order = Order.objects.get(id=order_id, user=request.user)
-            elif session_id:
-                order = Order.objects.get(stripe_payment_intent_id=session_id, user=request.user)
-            else:
-                raise Order.DoesNotExist
-                
-            context = {
-                'order': order,
-                'session_id': order.stripe_payment_intent_id,
-            }
-            
-            return render(request, 'payments/payment_success.html', context)
-            
-        except Order.DoesNotExist:
-            messages.error(request, "Order not found")
-            return redirect(reverse('shop:cart'))
-        except Exception as e:
-            logger.error(f"Error loading payment success: {str(e)}")
-            messages.error(request, "Error loading order details")
-            return redirect(reverse('shop:cart'))
+        session_id = request.GET.get('session_id')
+        # Verify the payment with Stripe
+        # Retrieve order details
+        context = {
+            'session_id': session_id,
+            # other order details
+        }
+        return render(request, 'payments/payments_success.html', context)
+
+class PaymentsDashboard(TemplateView):
+    template_name = 'payments/subscriptions.html'
 
 
 @csrf_exempt
 @require_POST
 def stripe_webhook(request):
     payload = request.body
-    sig_header = request.META.get('HTTP_STRIPE_SIGNATURE', '')
-    
+    sig_header = request.META['HTTP_STRIPE_SIGNATURE']
+    event = None
+
     try:
         event = stripe.Webhook.construct_event(
-            payload, 
-            sig_header, 
-            settings.STRIPE_WEBHOOK_SECRET
+            payload, sig_header, settings.STRIPE_WEBHOOK_SECRET
         )
     except ValueError as e:
-        logger.error(f'Webhook invalid payload: {str(e)}')
+        # Invalid payload
         return HttpResponse(status=400)
     except stripe.error.SignatureVerificationError as e:
-        logger.error(f'Webhook signature verification failed: {str(e)}')
-        return HttpResponse(status=400)
-    except Exception as e:
-        logger.error(f'Webhook processing error: {str(e)}')
+        # Invalid signature
         return HttpResponse(status=400)
 
-    # Handle payment intent succeeded
+    # Handle the event
     if event.type == 'payment_intent.succeeded':
         payment_intent = event.data.object
-        try:
-            order = Order.objects.filter(
-                stripe_payment_intent_id=payment_intent.id
-            ).first()
-            
-            if order and order.payment_status != 'completed':
-                order.payment_status = 'completed'
-                order.payment_details.update({
-                    'webhook_received': True,
-                    'amount_received': payment_intent.amount_received,
-                    'payment_method': payment_intent.payment_method,
-                    'charges': payment_intent.charges.data if hasattr(payment_intent, 'charges') else None
-                })
-                order.save()
-                
-                # Mark shop order as paid
-                if order.shop_order:
-                    order.shop_order.ordered = True
-                    order.shop_order.save()
-                
-        except Exception as e:
-            logger.error(f'Error processing payment_intent.succeeded: {str(e)}')
-            
-    # Handle payment intent failed
+        handle_payment_intent_succeeded(payment_intent)
     elif event.type == 'payment_intent.payment_failed':
         payment_intent = event.data.object
-        try:
-            Order.objects.filter(
-                stripe_payment_intent_id=payment_intent.id
-            ).update(
-                payment_status='failed',
-                payment_details={
-                    'last_payment_error': payment_intent.last_payment_error,
-                    'failure_time': datetime.now().isoformat()
-                }
-            )
-        except Exception as e:
-            logger.error(f'Error processing payment_intent.payment_failed: {str(e)}')
-    
+        handle_payment_intent_failed(payment_intent)
+    elif event.type == 'payment_method.attached':
+        payment_method = event.data.object
+        handle_payment_method_attached(payment_method)
+    # ... handle other event types
+
     return HttpResponse(status=200)
 
+def handle_payment_intent_succeeded(payment_intent):
+    # Find or create order
+    order, created = Order.objects.get_or_create(
+        payment_reference=payment_intent.id,
+        defaults={
+            'payment_status': 'pending',
+            'payment_method': 'card',
+            'payment_details': {
+                'payment_intent': payment_intent.id,
+                'amount_received': payment_intent.amount_received,
+                'charges': payment_intent.charges.data if hasattr(payment_intent, 'charges') else None,
+            }
+        }
+    )
+    
+    if not created:
+        order.payment_status = 'completed'
+        order.payment_details.update({
+            'amount_received': payment_intent.amount_received,
+            'charges': payment_intent.charges.data if hasattr(payment_intent, 'charges') else None,
+        })
+        order.save()
+    
+    # Additional logic: send confirmation email, update user subscription, etc.
 
-@login_required
+def handle_payment_intent_failed(payment_intent):
+    order = Order.objects.filter(payment_reference=payment_intent.id).first()
+    if order:
+        order.payment_status = 'failed'
+        order.payment_details.update({
+            'last_payment_error': payment_intent.last_payment_error,
+        })
+        order.save()
+
+def handle_payment_method_attached(payment_method):
+    # This would be called when a payment method is attached to a customer
+    # You could update your SavedPaymentMethod records here
+    pass
+
+
 @require_POST
+@login_required
 def save_card(request):
     try:
         data = json.loads(request.body)
@@ -529,33 +468,22 @@ def save_card(request):
             'id': method.id,
             'brand': method.card_brand,
             'last4': method.card_last4,
-            'expiry': f"{method.card_exp_month}/{method.card_exp_year}",
+            'expiry': method.formatted_expiry,
             'is_default': method.is_default
         })
         
     except Exception as e:
-        logger.error(f"Error saving card: {str(e)}")
         return JsonResponse({'error': str(e)}, status=400)
     
 
 @login_required
 def get_saved_cards(request):
-    try:
-        cards = SavedPaymentMethod.objects.filter(
-            user=request.user, 
-            payment_type='card'
-        ).values('id', 'card_brand', 'card_last4', 'card_exp_month', 'card_exp_year')
-        
-        # Format expiry for display
-        cards = [{
-            **card,
-            'expiry': f"{card['card_exp_month']}/{card['card_exp_year']}"
-        } for card in cards]
-        
-        return JsonResponse(list(cards), safe=False)
-    except Exception as e:
-        logger.error(f"Error getting saved cards: {str(e)}")
-        return JsonResponse({'error': str(e)}, status=400)
+    cards = SavedPaymentMethod.objects.filter(
+        user=request.user, 
+        payment_type='card'
+    ).values('id', 'card_brand', 'card_last4')
+    
+    return JsonResponse(list(cards), safe=False)
 
 @login_required
 @require_POST
@@ -564,38 +492,20 @@ def use_saved_card(request):
         data = json.loads(request.body)
         card_id = data.get('card_id')
         
-        if not card_id:
-            raise ValueError("Card ID is required")
-        
         # Get the saved card
         card = SavedPaymentMethod.objects.get(
             id=card_id,
             user=request.user
         )
-        
-        shop_order = ShopOrder.objects.get(ordered=False, user=request.user)
-        
-        # Validate amount
-        if not shop_order.total or shop_order.total <= 0:
-            raise ValueError("Invalid order amount")
-            
-        amount = int(shop_order.total * 100)
-        if amount < 50:  # Minimum charge amount
-            raise ValueError("Amount too small")
-        
+        shop_order = ShopOrder.objects.get(ordered = False, user = request.user)
         # Create payment intent with saved card
         intent = stripe.PaymentIntent.create(
-            amount=amount,
+            amount=shop_order.total,  # Replace with actual amount
             currency='usd',
-            customer=request.user.stripe_customer_id if hasattr(request.user, 'stripe_customer_id') else None,
+            customer=request.user.stripe_customer_id,  # Assuming you store this
             payment_method=card.stripe_payment_method_id,
             confirm=True,
-            off_session=True,  # Customer isn't present
-            metadata={
-                'user_id': request.user.id,
-                'order_id': shop_order.id,
-                'saved_card_id': card.id
-            }
+            off_session=True  # Customer isn't present
         )
         
         if intent.status == 'requires_action':
@@ -604,28 +514,10 @@ def use_saved_card(request):
                 'client_secret': intent.client_secret
             })
             
-        if intent.status == 'succeeded':
-            return JsonResponse({
-                'status': 'succeeded',
-                'session_id': intent.id
-            })
-            
-        raise ValueError(f"Unexpected payment status: {intent.status}")
+        return JsonResponse({
+            'status': 'succeeded',
+            'session_id': intent.id
+        })
         
-    except SavedPaymentMethod.DoesNotExist:
-        return JsonResponse({'error': 'Card not found'}, status=404)
-    except ShopOrder.DoesNotExist:
-        return JsonResponse({'error': 'No active order found'}, status=400)
-    except stripe.error.StripeError as e:
-        logger.error(f"Stripe error using saved card: {str(e)}")
-        return JsonResponse({'error': str(e.user_message)}, status=400)
     except Exception as e:
-        logger.error(f"Error using saved card: {str(e)}")
-        return JsonResponse({'error': str(e)}, status=400)
-    
-
-
-class PaymentsDashboard(TemplateView):
-    template_name = 'payments/subscriptions.html'
-
-
+        return JsonResponse({'error': str(e)}, status=400)    

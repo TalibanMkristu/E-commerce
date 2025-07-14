@@ -1,30 +1,33 @@
 import csv
 import os
 import requests
+import random
 from io import BytesIO
 from django.core.files import File
 from django.core.management.base import BaseCommand
 from django.utils.text import slugify
 from shop.models import Item
-import random
 
 CATEGORY_MAPPING = {
-    "Café": "VG",
-    "Electronics": "EL",
-    "Books": "BK",
-    "Fashion": "FS",
-    # Add more as needed
+    "VG": "VG",
+    "EL": "EL",
+    "BK": "BK",
+    "FS": "FS",
+    # Extend as needed
 }
 
 LABEL_CHOICES = ['P', 'S', 'D']
-SIZE_CHOICES = ['S', 'M', 'L']
+SIZE_CHOICES = ['S', 'M', 'L', 'XL']
 
 class Command(BaseCommand):
-    help = "Import products from CSV into Item model with image download and more"
+    help = "Import products from CSV into Item model with optional image download"
+
+    def add_arguments(self, parser):
+        parser.add_argument('csv_file', type=str, help="Path to the CSV file (absolute or relative)")
 
     def download_image(self, url, title):
         try:
-            response = requests.get(url)
+            response = requests.get(url, timeout=10)
             if response.status_code == 200:
                 filename = slugify(title) + ".jpg"
                 return File(BytesIO(response.content), name=filename)
@@ -32,11 +35,18 @@ class Command(BaseCommand):
             self.stdout.write(self.style.WARNING(f"Image download failed for {url}: {e}"))
         return None
 
-    def handle(self, *args, **kwargs):
-        with open('products.csv', newline='', encoding='utf-8') as csvfile:
+    def handle(self, *args, **options):
+        csv_path = options['csv_file']
+        if not os.path.exists(csv_path):
+            self.stdout.write(self.style.ERROR(f"CSV file not found: {csv_path}"))
+            return
+
+        with open(csv_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
+            count = 0
+
             for row in reader:
-                title = row['name']
+                title = row.get('title', 'Untitled')
                 slug = slugify(title)
 
                 # Ensure unique slug
@@ -46,42 +56,45 @@ class Command(BaseCommand):
                     slug = f"{original_slug}-{counter}"
                     counter += 1
 
-                price = float(row['price_usd'])
+                try:
+                    price = float(row['price'])
+                except (ValueError, KeyError):
+                    price = 0.0
+
                 stock = int(row.get('stock', 1))
-                discount = random.choice([0, 5, 10, 15])
-                price_before_discount = round(price / (1 - discount / 100), 2) if discount else price
+                discount = float(row.get('percentage_discount', 0)) or 0
+                price_before = float(row.get('price_before_discount') or (price / (1 - discount/100) if discount else price))
 
-                # Category mapping from CSV to model
-                category_name = row.get('category', 'Café')
-                category_value = CATEGORY_MAPPING.get(category_name, 'VG')
+                category = row.get('category', 'VG')
+                category_value = CATEGORY_MAPPING.get(category, 'VG')
 
-                label = random.choice(LABEL_CHOICES)
-                size = random.choice(SIZE_CHOICES)
-                rating = round(random.uniform(3.5, 5.0), 1)
+                label = row.get('label', random.choice(LABEL_CHOICES))
+                size = row.get('size', random.choice(SIZE_CHOICES))
+                rating = float(row.get('rating', round(random.uniform(3.5, 5.0), 1)))
                 description = row.get('description', 'This is a test description.')
 
-                # Image download
-                item_image = self.download_image(row.get('image_url', ''), title)
+                image_url = row.get('item_url', '')
+                image_file = self.download_image(image_url, title)
 
-                # Create item
                 item = Item(
                     title=title,
                     price=price,
-                    item_url=row.get('image_url', ''),
+                    item_url=image_url,
                     stock=stock,
-                    percentage_discount=discount if discount else None,
-                    price_before_discount=price_before_discount if discount else None,
+                    percentage_discount=discount,
+                    price_before_discount=price_before,
                     category=category_value,
                     label=label,
                     slug=slug,
                     rating=rating,
                     description=description,
-                    size=size
+                    size=size,
                 )
 
-                if item_image:
-                    item.item_image = item_image
+                if image_file:
+                    item.item_image = image_file
 
                 item.save()
+                count += 1
 
-        self.stdout.write(self.style.SUCCESS('Products imported with images, categories, and extras.'))
+        self.stdout.write(self.style.SUCCESS(f'✅ Imported {count} products from {csv_path}'))

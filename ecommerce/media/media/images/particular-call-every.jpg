@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Phil Gilbert | Irresistible Change &#8211; A new model designed for driving culture change that sticks.</title>
+<meta name='robots' content='noindex, nofollow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="Phil Gilbert | Irresistible Change &raquo; Feed" href="https://gilbert.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Phil Gilbert | Irresistible Change &raquo; Comments Feed" href="https://gilbert.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/gilbert.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wp-components-css' href='https://gilbert.com/wp-includes/css/dist/components/style.min.css?ver=6.8.1' media='all' />
+<link rel='stylesheet' id='godaddy-styles-css' href='https://gilbert.com/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://gilbert.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.4' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://gilbert.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.4' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://gilbert.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.4' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://gilbert.com/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1750538434' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css' href='https://gilbert.com/wp-content/uploads/elementor/css/post-8.css?ver=1750538434' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://gilbert.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://gilbert.com/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1750538434' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://gilbert.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://gilbert.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://gilbert.com/wp-content/uploads/elementor/css/custom-apple-webkit.min.css?ver=1750538434' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://gilbert.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='elementor-post-13-css' href='https://gilbert.com/wp-content/uploads/elementor/css/post-13.css?ver=1750538435' media='all' />
+<link rel='stylesheet' id='elementor-post-16-css' href='https://gilbert.com/wp-content/uploads/elementor/css/post-16.css?ver=1750538435' media='all' />
+<link rel='stylesheet' id='elementor-post-42-css' href='https://gilbert.com/wp-content/uploads/elementor/css/post-42.css?ver=1750538435' media='all' />
+<link rel='stylesheet' id='hello-elementor-child-style-css' href='https://gilbert.com/wp-content/themes/hello-theme-child-master/style.css?ver=2.0.0' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://gilbert.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742238600' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://gilbert.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742238604' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-ibmplexsans-css' href='https://gilbert.com/wp-content/uploads/elementor/google-fonts/css/ibmplexsans.css?ver=1742238609' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-ibmplexmono-css' href='https://gilbert.com/wp-content/uploads/elementor/google-fonts/css/ibmplexmono.css?ver=1742238613' media='all' />
+<script src="https://gilbert.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://gilbert.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://gilbert.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://gilbert.com/wp-json/wp/v2/pages/13" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gilbert.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.1" />
+<link rel="canonical" href="https://gilbert.com/" />
+<link rel='shortlink' href='https://gilbert.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://gilbert.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgilbert.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://gilbert.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgilbert.com%2F&#038;format=xml" />
+<meta name="generator" content="Elementor 3.29.2; features: e_font_icon_svg, additional_custom_breakpoints, e_local_google_fonts, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://gilbert.com/wp-content/uploads/2025/03/infinity-bottom.002-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://gilbert.com/wp-content/uploads/2025/03/infinity-bottom.002.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://gilbert.com/wp-content/uploads/2025/03/infinity-bottom.002.png" />
+<meta name="msapplication-TileImage" content="https://gilbert.com/wp-content/uploads/2025/03/infinity-bottom.002.png" />
+		<style id="wp-custom-css">
+			p:nth-last-child(1){
+    margin-bottom: 0;
+}		</style>
+		</head>
+<body class="home wp-singular page-template page-template-elementor_header_footer page page-id-13 wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master hello-elementor-default elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-13">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div data-elementor-type="header" data-elementor-id="16" class="elementor elementor-16 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-51b728a e-con-full e-flex e-con e-parent" data-id="51b728a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;position&quot;:&quot;absolute&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+		<div class="elementor-element elementor-element-f6e09e3 e-flex e-con-boxed e-con e-child" data-id="f6e09e3" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-853cb82 e-con-full e-flex e-con e-child" data-id="853cb82" data-element_type="container">
+				<div class="elementor-element elementor-element-e1d8c88 elementor-widget elementor-widget-heading" data-id="e1d8c88" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="/">PHIL <strong>GILBERT</strong></a></h2>				</div>
+				<div class="elementor-element elementor-element-1162a11 elementor-nav-menu--stretch elementor-widget-tablet__width-inherit elementor-widget-mobile__width-initial elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="1162a11" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg class=\&quot;fa-svg-chevron-down e-font-icon-svg e-fas-chevron-down\&quot; viewBox=\&quot;0 0 448 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+				<ul id="menu-1-1162a11" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1941"><a href="#" class="elementor-item elementor-item-anchor">Speaking</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1940"><a href="https://gilbert.com/speaking-topics/" class="elementor-sub-item">Speaking Topics</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2227"><a href="https://gilbert.com/for-meeting-planners/" class="elementor-sub-item">For Meeting Planners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="https://gilbert.com/consulting/" class="elementor-item">Consulting</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"><a href="https://gilbert.com/about-phil/" class="elementor-item">About Phil</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-1162a11" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1941"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Speaking</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1940"><a href="https://gilbert.com/speaking-topics/" class="elementor-sub-item" tabindex="-1">Speaking Topics</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2227"><a href="https://gilbert.com/for-meeting-planners/" class="elementor-sub-item" tabindex="-1">For Meeting Planners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="https://gilbert.com/consulting/" class="elementor-item" tabindex="-1">Consulting</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"><a href="https://gilbert.com/about-phil/" class="elementor-item" tabindex="-1">About Phil</a></li>
+</ul>			</nav>
+						</div>
+		<div class="elementor-element elementor-element-2fa21cd e-con-full elementor-hidden-mobile e-flex e-con e-child" data-id="2fa21cd" data-element_type="container">
+				<div class="elementor-element elementor-element-bc88819 elementor-widget elementor-widget-button" data-id="bc88819" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://gilbert.com/contact-phil/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">CONTACT PHIL</span>
+					</span>
+					</a>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+				<div data-elementor-type="wp-page" data-elementor-id="13" class="elementor elementor-13" data-elementor-post-type="page">
+				<div class="elementor-element elementor-element-c138946 e-con-full e-flex e-con e-parent" data-id="c138946" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-5377a88 e-flex e-con-boxed e-con e-child" data-id="5377a88" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bbab89f e-con-full e-flex e-con e-child" data-id="bbab89f" data-element_type="container">
+				<div class="elementor-element elementor-element-d6c7178 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="d6c7178" data-element_type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Irresistible</h1>				</div>
+		<div class="elementor-element elementor-element-229fb92 e-con-full e-flex e-con e-child" data-id="229fb92" data-element_type="container">
+				<div class="elementor-element elementor-element-9ecbceb elementor-widget__width-initial csm-header elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="9ecbceb" data-element_type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Change<span class="tm-text" style="color: #EAEAEA">™</span>
+</h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6f65ffd elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6f65ffd" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>A new model designed for driving <span style="color: #f7f552; font-weight: 400;">culture change that sticks.</span></p><p><span style="color: #f7f552; font-weight: 400;"> </span></p><p>Engaging and inspirational stories from the leader of one of the largest transformations in history – one that changed the ways almost 400,000 people work, all without a single mandate.</p>								</div>
+				<div class="elementor-element elementor-element-af1933e elementor-tablet-align-left elementor-widget elementor-widget-button" data-id="af1933e" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://gilbert.com/contact-phil/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">CONTACT PHIL</span>
+					</span>
+					</a>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e005676 e-con-full e-flex e-con e-parent" data-id="e005676" data-element_type="container">
+				<div class="elementor-element elementor-element-1d90861 elementor-widget elementor-widget-template" data-id="1d90861" data-element_type="widget" data-widget_type="template.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-template">
+					<div data-elementor-type="container" data-elementor-id="1215" class="elementor elementor-1215" data-elementor-post-type="elementor_library">
+				<div class="elementor-element elementor-element-5a1df02 e-con-full e-flex e-con e-parent" data-id="5a1df02" data-element_type="container">
+		<div class="elementor-element elementor-element-8c882ae e-con-full e-flex e-con e-child" data-id="8c882ae" data-element_type="container">
+		<div class="elementor-element elementor-element-f2960ce e-con-full e-flex e-con e-child" data-id="f2960ce" data-element_type="container">
+				<div class="elementor-element elementor-element-79d42686 csm-logo-scroll elementor-widget elementor-widget-n-carousel" data-id="79d42686" data-element_type="widget" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;Slide #1&quot;,&quot;_id&quot;:&quot;c9c7f1f&quot;},{&quot;slide_title&quot;:&quot;Slide #2&quot;,&quot;_id&quot;:&quot;9604b39&quot;},{&quot;slide_title&quot;:&quot;Slide #3&quot;,&quot;_id&quot;:&quot;ff1c6b4&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;8b0db1e&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;deba84b&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;e89a318&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;deca140&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;8bead34&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;e6f8e69&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;9e2591b&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;0d4a679&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;2a98c01&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;d79461e&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;8d21c88&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;6e3f5bb&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;96b6d78&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;d591f0e&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;220f8b7&quot;},{&quot;slide_title&quot;:&quot;Slide #6&quot;,&quot;_id&quot;:&quot;d202ad9&quot;}],&quot;slides_to_show&quot;:&quot;5&quot;,&quot;autoplay_speed&quot;:0,&quot;speed&quot;:5000,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;3&quot;,&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;offset_sides&quot;:&quot;none&quot;,&quot;image_spacing_custom_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
+							<div class="e-n-carousel swiper" role="region" aria-roledescription="carousel" aria-label="Carousel" dir="ltr">
+			<div class="swiper-wrapper" aria-live="off">
+										<div class="swiper-slide" data-slide="1" role="group" aria-roledescription="slide" aria-label="1 of 19">
+							<div class="elementor-element elementor-element-42cda519 e-flex e-con-boxed e-con e-child" data-id="42cda519" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-3a4b5b5d e-con-full e-flex e-con e-child" data-id="3a4b5b5d" data-element_type="container">
+				<div class="elementor-element elementor-element-5a140220 elementor-widget elementor-widget-image" data-id="5a140220" data-element_type="widget" data-widget_type="image.default">
+															<img fetchpriority="high" decoding="async" width="1024" height="219" src="https://gilbert.com/wp-content/uploads/2025/02/stafnford.png" class="attachment-full size-full wp-image-1140" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/stafnford.png 1024w, https://gilbert.com/wp-content/uploads/2025/02/stafnford-300x64.png 300w, https://gilbert.com/wp-content/uploads/2025/02/stafnford-768x164.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="2" role="group" aria-roledescription="slide" aria-label="2 of 19">
+							<div class="elementor-element elementor-element-43c30a1 e-flex e-con-boxed e-con e-child" data-id="43c30a1" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4271c4ee e-con-full e-flex e-con e-child" data-id="4271c4ee" data-element_type="container">
+				<div class="elementor-element elementor-element-21c8665e elementor-widget elementor-widget-image" data-id="21c8665e" data-element_type="widget" data-widget_type="image.default">
+															<img decoding="async" width="650" height="176" src="https://gilbert.com/wp-content/uploads/2025/02/michigan-1.png" class="attachment-full size-full wp-image-1153" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/michigan-1.png 650w, https://gilbert.com/wp-content/uploads/2025/02/michigan-1-300x81.png 300w" sizes="(max-width: 650px) 100vw, 650px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="3" role="group" aria-roledescription="slide" aria-label="3 of 19">
+							<div class="elementor-element elementor-element-2402819a e-flex e-con-boxed e-con e-child" data-id="2402819a" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-784d0d0 e-con-full e-flex e-con e-child" data-id="784d0d0" data-element_type="container">
+				<div class="elementor-element elementor-element-175e2518 elementor-widget elementor-widget-image" data-id="175e2518" data-element_type="widget" data-widget_type="image.default">
+															<img decoding="async" width="1200" height="1466" src="https://gilbert.com/wp-content/uploads/2025/02/Yale_School_of_Management_shield.svg.png" class="attachment-full size-full wp-image-1154" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/Yale_School_of_Management_shield.svg.png 1200w, https://gilbert.com/wp-content/uploads/2025/02/Yale_School_of_Management_shield.svg-246x300.png 246w, https://gilbert.com/wp-content/uploads/2025/02/Yale_School_of_Management_shield.svg-838x1024.png 838w, https://gilbert.com/wp-content/uploads/2025/02/Yale_School_of_Management_shield.svg-768x938.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="4" role="group" aria-roledescription="slide" aria-label="4 of 19">
+							<div class="elementor-element elementor-element-6c6fa197 e-flex e-con-boxed e-con e-child" data-id="6c6fa197" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6dae1b17 e-con-full e-flex e-con e-child" data-id="6dae1b17" data-element_type="container">
+				<div class="elementor-element elementor-element-75cbcb81 elementor-widget elementor-widget-image" data-id="75cbcb81" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="638" height="153" src="https://gilbert.com/wp-content/uploads/2025/02/northwest.png" class="attachment-full size-full wp-image-1219" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/northwest.png 638w, https://gilbert.com/wp-content/uploads/2025/02/northwest-300x72.png 300w" sizes="(max-width: 638px) 100vw, 638px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="5" role="group" aria-roledescription="slide" aria-label="5 of 19">
+							<div class="elementor-element elementor-element-727e014c e-flex e-con-boxed e-con e-child" data-id="727e014c" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-24b73893 e-con-full e-flex e-con e-child" data-id="24b73893" data-element_type="container">
+				<div class="elementor-element elementor-element-182ad864 elementor-widget elementor-widget-image" data-id="182ad864" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="500" height="162" src="https://gilbert.com/wp-content/uploads/2025/02/penn.png" class="attachment-full size-full wp-image-1213" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/penn.png 500w, https://gilbert.com/wp-content/uploads/2025/02/penn-300x97.png 300w" sizes="(max-width: 500px) 100vw, 500px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="6" role="group" aria-roledescription="slide" aria-label="6 of 19">
+							<div class="elementor-element elementor-element-e4198f6 e-flex e-con-boxed e-con e-child" data-id="e4198f6" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a5a9a7f e-con-full e-flex e-con e-child" data-id="a5a9a7f" data-element_type="container">
+				<div class="elementor-element elementor-element-79ad367 elementor-widget elementor-widget-image" data-id="79ad367" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1200" height="592" src="https://gilbert.com/wp-content/uploads/2025/02/211206-F-HG337-001.jpg" class="attachment-full size-full wp-image-1546" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/211206-F-HG337-001.jpg 1200w, https://gilbert.com/wp-content/uploads/2025/02/211206-F-HG337-001-300x148.jpg 300w, https://gilbert.com/wp-content/uploads/2025/02/211206-F-HG337-001-1024x505.jpg 1024w, https://gilbert.com/wp-content/uploads/2025/02/211206-F-HG337-001-768x379.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="7" role="group" aria-roledescription="slide" aria-label="7 of 19">
+							<div class="elementor-element elementor-element-3d85c01 e-flex e-con-boxed e-con e-child" data-id="3d85c01" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b9d098d e-con-full e-flex e-con e-child" data-id="b9d098d" data-element_type="container">
+				<div class="elementor-element elementor-element-9116062 elementor-widget elementor-widget-image" data-id="9116062" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="189" height="106" src="https://gilbert.com/wp-content/uploads/2025/02/sap.png" class="attachment-full size-full wp-image-1257" alt="" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="8" role="group" aria-roledescription="slide" aria-label="8 of 19">
+							<div class="elementor-element elementor-element-9020075 e-flex e-con-boxed e-con e-child" data-id="9020075" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bf76fb3 e-con-full e-flex e-con e-child" data-id="bf76fb3" data-element_type="container">
+				<div class="elementor-element elementor-element-1760aa7 elementor-widget elementor-widget-image" data-id="1760aa7" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="258" height="71" src="https://gilbert.com/wp-content/uploads/2025/02/pnc.png" class="attachment-full size-full wp-image-1255" alt="" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="9" role="group" aria-roledescription="slide" aria-label="9 of 19">
+							<div class="elementor-element elementor-element-54bbac0 e-flex e-con-boxed e-con e-child" data-id="54bbac0" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-45e1e54 e-con-full e-flex e-con e-child" data-id="45e1e54" data-element_type="container">
+				<div class="elementor-element elementor-element-95c5590 elementor-widget elementor-widget-image" data-id="95c5590" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="294" height="58" src="https://gilbert.com/wp-content/uploads/2025/02/julius-bar.png" class="attachment-full size-full wp-image-1254" alt="" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="10" role="group" aria-roledescription="slide" aria-label="10 of 19">
+							<div class="elementor-element elementor-element-e97f5d2 e-flex e-con-boxed e-con e-child" data-id="e97f5d2" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-f06d1df e-con-full e-flex e-con e-child" data-id="f06d1df" data-element_type="container">
+				<div class="elementor-element elementor-element-35cd825 elementor-widget elementor-widget-image" data-id="35cd825" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="358" height="134" src="https://gilbert.com/wp-content/uploads/2025/02/ford.png" class="attachment-full size-full wp-image-1252" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/ford.png 358w, https://gilbert.com/wp-content/uploads/2025/02/ford-300x112.png 300w" sizes="(max-width: 358px) 100vw, 358px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="11" role="group" aria-roledescription="slide" aria-label="11 of 19">
+							<div class="elementor-element elementor-element-1384e5d e-flex e-con-boxed e-con e-child" data-id="1384e5d" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-76a3dd2 e-con-full e-flex e-con e-child" data-id="76a3dd2" data-element_type="container">
+				<div class="elementor-element elementor-element-4138da4 elementor-widget elementor-widget-image" data-id="4138da4" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="468" height="114" src="https://gilbert.com/wp-content/uploads/2025/02/vodafone.png" class="attachment-full size-full wp-image-1248" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/vodafone.png 468w, https://gilbert.com/wp-content/uploads/2025/02/vodafone-300x73.png 300w" sizes="(max-width: 468px) 100vw, 468px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="12" role="group" aria-roledescription="slide" aria-label="12 of 19">
+							<div class="elementor-element elementor-element-ca460de e-flex e-con-boxed e-con e-child" data-id="ca460de" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-be1e46c e-con-full e-flex e-con e-child" data-id="be1e46c" data-element_type="container">
+				<div class="elementor-element elementor-element-9c9245d elementor-widget elementor-widget-image" data-id="9c9245d" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="436" height="96" src="https://gilbert.com/wp-content/uploads/2025/02/maersk.png" class="attachment-full size-full wp-image-1246" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/maersk.png 436w, https://gilbert.com/wp-content/uploads/2025/02/maersk-300x66.png 300w" sizes="(max-width: 436px) 100vw, 436px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="13" role="group" aria-roledescription="slide" aria-label="13 of 19">
+							<div class="elementor-element elementor-element-e041c57 e-flex e-con-boxed e-con e-child" data-id="e041c57" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-ac1fef8 e-con-full e-flex e-con e-child" data-id="ac1fef8" data-element_type="container">
+				<div class="elementor-element elementor-element-6541185 elementor-widget elementor-widget-image" data-id="6541185" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="368" height="67" src="https://gilbert.com/wp-content/uploads/2025/02/walmart.png" class="attachment-full size-full wp-image-1245" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/walmart.png 368w, https://gilbert.com/wp-content/uploads/2025/02/walmart-300x55.png 300w" sizes="(max-width: 368px) 100vw, 368px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="14" role="group" aria-roledescription="slide" aria-label="14 of 19">
+							<div class="elementor-element elementor-element-921dd50 e-flex e-con-boxed e-con e-child" data-id="921dd50" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b0b1cb7 e-con-full e-flex e-con e-child" data-id="b0b1cb7" data-element_type="container">
+				<div class="elementor-element elementor-element-028bba4 elementor-widget elementor-widget-image" data-id="028bba4" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="542" height="83" src="https://gilbert.com/wp-content/uploads/2025/02/permanente.png" class="attachment-full size-full wp-image-1243" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/permanente.png 542w, https://gilbert.com/wp-content/uploads/2025/02/permanente-300x46.png 300w" sizes="(max-width: 542px) 100vw, 542px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="15" role="group" aria-roledescription="slide" aria-label="15 of 19">
+							<div class="elementor-element elementor-element-b75d9f1 e-flex e-con-boxed e-con e-child" data-id="b75d9f1" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-aab9da9 e-con-full e-flex e-con e-child" data-id="aab9da9" data-element_type="container">
+				<div class="elementor-element elementor-element-f8c6c9c elementor-widget elementor-widget-image" data-id="f8c6c9c" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="420" height="123" src="https://gilbert.com/wp-content/uploads/2025/02/cemex.png" class="attachment-full size-full wp-image-1242" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/cemex.png 420w, https://gilbert.com/wp-content/uploads/2025/02/cemex-300x88.png 300w" sizes="(max-width: 420px) 100vw, 420px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="16" role="group" aria-roledescription="slide" aria-label="16 of 19">
+							<div class="elementor-element elementor-element-9c49e3b e-flex e-con-boxed e-con e-child" data-id="9c49e3b" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7190fa7 e-con-full e-flex e-con e-child" data-id="7190fa7" data-element_type="container">
+				<div class="elementor-element elementor-element-4da5974 elementor-widget elementor-widget-image" data-id="4da5974" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="226" height="63" src="https://gilbert.com/wp-content/uploads/2025/02/fedex.png" class="attachment-full size-full wp-image-1259" alt="" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="17" role="group" aria-roledescription="slide" aria-label="17 of 19">
+							<div class="elementor-element elementor-element-fa3e636 e-flex e-con-boxed e-con e-child" data-id="fa3e636" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-fdcd753 e-con-full e-flex e-con e-child" data-id="fdcd753" data-element_type="container">
+				<div class="elementor-element elementor-element-5f1eccb elementor-widget elementor-widget-image" data-id="5f1eccb" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="358" height="70" src="https://gilbert.com/wp-content/uploads/2025/02/td.png" class="attachment-full size-full wp-image-1258" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/td.png 358w, https://gilbert.com/wp-content/uploads/2025/02/td-300x59.png 300w" sizes="(max-width: 358px) 100vw, 358px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="18" role="group" aria-roledescription="slide" aria-label="18 of 19">
+							<div class="elementor-element elementor-element-92faae6 e-flex e-con-boxed e-con e-child" data-id="92faae6" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-eb9d19f e-con-full e-flex e-con e-child" data-id="eb9d19f" data-element_type="container">
+				<div class="elementor-element elementor-element-5526245 elementor-widget elementor-widget-image" data-id="5526245" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="362" height="87" src="https://gilbert.com/wp-content/uploads/2025/02/poptech.png" class="attachment-full size-full wp-image-1273" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/poptech.png 362w, https://gilbert.com/wp-content/uploads/2025/02/poptech-300x72.png 300w" sizes="(max-width: 362px) 100vw, 362px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="19" role="group" aria-roledescription="slide" aria-label="19 of 19">
+							<div class="elementor-element elementor-element-2270bb5 e-flex e-con-boxed e-con e-child" data-id="2270bb5" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6bd8482 e-con-full e-flex e-con e-child" data-id="6bd8482" data-element_type="container">
+				<div class="elementor-element elementor-element-79012c6 elementor-widget elementor-widget-image" data-id="79012c6" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="557" height="286" src="https://gilbert.com/wp-content/uploads/2025/02/army-.png" class="attachment-full size-full wp-image-1549" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/02/army-.png 557w, https://gilbert.com/wp-content/uploads/2025/02/army--300x154.png 300w" sizes="(max-width: 557px) 100vw, 557px" />															</div>
+				</div>
+					</div>
+				</div>
+								</div>
+								</div>
+		</div>
+						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-65243f5 e-con-full e-flex e-con e-parent" data-id="65243f5" data-element_type="container">
+		<div class="elementor-element elementor-element-ffda325 e-flex e-con-boxed e-con e-child" data-id="ffda325" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-195471b e-con-full e-flex e-con e-child" data-id="195471b" data-element_type="container">
+		<div class="elementor-element elementor-element-8fa2a42 e-con-full e-flex e-con e-child" data-id="8fa2a42" data-element_type="container">
+				<div class="elementor-element elementor-element-c51eeda elementor-widget elementor-widget-heading" data-id="c51eeda" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">70%</h2>				</div>
+				</div>
+		<div class="elementor-element elementor-element-431eee6 e-con-full e-flex e-con e-child" data-id="431eee6" data-element_type="container">
+				<div class="elementor-element elementor-element-f9fb8f3 elementor-widget elementor-widget-text-editor" data-id="f9fb8f3" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>That&#8217;s how many change programs fail — even with <span style="text-align: var(--text-align);">top-down mandates.</span></p>
+<p>Now there’s a proven model for driving lasting change that organizations need, and that people want.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2fb7883 e-con-full e-flex e-con e-child" data-id="2fb7883" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-f4f5056 e-con-full e-flex e-con e-child" data-id="f4f5056" data-element_type="container">
+				<div class="elementor-element elementor-element-2c3672a elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="2c3672a" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="551" height="318" src="https://gilbert.com/wp-content/uploads/2024/12/phil-stuck.png" class="attachment-full size-full wp-image-109" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/phil-stuck.png 551w, https://gilbert.com/wp-content/uploads/2024/12/phil-stuck-300x173.png 300w" sizes="(max-width: 551px) 100vw, 551px" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-970a424 e-con-full e-flex e-con e-child" data-id="970a424" data-element_type="container">
+				<div class="elementor-element elementor-element-bb0f28d elementor-widget elementor-widget-text-editor" data-id="bb0f28d" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>The present is far more fragile than we often realize. A Moore&#8217;s Law-like acceleration of change is occurring in our daily lives. Organizations that possess the ability to continuously adapt will win. Phil developed the model of Irresistible Change to address that challenge for the era of AI and beyond. He brings <span style="color: #f7f552; font-weight: 400;">engaging, actionable, real-life stories</span> from the trenches of large-scale change that stuck, altering the course of one of the most iconic companies on the planet.</p>								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fed5ded e-con-full e-flex e-con e-parent" data-id="fed5ded" data-element_type="container">
+		<div class="elementor-element elementor-element-3df3ca9 e-flex e-con-boxed e-con e-child" data-id="3df3ca9" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-19920dc e-con-full e-flex e-con e-child" data-id="19920dc" data-element_type="container">
+		<div class="elementor-element elementor-element-1195670 e-con-full e-flex e-con e-child" data-id="1195670" data-element_type="container">
+				<div class="elementor-element elementor-element-9118475 elementor-widget elementor-widget-text-editor" data-id="9118475" data-element_type="widget" data-widget_type="text-editor.default">
+									<p class="cvGsUA direction-ltr align-start para-style-body"><img decoding="async" class=" wp-image-1083 alignleft" src="https://gilbert.com/wp-content/uploads/2025/02/phil-image-e1738921058589-293x300.png" alt="Image of Phil Gilbert sitting, facing the camera" width="45%" srcset="https://gilbert.com/wp-content/uploads/2025/02/phil-image-e1738921058589-293x300.png 293w, https://gilbert.com/wp-content/uploads/2025/02/phil-image-e1738921058589.png 510w" sizes="(max-width: 293px) 100vw, 293px" /><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">In 2012, I was asked to revitalize IBM&#8217;s iconic design program, leading a transformation in how teams approach and solve complex problems. </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"> </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">This work was recognized by The New York Times, Fortune, and the documentary The Loop, and in 2018, I was honored with induction into the New York Foundation for the Arts’ Hall of Fame. The next year, the State of Oklahoma (my native state) appointed me one of its Creative Ambassadors.</span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"> </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Today, I guide organizations in implementing Irresistible Change, an approach that empowers people to embrace transformation rather than resist it. By creating cultures where change becomes a natural strength, I help leaders and teams achieve lasting impact. </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none"> </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">I divide my time between speaking and consulting with global organizations on culture, change, and design governance, and mentoring first-time founders through my Ten X Labs initiative. </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span style="text-align: var(--text-align);"> </span></p>
+<p class="cvGsUA direction-ltr align-start para-style-body"><span style="text-align: var(--text-align);">I live in Austin, Texas.</span></p>								</div>
+				<div class="elementor-element elementor-element-b06e430 elementor-widget elementor-widget-button" data-id="b06e430" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://gilbert.com/about-phil/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">READ PHIL’S FULL BIO ></span>
+					</span>
+					</a>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5324da5 e-con-full e-flex e-con e-parent" data-id="5324da5" data-element_type="container">
+		<div class="elementor-element elementor-element-de13d16 e-flex e-con-boxed e-con e-child" data-id="de13d16" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4cb2db8 e-con-full e-flex e-con e-child" data-id="4cb2db8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-e0b5d41 elementor-widget elementor-widget-heading" data-id="e0b5d41" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">POPULAR
+TOPICS</h2>				</div>
+				</div>
+		<div class="elementor-element elementor-element-f1d8add e-con-full e-flex e-con e-child" data-id="f1d8add" data-element_type="container">
+		<div class="elementor-element elementor-element-13ecbee e-con-full e-flex e-con e-child" data-id="13ecbee" data-element_type="container">
+				<div class="elementor-element elementor-element-67489a2 elementor-widget elementor-widget-heading" data-id="67489a2" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">IRRESISTIBLE CHANGE</h2>				</div>
+				<div class="elementor-element elementor-element-b7dd14e elementor-widget elementor-widget-text-editor" data-id="b7dd14e" data-element_type="widget" data-widget_type="text-editor.default">
+									<p class="cvGsUA direction-ltr align-start para-style-body"><em><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Driving Enthusiastic Adoption of New Cultural Behaviors</span></em></p><p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Works in intimate and large settings. Recommended for C-Suite or change leadership offsites, and as a keynote for all-leadership meetings.</span></p>								</div>
+				<div class="elementor-element elementor-element-3e170a9 elementor-widget elementor-widget-button" data-id="3e170a9" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://gilbert.com/speaking-topics/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">LEARN MORE ></span>
+					</span>
+					</a>
+								</div>
+				</div>
+		<div class="elementor-element elementor-element-acd408e e-con-full e-flex e-con e-child" data-id="acd408e" data-element_type="container">
+				<div class="elementor-element elementor-element-a96cbfd elementor-widget elementor-widget-heading" data-id="a96cbfd" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default"><span style="color: transparent">+ </span>PEOPLE <br>+ PRACTICES <br>+ PLACES <br>= OUTCOMES</h2>				</div>
+				<div class="elementor-element elementor-element-306c6c6 elementor-widget elementor-widget-text-editor" data-id="306c6c6" data-element_type="widget" data-widget_type="text-editor.default">
+									<p class="cvGsUA direction-ltr align-start para-style-body"><em><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">How Everything Matters In Driving Change That Sticks</span></em></p><p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Works in intimate and large settings. Recommended for change leadership offsites, and as a keynote for all-hands meetings.</span></p>								</div>
+				<div class="elementor-element elementor-element-24618c9 elementor-widget elementor-widget-button" data-id="24618c9" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://gilbert.com/speaking-topics/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">LEARN MORE ></span>
+					</span>
+					</a>
+								</div>
+				</div>
+		<div class="elementor-element elementor-element-fe6eae7 e-con-full e-flex e-con e-child" data-id="fe6eae7" data-element_type="container">
+				<div class="elementor-element elementor-element-df9773a elementor-widget elementor-widget-heading" data-id="df9773a" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">DESIGN’S SEAT<br>AT THE TABLE</h2>				</div>
+				<div class="elementor-element elementor-element-6ccb9e9 elementor-widget elementor-widget-text-editor" data-id="6ccb9e9" data-element_type="widget" data-widget_type="text-editor.default">
+									<p class="cvGsUA direction-ltr align-start para-style-body"><em><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Gaining Power and Driving Business Impact</span></em></p><p class="cvGsUA direction-ltr align-start para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Works for all design leadership and design all-hands meetings.</span></p>								</div>
+				<div class="elementor-element elementor-element-cccd427 elementor-widget elementor-widget-button" data-id="cccd427" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://gilbert.com/speaking-topics/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">LEARN MORE ></span>
+					</span>
+					</a>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-75142c9 e-con-full e-flex e-con e-parent" data-id="75142c9" data-element_type="container">
+		<div class="elementor-element elementor-element-814d15f e-flex e-con-boxed e-con e-child" data-id="814d15f" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b350e28 e-con-full e-flex e-con e-child" data-id="b350e28" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-6a66583 elementor-widget elementor-widget-heading" data-id="6a66583" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Featured Media &amp; Publications</h2>				</div>
+				</div>
+		<div class="elementor-element elementor-element-e75baa7 e-con-full e-grid e-con e-child" data-id="e75baa7" data-element_type="container">
+		<div class="elementor-element elementor-element-005fa8b e-con-full e-flex e-con e-child" data-id="005fa8b" data-element_type="container">
+		<div class="elementor-element elementor-element-51b8cd3 e-con-full e-flex e-con e-child" data-id="51b8cd3" data-element_type="container">
+				<div class="elementor-element elementor-element-fe165df elementor-widget-mobile__width-inherit e-transform elementor-widget elementor-widget-image" data-id="fe165df" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.100000000000000088817841970012523233890533447265625,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+																<a href="https://www.nytimes.com/2015/11/15/business/ibms-design-centered-strategy-to-set-free-the-squares.html" target="_blank">
+							<img loading="lazy" decoding="async" width="2048" height="1501" src="https://gilbert.com/wp-content/uploads/2024/12/15-IBM-JP4-superJumbo.webp" class="attachment-full size-full wp-image-260" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/15-IBM-JP4-superJumbo.webp 2048w, https://gilbert.com/wp-content/uploads/2024/12/15-IBM-JP4-superJumbo-300x220.webp 300w, https://gilbert.com/wp-content/uploads/2024/12/15-IBM-JP4-superJumbo-1024x751.webp 1024w, https://gilbert.com/wp-content/uploads/2024/12/15-IBM-JP4-superJumbo-768x563.webp 768w, https://gilbert.com/wp-content/uploads/2024/12/15-IBM-JP4-superJumbo-1536x1126.webp 1536w" sizes="(max-width: 2048px) 100vw, 2048px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-55f4455 e-con-full e-flex e-con e-child" data-id="55f4455" data-element_type="container">
+		<div class="elementor-element elementor-element-9caf5a6 e-con-full e-flex e-con e-child" data-id="9caf5a6" data-element_type="container">
+				<div class="elementor-element elementor-element-cc73240 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="cc73240" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1280" height="1024" src="https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation.jpg" class="attachment-full size-full wp-image-277" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation.jpg 1280w, https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation-300x240.jpg 300w, https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation-1024x819.jpg 1024w, https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation-768x614.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-7af5b45 e-con-full e-flex e-con e-child" data-id="7af5b45" data-element_type="container">
+				<div class="elementor-element elementor-element-e31800a elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="e31800a" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>IBM’s Design-Centered Strategy to Set Free the Squares</p>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d535278 e-con-full e-flex e-con e-child" data-id="d535278" data-element_type="container">
+		<div class="elementor-element elementor-element-cb6e5f4 e-con-full e-flex e-con e-child" data-id="cb6e5f4" data-element_type="container">
+				<div class="elementor-element elementor-element-5355449 elementor-widget-mobile__width-inherit e-transform elementor-widget elementor-widget-image" data-id="5355449" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.100000000000000088817841970012523233890533447265625,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+																<a href="https://www.irishtimes.com/business/technology/the-man-helping-ibm-rediscover-its-commitment-to-a-strong-design-ethos-1.2135276" target="_blank">
+							<img loading="lazy" decoding="async" width="1920" height="1080" src="https://gilbert.com/wp-content/uploads/2024/12/Phil-Campfire.jpg" class="attachment-full size-full wp-image-296" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/Phil-Campfire.jpg 1920w, https://gilbert.com/wp-content/uploads/2024/12/Phil-Campfire-300x169.jpg 300w, https://gilbert.com/wp-content/uploads/2024/12/Phil-Campfire-1024x576.jpg 1024w, https://gilbert.com/wp-content/uploads/2024/12/Phil-Campfire-768x432.jpg 768w, https://gilbert.com/wp-content/uploads/2024/12/Phil-Campfire-1536x864.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-70097fe e-con-full e-flex e-con e-child" data-id="70097fe" data-element_type="container">
+		<div class="elementor-element elementor-element-c77ac7c e-con-full e-flex e-con e-child" data-id="c77ac7c" data-element_type="container">
+				<div class="elementor-element elementor-element-e6f5a2a elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="e6f5a2a" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="300" height="225" src="https://gilbert.com/wp-content/uploads/2024/12/irish_times-005968033928377-nm_200.jpg" class="attachment-full size-full wp-image-281" alt="" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-6b61089 e-con-full e-flex e-con e-child" data-id="6b61089" data-element_type="container">
+				<div class="elementor-element elementor-element-bfac486 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="bfac486" data-element_type="widget" data-widget_type="text-editor.default">
+									The man helping IBM rediscover its commitment to a strong design ethos								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b09929b e-con-full e-flex e-con e-child" data-id="b09929b" data-element_type="container">
+		<div class="elementor-element elementor-element-9159903 e-con-full e-flex e-con e-child" data-id="9159903" data-element_type="container">
+				<div class="elementor-element elementor-element-f631570 elementor-widget-mobile__width-inherit e-transform elementor-widget elementor-widget-image" data-id="f631570" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.100000000000000088817841970012523233890533447265625,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+																<a href="https://fortune.com/2017/12/22/ibm-design-thinking/" target="_blank">
+							<img loading="lazy" decoding="async" width="2392" height="1595" src="https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o.webp" class="attachment-full size-full wp-image-268" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o.webp 2392w, https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o-300x200.webp 300w, https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o-1024x683.webp 1024w, https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o-768x512.webp 768w, https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o-1536x1024.webp 1536w, https://gilbert.com/wp-content/uploads/2024/12/Business-by-Design-Phil-Gilbert-IBM-40665513811_0da753a2dd_o-2048x1366.webp 2048w" sizes="(max-width: 2392px) 100vw, 2392px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-0d67849 e-con-full e-flex e-con e-child" data-id="0d67849" data-element_type="container">
+		<div class="elementor-element elementor-element-c3ede67 e-con-full e-flex e-con e-child" data-id="c3ede67" data-element_type="container">
+				<div class="elementor-element elementor-element-808ccc9 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="808ccc9" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="658" height="379" src="https://gilbert.com/wp-content/uploads/2025/01/download__1_-removebg-preview.png" class="attachment-full size-full wp-image-548" alt="" srcset="https://gilbert.com/wp-content/uploads/2025/01/download__1_-removebg-preview.png 658w, https://gilbert.com/wp-content/uploads/2025/01/download__1_-removebg-preview-300x173.png 300w" sizes="(max-width: 658px) 100vw, 658px" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-282d8cd e-con-full e-flex e-con e-child" data-id="282d8cd" data-element_type="container">
+				<div class="elementor-element elementor-element-3d506f2 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="3d506f2" data-element_type="widget" data-widget_type="text-editor.default">
+									The innovative engine of IBM’s design philosophy								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ee42710 e-con-full e-flex e-con e-child" data-id="ee42710" data-element_type="container">
+		<div class="elementor-element elementor-element-690b558 e-con-full e-flex e-con e-child" data-id="690b558" data-element_type="container">
+				<div class="elementor-element elementor-element-970e19a elementor-widget-mobile__width-inherit e-transform elementor-widget elementor-widget-image" data-id="970e19a" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.100000000000000088817841970012523233890533447265625,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+																<a href="https://hbr.org/2015/09/design-thinking-comes-of-age" target="_blank">
+							<img loading="lazy" decoding="async" width="1920" height="1080" src="https://gilbert.com/wp-content/uploads/2024/12/Harvard-Business-Review.png" class="attachment-full size-full wp-image-292" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/Harvard-Business-Review.png 1920w, https://gilbert.com/wp-content/uploads/2024/12/Harvard-Business-Review-300x169.png 300w, https://gilbert.com/wp-content/uploads/2024/12/Harvard-Business-Review-1024x576.png 1024w, https://gilbert.com/wp-content/uploads/2024/12/Harvard-Business-Review-768x432.png 768w, https://gilbert.com/wp-content/uploads/2024/12/Harvard-Business-Review-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-8ad06a4 e-con-full e-flex e-con e-child" data-id="8ad06a4" data-element_type="container">
+		<div class="elementor-element elementor-element-a9eef64 e-con-full e-flex e-con e-child" data-id="a9eef64" data-element_type="container">
+				<div class="elementor-element elementor-element-84110cb elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="84110cb" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="292" height="173" src="https://gilbert.com/wp-content/uploads/2024/12/harvard-1.png" class="attachment-full size-full wp-image-272" alt="" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-299ce24 e-con-full e-flex e-con e-child" data-id="299ce24" data-element_type="container">
+				<div class="elementor-element elementor-element-4ca6675 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="4ca6675" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Design Thinking Comes of Age</p>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b3eb723 e-con-full e-flex e-con e-child" data-id="b3eb723" data-element_type="container">
+		<div class="elementor-element elementor-element-72c3da9 e-con-full e-flex e-con e-child" data-id="72c3da9" data-element_type="container">
+				<div class="elementor-element elementor-element-341f8c2 elementor-widget-mobile__width-inherit e-transform elementor-widget elementor-widget-image" data-id="341f8c2" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.100000000000000088817841970012523233890533447265625,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+																<a href="https://www.fastcompany.com/90442092/the-14-most-important-design-ideas-of-the-decade-according-to-the-experts" target="_blank">
+							<img loading="lazy" decoding="async" width="1920" height="1080" src="https://gilbert.com/wp-content/uploads/2024/12/Fast-Company-1.png" class="attachment-full size-full wp-image-291" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/Fast-Company-1.png 1920w, https://gilbert.com/wp-content/uploads/2024/12/Fast-Company-1-300x169.png 300w, https://gilbert.com/wp-content/uploads/2024/12/Fast-Company-1-1024x576.png 1024w, https://gilbert.com/wp-content/uploads/2024/12/Fast-Company-1-768x432.png 768w, https://gilbert.com/wp-content/uploads/2024/12/Fast-Company-1-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-2513514 e-con-full e-flex e-con e-child" data-id="2513514" data-element_type="container">
+		<div class="elementor-element elementor-element-66434ee e-con-full e-flex e-con e-child" data-id="66434ee" data-element_type="container">
+				<div class="elementor-element elementor-element-2c6026d elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="2c6026d" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="300" height="168" src="https://gilbert.com/wp-content/uploads/2024/12/fast-company.png" class="attachment-full size-full wp-image-273" alt="" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-1fddc0a e-con-full e-flex e-con e-child" data-id="1fddc0a" data-element_type="container">
+				<div class="elementor-element elementor-element-df78b9d elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="df78b9d" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>The 14 most important design ideas of the decade, according to the experts</p>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4de9724 e-con-full e-flex e-con e-child" data-id="4de9724" data-element_type="container">
+		<div class="elementor-element elementor-element-7241b0d e-con-full e-flex e-con e-child" data-id="7241b0d" data-element_type="container">
+				<div class="elementor-element elementor-element-6236f1f elementor-widget-mobile__width-inherit e-transform elementor-widget elementor-widget-image" data-id="6236f1f" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.100000000000000088817841970012523233890533447265625,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+																<a href="https://www.nytimes.com/2014/12/07/jobs/how-ibm-brings-ideas-forward-from-its-teams.html" target="_blank">
+							<img loading="lazy" decoding="async" width="1920" height="1080" src="https://gilbert.com/wp-content/uploads/2024/12/New-York-Times-1.png" class="attachment-full size-full wp-image-290" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/New-York-Times-1.png 1920w, https://gilbert.com/wp-content/uploads/2024/12/New-York-Times-1-300x169.png 300w, https://gilbert.com/wp-content/uploads/2024/12/New-York-Times-1-1024x576.png 1024w, https://gilbert.com/wp-content/uploads/2024/12/New-York-Times-1-768x432.png 768w, https://gilbert.com/wp-content/uploads/2024/12/New-York-Times-1-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />								</a>
+															</div>
+				</div>
+		<div class="elementor-element elementor-element-d28259f e-con-full e-flex e-con e-child" data-id="d28259f" data-element_type="container">
+		<div class="elementor-element elementor-element-10a4f54 e-con-full e-flex e-con e-child" data-id="10a4f54" data-element_type="container">
+				<div class="elementor-element elementor-element-b10df0e elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="b10df0e" data-element_type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1280" height="1024" src="https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation.jpg" class="attachment-full size-full wp-image-277" alt="" srcset="https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation.jpg 1280w, https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation-300x240.jpg 300w, https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation-1024x819.jpg 1024w, https://gilbert.com/wp-content/uploads/2024/12/1280px-New_York_Times_logo_variation-768x614.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-e69e048 e-con-full e-flex e-con e-child" data-id="e69e048" data-element_type="container">
+				<div class="elementor-element elementor-element-90e6558 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="90e6558" data-element_type="widget" data-widget_type="text-editor.default">
+									Hearing Every Voice in the Room								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-afb560f e-flex e-con-boxed e-con e-parent" data-id="afb560f" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="footer" data-elementor-id="42" class="elementor elementor-42 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-009a110 e-con-full e-flex e-con e-parent" data-id="009a110" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-efb94f1 e-flex e-con-boxed e-con e-child" data-id="efb94f1" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-e6cdf4c e-con-full e-flex e-con e-child" data-id="e6cdf4c" data-element_type="container">
+		<div class="elementor-element elementor-element-6a7a2cb e-con-full e-flex e-con e-child" data-id="6a7a2cb" data-element_type="container">
+				<div class="elementor-element elementor-element-9b86210 elementor-widget elementor-widget-text-editor" data-id="9b86210" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Phil’s mission is to equip leaders and their teams with the tools of Irresistible Change™, a model for driving institutional change that organizations need, in a way that people want.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-dd3e434 e-con-full e-flex e-con e-child" data-id="dd3e434" data-element_type="container">
+				<div class="elementor-element elementor-element-acd8d10 elementor-widget elementor-widget-text-editor" data-id="acd8d10" data-element_type="widget" data-widget_type="text-editor.default">
+									CONNECT WITH PHIL								</div>
+				<div class="elementor-element elementor-element-c5cf4fc e-grid-align-right elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="c5cf4fc" data-element_type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-b4edb59" href="https://www.linkedin.com/in/philgilbertsr/" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<svg class="e-font-icon-svg e-fab-linkedin" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6893525 e-con-full e-flex e-con e-child" data-id="6893525" data-element_type="container">
+		<div class="elementor-element elementor-element-725e56d e-con-full e-flex e-con e-child" data-id="725e56d" data-element_type="container">
+				<div class="elementor-element elementor-element-004297e elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="004297e" data-element_type="widget" data-widget_type="text-editor.default">
+									© 2025 GILBERT WORKSHOP LLC, <p>ALL RIGHTS RESERVED								</div>
+				<div class="elementor-element elementor-element-1e78796 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="1e78796" data-element_type="widget" data-widget_type="text-editor.default">
+									Irresistible Change is a trademark of Gilbert Workshop LLC. A registered trademark filing is pending with the United States Patent and Trademark Office (USPTO).								</div>
+				</div>
+		<div class="elementor-element elementor-element-26dcb36 e-con-full e-flex e-con e-child" data-id="26dcb36" data-element_type="container">
+				<div class="elementor-element elementor-element-7810726 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="7810726" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>WEBSITE DEVELOPED BY SPEAKRBRAND</p>								</div>
+				<div class="elementor-element elementor-element-a72204c elementor-hidden-desktop elementor-hidden-laptop elementor-widget elementor-widget-text-editor" data-id="a72204c" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Irresistible Change is a trademark of Gilbert Workshop LLC. A registered trademark filing is pending with the United States Patent and Trademark Office (USPTO).</p>								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/hello-theme-child-master\/*","\/wp-content\/themes\/hello-elementor\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='elementor-post-1215-css' href='https://gilbert.com/wp-content/uploads/elementor/css/post-1215.css?ver=1750538438' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://gilbert.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='https://gilbert.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='widget-nested-carousel-css' href='https://gilbert.com/wp-content/plugins/elementor-pro/assets/css/widget-nested-carousel.min.css?ver=3.29.2' media='all' />
+<script src="https://gilbert.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.4" id="hello-theme-frontend-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.2" id="elementor-webpack-runtime-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.2" id="elementor-frontend-modules-js"></script>
+<script src="https://gilbert.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1440,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},
+"hasCustomBreakpoints":true},"version":"3.29.2","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"e_local_google_fonts":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"editor_v2":true,"e_element_cache":true,"home_screen":true,"launchpad-checklist":true,"cloud-library":true,"e_opt_in_v4_page":true,"mega-menu":true},"urls":{"assets":"https:\/\/gilbert.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/gilbert.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/gilbert.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"7e3df9a93d"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop"],"viewport_laptop":1440,"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":13,"title":"Phil%20Gilbert%20%7C%20Irresistible%20Change%20%E2%80%93%20A%20new%20model%20designed%20for%20driving%20culture%20change%20that%20sticks.","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://gilbert.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2" id="elementor-frontend-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.29.2" id="e-sticky-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.29.2" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://gilbert.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://gilbert.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/gilbert.com\/wp-admin\/admin-ajax.php","nonce":"aa4221b675","urls":{"assets":"https:\/\/gilbert.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/gilbert.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},
+"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/gilbert.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://gilbert.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.29.2" id="elementor-pro-frontend-js"></script>
+<script src="https://gilbert.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2" id="pro-elements-handlers-js"></script>
+		<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),
+                _trfd.push({'tccl.baseHost':'secureserver.net'}),
+                _trfd.push({'ap':'wpaas'},
+                    {'server':'765b3e07-4a43-54bb-10df-f6de9e13df0f.secureserver.net'},
+                    {'pod':'P3NLWPPOD12'},
+                    {'storage':'p3cephmah006pod12_data20'},                     {'xid':'45748517'},
+                    {'wp':'6.8.1'},
+                    {'php':'8.0.30.4'},
+                    {'loggedin':'0'},
+                    {'cdn':'1'},
+                    {'builder':'elementor'},
+                    {'theme':'hello-elementor'},
+                    {'wds':'0'},
+                    {'wp_alloptions_count':'513'},
+                    {'wp_alloptions_bytes':'66868'},
+                    {'gdl_coming_soon_page':'0'}
+                                    );
+            var trafficScript = document.createElement('script'); trafficScript.src = 'https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'; window.document.head.appendChild(trafficScript);</script>
+		<script>window.addEventListener('click', function (elem) { var _elem$target, _elem$target$dataset, _window, _window$_trfq; return (elem === null || elem === void 0 ? void 0 : (_elem$target = elem.target) === null || _elem$target === void 0 ? void 0 : (_elem$target$dataset = _elem$target.dataset) === null || _elem$target$dataset === void 0 ? void 0 : _elem$target$dataset.eid) && ((_window = window) === null || _window === void 0 ? void 0 : (_window$_trfq = _window._trfq) === null || _window$_trfq === void 0 ? void 0 : _window$_trfq.push(["cmdLogEvent", "click", elem.target.dataset.eid]));});</script>
+		<script src='https://img1.wsimg.com/traffic-assets/js/tccl-tti.min.js' onload="window.tti.calculateTTI()"></script>
+		
+</body>
+</html>

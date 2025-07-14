@@ -1,0 +1,325 @@
+<!doctype html>
+<!--[if IE 7]> <html id="ie7" class="no-js"> <![endif]-->
+<!--[if IE 8]> <html id="ie8" class="no-js"> <![endif]-->
+<!--[if IE 9]> <html id="ie9" class="no-js"> <![endif]-->
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-237638-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-237638-1');
+</script>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rose Electronics - Switches Extenders Splitters Videowall Multiviewers Rack Drawers</title>
+	<meta name="description" content="Rose Electronics is a manufacturer of KVM and av switches, extenders, rack drawers, multiviewers, video walls, and video splitters. Rose is located in Houston, Texas with offices in Europe and Asia." />
+	<meta name="viewport" content="width=device-width" />
+	<script>
+	if (/iPhone|iPad|iPod/.test( navigator.platform )) {document.querySelector("meta[name=viewport]").setAttribute('content', 'width=' + (/90/.test(window.orientation) ? window.screen.height : window.screen.width)) ;}
+	document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+	</script>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ce0340">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#f0f0f0">
+	<meta name="keywords" content="KVM-switch keyboard video mouse extender fiber cat5 cat6 utp CATx matrix KVM-IP usb ps2 audio serial dvi vga hdmi display port firewire multiviewer video wall splitter KVM-IP rack-drawer lcd monitor multi-head" />
+	<link rel="stylesheet" href="/css/styles-2018.css" />
+	<script src="/js/jquery-1.8.3.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
+</head>
+<body id="body-index">
+<!--ZOOMSTOP-->
+<!-- index generated 4/30/2018 9:59:59 AM - UPDATE manually MR 2019-09-23 -->
+<div id="main-container">
+<header>
+<div id="header">
+	<div class="logo"> <a href="/index.html"><img src="/img/roselogo.svg" alt="Rose logo" /></a></div>
+	<div class="search">
+		<form name="form_search" target="_self" action="/search-function.html"> 
+			<input class="searchbox" type="text" name="zoom_query" value="Search" onclick="this.value=''"/> 
+			<input class="searchbutton" type="image" name="sb" src="/img/search-button.svg" alt="submit"/>
+		</form>
+		<div class="livehelp">
+			<script>
+				//var lhnJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+				//document.write(unescape("%3Cscript src='" + lhnJsHost + "www.livehelpnow.net/lhn/scripts/lhnvisitor.aspx?div=&amp;zimg=36&amp;lhnid=2858&amp;iv=1&amp;iwidth=99&amp;iheight=33&amp;zzwindow=0&amp;d=0&amp;custom1=&amp;custom2=&amp;custom3=&amp;zmutechime=1' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+		</div>
+	</div>	
+</div>
+</header>
+<nav>
+<div class="navContainer">
+	<ul class="nav enabled">
+		<li class="P1"><a class="top" href="/index.html">HOME</a></li>
+		<li class="P2"><a class="top" href="#">PRODUCTS&#x25be;</a> 
+		<div class="subContainer enabled">
+			<div class="shadow">
+				<div class="subMenu wide">
+					<ul class="switches">
+						<li class="title">SWITCHES</li>
+						<li><a href="/selector-switch.html">Switch Selector</a></li>
+						<li><a href="/kvm-switches-multi-user.html">Kvm Multi-user</a></li>
+						<li><a href="/kvm-switches-single-user.html">Kvm Single-user</a></li>
+						<li><a href="/kvm-secure.html">Kvm Secure Switches</a></li>
+						<li><a href="/kvm-ip.html">Kvm Ip</a></li>
+						<li><a href="/av-switches.html">Av Switches</a></li>
+						<li><a href="/multi-viewers.html">Multi Viewers</a></li>
+						<li><a href="/video-walls.html">Video Walls</a></li>
+					</ul>
+					<ul class="extenders">
+						<li class="title">EXTENDERS</li>
+						<li><a href="/selector-extender.html">Extender Selector</a></li>
+						<li><a href="/extender-dvi.html">Dvi &bull; Hdmi</a></li>
+						<li><a href="/extender-dvi.html">DisplayPort</a></li>
+						<li><a href="/extender-vga.html">Vga</a></li>
+						<li><a href="/extender-catx.html">Catx</a></li>
+						<li><a href="/extender-fiber.html">Fiber</a></li>
+						<li><a href="/extender-usba.html">Usb</a></li>
+						<li><a href="/extender-usba.html">Audio &bull; Serial</a></li>
+					</ul>
+					<ul class="last">
+						<li class="title">OTHER PRODUCTS</li>
+						<li><a href="/kvm-rack-drawers.html">Kvm Rack Drawers</a></li>
+						<li><a href="/video-splitters.html">Video Splitters</a></li>
+						<li><a href="/kvm-accessories.html">Accessories &bull; Cables</a></li>
+						<li><a href="/data-switches.html">Data Switches</a></li>
+						<li><a class="whatsnew" href="/new.html"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</li>
+		<li class="P3"><a class="top" href="#">SUPPORT&#x25be;</a>
+		<div class="subContainer enabled">
+			<div class="shadow">
+				<div class="subMenu">
+					<ul>
+						<li><a href="/tech-support.html">Technical Support</a></li>
+						<li><a href="/downloads.html">Downloads</a></li>
+						<li><a href="/glossary.html">Glossary</a></li>
+						<li><a href="/faq.html">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</li>
+		<li class="P4"><a class="top" href="#">SALES&#x25be;</a>
+		<div class="subContainer enabled">
+			<div class="shadow">
+				<div class="subMenu">
+					<ul>
+						<li><a href="/applications.html">Applications</a></li>
+						<li><a href="/shows.html">Trade Shows</a></li>
+						<li><a href="/order.html">Ordering</a></li>
+						<li><a href="/gsa.html">GSA Schedule</a></li>
+						<li><a href="/reseller.html">Reseller Program</a></li>
+						<li><a href="/catalog.html">Catalog Request</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</li>
+		<li class="P5"><a class="top" href="#">COMPANY&#x25be;</a>
+		<div class="subContainer enabled">
+			<div class="shadow">
+				<div class="subMenu">
+					<ul>
+						<li><a href="/profile.html">Company Profile</a></li>
+						<li><a href="/sitemap.html">Site Map</a></li>
+						<li><a href="/privacy.html">Privacy Policy</a> </li>
+						<li><a href="/legal.html">Legal Info</a></li>
+						<li><a href="/site-info.html">About ROSE.COM</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</li>
+		<li class="P6"><a class="top" href="/contact.html">CONTACT</a></li>
+	</ul>
+</div>
+</nav>
+<section>
+<!--ZOOMRESTART-->
+<div class="home">
+	<div class="home-products">
+		<div class="home-block hb1">
+		<a href="selector-switch.html"><img src="img/rose-switches-datacenter.jpg" alt="rose switches"/></a>
+		<div class="caption">KVM SWITCHES</div>
+		<div class="home-links">
+			<a href="selector-switch.html">All Switches</a>
+			<a href="kvm-switches-multi-user.html">Multi-user KVM</a>
+			<a href="kvm-switches-single-user.html">Single-user KVM</a>
+			<a href="kvm-ip.html">Kvm Ip Remote Access</a>
+			<a href="kvm-secure.html">Secure Kvm Switches</a>
+			<a href="av-switches.html">Av Switches</a>
+		<figure>	
+			<a href="products/multivideo-dp.html">
+				<img src="img/product-multivideo-dp-rose-petals-w400.jpg" alt="kvm switch product"/>
+				<figcaption>
+					DisplayPort KVM Switch<br/>Multi-head - dual or quad
+				</figcaption>
+			</a>
+		</figure>	
+		</div>
+		</div>
+
+		<div class="home-block hb2">
+		<div class="caption">EXTENDERS</div>
+		<a href="selector-extender.html"><img src="img/rose-extenders-theatre-projector.jpg" alt="rose extenders"/></a>
+		<div class="home-links">
+		<a href="selector-extender.html">All Extenders</a>
+		<a class="short" href="extender-dvi.html">Dvi</a>
+		<a class="short" href="extender-dvi.html">Hdmi</a>
+		<a class="short" href="extender-vga.html">Vga</a>
+		<a class="short" href="extender-dvi.html">DisplayPort</a>
+		<a class="short" href="extender-catx.html">Catx</a>
+		<a class="short" href="extender-fiber.html">Fiber</a>
+		<a class="short" href="extender-usba.html">Usb</a>
+		<a class="short" href="extender-usba.html">Audio&nbsp;&bull;&nbsp;Serial</a>
+		<a href="active-optical-cables.html">Active Optical Cables</a>
+		<figure>	
+			<a href="active-optical-cables.html">
+				<img src="img/product-crystalview-aoc-cables-hdmi-rose-petals-w400.jpg" alt="active optical cable extender product"/>
+				<figcaption>
+					HDMI 2.0 Optical Cable<br/>Lengths up to 100m
+				</figcaption>
+			</a>
+		</figure>	
+		</div>
+		</div>
+
+		<div class="home-block hb3">
+		<div class="caption">IMAGE PROCESSORS</div>
+		<img src="img/rose-image-processors-space-view.jpg" alt="rose image processors">
+		<div class="home-links">
+		<a href="video-walls.html">Video Wall</a>
+		<a href="multi-viewers.html">MultiViewer</a>
+		<a href="products/transvue-4k2k-scaler.html">Scalers</a>
+		<figure>	
+			<a href="products/ultravista-4k30.html">
+				<img src="img/product-ultravista-4k-rose-petals-w400.jpg" alt="video wall product"/>
+				<figcaption>
+					4K Video Wall Controller<br/>Cascade to any size
+				</figcaption>
+			</a>
+		</figure>	
+		</div>
+		</div>
+
+		<div class="home-block hb4">
+		<div class="caption">SPLITTERS ++ </div>
+		<a href="video-splitters.html"><img src="img/rose-splitters-concert.jpg" alt="rose splitters"></a>
+		<div class="home-links">
+		<a href="video-splitters.html">Splitters</a>
+		<a href="kvm-accessories.html">Converters</a>
+		<a href="kvm-accessories.html">Cables</a>
+		<a href="kvm-accessories.html">Accessories</a>
+		<a href="data-switches.html">Data Switches</a>
+		<figure>	
+			<a href="products/videosplitter-hdmi-hd4k.html">
+				<img src="img/product-video-splitter-hdmi-4k60-rose-petals-w400.jpg" alt="splitter product"/>
+				<figcaption>
+					HDMI 4K60 Video Splittter<br/>Two, four, or eight-port
+				</figcaption>
+			</a>
+		</figure>	
+		</div>
+		</div>
+
+		<div class="home-block hb5">
+		<div class="caption">RACK DRAWERS</div>
+		<a href="kvm-rack-drawers.html"><img src="img/rose-rack-drawers-server-room.jpg" alt="rose rack drawers"></a>
+		<div class="home-links">
+		<a href="kvm-rack-drawers.html">All Rack Drawers</a>
+		<a href="products/rackview-lcd-panel-mount.html">Lcd Panel Mount</a>
+		<a href="products/rackview-lcd-monitor.html">Lcd Drawer</a>
+		<a href="products/rackview-keyboard-drawer.html">Keyboard Drawer</a>
+		<figure>	
+			<a href="products/rackview24-high-resolution.html">
+				<img src="img/product-rackview-sideways-24-rose-petals-w400.jpg" alt="rack drawer product"/>
+				<figcaption>
+					24" KVM Rack Drawer<br/>Opens sideways
+				</figcaption>
+			</a>
+		</figure>	
+		</div>
+		</div>
+
+		<div class="home-block hb6">
+		<div class="caption">SECURE KVM SWITCHES</div>
+		<a href="kvm-secure.html"><img src="img/rose-secure-kvm-switches-cac-card-insert.jpg" alt="rose secure switches"></a>
+		<div class="home-links">
+		<a href="kvm-secure.html">Guide</a>
+		<a href="doc/catalog-secure-kvm-switches-2017-08-17.pdf">Catalog</a>
+		<figure>	
+			<a href="doc/catalog-secure-kvm-switches-2017-08-17.pdf">
+				<img src="img/catalog-cover-kvm-secure-w300.jpg" alt="secure switches catalog cover"/>
+				<figcaption>
+					24-page Catalog
+				</figcaption>
+			</a>
+		</figure>	
+		</div>
+		</div>
+
+	</div>
+</div>
+<!--ZOOMSTOP-->
+</section>
+<footer>
+<div id="bottom"> 
+	<div class="row">
+		<div class="column1">
+		<h1>ABOUT US</h1>
+			<ul>
+			<li><a href="/contact.html">Contact Us</a></li>
+			<li><a href="/profile.html">Company Profile</a></li>
+			<li><a href="/privacy.html">Privacy Policy</a> </li>
+			</ul>
+		</div>
+		<div class="column2">
+		<h1>SUPPORT</h1>
+			<ul>
+			<li><a href="/tech-support.html">Tech Support</a></li>
+			<li><a href="/downloads.html">Downloads</a></li>
+			<li><a href="/glossary.html">Glossary</a></li>
+			<li><a href="/faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		<div class="column2">
+		<h1>SALES</h1>
+			<ul>
+			<li><a href="/applications.html">Applications</a></li>
+			<li><a href="/shows.html">Trade Shows</a></li>
+			<li><a href="/order.html">Ordering</a></li>
+			<li><a href="/gsa.html">GSA Sales</a> </li>
+			<li><a href="/reseller.html">Reseller Program</a></li>
+			<li><a href="/catalog.html">Catalog Request</a></li>
+			</ul>
+		</div>
+		<div class="column2">
+		<h1>SITE</h1>
+			<ul>
+			<li><a href="/sitemap.html">Site Map</a></li>
+			<li><a href="/legal.html">Legal Info</a></li>
+			<li><a href="/site-info.html">About ROSE.COM</a></li>
+			</ul>
+		</div>
+		<p>&copy;1996-2018 <span>Rose Electronics </span>   <span>All Rights Reserved.</span></p>
+	</div>
+</div>
+</footer>
+</div>
+<script src="/js/nav.1.1.1.js"></script>
+<script src="/js/bootstrap-formhelpers-countries.1.1.0.js"></script>
+<script src="/js/sg.js"></script>
+<!--ZOOMRESTART-->
+</body>
+</html>

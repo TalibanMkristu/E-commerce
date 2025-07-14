@@ -4,7 +4,7 @@
     <head>
         <title>
             {% block title %}
-            VegeGroccerpv+
+            VegeGroccerp
             {% endblock %}
             | VegeGroccer
         </title>
@@ -50,6 +50,10 @@
                 left: 20px;
                 z-index: 1000;
                 max-width: 300px;
+                /* animation: mvy 2s linear 0.1s infinite ; */
+                /* animation: pulse 0.3s ease 1s infinite; */
+                /* animation: slideIn 4s linear 0.1s infinite; */
+                animation: slideOut 4s ease-out 2s infinite;
             }
             
             /* Notification styling */
@@ -62,7 +66,7 @@
                 margin-bottom: 10px;
                 border-radius: 20px;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-                transform: translateX(-100%);
+                /* transform: translateX(-100%); */
                 opacity: 0.5;
                 transition: all 0.3s ease;
                 display: none;
@@ -70,12 +74,13 @@
             
             .notification.show {
                 display: flex;
-                transform: translateX(0);
-                opacity: 1;
+                /* transform: translateX(0); */
+                opacity: 0.9;
+                transform: scale(0.9);
             }
             
             .notification.hide {
-                transform: translateX(-100%);
+                /* transform: translateX(-100%); */
                 opacity: 0;
             }
             
@@ -113,6 +118,44 @@
                 font-size: 12px;
                 color: #aaa;
                 margin-top: 3px;
+            }
+
+            @keyframes pulse {
+                0%, 100% {
+                    transform: scale(0.8);
+                }
+                50% {
+                    transform: scale(0.7);
+                }
+            }
+
+            @keyframes slideIn {
+                from {
+                    transform: translateY(300px);
+                }
+                100% {
+                    transform: scale(0.8);
+                }
+                50% {
+                    transform: scale(0.5);
+                }
+            }
+            @keyframes slideOut {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0.4;
+                }
+
+            }
+            @keyframes mvy {
+                from {
+                    transform: translateY(200px);
+                }
+            }
+            @keyframes mvx {
+                to {
+                    transform: translateX(400px);
+                }
             }
         </style>        
     </head>
@@ -217,9 +260,9 @@
             const config = {
                 avatarPath: '{% static "images/" %}', // Update this path
                 avatarFiles: ['person_1.jpg', 'person_2.jpg', 'person_3.jpg', 'person_4.jpg'], // Add your avatar filenames
-                minDelay: 2000,  // 2 seconds
+                minDelay: 4000,  // 4 seconds
                 maxDelay: 5000,  // 5 seconds
-                displayTime: 5000 // 5 seconds
+                displayTime: 4000 // 5 seconds
             };
             
             // Dynamic message generators

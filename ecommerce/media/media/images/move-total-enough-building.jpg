@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <!--<link rel="icon" href="<%= BASE_URL %>static/favicon.ico">-->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/static/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon_io/site.webmanifest">
+    <title>Crane Stationery</title>
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="">
+
+    <!-- <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    </noscript>
+
+
+    <!-- <link rel="preload" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"></noscript>
+     -->
+
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmHp0PPuKHD1KGHCDmLq1qQKr_03XKEHo&libraries=places"></script> -->
+    <!-- Paste this code as high in the <head> of the page as possible: -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.defer = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MF96RJX');</script>
+    <!-- End Google Tag Manager -->
+  <script type="module" crossorigin src="/static/index-55eb18a7.js"></script>
+  <link rel="modulepreload" crossorigin href="/static/vendor-7f7c2bc0.js">
+  <link rel="modulepreload" crossorigin href="/static/common-1a3eb945.js">
+  <link rel="modulepreload" crossorigin href="/static/shared/craneMain/me-f3b65a63.js">
+  <link rel="modulepreload" crossorigin href="/static/me-80c46308.js">
+  <link rel="modulepreload" crossorigin href="/static/shared/craneMain/gate-8c0e4a16.js">
+  <link rel="modulepreload" crossorigin href="/static/craneMain-d1c906c4.js">
+  <link rel="stylesheet" href="/static/vendor-98023265.css">
+  <link rel="stylesheet" href="/static/common-6b09995a.css">
+  <link rel="stylesheet" href="/static/me-a9690336.css">
+  <link rel="stylesheet" href="/static/me-b388ab61.css">
+  <link rel="stylesheet" href="/static/gate-2e4f56de.css">
+  <link rel="stylesheet" href="/static/craneMain-92a7a24d.css">
+  <link rel="stylesheet" href="/static/index-feb20e88.css">
+</head>
+
+<body>
+    <!-- Additionally, paste this code immediately after the opening <body> tag: -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MF96RJX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- <img src="https://fp.listrakbi.com/fp/yJ3fjhPTdCKx.jpg" height="1" width="1" hidden /> -->
+    <noscript>
+        <strong>Explore the personalized cards, invitations, and more quality stationery at Crane. Customize the stationery you need to share the special moments ...</strong>
+    </noscript>
+
+    <script src="/static/js/magentoCmsCache.ZQYTu0.js"></script>
+    <script src="/static/js/craneCatalog.owzLK.js"></script>
+    <script src="/static/js/seoRoutes.1eeWSS.js"></script>
+    <script src="/static/js/urlRewrites.js"></script>
+    <script src="/static/js/promotions.ZATvL9.js"></script>
+
+
+    <div id="app"></div>
+    
+
+    <script>
+        // if (location.hash) {
+        //   history.pushState({}, "Application entry", location.hash.substring(2))
+        // };
+
+        // if (location.hash) {
+        //   console.log("url change to :",location.hash.substring(2)+window.location.search)
+        //   history.pushState({}, "Application entry", location.hash.substring(2)+window.location.search)
+        // };
+    </script>
+    <!-- built files will be auto injected -->
+
+
+    <!-- Listrak Analytics – Javascript Framework -->
+    <script type="text/javascript" defer>
+        let loadListrakJs = () => {
+            let pathName = window.location.pathname;
+
+            if (pathName.includes("preference-center")) {
+                let ltkprefcCenterTag = document.querySelector("[data-ltk-prefcenter]");
+                if (ltkprefcCenterTag) {
+                    //console.log("ltk tag loaded ...")
+                }
+                else {
+                 //   console.log("ltk tag not loaded yet...")
+                    return
+                }
+            }
+            clearInterval(loadListrakJsInterval)
+          //  console.log("loading ltk js...")
+            var biJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+            (function (d, s, id, tid, vid) {
+                var js, ljs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.defer = true;
+                js.src = biJsHost + "cdn.listrakbi.com/scripts/script.js?m=" + tid + "&v=" + vid;
+                ljs.parentNode.insertBefore(js, ljs);
+            })(document, 'script', 'ltkSDK', 'yJ3fjhPTdCKx', '1');
+        }
+        let loadListrakJsInterval = setInterval(loadListrakJs, 500);
+
+    </script>
+    <!--START Pepperjam CODE-->
+    <script defer>
+        (function () {
+            var a = document.createElement("script");
+            a.type = "text/javascript", a.async = !0, a.defer = true, a.src = "//container.pepperjam.com/4135755510.js";
+            var b = document.getElementsByTagName("head")[0];
+            if (b) b.appendChild(a, b);
+            else {
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b)
+            }
+        })();
+    </script>
+    <!--END Pepperjam CODE-->
+    <!-- Criteo Homepage Tag -->
+    <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" defer></script>
+    <script type="text/javascript">
+        window.criteo_q = window.criteo_q || [];
+        var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
+        window.criteo_q.push(
+            { event: "setAccount", account: 51127 }, // You should never update this line
+            //   { event: "setEmail", email: "" }, // Can be an empty string
+            { event: "setSiteType", type: deviceType },
+            //   { event: "viewHome" }
+        );
+    </script>
+    <!-- END Criteo Home Page Tag -->
+
+    <!-- Start Datadog Script -->
+    <script>
+        (function (h, o, u, n, d) {
+            h = h[d] = h[d] || { q: [], onReady: function (c) { h.q.push(c) } }
+            d = o.createElement(u); d.async = 1; d.src = n
+            n = o.getElementsByTagName(u)[0]; n.parentNode.insertBefore(d, n)
+        })(window, document, 'script', 'https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js', 'DD_RUM')
+        window.DD_RUM.onReady(function () {
+            window.DD_RUM.init({
+                clientToken: 'puba36f9ea030c555e71397d278c2ce89ff',
+                applicationId: '1bcdcd10-232d-4ef0-a248-45174781262a',
+                // `site` refers to the Datadog site parameter of your organization
+                // see https://docs.datadoghq.com/getting_started/site/
+                site: 'datadoghq.com',
+                service: 'crane',
+                env: 'production',
+                // Specify a version number to identify the deployed version of your application in Datadog
+                version: '2.1.3',
+                sessionSampleRate: 100,
+                sessionReplaySampleRate: 100,
+                trackUserInteractions: true,
+                trackResources: true,
+                trackLongTasks: true,
+                defaultPrivacyLevel: 'allow',
+                trackSessionAcrossSubdomains:true
+            });
+        })
+    </script>
+    <!-- END Datadog Script -->
+
+    <script>
+        // for console logs
+        (function(h,o,u,n,d) {
+            h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+            d=o.createElement(u);d.async=1;d.src=n
+            n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+          })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-logs.js','DD_LOGS')
+          window.DD_LOGS.onReady(function() {
+              window.DD_LOGS.init({
+                clientToken: 'puba36f9ea030c555e71397d278c2ce89ff',
+                applicationId: '1bcdcd10-232d-4ef0-a248-45174781262a',
+                service: 'crane',
+                env: 'production',
+                site: 'datadoghq.com',
+                version: '2.1.3',
+                forwardErrorsToLogs: true,
+                sessionSampleRate: 100,
+                trackSessionAcrossSubdomains:true
+              })
+            })
+    </script>
+    <script src="https://cdn.zinrelo.com/js/all.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeBnLIqAAAAACatWHE7coN-zbQYrWuFEq7_fZHg"></script>
+</script>
+</body>
+
+</html>

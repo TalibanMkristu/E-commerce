@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>McCann</title>
+	<link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <!-- <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/71e0aeca-eeea-467e-afbc-28343bf52d13.css"/> -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self' *.mccann.com localhost:* mccann.com *.vimeo.com www.google-analytics.com; 
+    img-src *; 
+    media-src *; 
+    script-src 'self' 'unsafe-inline' data: localhost:* *.mccann.com code.jquery.com cdnjs.cloudflare.com optanon.blob.core.windows.net maps.googleapis.com www.google-analytics.com www.googletagmanager.com; 
+    style-src 'self' 'unsafe-inline' localhost:* *.mccann.com fast.fonts.net cdnjs.cloudflare.com maxcdn.bootstrapcdn.com optanon.blob.core.windows.net;
+    font-src * cdnjs.cloudflare.com maxcdn.bootstrapcdn.com">
+  <!-- OneTrust Cookies Consent Notice start -->
+	<script src="https://optanon.blob.core.windows.net/consent/e065aa7d-9fe5-4cea-9d11-0a45bcbec8a2.js" type="text/javascript" charset="UTF-8"></script>
+	<link type="text/css" href="https://optanon.blob.core.windows.net/skins/5.9.0/default_flat_bottom_two_button_black/v2/css/optanon.css" rel="stylesheet">
+
+	<style>
+		#optanon ul#optanon-menu li { background-color:  !important }#optanon ul#optanon-menu li.menu-item-selected { background-color:  !important }#optanon #optanon-popup-wrapper .optanon-white-button-middle { background-color: #313234 !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle { background-color: #313234 !important; border-color: #313234 !important; }#optanon #optanon-popup-wrapper .optanon-white-button-middle button { color: #ffffff !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle button { color: #ffffff !important }#optanon #optanon-popup-bottom { background-color: #000000 !important }#optanon.modern #optanon-popup-top, #optanon.modern #optanon-popup-body-left-shading { background-color: #000000 !important }.optanon-alert-box-wrapper { background-color:#202020 !important }.optanon-alert-box-wrapper .optanon-alert-box-bg p { color:#FFFFFF !important }
+	</style>
+  <script type="text/javascript">
+  //OneTrust Cookie tools
+    window.OptanonWrapper = function () {
+      var cookieValue = decodeURIComponent(readCookie('OptanonConsent')); // Get the users' preferences
+ 
+     //Performance Cookies
+      if (cookieValue.includes(',2:1,')) { // The '2' is for category 2 (Analytical Cookies), and the '1' means we're looking if it's active.
+        // console.log('Performance cookies active'); // Whatever additional actions you would like to do if this category is active
+      } else {
+        // console.log('Performance cookies not active'); // Removal of the GA homepage cookie, if not active, by over-writing it and changing the expiration date.
+        // Delete existing Google Analytics Cookies
+        delete_cookie("__utmv");
+        delete_cookie("__utma");
+        delete_cookie("__utmz");
+        delete_cookie("__utmc");
+        delete_cookie("__utmt");
+        delete_cookie("__utmb");
+        delete_cookie("_gat");
+        delete_cookie("_gid");
+        delete_cookie("_ga");
+      }
+ 
+ 
+      //Functional Cookies
+      if (cookieValue.includes(',3:1,')) { // The '2' is for category 2 (Analytical Cookies), and the '1' means we're looking if it's active.
+        //console.log(cookieValue); // Whatever additional actions you would like to do if this category is active
+        // console.log('Functional cookies active'); // Whatever additional actions you would like to do if this category is active
+        //Create a global variable to disable tracking on vimeo players
+        window.disableVimeoCookie = '';
+      } else {
+        // console.log('Functional cookies not active'); // Removal of the GA homepage cookie, if not active, by over-writing it and chaging the expiration date.
+        //Create a global variable to disable tracking on vimeo players
+        window.disableVimeoCookie = '?dnt=1';
+ 
+        setTimeout(function(){
+           //Delete existing Vimeo Cookies
+            delete_cookie('player');
+            delete_cookie('vuid');
+          }, 500);
+      }
+ 
+      //Targeting Cookies
+      if (cookieValue.includes(',4:1,')) { // The '2' is for category 2 (Analytical Cookies), and the '1' means we're looking if it's active.
+        //console.log(cookieValue); // Whatever additional actions you would like to do if this category is active
+        //console.log('Targeting cookies active'); // Whatever additional actions you would like to do if this category is active
+      } else {
+        //console.log('Targeting cookies not active'); // Removal of the GA homepage cookie, if not active, by over-writing it and chaging the expiration date.
+        // delete_cookie('IDE');
+      }
+    };
+ 
+ 
+    function createCookie(name, value, days) {
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "; expires=" + date.toGMTString();
+      } else var expires = "";
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+ 
+    function readCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+ 
+    function delete_cookie( name ) {
+      document.cookie = name + '=; Path=/; Domain=.mccann.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+  </script>
+	<!-- OneTrust Cookies Consent Notice end -->
+<link href="/style.dbfc50e3dce12e36899e.min.css" rel="stylesheet"></head>
+<body>
+    <!-- OneTrust Cookies List start -->
+  <!-- This is here so that optanon library can pull in cookie policy. 
+    This happens on page load and optanon does not expose a method to 
+    render this policy after react loads the page content -->
+
+  <div id="optanon-cookie-policy"></div>
+
+  <!-- OneTrust Cookies List end -->
+	<div id="root"></div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
+	<script type="text/plain" class="optanon-category-2"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5W01EYFR8"></script> 
+  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-Z5W01EYFR8'); </script>
+<script type="text/javascript" src="/app.dbfc50e3dce12e36899e.min.js"></script></body>
+</html>

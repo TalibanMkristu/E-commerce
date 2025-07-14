@@ -628,4 +628,3 @@ def use_saved_card(request):
 class PaymentsDashboard(TemplateView):
     template_name = 'payments/subscriptions.html'
 
-

@@ -1,0 +1,55 @@
+<html>
+<title>Hamilton Communications</title>
+<head>
+ <META http-equiv="Content-Style-Type" content="text/css">
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="home.css">
+</head>
+<body bgcolor=fffff0 TEXT="#000000" TOPMARGIN=15 LEFTMARGIN=10 MARGINHEIGHT=10 MARGINWIDTH=10 BGCOLOR="#FFFFFF">
+<table cellpadding=0 cellspacing=0 border=0 width=575>
+<tr>
+<td width=50>&nbsp;</td>
+<td valign=bottom><img src=gifs/logo-tn.gif> <img src=gifs/hamtop.gif></td>
+<td class=navbar nowrap align=right>
+</td>
+</tr>
+<tr>
+<td width=50>&nbsp;</td>
+<td colspan=2 >
+<table cellpadding=0 cellspacing=0 border=0>
+<tr><td><img src=gifs/clearpixel.gif width=150 height=1></td>
+<td><img src=gifs/hambot2.gif></td></tr></table></td>
+</tr>
+<tr>
+<td width=50>&nbsp;</td>
+<td colspan=2 class=redcaption valign=bottom height=15>&nbsp;</td>
+</tr>
+</table>
+<img src=gifs/clearpixel.gif height=15><br>
+    <table cellpadding=0 cellspacing=0 border=0 width=650>
+<tr>
+<td width=50>&nbsp;</td>
+<td width=270 valign=top>
+Hamilton Communications is a private Internet service provider. We do not
+accept new customers. If you are searching for Hamilton Books, Hamilton
+Watch, Hamilton Beach, or any other companies with "Hamilton" in the name,
+you have reached this site in error.
+<p>Contact us <a href=mailto:postmaster@hamilton.com>by email</a> to report abuse.
+</td>
+<td width=15>&nbsp;</td>
+<td valign=top>&nbsp;</td>
+</tr><tr><td colspan=4>
+<br><img src=gifs/clearpixel.gif height=35><br>
+<center>
+<i><font class=caption>
+&copy; 2025 Hamilton Communication<br>
+
+Hamilton<sup>&reg;</sup> and  Hamilton Communications<sup>&reg;</sup>
+are registered service marks of Hamilton Communications.</font></i>
+<P >
+<font class=caption>Web site design and maintenance by <a href=http://www.dino.com>Susan Angebranndt</a></font>.
+</center>
+</td></tr>
+</table>
+</body>
+</html>
+

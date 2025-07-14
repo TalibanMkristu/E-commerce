@@ -1,0 +1,1001 @@
+id,name,category,price_usd,stock,description,image_url
+1,Espresso,Café,17.71,259,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?espresso
+2,Cupcake,Bakery,24.15,41,Enjoyed across the region.,https://source.unsplash.com/400x400/?cupcake
+3,Soya Mince,Grocery,18.53,246,Enjoyed across the region.,https://source.unsplash.com/400x400/?soya-mince
+4,Oats,Grocery,11.4,97,Enjoyed across the region.,https://source.unsplash.com/400x400/?oats
+5,Banana Bread,Bakery,9.54,39,Affordable and healthy option.,https://source.unsplash.com/400x400/?banana-bread
+6,Fruit Cake,Bakery,1.73,290,Affordable and healthy option.,https://source.unsplash.com/400x400/?fruit-cake
+7,Brown Bread,Bakery,22.23,93,Made with organic ingredients.,https://source.unsplash.com/400x400/?brown-bread
+8,Fruit Smoothie,Beverages,11.31,217,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-smoothie
+9,Latte,Café,23.95,116,Enjoyed across the region.,https://source.unsplash.com/400x400/?latte
+10,Soda,Beverages,13.28,135,Top-quality product with great taste.,https://source.unsplash.com/400x400/?soda
+11,Bottled Water,Beverages,10.96,125,Made with organic ingredients.,https://source.unsplash.com/400x400/?bottled-water
+12,Cupcake,Bakery,21.36,42,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cupcake
+13,Donut,Bakery,7.22,71,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?donut
+14,Fruit Cake,Bakery,15.42,270,Affordable and healthy option.,https://source.unsplash.com/400x400/?fruit-cake
+15,Tomato Sauce,Grocery,9.01,153,Top-quality product with great taste.,https://source.unsplash.com/400x400/?tomato-sauce
+16,Energy Drink,Beverages,6.49,265,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?energy-drink
+17,Lemonade,Beverages,11.43,83,Top-quality product with great taste.,https://source.unsplash.com/400x400/?lemonade
+18,Cookies,Bakery,20.42,14,Affordable and healthy option.,https://source.unsplash.com/400x400/?cookies
+19,Doughnut,Café,14.07,62,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?doughnut
+20,White Bread,Bakery,3.55,163,Top-quality product with great taste.,https://source.unsplash.com/400x400/?white-bread
+21,Jam Roll (4 pcs),Bakery,18.93,131,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?jam-roll
+22,Energy Drink,Beverages,24.04,207,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?energy-drink
+23,Soda,Beverages,9.91,210,Enjoyed across the region.,https://source.unsplash.com/400x400/?soda
+24,Iced Coffee 500g,Beverages,5.21,16,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+25,Oats,Grocery,5.15,252,Top-quality product with great taste.,https://source.unsplash.com/400x400/?oats
+26,Herbal Tea 1kg,Beverages,19.2,136,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?herbal-tea
+27,Milk 500ml,Grocery,11.16,293,Top-quality product with great taste.,https://source.unsplash.com/400x400/?milk
+28,Cupcake,Bakery,11.58,58,Enjoyed across the region.,https://source.unsplash.com/400x400/?cupcake
+29,Iced Coffee 1kg,Beverages,0.61,92,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+30,Cappuccino,Café,6.5,77,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cappuccino
+31,Strawberry Tart,Bakery,7.2,208,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?strawberry-tart
+32,Brown Bread,Bakery,20.53,34,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?brown-bread
+33,Lemonade,Beverages,10.47,297,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?lemonade
+34,Cake Slice,Bakery,13.32,294,Made with organic ingredients.,https://source.unsplash.com/400x400/?cake-slice
+35,Bread,Grocery,15.47,11,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?bread
+36,Butter Scone,Bakery,20.96,270,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?butter-scone
+37,Fruit Smoothie,Beverages,16.44,164,Affordable and healthy option.,https://source.unsplash.com/400x400/?fruit-smoothie
+38,Pancakes,Café,20.8,20,Top-quality product with great taste.,https://source.unsplash.com/400x400/?pancakes
+39,Fruit Smoothie,Beverages,1.98,96,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fruit-smoothie
+40,Espresso,Café,16.62,217,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?espresso
+41,Milkshake 500ml,Café,12.14,201,Enjoyed across the region.,https://source.unsplash.com/400x400/?milkshake
+42,Bottled Water,Beverages,13.0,204,Top-quality product with great taste.,https://source.unsplash.com/400x400/?bottled-water
+43,Oats,Grocery,9.21,69,Top-quality product with great taste.,https://source.unsplash.com/400x400/?oats
+44,Maize Flour 1kg,Grocery,11.16,94,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?maize-flour
+45,Lemonade,Beverages,13.11,201,Affordable and healthy option.,https://source.unsplash.com/400x400/?lemonade
+46,Herbal Tea 2kg,Beverages,8.43,60,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?herbal-tea
+47,Espresso,Café,7.21,95,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?espresso
+48,Cake Slice,Bakery,9.45,167,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cake-slice
+49,Croissant,Café,16.86,122,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?croissant
+50,Sparkling Water,Beverages,21.09,294,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?sparkling-water
+51,Sparkling Water,Beverages,8.33,149,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?sparkling-water
+52,Milk 1L,Grocery,17.28,99,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?milk
+53,Banana Bread,Bakery,7.44,214,Enjoyed across the region.,https://source.unsplash.com/400x400/?banana-bread
+54,Bread,Grocery,8.64,136,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bread
+55,Brown Bread,Bakery,20.97,268,Affordable and healthy option.,https://source.unsplash.com/400x400/?brown-bread
+56,Beans,Grocery,14.97,153,Made with organic ingredients.,https://source.unsplash.com/400x400/?beans
+57,Sparkling Water,Beverages,9.06,107,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?sparkling-water
+58,Tonic Water,Beverages,14.41,175,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?tonic-water
+59,Sugar,Grocery,10.74,87,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?sugar
+60,Cake Slice,Bakery,8.4,47,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cake-slice
+61,Toilet Paper,Grocery,8.99,168,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?toilet-paper
+62,Spaghetti,Grocery,7.64,140,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?spaghetti
+63,Iced Coffee 2kg,Beverages,21.64,157,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?iced-coffee
+64,Cupcake,Bakery,10.72,17,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cupcake
+65,Sparkling Water,Beverages,3.45,110,Enjoyed across the region.,https://source.unsplash.com/400x400/?sparkling-water
+66,Oats,Grocery,0.81,214,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?oats
+67,Fruit Juice,Grocery,13.32,194,Top-quality product with great taste.,https://source.unsplash.com/400x400/?fruit-juice
+68,Fresh Vegetables,Grocery,7.04,172,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fresh-vegetables
+69,Cake Slice,Bakery,11.46,217,Made with organic ingredients.,https://source.unsplash.com/400x400/?cake-slice
+70,Bread,Grocery,6.69,292,Top-quality product with great taste.,https://source.unsplash.com/400x400/?bread
+71,Cupcake,Bakery,6.96,208,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cupcake
+72,Salt,Grocery,8.03,175,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?salt
+73,Lemonade,Beverages,14.39,251,Enjoyed across the region.,https://source.unsplash.com/400x400/?lemonade
+74,Hot Chocolate,Café,12.24,142,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?hot-chocolate
+75,Bottled Water,Beverages,19.98,196,Affordable and healthy option.,https://source.unsplash.com/400x400/?bottled-water
+76,Cupcake,Bakery,20.12,72,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cupcake
+77,Nyama Choma,Café,10.86,158,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?nyama-choma
+78,Lemonade,Beverages,22.09,268,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?lemonade
+79,Hot Chocolate,Café,6.4,19,Affordable and healthy option.,https://source.unsplash.com/400x400/?hot-chocolate
+80,Beans,Grocery,22.12,120,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?beans
+81,Sausage Roll (2 pcs),Café,5.4,119,Enjoyed across the region.,https://source.unsplash.com/400x400/?sausage-roll
+82,Muffin,Café,7.8,161,Made with organic ingredients.,https://source.unsplash.com/400x400/?muffin
+83,Tonic Water,Beverages,9.04,101,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tonic-water
+84,Iced Tea 500g,Beverages,3.23,198,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?iced-tea
+85,Energy Drink,Beverages,14.22,137,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?energy-drink
+86,Bottled Water,Beverages,15.23,227,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bottled-water
+87,Brown Bread,Bakery,22.22,130,Made with organic ingredients.,https://source.unsplash.com/400x400/?brown-bread
+88,Cappuccino,Café,5.06,19,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cappuccino
+89,Chai Masala,Café,1.44,253,Enjoyed across the region.,https://source.unsplash.com/400x400/?chai-masala
+90,Soda,Beverages,18.35,277,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?soda
+91,Black Coffee 500g,Café,18.21,66,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?black-coffee
+92,Tonic Water,Beverages,5.65,60,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?tonic-water
+93,Black Coffee 500g,Café,16.51,141,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?black-coffee
+94,Brown Bread,Bakery,19.01,136,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?brown-bread
+95,Cookies,Bakery,15.1,237,Made with organic ingredients.,https://source.unsplash.com/400x400/?cookies
+96,Latte,Café,2.63,93,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?latte
+97,Chicken Wings,Café,12.75,225,Enjoyed across the region.,https://source.unsplash.com/400x400/?chicken-wings
+98,Black Coffee 1kg,Café,7.68,98,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?black-coffee
+99,Oats,Grocery,2.29,237,Made with organic ingredients.,https://source.unsplash.com/400x400/?oats
+100,Cake Slice,Bakery,17.15,133,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cake-slice
+101,French Fries,Café,5.84,269,Enjoyed across the region.,https://source.unsplash.com/400x400/?french-fries
+102,Herbal Tea 2kg,Beverages,4.74,21,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?herbal-tea
+103,Rice,Grocery,2.33,53,Affordable and healthy option.,https://source.unsplash.com/400x400/?rice
+104,Tonic Water,Beverages,11.12,63,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tonic-water
+105,Bottled Water,Beverages,6.7,173,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bottled-water
+106,Donut,Bakery,1.09,248,Top-quality product with great taste.,https://source.unsplash.com/400x400/?donut
+107,Mandazi,Café,2.08,291,Enjoyed across the region.,https://source.unsplash.com/400x400/?mandazi
+108,Tonic Water,Beverages,18.51,166,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?tonic-water
+109,Fruit Smoothie,Beverages,11.82,247,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fruit-smoothie
+110,Donut,Bakery,21.06,38,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?donut
+111,Green Tea 1kg,Café,5.29,139,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?green-tea
+112,Cooking Oil,Grocery,12.08,215,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cooking-oil
+113,Margarine,Grocery,13.58,144,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?margarine
+114,Milk 1L,Grocery,23.82,61,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?milk
+115,Iced Coffee 2kg,Beverages,20.98,281,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+116,Bread,Grocery,22.99,235,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bread
+117,Buns,Bakery,5.22,79,Top-quality product with great taste.,https://source.unsplash.com/400x400/?buns
+118,Herbal Tea 1kg,Beverages,4.13,79,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?herbal-tea
+119,Donut,Bakery,20.01,165,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?donut
+120,Milk 1L,Grocery,5.56,127,Enjoyed across the region.,https://source.unsplash.com/400x400/?milk
+121,Rice,Grocery,12.22,250,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?rice
+122,Chapati Flour 2kg,Grocery,23.89,241,Made with organic ingredients.,https://source.unsplash.com/400x400/?chapati-flour
+123,Strawberry Tart,Bakery,4.7,123,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?strawberry-tart
+124,Beans,Grocery,7.1,94,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?beans
+125,Kenyan Tea 2kg,Café,20.48,280,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?kenyan-tea
+126,Buns,Bakery,12.6,35,Made with organic ingredients.,https://source.unsplash.com/400x400/?buns
+127,Fruit Smoothie,Beverages,19.45,53,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-smoothie
+128,Rice,Grocery,4.92,73,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?rice
+129,Peanut Butter,Grocery,20.27,177,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?peanut-butter
+130,Kenyan Tea 500g,Café,12.41,254,Made with organic ingredients.,https://source.unsplash.com/400x400/?kenyan-tea
+131,Smoothie,Café,8.62,126,Affordable and healthy option.,https://source.unsplash.com/400x400/?smoothie
+132,Energy Drink,Beverages,6.14,104,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?energy-drink
+133,Strawberry Tart,Bakery,19.64,229,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?strawberry-tart
+134,Cooking Oil,Grocery,8.44,229,Enjoyed across the region.,https://source.unsplash.com/400x400/?cooking-oil
+135,Lemonade,Beverages,22.23,49,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?lemonade
+136,Croissant,Café,23.78,209,Made with organic ingredients.,https://source.unsplash.com/400x400/?croissant
+137,Chai Masala,Café,23.27,216,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?chai-masala
+138,Chicken Wings,Café,21.1,96,Enjoyed across the region.,https://source.unsplash.com/400x400/?chicken-wings
+139,Cooking Oil,Grocery,17.09,104,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cooking-oil
+140,Cookies,Bakery,10.72,76,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cookies
+141,Fruit Cake,Bakery,9.53,206,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fruit-cake
+142,Uji Flour 500g,Grocery,22.73,39,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?uji-flour
+143,Toilet Paper,Grocery,21.3,48,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?toilet-paper
+144,Chicken Wings,Café,20.87,12,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?chicken-wings
+145,Lentils,Grocery,3.01,49,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?lentils
+146,Lemonade,Beverages,7.76,39,Enjoyed across the region.,https://source.unsplash.com/400x400/?lemonade
+147,Lemonade,Beverages,11.83,158,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?lemonade
+148,Donut,Bakery,4.64,77,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?donut
+149,Herbal Tea 1kg,Beverages,13.2,150,Enjoyed across the region.,https://source.unsplash.com/400x400/?herbal-tea
+150,Fruit Smoothie,Beverages,14.02,124,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fruit-smoothie
+151,Fresh Vegetables,Grocery,17.92,265,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fresh-vegetables
+152,Nyama Choma,Café,7.24,173,Top-quality product with great taste.,https://source.unsplash.com/400x400/?nyama-choma
+153,Brown Bread,Bakery,20.26,216,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?brown-bread
+154,Cake Slice,Bakery,11.19,45,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cake-slice
+155,Cookies,Bakery,20.08,218,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cookies
+156,Chai Masala,Café,22.62,90,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?chai-masala
+157,Fruit Cake,Bakery,14.08,43,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-cake
+158,Cupcake,Bakery,20.97,156,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cupcake
+159,Jam Roll (3 pcs),Bakery,8.15,43,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?jam-roll
+160,Herbal Tea 1kg,Beverages,18.26,207,Enjoyed across the region.,https://source.unsplash.com/400x400/?herbal-tea
+161,Fruit Smoothie,Beverages,17.28,279,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fruit-smoothie
+162,Cupcake,Bakery,24.71,57,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cupcake
+163,Donut,Bakery,10.23,204,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?donut
+164,Soda,Beverages,18.49,36,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?soda
+165,Cake Slice,Bakery,14.03,183,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cake-slice
+166,White Bread,Bakery,22.53,40,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?white-bread
+167,Butter Scone,Bakery,12.59,191,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?butter-scone
+168,Wheat Flour 1kg,Grocery,18.74,30,Made with organic ingredients.,https://source.unsplash.com/400x400/?wheat-flour
+169,Energy Drink,Beverages,19.99,41,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?energy-drink
+170,Buns,Bakery,20.55,241,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?buns
+171,Latte,Café,7.46,263,Affordable and healthy option.,https://source.unsplash.com/400x400/?latte
+172,Cupcake,Bakery,6.95,229,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cupcake
+173,Fruit Cake,Bakery,7.21,299,Top-quality product with great taste.,https://source.unsplash.com/400x400/?fruit-cake
+174,Canned Fish,Grocery,8.32,122,Affordable and healthy option.,https://source.unsplash.com/400x400/?canned-fish
+175,Green Tea 1kg,Café,13.07,45,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?green-tea
+176,Hot Chocolate,Café,23.7,24,Enjoyed across the region.,https://source.unsplash.com/400x400/?hot-chocolate
+177,Buns,Bakery,1.82,170,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?buns
+178,Bread,Grocery,10.36,191,Affordable and healthy option.,https://source.unsplash.com/400x400/?bread
+179,Margarine,Grocery,14.0,283,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?margarine
+180,Mandazi,Café,1.45,237,Made with organic ingredients.,https://source.unsplash.com/400x400/?mandazi
+181,Green Tea 2kg,Café,12.63,185,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?green-tea
+182,Canned Fish,Grocery,7.16,83,Top-quality product with great taste.,https://source.unsplash.com/400x400/?canned-fish
+183,Soda,Beverages,10.55,87,Affordable and healthy option.,https://source.unsplash.com/400x400/?soda
+184,Mandazi,Café,4.09,231,Affordable and healthy option.,https://source.unsplash.com/400x400/?mandazi
+185,Buns,Bakery,6.41,283,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?buns
+186,Cake Slice,Bakery,12.11,57,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cake-slice
+187,Sausage Roll (6 pcs),Café,16.41,52,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?sausage-roll
+188,Energy Drink,Beverages,1.79,273,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?energy-drink
+189,Vanilla Cake,Bakery,23.49,255,Top-quality product with great taste.,https://source.unsplash.com/400x400/?vanilla-cake
+190,Cookies,Bakery,24.18,297,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cookies
+191,Tea Leaves 500g,Grocery,2.74,239,Enjoyed across the region.,https://source.unsplash.com/400x400/?tea-leaves
+192,Chapati Roll (4 pcs),Café,20.28,151,Top-quality product with great taste.,https://source.unsplash.com/400x400/?chapati-roll
+193,Smoothie,Café,22.09,29,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?smoothie
+194,Sparkling Water,Beverages,12.46,127,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?sparkling-water
+195,Sparkling Water,Beverages,2.57,68,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?sparkling-water
+196,Brown Bread,Bakery,5.91,185,Affordable and healthy option.,https://source.unsplash.com/400x400/?brown-bread
+197,Black Coffee 500g,Café,15.9,115,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?black-coffee
+198,Cake Slice,Bakery,17.71,134,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cake-slice
+199,Banana Bread,Bakery,10.54,143,Enjoyed across the region.,https://source.unsplash.com/400x400/?banana-bread
+200,Strawberry Tart,Bakery,6.94,232,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?strawberry-tart
+201,Green Tea 1kg,Café,17.24,62,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?green-tea
+202,Muffin,Café,24.77,231,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?muffin
+203,Iced Coffee 1kg,Beverages,8.19,181,Affordable and healthy option.,https://source.unsplash.com/400x400/?iced-coffee
+204,Black Coffee 2kg,Café,20.63,151,Enjoyed across the region.,https://source.unsplash.com/400x400/?black-coffee
+205,Sparkling Water,Beverages,23.78,280,Affordable and healthy option.,https://source.unsplash.com/400x400/?sparkling-water
+206,Chapati Roll (3 pcs),Café,1.33,236,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?chapati-roll
+207,Buns,Bakery,21.5,73,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?buns
+208,Vanilla Cake,Bakery,17.63,42,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?vanilla-cake
+209,Iced Coffee 500g,Beverages,17.97,172,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+210,Doughnut,Café,15.38,170,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?doughnut
+211,Canned Fish,Grocery,18.69,54,Made with organic ingredients.,https://source.unsplash.com/400x400/?canned-fish
+212,Fresh Vegetables,Grocery,1.97,247,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fresh-vegetables
+213,Jam Roll (3 pcs),Bakery,10.96,156,Affordable and healthy option.,https://source.unsplash.com/400x400/?jam-roll
+214,Bottled Water,Beverages,15.48,12,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bottled-water
+215,Beans,Grocery,14.1,265,Top-quality product with great taste.,https://source.unsplash.com/400x400/?beans
+216,Kenyan Tea 1kg,Café,5.63,264,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?kenyan-tea
+217,Peanut Butter,Grocery,21.69,275,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?peanut-butter
+218,Milk 1L,Grocery,0.91,131,Enjoyed across the region.,https://source.unsplash.com/400x400/?milk
+219,French Fries,Café,18.31,294,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?french-fries
+220,Jam Roll (6 pcs),Bakery,15.19,33,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?jam-roll
+221,Soda,Beverages,20.04,76,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?soda
+222,Cappuccino,Café,24.87,178,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cappuccino
+223,Sparkling Water,Beverages,14.57,288,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?sparkling-water
+224,Croissant,Café,22.26,179,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?croissant
+225,Salt,Grocery,18.33,149,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?salt
+226,Brown Bread,Bakery,0.74,257,Affordable and healthy option.,https://source.unsplash.com/400x400/?brown-bread
+227,Herbal Tea 1kg,Beverages,24.91,242,Enjoyed across the region.,https://source.unsplash.com/400x400/?herbal-tea
+228,Tomato Sauce,Grocery,16.8,83,Made with organic ingredients.,https://source.unsplash.com/400x400/?tomato-sauce
+229,Strawberry Tart,Bakery,5.55,46,Affordable and healthy option.,https://source.unsplash.com/400x400/?strawberry-tart
+230,Hot Chocolate,Café,13.99,44,Top-quality product with great taste.,https://source.unsplash.com/400x400/?hot-chocolate
+231,Beans,Grocery,14.24,202,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?beans
+232,Sparkling Water,Beverages,4.81,53,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?sparkling-water
+233,Fresh Vegetables,Grocery,7.89,225,Affordable and healthy option.,https://source.unsplash.com/400x400/?fresh-vegetables
+234,White Bread,Bakery,21.53,166,Made with organic ingredients.,https://source.unsplash.com/400x400/?white-bread
+235,Toilet Paper,Grocery,8.11,54,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?toilet-paper
+236,Muffin,Café,21.41,248,Top-quality product with great taste.,https://source.unsplash.com/400x400/?muffin
+237,Green Tea 2kg,Café,1.8,133,Made with organic ingredients.,https://source.unsplash.com/400x400/?green-tea
+238,Sausage Roll (6 pcs),Café,8.83,212,Top-quality product with great taste.,https://source.unsplash.com/400x400/?sausage-roll
+239,Wheat Flour 1kg,Grocery,19.55,155,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?wheat-flour
+240,Chapati Roll (5 pcs),Café,19.52,246,Made with organic ingredients.,https://source.unsplash.com/400x400/?chapati-roll
+241,Cappuccino,Café,12.96,288,Enjoyed across the region.,https://source.unsplash.com/400x400/?cappuccino
+242,Lemonade,Beverages,16.71,213,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?lemonade
+243,Fruit Cake,Bakery,21.92,16,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-cake
+244,Muffin,Café,4.77,79,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?muffin
+245,Maize Flour 2kg,Grocery,21.7,107,Top-quality product with great taste.,https://source.unsplash.com/400x400/?maize-flour
+246,Hot Chocolate,Café,11.61,22,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?hot-chocolate
+247,Buns,Bakery,11.24,55,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?buns
+248,Eggs,Grocery,18.82,100,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?eggs
+249,Milkshake 1L,Café,9.29,99,Affordable and healthy option.,https://source.unsplash.com/400x400/?milkshake
+250,Banana Bread,Bakery,0.89,192,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?banana-bread
+251,Cookies,Bakery,14.38,73,Enjoyed across the region.,https://source.unsplash.com/400x400/?cookies
+252,Energy Drink,Beverages,7.63,117,Made with organic ingredients.,https://source.unsplash.com/400x400/?energy-drink
+253,Bottled Water,Beverages,14.1,285,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?bottled-water
+254,Sausage Roll (6 pcs),Café,17.53,287,Enjoyed across the region.,https://source.unsplash.com/400x400/?sausage-roll
+255,Lemonade,Beverages,2.45,289,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?lemonade
+256,Donut,Bakery,3.25,205,Made with organic ingredients.,https://source.unsplash.com/400x400/?donut
+257,Black Coffee 2kg,Café,4.11,176,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?black-coffee
+258,Beef Burger,Café,12.44,95,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?beef-burger
+259,Milkshake 1L,Café,24.89,192,Made with organic ingredients.,https://source.unsplash.com/400x400/?milkshake
+260,Fresh Vegetables,Grocery,15.47,278,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fresh-vegetables
+261,White Bread,Bakery,7.62,124,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?white-bread
+262,Hot Chocolate,Café,22.89,127,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?hot-chocolate
+263,White Bread,Bakery,17.18,272,Affordable and healthy option.,https://source.unsplash.com/400x400/?white-bread
+264,Bottled Water,Beverages,22.92,157,Affordable and healthy option.,https://source.unsplash.com/400x400/?bottled-water
+265,Latte,Café,5.48,214,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?latte
+266,Beans,Grocery,20.4,54,Affordable and healthy option.,https://source.unsplash.com/400x400/?beans
+267,Lemonade,Beverages,13.88,11,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?lemonade
+268,Rice,Grocery,18.03,227,Top-quality product with great taste.,https://source.unsplash.com/400x400/?rice
+269,Tonic Water,Beverages,24.95,143,Affordable and healthy option.,https://source.unsplash.com/400x400/?tonic-water
+270,Donut,Bakery,13.85,95,Affordable and healthy option.,https://source.unsplash.com/400x400/?donut
+271,Chai Masala,Café,11.11,256,Top-quality product with great taste.,https://source.unsplash.com/400x400/?chai-masala
+272,Pancakes,Café,14.55,239,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?pancakes
+273,Cupcake,Bakery,2.82,200,Affordable and healthy option.,https://source.unsplash.com/400x400/?cupcake
+274,Nyama Choma,Café,5.4,217,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?nyama-choma
+275,Bread,Grocery,12.43,219,Enjoyed across the region.,https://source.unsplash.com/400x400/?bread
+276,Hot Chocolate,Café,7.28,152,Enjoyed across the region.,https://source.unsplash.com/400x400/?hot-chocolate
+277,Beans,Grocery,4.98,285,Enjoyed across the region.,https://source.unsplash.com/400x400/?beans
+278,Donut,Bakery,14.29,272,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?donut
+279,Maize Flour 2kg,Grocery,15.81,294,Enjoyed across the region.,https://source.unsplash.com/400x400/?maize-flour
+280,Soda,Beverages,23.94,131,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?soda
+281,Brown Bread,Bakery,2.45,232,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?brown-bread
+282,Brown Bread,Bakery,3.18,244,Enjoyed across the region.,https://source.unsplash.com/400x400/?brown-bread
+283,Iced Tea 1kg,Beverages,13.64,288,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-tea
+284,Nyama Choma,Café,15.09,29,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?nyama-choma
+285,Tomato Sauce,Grocery,3.42,89,Top-quality product with great taste.,https://source.unsplash.com/400x400/?tomato-sauce
+286,Fruit Juice,Grocery,9.18,110,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-juice
+287,Soda,Beverages,9.93,123,Top-quality product with great taste.,https://source.unsplash.com/400x400/?soda
+288,Energy Drink,Beverages,0.61,178,Top-quality product with great taste.,https://source.unsplash.com/400x400/?energy-drink
+289,Cookies,Bakery,3.7,120,Made with organic ingredients.,https://source.unsplash.com/400x400/?cookies
+290,Croissant,Café,6.17,72,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?croissant
+291,Buns,Bakery,8.4,244,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?buns
+292,Herbal Tea 1kg,Beverages,9.46,283,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?herbal-tea
+293,Cappuccino,Café,16.86,21,Made with organic ingredients.,https://source.unsplash.com/400x400/?cappuccino
+294,Mandazi,Café,6.24,230,Enjoyed across the region.,https://source.unsplash.com/400x400/?mandazi
+295,Iced Tea 500g,Beverages,7.19,210,Affordable and healthy option.,https://source.unsplash.com/400x400/?iced-tea
+296,Energy Drink,Beverages,5.33,109,Enjoyed across the region.,https://source.unsplash.com/400x400/?energy-drink
+297,Cupcake,Bakery,24.02,74,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cupcake
+298,Fruit Smoothie,Beverages,9.48,248,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fruit-smoothie
+299,Herbal Tea 1kg,Beverages,12.69,212,Enjoyed across the region.,https://source.unsplash.com/400x400/?herbal-tea
+300,Fruit Cake,Bakery,11.53,278,Enjoyed across the region.,https://source.unsplash.com/400x400/?fruit-cake
+301,Soda,Beverages,9.73,97,Enjoyed across the region.,https://source.unsplash.com/400x400/?soda
+302,Iced Coffee 1kg,Beverages,17.19,296,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?iced-coffee
+303,Bottled Water,Beverages,20.98,29,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?bottled-water
+304,Iced Coffee 500g,Beverages,2.36,171,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-coffee
+305,Espresso,Café,20.02,209,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?espresso
+306,Bottled Water,Beverages,5.21,80,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bottled-water
+307,Tonic Water,Beverages,22.42,283,Enjoyed across the region.,https://source.unsplash.com/400x400/?tonic-water
+308,Tonic Water,Beverages,20.56,115,Made with organic ingredients.,https://source.unsplash.com/400x400/?tonic-water
+309,Bottled Water,Beverages,15.91,57,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?bottled-water
+310,Tea Leaves 2kg,Grocery,14.13,108,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?tea-leaves
+311,White Bread,Bakery,18.72,246,Top-quality product with great taste.,https://source.unsplash.com/400x400/?white-bread
+312,Bottled Water,Beverages,13.23,238,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?bottled-water
+313,Cake Slice,Bakery,21.46,122,Made with organic ingredients.,https://source.unsplash.com/400x400/?cake-slice
+314,Vanilla Cake,Bakery,2.4,155,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?vanilla-cake
+315,Lemonade,Beverages,16.49,294,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?lemonade
+316,Mandazi,Café,17.19,119,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?mandazi
+317,Cake Slice,Bakery,0.6,170,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cake-slice
+318,Mandazi,Café,19.92,135,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?mandazi
+319,Smoothie,Café,1.86,95,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?smoothie
+320,Fruit Smoothie,Beverages,22.59,65,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-smoothie
+321,Nyama Choma,Café,20.78,162,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?nyama-choma
+322,Milkshake 500ml,Café,1.35,61,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?milkshake
+323,Wheat Flour 1kg,Grocery,2.81,116,Affordable and healthy option.,https://source.unsplash.com/400x400/?wheat-flour
+324,Samosa,Café,8.35,234,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?samosa
+325,Banana Bread,Bakery,8.14,121,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?banana-bread
+326,Cake Slice,Bakery,9.29,232,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cake-slice
+327,Peanut Butter,Grocery,8.47,109,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?peanut-butter
+328,Banana Bread,Bakery,11.79,163,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?banana-bread
+329,Herbal Tea 2kg,Beverages,2.78,21,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?herbal-tea
+330,Herbal Tea 1kg,Beverages,5.41,63,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?herbal-tea
+331,Latte,Café,13.38,270,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?latte
+332,Fruit Smoothie,Beverages,24.71,62,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fruit-smoothie
+333,Smoothie,Café,13.65,69,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?smoothie
+334,Vanilla Cake,Bakery,3.83,245,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?vanilla-cake
+335,Donut,Bakery,13.45,19,Made with organic ingredients.,https://source.unsplash.com/400x400/?donut
+336,Herbal Tea 500g,Beverages,18.83,200,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?herbal-tea
+337,Chapati Flour 2kg,Grocery,23.54,20,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?chapati-flour
+338,Beans,Grocery,20.69,53,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?beans
+339,Banana Bread,Bakery,1.36,243,Enjoyed across the region.,https://source.unsplash.com/400x400/?banana-bread
+340,Maize Flour 2kg,Grocery,7.35,111,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?maize-flour
+341,Vanilla Cake,Bakery,13.23,60,Made with organic ingredients.,https://source.unsplash.com/400x400/?vanilla-cake
+342,Nyama Choma,Café,7.77,236,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?nyama-choma
+343,Sausage Roll (4 pcs),Café,10.81,263,Affordable and healthy option.,https://source.unsplash.com/400x400/?sausage-roll
+344,Espresso,Café,11.79,53,Affordable and healthy option.,https://source.unsplash.com/400x400/?espresso
+345,Uji Flour 1kg,Grocery,24.76,179,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?uji-flour
+346,Chapati Roll (6 pcs),Café,8.12,190,Top-quality product with great taste.,https://source.unsplash.com/400x400/?chapati-roll
+347,Iced Coffee 2kg,Beverages,1.15,82,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+348,Samosa,Café,8.9,28,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?samosa
+349,Sugar,Grocery,6.68,50,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?sugar
+350,Pancakes,Café,17.9,20,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?pancakes
+351,Cookies,Bakery,1.73,207,Affordable and healthy option.,https://source.unsplash.com/400x400/?cookies
+352,Iced Tea 500g,Beverages,12.03,145,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?iced-tea
+353,White Bread,Bakery,8.93,123,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?white-bread
+354,Bread,Grocery,20.17,187,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?bread
+355,Butter Scone,Bakery,17.09,69,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?butter-scone
+356,Lemonade,Beverages,20.67,141,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?lemonade
+357,Chicken Wings,Café,11.34,265,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?chicken-wings
+358,Cappuccino,Café,4.21,299,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cappuccino
+359,Snack Box (5 pcs),Café,4.69,91,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?snack-box
+360,Oats,Grocery,17.26,206,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?oats
+361,Jam Roll (6 pcs),Bakery,7.88,68,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?jam-roll
+362,Iced Tea 2kg,Beverages,15.87,176,Affordable and healthy option.,https://source.unsplash.com/400x400/?iced-tea
+363,Hot Chocolate,Café,22.59,162,Affordable and healthy option.,https://source.unsplash.com/400x400/?hot-chocolate
+364,Fruit Smoothie,Beverages,22.29,261,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fruit-smoothie
+365,Buns,Bakery,14.03,66,Made with organic ingredients.,https://source.unsplash.com/400x400/?buns
+366,Cake Slice,Bakery,17.6,66,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cake-slice
+367,Toilet Paper,Grocery,11.44,103,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?toilet-paper
+368,Latte,Café,18.5,125,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?latte
+369,Soda,Beverages,11.11,25,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?soda
+370,Brown Bread,Bakery,9.34,166,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?brown-bread
+371,Banana Bread,Bakery,0.77,80,Made with organic ingredients.,https://source.unsplash.com/400x400/?banana-bread
+372,Bread,Grocery,16.76,47,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?bread
+373,Iced Coffee 2kg,Beverages,4.43,252,Top-quality product with great taste.,https://source.unsplash.com/400x400/?iced-coffee
+374,Rice,Grocery,10.71,157,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?rice
+375,Butter Scone,Bakery,9.33,12,Affordable and healthy option.,https://source.unsplash.com/400x400/?butter-scone
+376,White Bread,Bakery,14.03,181,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?white-bread
+377,Salt,Grocery,22.34,294,Enjoyed across the region.,https://source.unsplash.com/400x400/?salt
+378,Latte,Café,11.06,175,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?latte
+379,Energy Drink,Beverages,22.32,181,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?energy-drink
+380,Lentils,Grocery,21.68,202,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?lentils
+381,Canned Fish,Grocery,4.29,24,Made with organic ingredients.,https://source.unsplash.com/400x400/?canned-fish
+382,Lemonade,Beverages,12.83,283,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?lemonade
+383,Muffin,Café,17.59,143,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?muffin
+384,Bottled Water,Beverages,2.58,293,Top-quality product with great taste.,https://source.unsplash.com/400x400/?bottled-water
+385,Cake Slice,Bakery,12.68,238,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cake-slice
+386,Maize Flour 1kg,Grocery,19.17,57,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?maize-flour
+387,Spaghetti,Grocery,9.92,102,Made with organic ingredients.,https://source.unsplash.com/400x400/?spaghetti
+388,Soya Mince,Grocery,4.26,39,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?soya-mince
+389,Cookies,Bakery,16.14,240,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cookies
+390,Black Coffee 500g,Café,8.05,141,Affordable and healthy option.,https://source.unsplash.com/400x400/?black-coffee
+391,Iced Tea 1kg,Beverages,7.77,28,Made with organic ingredients.,https://source.unsplash.com/400x400/?iced-tea
+392,Tonic Water,Beverages,3.24,164,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?tonic-water
+393,Milk 1L,Grocery,12.87,161,Enjoyed across the region.,https://source.unsplash.com/400x400/?milk
+394,Margarine,Grocery,9.12,101,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?margarine
+395,Eggs,Grocery,7.65,273,Affordable and healthy option.,https://source.unsplash.com/400x400/?eggs
+396,Donut,Bakery,1.13,241,Enjoyed across the region.,https://source.unsplash.com/400x400/?donut
+397,Cupcake,Bakery,16.54,244,Made with organic ingredients.,https://source.unsplash.com/400x400/?cupcake
+398,Tonic Water,Beverages,11.27,236,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tonic-water
+399,Maize Flour 500g,Grocery,16.26,125,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?maize-flour
+400,Cake Slice,Bakery,5.3,55,Enjoyed across the region.,https://source.unsplash.com/400x400/?cake-slice
+401,Margarine,Grocery,7.83,255,Affordable and healthy option.,https://source.unsplash.com/400x400/?margarine
+402,Sparkling Water,Beverages,13.16,273,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?sparkling-water
+403,Pancakes,Café,10.91,94,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?pancakes
+404,Green Tea 2kg,Café,24.42,38,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?green-tea
+405,Nyama Choma,Café,9.38,150,Enjoyed across the region.,https://source.unsplash.com/400x400/?nyama-choma
+406,Samosa,Café,9.52,53,Top-quality product with great taste.,https://source.unsplash.com/400x400/?samosa
+407,Uji Flour 2kg,Grocery,15.47,226,Enjoyed across the region.,https://source.unsplash.com/400x400/?uji-flour
+408,Fruit Cake,Bakery,20.96,139,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fruit-cake
+409,Rice,Grocery,20.17,218,Top-quality product with great taste.,https://source.unsplash.com/400x400/?rice
+410,Nyama Choma,Café,4.81,59,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?nyama-choma
+411,Brown Bread,Bakery,5.02,134,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?brown-bread
+412,Peanut Butter,Grocery,14.13,43,Top-quality product with great taste.,https://source.unsplash.com/400x400/?peanut-butter
+413,Chicken Wings,Café,7.55,200,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?chicken-wings
+414,Herbal Tea 2kg,Beverages,13.85,238,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?herbal-tea
+415,Soya Mince,Grocery,4.63,163,Affordable and healthy option.,https://source.unsplash.com/400x400/?soya-mince
+416,Cake Slice,Bakery,7.9,138,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cake-slice
+417,Banana Bread,Bakery,23.03,291,Top-quality product with great taste.,https://source.unsplash.com/400x400/?banana-bread
+418,Banana Bread,Bakery,3.56,195,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?banana-bread
+419,Beef Burger,Café,16.98,109,Top-quality product with great taste.,https://source.unsplash.com/400x400/?beef-burger
+420,Doughnut,Café,17.05,58,Enjoyed across the region.,https://source.unsplash.com/400x400/?doughnut
+421,Butter Scone,Bakery,4.31,284,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?butter-scone
+422,Croissant,Café,7.83,123,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?croissant
+423,Iced Coffee 2kg,Beverages,22.88,178,Made with organic ingredients.,https://source.unsplash.com/400x400/?iced-coffee
+424,Maize Flour 500g,Grocery,13.88,49,Enjoyed across the region.,https://source.unsplash.com/400x400/?maize-flour
+425,Fruit Smoothie,Beverages,17.16,83,Top-quality product with great taste.,https://source.unsplash.com/400x400/?fruit-smoothie
+426,Cupcake,Bakery,3.28,151,Enjoyed across the region.,https://source.unsplash.com/400x400/?cupcake
+427,Jam Roll (2 pcs),Bakery,9.7,136,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?jam-roll
+428,Tonic Water,Beverages,17.16,71,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?tonic-water
+429,Cooking Oil,Grocery,11.68,227,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cooking-oil
+430,Vanilla Cake,Bakery,24.9,250,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?vanilla-cake
+431,Bottled Water,Beverages,21.46,123,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?bottled-water
+432,Lentils,Grocery,0.73,157,Affordable and healthy option.,https://source.unsplash.com/400x400/?lentils
+433,Energy Drink,Beverages,7.45,264,Top-quality product with great taste.,https://source.unsplash.com/400x400/?energy-drink
+434,Canned Fish,Grocery,2.51,253,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?canned-fish
+435,Soda,Beverages,7.53,98,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?soda
+436,Milk 1L,Grocery,20.5,96,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?milk
+437,Tonic Water,Beverages,9.73,124,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?tonic-water
+438,Margarine,Grocery,3.46,208,Made with organic ingredients.,https://source.unsplash.com/400x400/?margarine
+439,Sparkling Water,Beverages,21.67,255,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?sparkling-water
+440,White Bread,Bakery,12.08,135,Made with organic ingredients.,https://source.unsplash.com/400x400/?white-bread
+441,Iced Tea 500g,Beverages,9.61,196,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?iced-tea
+442,Jam Roll (5 pcs),Bakery,3.73,58,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?jam-roll
+443,Jam Roll (2 pcs),Bakery,22.75,196,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?jam-roll
+444,Tonic Water,Beverages,21.98,115,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?tonic-water
+445,Banana Bread,Bakery,8.56,185,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?banana-bread
+446,Canned Fish,Grocery,16.08,229,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?canned-fish
+447,Iced Tea 1kg,Beverages,21.34,55,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-tea
+448,Brown Bread,Bakery,18.21,23,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?brown-bread
+449,Milk 1L,Grocery,1.96,116,Top-quality product with great taste.,https://source.unsplash.com/400x400/?milk
+450,Energy Drink,Beverages,3.8,29,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?energy-drink
+451,Soda,Beverages,4.07,30,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?soda
+452,Lentils,Grocery,8.1,65,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?lentils
+453,Iced Coffee 1kg,Beverages,12.74,271,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?iced-coffee
+454,Fruit Cake,Bakery,20.09,116,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-cake
+455,Pancakes,Café,7.42,204,Enjoyed across the region.,https://source.unsplash.com/400x400/?pancakes
+456,Doughnut,Café,5.17,217,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?doughnut
+457,Fruit Cake,Bakery,14.86,54,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fruit-cake
+458,Uji Flour 1kg,Grocery,7.74,180,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?uji-flour
+459,Tonic Water,Beverages,10.56,264,Made with organic ingredients.,https://source.unsplash.com/400x400/?tonic-water
+460,Milkshake 500ml,Café,16.52,263,Top-quality product with great taste.,https://source.unsplash.com/400x400/?milkshake
+461,Butter Scone,Bakery,20.11,298,Affordable and healthy option.,https://source.unsplash.com/400x400/?butter-scone
+462,Cookies,Bakery,5.36,60,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cookies
+463,Herbal Tea 1kg,Beverages,1.89,43,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?herbal-tea
+464,Black Coffee 1kg,Café,23.95,156,Made with organic ingredients.,https://source.unsplash.com/400x400/?black-coffee
+465,Soda,Beverages,21.93,165,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?soda
+466,Jam Roll (6 pcs),Bakery,12.95,61,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?jam-roll
+467,Cookies,Bakery,5.59,30,Affordable and healthy option.,https://source.unsplash.com/400x400/?cookies
+468,Iced Coffee 500g,Beverages,15.27,91,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+469,Nyama Choma,Café,17.31,142,Affordable and healthy option.,https://source.unsplash.com/400x400/?nyama-choma
+470,Kenyan Tea 1kg,Café,14.26,295,Enjoyed across the region.,https://source.unsplash.com/400x400/?kenyan-tea
+471,Nyama Choma,Café,23.44,145,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?nyama-choma
+472,Strawberry Tart,Bakery,2.76,100,Affordable and healthy option.,https://source.unsplash.com/400x400/?strawberry-tart
+473,Cooking Oil,Grocery,11.15,85,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cooking-oil
+474,Kenyan Tea 500g,Café,23.58,201,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?kenyan-tea
+475,Rice,Grocery,13.59,124,Made with organic ingredients.,https://source.unsplash.com/400x400/?rice
+476,Iced Coffee 500g,Beverages,13.3,131,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-coffee
+477,Sparkling Water,Beverages,15.57,250,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?sparkling-water
+478,Black Coffee 2kg,Café,6.73,275,Made with organic ingredients.,https://source.unsplash.com/400x400/?black-coffee
+479,Fruit Smoothie,Beverages,23.78,250,Affordable and healthy option.,https://source.unsplash.com/400x400/?fruit-smoothie
+480,Oats,Grocery,4.88,299,Enjoyed across the region.,https://source.unsplash.com/400x400/?oats
+481,Sparkling Water,Beverages,22.09,144,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?sparkling-water
+482,Samosa,Café,6.76,39,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?samosa
+483,Buns,Bakery,23.96,16,Affordable and healthy option.,https://source.unsplash.com/400x400/?buns
+484,Latte,Café,4.37,292,Made with organic ingredients.,https://source.unsplash.com/400x400/?latte
+485,Eggs,Grocery,19.5,87,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?eggs
+486,Soda,Beverages,9.39,163,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?soda
+487,Donut,Bakery,14.86,96,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?donut
+488,Black Coffee 1kg,Café,23.42,279,Affordable and healthy option.,https://source.unsplash.com/400x400/?black-coffee
+489,Smoothie,Café,23.81,201,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?smoothie
+490,Strawberry Tart,Bakery,19.43,34,Top-quality product with great taste.,https://source.unsplash.com/400x400/?strawberry-tart
+491,Energy Drink,Beverages,13.32,200,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?energy-drink
+492,Cooking Oil,Grocery,11.81,63,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cooking-oil
+493,Beans,Grocery,13.7,225,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?beans
+494,Tonic Water,Beverages,3.83,273,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?tonic-water
+495,Bottled Water,Beverages,5.79,149,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?bottled-water
+496,White Bread,Bakery,17.05,260,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?white-bread
+497,Fruit Smoothie,Beverages,9.12,300,Affordable and healthy option.,https://source.unsplash.com/400x400/?fruit-smoothie
+498,Sparkling Water,Beverages,20.19,191,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?sparkling-water
+499,Mandazi,Café,12.08,76,Top-quality product with great taste.,https://source.unsplash.com/400x400/?mandazi
+500,Espresso,Café,6.18,14,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?espresso
+501,Sugar,Grocery,2.19,134,Affordable and healthy option.,https://source.unsplash.com/400x400/?sugar
+502,Cupcake,Bakery,6.1,296,Enjoyed across the region.,https://source.unsplash.com/400x400/?cupcake
+503,Kenyan Tea 1kg,Café,3.63,79,Top-quality product with great taste.,https://source.unsplash.com/400x400/?kenyan-tea
+504,Iced Coffee 500g,Beverages,6.59,21,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+505,White Bread,Bakery,13.59,190,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?white-bread
+506,Samosa,Café,7.08,255,Enjoyed across the region.,https://source.unsplash.com/400x400/?samosa
+507,Soda,Beverages,2.65,67,Affordable and healthy option.,https://source.unsplash.com/400x400/?soda
+508,Oats,Grocery,20.17,165,Top-quality product with great taste.,https://source.unsplash.com/400x400/?oats
+509,Lemonade,Beverages,9.29,73,Enjoyed across the region.,https://source.unsplash.com/400x400/?lemonade
+510,Lemonade,Beverages,23.53,227,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?lemonade
+511,Vanilla Cake,Bakery,1.67,276,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?vanilla-cake
+512,Strawberry Tart,Bakery,16.72,79,Enjoyed across the region.,https://source.unsplash.com/400x400/?strawberry-tart
+513,Lemonade,Beverages,14.59,44,Top-quality product with great taste.,https://source.unsplash.com/400x400/?lemonade
+514,Cupcake,Bakery,11.26,16,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cupcake
+515,Sparkling Water,Beverages,6.31,14,Made with organic ingredients.,https://source.unsplash.com/400x400/?sparkling-water
+516,Tonic Water,Beverages,5.91,158,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tonic-water
+517,Salt,Grocery,22.05,265,Made with organic ingredients.,https://source.unsplash.com/400x400/?salt
+518,Cake Slice,Bakery,16.08,147,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cake-slice
+519,Iced Tea 1kg,Beverages,18.59,293,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-tea
+520,Nyama Choma,Café,10.99,76,Affordable and healthy option.,https://source.unsplash.com/400x400/?nyama-choma
+521,Cookies,Bakery,17.68,169,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cookies
+522,Vanilla Cake,Bakery,16.22,252,Affordable and healthy option.,https://source.unsplash.com/400x400/?vanilla-cake
+523,Fruit Smoothie,Beverages,22.83,240,Top-quality product with great taste.,https://source.unsplash.com/400x400/?fruit-smoothie
+524,Pancakes,Café,7.98,253,Affordable and healthy option.,https://source.unsplash.com/400x400/?pancakes
+525,Iced Coffee 1kg,Beverages,19.4,141,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-coffee
+526,Oats,Grocery,24.36,152,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?oats
+527,Banana Bread,Bakery,0.85,81,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?banana-bread
+528,Wheat Flour 1kg,Grocery,19.51,143,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?wheat-flour
+529,Tonic Water,Beverages,14.61,158,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tonic-water
+530,Snack Box (3 pcs),Café,23.07,121,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?snack-box
+531,Iced Coffee 2kg,Beverages,18.29,204,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+532,Peanut Butter,Grocery,6.27,152,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?peanut-butter
+533,Fruit Smoothie,Beverages,16.46,284,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-smoothie
+534,Banana Bread,Bakery,18.18,73,Top-quality product with great taste.,https://source.unsplash.com/400x400/?banana-bread
+535,Fruit Smoothie,Beverages,7.97,285,Affordable and healthy option.,https://source.unsplash.com/400x400/?fruit-smoothie
+536,Iced Coffee 1kg,Beverages,22.25,196,Made with organic ingredients.,https://source.unsplash.com/400x400/?iced-coffee
+537,Fruit Cake,Bakery,11.28,278,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fruit-cake
+538,Toilet Paper,Grocery,22.12,286,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?toilet-paper
+539,Brown Bread,Bakery,1.82,266,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?brown-bread
+540,Soya Mince,Grocery,6.99,95,Enjoyed across the region.,https://source.unsplash.com/400x400/?soya-mince
+541,French Fries,Café,23.96,204,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?french-fries
+542,Croissant,Café,3.91,115,Affordable and healthy option.,https://source.unsplash.com/400x400/?croissant
+543,Snack Box (2 pcs),Café,6.87,27,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?snack-box
+544,Cappuccino,Café,1.27,264,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cappuccino
+545,Strawberry Tart,Bakery,1.52,26,Made with organic ingredients.,https://source.unsplash.com/400x400/?strawberry-tart
+546,Salt,Grocery,8.91,143,Enjoyed across the region.,https://source.unsplash.com/400x400/?salt
+547,Energy Drink,Beverages,2.9,96,Affordable and healthy option.,https://source.unsplash.com/400x400/?energy-drink
+548,Bottled Water,Beverages,22.59,210,Made with organic ingredients.,https://source.unsplash.com/400x400/?bottled-water
+549,Cappuccino,Café,20.58,176,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cappuccino
+550,Chai Masala,Café,16.21,248,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?chai-masala
+551,Rice,Grocery,3.54,95,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?rice
+552,White Bread,Bakery,17.72,46,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?white-bread
+553,Chai Masala,Café,12.53,97,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?chai-masala
+554,Donut,Bakery,1.25,92,Made with organic ingredients.,https://source.unsplash.com/400x400/?donut
+555,Chai Masala,Café,19.18,97,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?chai-masala
+556,Beef Burger,Café,18.36,261,Affordable and healthy option.,https://source.unsplash.com/400x400/?beef-burger
+557,Fruit Smoothie,Beverages,18.4,269,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?fruit-smoothie
+558,Wheat Flour 1kg,Grocery,6.33,159,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?wheat-flour
+559,Lentils,Grocery,16.55,114,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?lentils
+560,Energy Drink,Beverages,8.03,112,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?energy-drink
+561,Iced Coffee 2kg,Beverages,7.46,208,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-coffee
+562,Cookies,Bakery,4.2,116,Made with organic ingredients.,https://source.unsplash.com/400x400/?cookies
+563,Cookies,Bakery,9.57,34,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cookies
+564,Green Tea 500g,Café,14.35,161,Made with organic ingredients.,https://source.unsplash.com/400x400/?green-tea
+565,Fruit Juice,Grocery,18.96,282,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-juice
+566,Cupcake,Bakery,13.4,189,Made with organic ingredients.,https://source.unsplash.com/400x400/?cupcake
+567,Fruit Smoothie,Beverages,21.9,60,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-smoothie
+568,Fruit Cake,Bakery,18.55,293,Top-quality product with great taste.,https://source.unsplash.com/400x400/?fruit-cake
+569,Milk 1L,Grocery,0.69,209,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?milk
+570,Cake Slice,Bakery,16.49,215,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cake-slice
+571,Vanilla Cake,Bakery,9.26,194,Top-quality product with great taste.,https://source.unsplash.com/400x400/?vanilla-cake
+572,Maize Flour 500g,Grocery,19.17,182,Top-quality product with great taste.,https://source.unsplash.com/400x400/?maize-flour
+573,Eggs,Grocery,9.81,243,Top-quality product with great taste.,https://source.unsplash.com/400x400/?eggs
+574,Bottled Water,Beverages,22.73,278,Made with organic ingredients.,https://source.unsplash.com/400x400/?bottled-water
+575,Banana Bread,Bakery,0.63,258,Top-quality product with great taste.,https://source.unsplash.com/400x400/?banana-bread
+576,Latte,Café,11.47,195,Enjoyed across the region.,https://source.unsplash.com/400x400/?latte
+577,Peanut Butter,Grocery,21.26,71,Made with organic ingredients.,https://source.unsplash.com/400x400/?peanut-butter
+578,Margarine,Grocery,11.06,218,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?margarine
+579,Cake Slice,Bakery,11.56,166,Affordable and healthy option.,https://source.unsplash.com/400x400/?cake-slice
+580,Cupcake,Bakery,5.24,27,Enjoyed across the region.,https://source.unsplash.com/400x400/?cupcake
+581,Beans,Grocery,8.45,49,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?beans
+582,Iced Coffee 1kg,Beverages,20.2,240,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?iced-coffee
+583,Energy Drink,Beverages,2.27,38,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?energy-drink
+584,Iced Tea 1kg,Beverages,12.93,292,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-tea
+585,Lentils,Grocery,17.78,288,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?lentils
+586,Beef Burger,Café,3.52,42,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?beef-burger
+587,Chapati Roll (3 pcs),Café,1.51,193,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?chapati-roll
+588,Fruit Smoothie,Beverages,5.59,62,Enjoyed across the region.,https://source.unsplash.com/400x400/?fruit-smoothie
+589,Nyama Choma,Café,8.76,167,Enjoyed across the region.,https://source.unsplash.com/400x400/?nyama-choma
+590,Cookies,Bakery,14.72,223,Made with organic ingredients.,https://source.unsplash.com/400x400/?cookies
+591,Iced Coffee 2kg,Beverages,3.24,200,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+592,Soda,Beverages,13.79,285,Top-quality product with great taste.,https://source.unsplash.com/400x400/?soda
+593,Black Coffee 1kg,Café,14.1,16,Top-quality product with great taste.,https://source.unsplash.com/400x400/?black-coffee
+594,Lemonade,Beverages,10.36,267,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?lemonade
+595,French Fries,Café,10.6,121,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?french-fries
+596,Sparkling Water,Beverages,16.27,167,Affordable and healthy option.,https://source.unsplash.com/400x400/?sparkling-water
+597,Cake Slice,Bakery,7.6,171,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cake-slice
+598,Herbal Tea 500g,Beverages,11.78,222,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?herbal-tea
+599,Cookies,Bakery,6.56,259,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cookies
+600,Margarine,Grocery,1.52,146,Made with organic ingredients.,https://source.unsplash.com/400x400/?margarine
+601,French Fries,Café,3.53,45,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?french-fries
+602,Chapati Flour 500g,Grocery,17.45,29,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?chapati-flour
+603,Chapati Roll (2 pcs),Café,14.6,29,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?chapati-roll
+604,Tomato Sauce,Grocery,23.92,214,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?tomato-sauce
+605,Cake Slice,Bakery,12.37,275,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cake-slice
+606,Spaghetti,Grocery,8.53,210,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?spaghetti
+607,Cookies,Bakery,19.53,80,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cookies
+608,Beans,Grocery,11.06,205,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?beans
+609,Snack Box (2 pcs),Café,10.21,28,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?snack-box
+610,Margarine,Grocery,13.67,50,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?margarine
+611,Beans,Grocery,16.23,271,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?beans
+612,Cake Slice,Bakery,16.61,112,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cake-slice
+613,Tonic Water,Beverages,11.95,21,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?tonic-water
+614,Margarine,Grocery,10.79,112,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?margarine
+615,Salt,Grocery,5.17,247,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?salt
+616,Oats,Grocery,4.51,139,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?oats
+617,Croissant,Café,22.22,292,Made with organic ingredients.,https://source.unsplash.com/400x400/?croissant
+618,Hot Chocolate,Café,10.52,22,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?hot-chocolate
+619,Fruit Juice,Grocery,14.6,275,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-juice
+620,Donut,Bakery,18.7,134,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?donut
+621,Cake Slice,Bakery,18.88,204,Enjoyed across the region.,https://source.unsplash.com/400x400/?cake-slice
+622,Fruit Cake,Bakery,15.45,53,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-cake
+623,Herbal Tea 2kg,Beverages,22.08,255,Enjoyed across the region.,https://source.unsplash.com/400x400/?herbal-tea
+624,Cake Slice,Bakery,6.59,204,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cake-slice
+625,Fruit Smoothie,Beverages,2.43,192,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-smoothie
+626,Cupcake,Bakery,20.62,249,Enjoyed across the region.,https://source.unsplash.com/400x400/?cupcake
+627,Snack Box (6 pcs),Café,4.12,57,Made with organic ingredients.,https://source.unsplash.com/400x400/?snack-box
+628,Brown Bread,Bakery,17.85,226,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?brown-bread
+629,Bread,Grocery,17.11,138,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?bread
+630,Beef Burger,Café,18.34,18,Top-quality product with great taste.,https://source.unsplash.com/400x400/?beef-burger
+631,Spaghetti,Grocery,1.28,65,Made with organic ingredients.,https://source.unsplash.com/400x400/?spaghetti
+632,Canned Fish,Grocery,9.65,22,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?canned-fish
+633,Milk 1L,Grocery,6.11,76,Top-quality product with great taste.,https://source.unsplash.com/400x400/?milk
+634,Toilet Paper,Grocery,20.67,232,Made with organic ingredients.,https://source.unsplash.com/400x400/?toilet-paper
+635,Black Coffee 1kg,Café,3.42,160,Made with organic ingredients.,https://source.unsplash.com/400x400/?black-coffee
+636,Uji Flour 1kg,Grocery,22.45,118,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?uji-flour
+637,Eggs,Grocery,20.08,222,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?eggs
+638,Cake Slice,Bakery,23.19,256,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cake-slice
+639,Iced Tea 2kg,Beverages,16.63,290,Affordable and healthy option.,https://source.unsplash.com/400x400/?iced-tea
+640,Brown Bread,Bakery,9.86,84,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?brown-bread
+641,Milk 1L,Grocery,1.94,180,Made with organic ingredients.,https://source.unsplash.com/400x400/?milk
+642,French Fries,Café,8.95,262,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?french-fries
+643,Sparkling Water,Beverages,19.82,211,Made with organic ingredients.,https://source.unsplash.com/400x400/?sparkling-water
+644,Cookies,Bakery,17.26,24,Affordable and healthy option.,https://source.unsplash.com/400x400/?cookies
+645,Tonic Water,Beverages,10.51,149,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?tonic-water
+646,Energy Drink,Beverages,13.99,46,Made with organic ingredients.,https://source.unsplash.com/400x400/?energy-drink
+647,Soya Mince,Grocery,20.94,92,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?soya-mince
+648,Spaghetti,Grocery,6.25,132,Enjoyed across the region.,https://source.unsplash.com/400x400/?spaghetti
+649,Bottled Water,Beverages,10.31,129,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bottled-water
+650,Toilet Paper,Grocery,17.72,34,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?toilet-paper
+651,Chicken Wings,Café,12.62,215,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?chicken-wings
+652,Green Tea 2kg,Café,15.0,186,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?green-tea
+653,Sparkling Water,Beverages,6.9,290,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?sparkling-water
+654,Beans,Grocery,11.37,284,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?beans
+655,Brown Bread,Bakery,5.87,120,Affordable and healthy option.,https://source.unsplash.com/400x400/?brown-bread
+656,Fresh Vegetables,Grocery,13.2,164,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?fresh-vegetables
+657,Black Coffee 500g,Café,13.59,58,Top-quality product with great taste.,https://source.unsplash.com/400x400/?black-coffee
+658,Banana Bread,Bakery,13.34,91,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?banana-bread
+659,Herbal Tea 2kg,Beverages,3.29,130,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?herbal-tea
+660,Sparkling Water,Beverages,4.39,220,Affordable and healthy option.,https://source.unsplash.com/400x400/?sparkling-water
+661,Canned Fish,Grocery,21.89,181,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?canned-fish
+662,Espresso,Café,16.85,10,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?espresso
+663,Croissant,Café,8.55,106,Affordable and healthy option.,https://source.unsplash.com/400x400/?croissant
+664,Eggs,Grocery,19.81,249,Top-quality product with great taste.,https://source.unsplash.com/400x400/?eggs
+665,Snack Box (3 pcs),Café,7.34,201,Enjoyed across the region.,https://source.unsplash.com/400x400/?snack-box
+666,White Bread,Bakery,24.34,255,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?white-bread
+667,Canned Fish,Grocery,7.79,172,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?canned-fish
+668,Soya Mince,Grocery,18.65,181,Top-quality product with great taste.,https://source.unsplash.com/400x400/?soya-mince
+669,Fruit Juice,Grocery,23.56,281,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-juice
+670,Vanilla Cake,Bakery,6.03,111,Made with organic ingredients.,https://source.unsplash.com/400x400/?vanilla-cake
+671,Butter Scone,Bakery,7.21,61,Top-quality product with great taste.,https://source.unsplash.com/400x400/?butter-scone
+672,Soya Mince,Grocery,16.92,155,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?soya-mince
+673,Tonic Water,Beverages,12.06,283,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?tonic-water
+674,Fruit Smoothie,Beverages,3.68,27,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?fruit-smoothie
+675,Canned Fish,Grocery,18.83,220,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?canned-fish
+676,Margarine,Grocery,18.08,170,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?margarine
+677,Pancakes,Café,2.05,215,Affordable and healthy option.,https://source.unsplash.com/400x400/?pancakes
+678,Brown Bread,Bakery,1.16,42,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?brown-bread
+679,Sausage Roll (5 pcs),Café,6.05,89,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?sausage-roll
+680,Vanilla Cake,Bakery,7.3,177,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?vanilla-cake
+681,Herbal Tea 2kg,Beverages,15.71,179,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?herbal-tea
+682,Lemonade,Beverages,1.04,104,Affordable and healthy option.,https://source.unsplash.com/400x400/?lemonade
+683,Maize Flour 500g,Grocery,16.18,246,Affordable and healthy option.,https://source.unsplash.com/400x400/?maize-flour
+684,Cappuccino,Café,19.92,82,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cappuccino
+685,Wheat Flour 500g,Grocery,11.08,76,Enjoyed across the region.,https://source.unsplash.com/400x400/?wheat-flour
+686,Iced Tea 1kg,Beverages,13.62,141,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?iced-tea
+687,Croissant,Café,12.67,275,Made with organic ingredients.,https://source.unsplash.com/400x400/?croissant
+688,Peanut Butter,Grocery,21.18,167,Made with organic ingredients.,https://source.unsplash.com/400x400/?peanut-butter
+689,Green Tea 2kg,Café,16.82,155,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?green-tea
+690,Cookies,Bakery,4.5,243,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cookies
+691,Iced Tea 500g,Beverages,19.56,61,Made with organic ingredients.,https://source.unsplash.com/400x400/?iced-tea
+692,Brown Bread,Bakery,9.68,172,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?brown-bread
+693,Peanut Butter,Grocery,8.74,275,Affordable and healthy option.,https://source.unsplash.com/400x400/?peanut-butter
+694,Soda,Beverages,23.74,279,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?soda
+695,Spaghetti,Grocery,4.11,179,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?spaghetti
+696,Beef Burger,Café,6.97,142,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?beef-burger
+697,Fruit Cake,Bakery,23.33,75,Enjoyed across the region.,https://source.unsplash.com/400x400/?fruit-cake
+698,Lentils,Grocery,11.86,235,Made with organic ingredients.,https://source.unsplash.com/400x400/?lentils
+699,Snack Box (2 pcs),Café,18.91,46,Made with organic ingredients.,https://source.unsplash.com/400x400/?snack-box
+700,Cake Slice,Bakery,2.55,131,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cake-slice
+701,Tonic Water,Beverages,10.62,238,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?tonic-water
+702,Tea Leaves 1kg,Grocery,12.57,297,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?tea-leaves
+703,Bottled Water,Beverages,17.07,190,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?bottled-water
+704,Fruit Smoothie,Beverages,24.23,108,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fruit-smoothie
+705,Fruit Juice,Grocery,11.67,171,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-juice
+706,Herbal Tea 500g,Beverages,9.26,140,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?herbal-tea
+707,Fruit Smoothie,Beverages,15.33,277,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-smoothie
+708,Muffin,Café,15.41,282,Affordable and healthy option.,https://source.unsplash.com/400x400/?muffin
+709,Kenyan Tea 2kg,Café,3.47,237,Enjoyed across the region.,https://source.unsplash.com/400x400/?kenyan-tea
+710,Iced Tea 2kg,Beverages,22.15,13,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-tea
+711,French Fries,Café,21.01,201,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?french-fries
+712,Tonic Water,Beverages,4.14,26,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?tonic-water
+713,Soya Mince,Grocery,24.04,115,Enjoyed across the region.,https://source.unsplash.com/400x400/?soya-mince
+714,French Fries,Café,15.68,22,Top-quality product with great taste.,https://source.unsplash.com/400x400/?french-fries
+715,Iced Tea 1kg,Beverages,1.78,278,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?iced-tea
+716,Vanilla Cake,Bakery,7.3,94,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?vanilla-cake
+717,Lemonade,Beverages,23.69,107,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?lemonade
+718,Jam Roll (6 pcs),Bakery,20.57,284,Enjoyed across the region.,https://source.unsplash.com/400x400/?jam-roll
+719,Iced Tea 2kg,Beverages,2.11,53,Made with organic ingredients.,https://source.unsplash.com/400x400/?iced-tea
+720,Cooking Oil,Grocery,11.94,255,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cooking-oil
+721,Iced Tea 500g,Beverages,2.61,263,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?iced-tea
+722,Sparkling Water,Beverages,4.04,130,Made with organic ingredients.,https://source.unsplash.com/400x400/?sparkling-water
+723,Milkshake 1L,Café,8.77,278,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?milkshake
+724,Butter Scone,Bakery,15.83,271,Affordable and healthy option.,https://source.unsplash.com/400x400/?butter-scone
+725,Samosa,Café,16.76,67,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?samosa
+726,Fruit Cake,Bakery,1.11,99,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fruit-cake
+727,Lemonade,Beverages,2.87,252,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?lemonade
+728,Fruit Cake,Bakery,12.82,225,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?fruit-cake
+729,Croissant,Café,24.48,252,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?croissant
+730,Lentils,Grocery,10.5,48,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?lentils
+731,Soda,Beverages,1.31,252,Top-quality product with great taste.,https://source.unsplash.com/400x400/?soda
+732,Espresso,Café,22.0,115,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?espresso
+733,Beans,Grocery,7.95,64,Affordable and healthy option.,https://source.unsplash.com/400x400/?beans
+734,Nyama Choma,Café,7.24,253,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?nyama-choma
+735,Canned Fish,Grocery,4.84,285,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?canned-fish
+736,Sparkling Water,Beverages,10.73,173,Top-quality product with great taste.,https://source.unsplash.com/400x400/?sparkling-water
+737,Fruit Smoothie,Beverages,2.51,172,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?fruit-smoothie
+738,Latte,Café,16.4,224,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?latte
+739,Iced Tea 500g,Beverages,9.97,156,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?iced-tea
+740,Soda,Beverages,10.83,227,Made with organic ingredients.,https://source.unsplash.com/400x400/?soda
+741,Iced Coffee 2kg,Beverages,1.95,286,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-coffee
+742,Uji Flour 1kg,Grocery,7.86,88,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?uji-flour
+743,Iced Coffee 1kg,Beverages,18.85,125,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-coffee
+744,Nyama Choma,Café,12.87,171,Enjoyed across the region.,https://source.unsplash.com/400x400/?nyama-choma
+745,Black Coffee 500g,Café,15.53,73,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?black-coffee
+746,Tomato Sauce,Grocery,10.98,152,Enjoyed across the region.,https://source.unsplash.com/400x400/?tomato-sauce
+747,Buns,Bakery,23.2,136,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?buns
+748,Black Coffee 2kg,Café,19.98,220,Enjoyed across the region.,https://source.unsplash.com/400x400/?black-coffee
+749,Fruit Juice,Grocery,1.9,258,Enjoyed across the region.,https://source.unsplash.com/400x400/?fruit-juice
+750,Lemonade,Beverages,22.92,244,Affordable and healthy option.,https://source.unsplash.com/400x400/?lemonade
+751,Brown Bread,Bakery,3.64,199,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?brown-bread
+752,Energy Drink,Beverages,10.98,38,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?energy-drink
+753,Tonic Water,Beverages,21.19,122,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?tonic-water
+754,Mandazi,Café,10.5,66,Top-quality product with great taste.,https://source.unsplash.com/400x400/?mandazi
+755,Iced Coffee 1kg,Beverages,21.46,209,Affordable and healthy option.,https://source.unsplash.com/400x400/?iced-coffee
+756,Milkshake 500ml,Café,5.85,158,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?milkshake
+757,Tomato Sauce,Grocery,18.13,142,Made with organic ingredients.,https://source.unsplash.com/400x400/?tomato-sauce
+758,Tonic Water,Beverages,22.77,161,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?tonic-water
+759,Banana Bread,Bakery,1.41,30,Enjoyed across the region.,https://source.unsplash.com/400x400/?banana-bread
+760,Herbal Tea 2kg,Beverages,22.73,109,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?herbal-tea
+761,Sausage Roll (6 pcs),Café,19.0,249,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?sausage-roll
+762,Jam Roll (3 pcs),Bakery,2.85,172,Affordable and healthy option.,https://source.unsplash.com/400x400/?jam-roll
+763,Kenyan Tea 2kg,Café,3.59,128,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?kenyan-tea
+764,Tonic Water,Beverages,14.11,139,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?tonic-water
+765,Iced Tea 500g,Beverages,10.34,179,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-tea
+766,Cookies,Bakery,18.94,137,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cookies
+767,Jam Roll (4 pcs),Bakery,19.13,240,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?jam-roll
+768,Bottled Water,Beverages,1.33,96,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?bottled-water
+769,Cookies,Bakery,2.15,61,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?cookies
+770,Black Coffee 2kg,Café,23.43,52,Made with organic ingredients.,https://source.unsplash.com/400x400/?black-coffee
+771,Fresh Vegetables,Grocery,13.7,229,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fresh-vegetables
+772,Cake Slice,Bakery,12.75,134,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cake-slice
+773,French Fries,Café,8.78,65,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?french-fries
+774,Croissant,Café,12.16,229,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?croissant
+775,Cake Slice,Bakery,2.08,157,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?cake-slice
+776,Margarine,Grocery,10.13,195,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?margarine
+777,Cookies,Bakery,22.14,86,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cookies
+778,White Bread,Bakery,9.22,56,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?white-bread
+779,Butter Scone,Bakery,12.56,130,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?butter-scone
+780,Salt,Grocery,9.77,42,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?salt
+781,Tea Leaves 1kg,Grocery,1.01,71,Top-quality product with great taste.,https://source.unsplash.com/400x400/?tea-leaves
+782,Eggs,Grocery,1.8,170,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?eggs
+783,Brown Bread,Bakery,21.6,289,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?brown-bread
+784,Bread,Grocery,21.23,252,Enjoyed across the region.,https://source.unsplash.com/400x400/?bread
+785,French Fries,Café,7.09,199,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?french-fries
+786,Herbal Tea 1kg,Beverages,7.47,177,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?herbal-tea
+787,Buns,Bakery,12.95,221,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?buns
+788,Jam Roll (3 pcs),Bakery,14.51,92,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?jam-roll
+789,Cookies,Bakery,1.42,135,Made with organic ingredients.,https://source.unsplash.com/400x400/?cookies
+790,White Bread,Bakery,22.63,78,Affordable and healthy option.,https://source.unsplash.com/400x400/?white-bread
+791,Jam Roll (2 pcs),Bakery,14.45,107,Top-quality product with great taste.,https://source.unsplash.com/400x400/?jam-roll
+792,Sparkling Water,Beverages,8.23,281,Top-quality product with great taste.,https://source.unsplash.com/400x400/?sparkling-water
+793,Mandazi,Café,12.15,160,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?mandazi
+794,Banana Bread,Bakery,3.45,194,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?banana-bread
+795,Wheat Flour 500g,Grocery,21.63,35,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?wheat-flour
+796,Black Coffee 500g,Café,10.52,192,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?black-coffee
+797,Cake Slice,Bakery,12.99,10,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cake-slice
+798,Tonic Water,Beverages,23.86,280,Affordable and healthy option.,https://source.unsplash.com/400x400/?tonic-water
+799,White Bread,Bakery,14.64,234,Enjoyed across the region.,https://source.unsplash.com/400x400/?white-bread
+800,Vanilla Cake,Bakery,17.84,289,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?vanilla-cake
+801,Peanut Butter,Grocery,1.19,242,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?peanut-butter
+802,Sparkling Water,Beverages,22.54,255,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?sparkling-water
+803,Iced Coffee 1kg,Beverages,16.97,68,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?iced-coffee
+804,Fruit Cake,Bakery,5.48,31,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fruit-cake
+805,Oats,Grocery,16.1,150,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?oats
+806,Espresso,Café,16.89,180,Enjoyed across the region.,https://source.unsplash.com/400x400/?espresso
+807,Sparkling Water,Beverages,12.49,199,Made with organic ingredients.,https://source.unsplash.com/400x400/?sparkling-water
+808,Sparkling Water,Beverages,23.34,27,Top-quality product with great taste.,https://source.unsplash.com/400x400/?sparkling-water
+809,Cooking Oil,Grocery,3.98,200,Affordable and healthy option.,https://source.unsplash.com/400x400/?cooking-oil
+810,Espresso,Café,17.43,117,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?espresso
+811,Jam Roll (4 pcs),Bakery,1.17,201,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?jam-roll
+812,Cake Slice,Bakery,24.73,137,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cake-slice
+813,Strawberry Tart,Bakery,15.39,273,Made with organic ingredients.,https://source.unsplash.com/400x400/?strawberry-tart
+814,Muffin,Café,16.14,225,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?muffin
+815,Soda,Beverages,11.64,14,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?soda
+816,Eggs,Grocery,20.08,230,Made with organic ingredients.,https://source.unsplash.com/400x400/?eggs
+817,Sausage Roll (5 pcs),Café,5.04,247,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?sausage-roll
+818,Buns,Bakery,18.87,293,Affordable and healthy option.,https://source.unsplash.com/400x400/?buns
+819,Tea Leaves 500g,Grocery,11.32,73,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tea-leaves
+820,Cooking Oil,Grocery,4.78,139,Made with organic ingredients.,https://source.unsplash.com/400x400/?cooking-oil
+821,Buns,Bakery,21.94,131,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?buns
+822,Kenyan Tea 2kg,Café,16.68,29,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?kenyan-tea
+823,Iced Coffee 2kg,Beverages,10.47,103,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-coffee
+824,Canned Fish,Grocery,6.92,253,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?canned-fish
+825,Tomato Sauce,Grocery,6.63,23,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tomato-sauce
+826,Beans,Grocery,1.37,89,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?beans
+827,Milk 1L,Grocery,20.62,287,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?milk
+828,Beans,Grocery,5.58,162,Top-quality product with great taste.,https://source.unsplash.com/400x400/?beans
+829,Soda,Beverages,23.76,262,Made with organic ingredients.,https://source.unsplash.com/400x400/?soda
+830,Tomato Sauce,Grocery,5.92,174,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tomato-sauce
+831,Strawberry Tart,Bakery,0.77,262,Affordable and healthy option.,https://source.unsplash.com/400x400/?strawberry-tart
+832,Cooking Oil,Grocery,8.89,208,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cooking-oil
+833,Fresh Vegetables,Grocery,21.45,94,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fresh-vegetables
+834,Milk 1L,Grocery,8.86,65,Affordable and healthy option.,https://source.unsplash.com/400x400/?milk
+835,Doughnut,Café,6.52,282,Made with organic ingredients.,https://source.unsplash.com/400x400/?doughnut
+836,Milk 1L,Grocery,3.58,255,Affordable and healthy option.,https://source.unsplash.com/400x400/?milk
+837,Herbal Tea 1kg,Beverages,4.73,90,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?herbal-tea
+838,Fruit Smoothie,Beverages,15.19,93,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-smoothie
+839,Toilet Paper,Grocery,15.76,257,Affordable and healthy option.,https://source.unsplash.com/400x400/?toilet-paper
+840,Bottled Water,Beverages,0.88,207,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?bottled-water
+841,Bottled Water,Beverages,23.85,92,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?bottled-water
+842,Peanut Butter,Grocery,16.73,54,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?peanut-butter
+843,Spaghetti,Grocery,8.22,228,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?spaghetti
+844,Hot Chocolate,Café,20.41,217,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?hot-chocolate
+845,Fruit Smoothie,Beverages,13.96,158,Enjoyed across the region.,https://source.unsplash.com/400x400/?fruit-smoothie
+846,Eggs,Grocery,11.01,72,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?eggs
+847,Peanut Butter,Grocery,18.15,52,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?peanut-butter
+848,Fruit Smoothie,Beverages,7.36,215,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fruit-smoothie
+849,Energy Drink,Beverages,5.45,227,Enjoyed across the region.,https://source.unsplash.com/400x400/?energy-drink
+850,Black Coffee 500g,Café,4.44,165,Enjoyed across the region.,https://source.unsplash.com/400x400/?black-coffee
+851,Iced Coffee 2kg,Beverages,21.15,108,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?iced-coffee
+852,Hot Chocolate,Café,12.25,277,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?hot-chocolate
+853,Chicken Wings,Café,18.41,259,Enjoyed across the region.,https://source.unsplash.com/400x400/?chicken-wings
+854,Sugar,Grocery,3.59,211,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?sugar
+855,Cappuccino,Café,24.93,251,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cappuccino
+856,Latte,Café,13.94,147,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?latte
+857,Chapati Flour 2kg,Grocery,9.39,152,Top-quality product with great taste.,https://source.unsplash.com/400x400/?chapati-flour
+858,Snack Box (4 pcs),Café,11.38,59,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?snack-box
+859,Strawberry Tart,Bakery,4.09,152,Made with organic ingredients.,https://source.unsplash.com/400x400/?strawberry-tart
+860,Soda,Beverages,15.76,183,Affordable and healthy option.,https://source.unsplash.com/400x400/?soda
+861,Butter Scone,Bakery,12.88,296,Top-quality product with great taste.,https://source.unsplash.com/400x400/?butter-scone
+862,Green Tea 500g,Café,21.37,295,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?green-tea
+863,Mandazi,Café,20.53,237,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?mandazi
+864,Black Coffee 1kg,Café,20.15,89,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?black-coffee
+865,Fruit Smoothie,Beverages,19.31,26,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?fruit-smoothie
+866,Espresso,Café,11.6,59,Enjoyed across the region.,https://source.unsplash.com/400x400/?espresso
+867,Oats,Grocery,11.69,60,Top-quality product with great taste.,https://source.unsplash.com/400x400/?oats
+868,Doughnut,Café,12.25,188,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?doughnut
+869,Milk 1L,Grocery,22.49,156,Made with organic ingredients.,https://source.unsplash.com/400x400/?milk
+870,Tea Leaves 500g,Grocery,9.05,205,Top-quality product with great taste.,https://source.unsplash.com/400x400/?tea-leaves
+871,Salt,Grocery,15.73,53,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?salt
+872,Butter Scone,Bakery,20.97,213,Top-quality product with great taste.,https://source.unsplash.com/400x400/?butter-scone
+873,Banana Bread,Bakery,18.45,212,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?banana-bread
+874,Vanilla Cake,Bakery,22.83,65,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?vanilla-cake
+875,Fruit Juice,Grocery,5.39,158,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-juice
+876,Bottled Water,Beverages,22.43,204,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?bottled-water
+877,Banana Bread,Bakery,18.44,295,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?banana-bread
+878,Butter Scone,Bakery,21.39,160,Top-quality product with great taste.,https://source.unsplash.com/400x400/?butter-scone
+879,Cupcake,Bakery,24.3,282,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cupcake
+880,Nyama Choma,Café,0.84,230,Top-quality product with great taste.,https://source.unsplash.com/400x400/?nyama-choma
+881,Smoothie,Café,2.94,218,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?smoothie
+882,Brown Bread,Bakery,4.89,112,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?brown-bread
+883,Fruit Juice,Grocery,6.02,267,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-juice
+884,Strawberry Tart,Bakery,7.39,109,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?strawberry-tart
+885,Black Coffee 500g,Café,21.85,113,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?black-coffee
+886,Energy Drink,Beverages,7.16,299,Made with organic ingredients.,https://source.unsplash.com/400x400/?energy-drink
+887,Toilet Paper,Grocery,5.34,298,Top-quality product with great taste.,https://source.unsplash.com/400x400/?toilet-paper
+888,Beef Burger,Café,16.67,195,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?beef-burger
+889,Salt,Grocery,23.35,188,Enjoyed across the region.,https://source.unsplash.com/400x400/?salt
+890,Vanilla Cake,Bakery,16.76,100,Top-quality product with great taste.,https://source.unsplash.com/400x400/?vanilla-cake
+891,Lemonade,Beverages,9.88,253,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?lemonade
+892,Green Tea 1kg,Café,10.78,65,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?green-tea
+893,Beef Burger,Café,7.81,75,Top-quality product with great taste.,https://source.unsplash.com/400x400/?beef-burger
+894,Nyama Choma,Café,6.4,16,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?nyama-choma
+895,Smoothie,Café,23.51,112,Top-quality product with great taste.,https://source.unsplash.com/400x400/?smoothie
+896,Spaghetti,Grocery,20.78,202,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?spaghetti
+897,Jam Roll (6 pcs),Bakery,18.26,13,Top-quality product with great taste.,https://source.unsplash.com/400x400/?jam-roll
+898,Rice,Grocery,8.04,106,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?rice
+899,Chapati Roll (5 pcs),Café,5.08,174,Affordable and healthy option.,https://source.unsplash.com/400x400/?chapati-roll
+900,French Fries,Café,2.49,229,Top-quality product with great taste.,https://source.unsplash.com/400x400/?french-fries
+901,Chai Masala,Café,1.74,47,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?chai-masala
+902,Sausage Roll (3 pcs),Café,19.37,232,Made with organic ingredients.,https://source.unsplash.com/400x400/?sausage-roll
+903,Donut,Bakery,1.18,17,Made with organic ingredients.,https://source.unsplash.com/400x400/?donut
+904,Bottled Water,Beverages,16.93,162,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?bottled-water
+905,Doughnut,Café,9.83,124,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?doughnut
+906,Cupcake,Bakery,15.71,141,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?cupcake
+907,Chicken Wings,Café,13.99,161,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?chicken-wings
+908,Cake Slice,Bakery,17.46,208,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cake-slice
+909,Bottled Water,Beverages,18.12,258,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?bottled-water
+910,Fruit Smoothie,Beverages,22.28,81,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?fruit-smoothie
+911,Hot Chocolate,Café,17.71,97,Made with organic ingredients.,https://source.unsplash.com/400x400/?hot-chocolate
+912,Cupcake,Bakery,10.88,167,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cupcake
+913,Nyama Choma,Café,24.85,171,Affordable and healthy option.,https://source.unsplash.com/400x400/?nyama-choma
+914,Chicken Wings,Café,21.01,205,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?chicken-wings
+915,Samosa,Café,21.74,241,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?samosa
+916,Vanilla Cake,Bakery,6.51,226,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?vanilla-cake
+917,Donut,Bakery,10.52,227,Affordable and healthy option.,https://source.unsplash.com/400x400/?donut
+918,Butter Scone,Bakery,3.25,196,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?butter-scone
+919,Butter Scone,Bakery,22.91,40,Made with organic ingredients.,https://source.unsplash.com/400x400/?butter-scone
+920,White Bread,Bakery,5.84,234,Affordable and healthy option.,https://source.unsplash.com/400x400/?white-bread
+921,Jam Roll (2 pcs),Bakery,1.01,191,Top-quality product with great taste.,https://source.unsplash.com/400x400/?jam-roll
+922,Sparkling Water,Beverages,4.41,160,Top-quality product with great taste.,https://source.unsplash.com/400x400/?sparkling-water
+923,Chicken Wings,Café,12.98,289,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?chicken-wings
+924,Soda,Beverages,18.69,180,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?soda
+925,Sparkling Water,Beverages,9.83,163,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?sparkling-water
+926,Iced Tea 2kg,Beverages,6.07,117,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?iced-tea
+927,Bottled Water,Beverages,21.22,250,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?bottled-water
+928,Mandazi,Café,4.33,212,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?mandazi
+929,Energy Drink,Beverages,0.96,12,Made with organic ingredients.,https://source.unsplash.com/400x400/?energy-drink
+930,Cooking Oil,Grocery,1.51,67,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?cooking-oil
+931,Sausage Roll (3 pcs),Café,13.97,196,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?sausage-roll
+932,White Bread,Bakery,14.76,99,Top-quality product with great taste.,https://source.unsplash.com/400x400/?white-bread
+933,Lentils,Grocery,13.5,253,Affordable and healthy option.,https://source.unsplash.com/400x400/?lentils
+934,Rice,Grocery,18.87,105,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?rice
+935,Cupcake,Bakery,8.1,111,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?cupcake
+936,Tomato Sauce,Grocery,8.45,264,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?tomato-sauce
+937,Maize Flour 500g,Grocery,11.42,121,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?maize-flour
+938,Banana Bread,Bakery,14.13,217,Enjoyed across the region.,https://source.unsplash.com/400x400/?banana-bread
+939,Iced Coffee 2kg,Beverages,8.31,250,Enjoyed across the region.,https://source.unsplash.com/400x400/?iced-coffee
+940,Nyama Choma,Café,20.07,216,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?nyama-choma
+941,Beef Burger,Café,24.34,14,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?beef-burger
+942,Iced Tea 1kg,Beverages,3.99,69,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?iced-tea
+943,Snack Box (6 pcs),Café,4.49,110,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?snack-box
+944,Croissant,Café,9.6,119,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?croissant
+945,Soya Mince,Grocery,18.35,68,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?soya-mince
+946,Margarine,Grocery,9.94,59,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?margarine
+947,Tonic Water,Beverages,3.91,40,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?tonic-water
+948,Milk 1L,Grocery,13.16,221,Affordable and healthy option.,https://source.unsplash.com/400x400/?milk
+949,Fruit Smoothie,Beverages,13.69,127,Made with organic ingredients.,https://source.unsplash.com/400x400/?fruit-smoothie
+950,Snack Box (3 pcs),Café,3.95,211,Enjoyed across the region.,https://source.unsplash.com/400x400/?snack-box
+951,Buns,Bakery,0.71,200,Enjoyed across the region.,https://source.unsplash.com/400x400/?buns
+952,Donut,Bakery,20.8,272,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?donut
+953,Bottled Water,Beverages,12.07,150,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?bottled-water
+954,Fruit Cake,Bakery,21.32,235,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?fruit-cake
+955,Cookies,Bakery,23.78,46,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cookies
+956,Wheat Flour 1kg,Grocery,23.52,20,Enjoyed across the region.,https://source.unsplash.com/400x400/?wheat-flour
+957,Lemonade,Beverages,23.4,227,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?lemonade
+958,Toilet Paper,Grocery,8.99,27,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?toilet-paper
+959,Doughnut,Café,21.38,73,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?doughnut
+960,Vanilla Cake,Bakery,6.73,235,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?vanilla-cake
+961,Toilet Paper,Grocery,24.29,265,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?toilet-paper
+962,Buns,Bakery,11.73,45,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?buns
+963,Bottled Water,Beverages,1.76,79,Enjoyed across the region.,https://source.unsplash.com/400x400/?bottled-water
+964,Butter Scone,Bakery,17.11,242,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?butter-scone
+965,Milk 500ml,Grocery,2.2,291,Made with organic ingredients.,https://source.unsplash.com/400x400/?milk
+966,Brown Bread,Bakery,20.86,80,Enjoyed across the region.,https://source.unsplash.com/400x400/?brown-bread
+967,Black Coffee 1kg,Café,18.68,249,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?black-coffee
+968,Toilet Paper,Grocery,9.68,48,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?toilet-paper
+969,Croissant,Café,12.97,58,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?croissant
+970,Chai Masala,Café,24.8,46,Made with organic ingredients.,https://source.unsplash.com/400x400/?chai-masala
+971,Wheat Flour 2kg,Grocery,9.75,154,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?wheat-flour
+972,Beef Burger,Café,19.74,127,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?beef-burger
+973,Cupcake,Bakery,13.29,244,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?cupcake
+974,Fruit Smoothie,Beverages,0.61,80,A staple in Kenyan kitchens.,https://source.unsplash.com/400x400/?fruit-smoothie
+975,Cappuccino,Café,10.57,177,Made with organic ingredients.,https://source.unsplash.com/400x400/?cappuccino
+976,Iced Coffee 2kg,Beverages,12.53,24,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?iced-coffee
+977,Banana Bread,Bakery,13.27,139,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?banana-bread
+978,Bottled Water,Beverages,13.81,268,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?bottled-water
+979,Strawberry Tart,Bakery,10.83,92,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?strawberry-tart
+980,Sparkling Water,Beverages,12.82,183,Enjoyed across the region.,https://source.unsplash.com/400x400/?sparkling-water
+981,Beef Burger,Café,5.56,212,Enjoyed across the region.,https://source.unsplash.com/400x400/?beef-burger
+982,Banana Bread,Bakery,10.72,166,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?banana-bread
+983,Lentils,Grocery,8.61,220,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?lentils
+984,Sparkling Water,Beverages,11.04,49,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?sparkling-water
+985,Tonic Water,Beverages,8.94,201,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?tonic-water
+986,Doughnut,Café,17.37,38,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?doughnut
+987,Herbal Tea 1kg,Beverages,12.49,59,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?herbal-tea
+988,Strawberry Tart,Bakery,8.43,191,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?strawberry-tart
+989,Samosa,Café,7.99,282,Ideal for breakfast or evening tea.,https://source.unsplash.com/400x400/?samosa
+990,Hot Chocolate,Café,7.98,250,Trusted by families in Kenya.,https://source.unsplash.com/400x400/?hot-chocolate
+991,Strawberry Tart,Bakery,0.67,231,Made with organic ingredients.,https://source.unsplash.com/400x400/?strawberry-tart
+992,Soda,Beverages,24.1,214,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?soda
+993,Milk 500ml,Grocery,17.14,141,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?milk
+994,Buns,Bakery,2.51,73,Made with organic ingredients.,https://source.unsplash.com/400x400/?buns
+995,Pancakes,Café,13.93,246,Prepared daily for maximum freshness.,https://source.unsplash.com/400x400/?pancakes
+996,Strawberry Tart,Bakery,17.31,268,Enjoyed across the region.,https://source.unsplash.com/400x400/?strawberry-tart
+997,Milkshake 500ml,Café,3.14,226,Packed with nutrients and flavor.,https://source.unsplash.com/400x400/?milkshake
+998,Beef Burger,Café,5.08,211,Enjoyed across the region.,https://source.unsplash.com/400x400/?beef-burger
+999,Snack Box (5 pcs),Café,14.73,223,Freshly sourced and locally produced.,https://source.unsplash.com/400x400/?snack-box
+1000,Cake Slice,Bakery,4.68,204,Top-quality product with great taste.,https://source.unsplash.com/400x400/?cake-slice

@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Table</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+            color: #333;
+        }
+
+        #news {
+            font-size: 48px;
+            font-weight: bold;
+            color: #666;
+            margin: 0 0 20px 0;
+            letter-spacing: 2px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        thead th {
+            background-color: #f5f5f5;
+            color: #666;
+            font-weight: 600;
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 2px solid #e0e0e0;
+            font-size: 14px;
+            text-transform: lowercase;
+        }
+
+        tbody td {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            vertical-align: top;
+        }
+
+        tbody tr:hover {
+            background-color: #fafafa;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        td:first-child {
+            font-weight: 500;
+        }
+
+        td:last-child {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .section-header {
+            font-size: 32px;
+            font-weight: bold;
+            color: #666;
+            margin: 40px 0 20px 0;
+            letter-spacing: 1px;
+        }
+
+        .links-section {
+            margin-bottom: 30px;
+        }
+
+        .links-section a {
+            display: block;
+            color: #007bff;
+            text-decoration: none;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .links-section a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="news">NEWS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>company</th>
+                <th>headline</th>
+                <th>involvement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.flexport.com">Flexport</a></td>
+                <td><a href="https://www.flexport.com/blog/flexport-secures-usd1-billion-in-funding-led-by-softbank-vision-fund/">Fundraising announcement</a></td>
+                <td>Founder</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.anduril.com">Anduril</a></td>
+                <td><a href="https://techcrunch.com/2025/06/05/anduril-raises-2-5b-at-30-5b-valuation-led-by-founders-fund/">$31B valuation</a></td>
+                <td>Investor</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.rippling.com/">Rippling</a></td>
+                <td><a href="https://www.rippling.com/blog/series-g-fundraising-tender-offer">$17B valuation</a></td>
+                <td>Investor</td>
+            </tr>
+            <tr>
+                <td><a href="https://importgenius.com/">Import Genius</a></td>
+                <td><a href="https://www.cbc.ca/news/bangladesh-factory-that-burned-down-supplied-canadian-market-1.1932095">Import Genius Exposes Sweatshops</a></td>
+                <td>Founder</td>
+            </tr>
+            <tr>
+                <td><a href="https://ramp.com/">Ramp</a></td>
+                <td><a href="https://www.prnewswire.com/news-releases/ramp-raises-200m-series-e-at-16b-valuation-as-companies-of-all-sizes-choose-ai-powered-finance-platform-302483377.html">$16B Valuation</a></td>
+                <td>Investor</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.deel.com/">Deel</a></td>
+                <td><a href="https://www.cnbc.com/2025/02/04/hr-unicorn-deel-prepares-for-ipo-as-soon-as-2026.html#:~:text=The%20company%20said%20that%20General,the%20sensitivity%20of%20the%20matter.">$13B Valuation</a></td>
+                <td>Investor</td>
+            </tr>
+            <tr>
+                <td><a href="https://ouraring.com/">Oura Ring</a></td>
+                <td><a href="https://www.fiercehealthcare.com/health-tech/oura-closes-200m-round-boosting-smart-ring-makers-valuation-52b">$5B Valuation</a></td>
+                <td>Investor</td>
+            </tr>
+            <tr>
+                <td><a href="https://buildzoom.com/">BuildZoom</a></td>
+                <td><a href="https://www.forbes.com/sites/ryanmac/2015/10/14/buildzoom-raises-10-6-million-from-formation-8-y-combinator-to-focus-on-high-end-home-improvements/">Fundraising announcement</a></td>
+                <td>Founder</td>
+            </tr>
+            <tr>
+                <td><a href="https://importgenius.com/">Import Genius</a></td>
+                <td><a href="https://fortune.com/2022/10/17/walmart-intel-general-motors-shipping-import-labor-abuses-customs-manifests/">Import Genius Uncovers Walmart Labor Abuses</a></td>
+                <td>Founder</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="section-header">FOUNDER</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>company</th>
+                <th>about</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Flexport">Flexport</a></td>
+                <td>Global logistics and supply chain platform</td>
+            </tr>
+            <tr>
+                <td><a href="https://buildzoom.com">BuildZoom</a></td>
+                <td>Marketplace for remodeling and construction</td>
+            </tr>
+            <tr>
+                <td><a href="https://importgenius.com">ImportGenius</a></td>
+                <td>Global trade data and intelligence platform</td>
+            </tr>
+            <tr>
+                <td><a href="https://assistedlivingmagazine.com">Assists</a></td>
+                <td>Marketplace serving senior citizens</td>
+            </tr>
+            <tr>
+                <td><a href="https://vindicta.com/">Vindicta</a></td>
+                <td>Anti-aging and skincare research platform</td>
+            </tr>
+            <tr>
+                <td><a href="https://localmovers.com">Local Movers</a></td>
+                <td>Global moving concierge</td>
+            </tr>
+            <tr>
+                <td><a href="https://hotelinsider.com">Hotel Insider</a></td>
+                <td>Travel concierge</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="section-header">PERSONAL</h2>
+    <div class="links-section">
+        <a href="https://www.petersen.org/">Petersen Automotive Museum</a>
+        <a href="https://en.wikipedia.org/wiki/Carl_Friedrich_Petersen">Carl Friedrich Petersen</a>
+    </div>
+
+    <div class="contact-info">
+        David Petersen<br>
+        david@petersen.com<br>
+        <a href="https://www.linkedin.com/in/davidcpetersen/">Linkedin</a><br>
+        <a href="https://www.instagram.com/dcpetersen/">Instagram</a><br>
+        <a href="https://x.com/typesfaster">X/Twitter</a>
+    </div>
+</body>
+</html>
