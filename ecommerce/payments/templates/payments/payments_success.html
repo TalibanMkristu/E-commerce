@@ -41,10 +41,11 @@
             
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="{% url 'dashboard' %}" class="w-full sm:w-auto inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02]">
+            <a href="{% url 'payments:payment-dashboard' %}" class="w-full sm:w-auto inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02]">
                 Go to Dashboard
             </a>
-            <a href="{% url 'invoice-download' order.id %}" class="w-full sm:w-auto inline-flex justify-center items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-md shadow-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02]">
+            <!-- TODO make invice download endpoint -->
+            <a href="#" class="w-full sm:w-auto inline-flex justify-center items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-md shadow-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-[1.02]">
                 Download Invoice
             </a>
             </div>
@@ -54,97 +55,209 @@
     </div>
 
     <style>
-    .animate-checkmark {
-    stroke-dasharray: 24;
-    stroke-dashoffset: 24;
-    animation: draw-checkmark 0.6s ease-out forwards;
-    }
+        .animate-checkmark {
+        stroke-dasharray: 24;
+        stroke-dashoffset: 24;
+        animation: draw-checkmark 0.6s ease-out forwards;
+        }
 
-    @keyframes draw-checkmark {
-    to {
-        stroke-dashoffset: 0;
-    }
-    }
+        @keyframes draw-checkmark {
+        to {
+            stroke-dashoffset: 0;
+        }
+        }
     </style>
+<!-- 
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('paymentSuccess', () => ({
+            init() {
+                this.startConfetti();
+                
+                // Track conversion (uncomment when needed)
+                if (window.analytics) {
+                    analytics.track('Payment Completed', {
+                        amount: '{{ order.amount }}',
+                        currency: '{{ order.currency }}',
+                        order_id: '{{ order.id }}'
+                    });
+                }
+            },
+            
+            startConfetti() {
+                const canvas = document.getElementById('confetti-canvas');
+                if (!canvas) return;
+                
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                
+                const ctx = canvas.getContext('2d');
+                const particles = [];
+                const colors = ['#6366f1', '#ec4899', '#f59e0b', '#10b981', '#3b82f6'];
+                
+                // Create particles
+                for (let i = 0; i < 150; i++) {
+                    particles.push({
+                        x: Math.random() * canvas.width,
+                        y: -Math.random() * canvas.height,
+                        size: Math.random() * 8 + 3,
+                        color: colors[Math.floor(Math.random() * colors.length)],
+                        speed: Math.random() * 3 + 2,
+                        rotation: Math.random() * 360,
+                        rotationSpeed: Math.random() * 5 - 2.5
+                    });
+                }
+                
+                // Animation loop
+                const animate = () => {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    particles.forEach(particle => {
+                        ctx.save();
+                        ctx.translate(particle.x, particle.y);
+                        ctx.rotate(particle.rotation * Math.PI / 180);
+                        
+                        ctx.fillStyle = particle.color;
+                        ctx.fillRect(-particle.size / 2, -particle.size / 2, particle.size, particle.size);
+                        
+                        ctx.restore();
+                        
+                        particle.y += particle.speed;
+                        particle.rotation += particle.rotationSpeed;
+                        
+                        // Reset particles that go off screen
+                        if (particle.y > canvas.height) {
+                            particle.y = -10;
+                            particle.x = Math.random() * canvas.width;
+                        }
+                    });
+                    
+                    requestAnimationFrame(animate);
+                };
+                
+                animate();
+                
+                // Stop after 5 seconds
+                setTimeout(() => {
+                    canvas.style.opacity = '0';
+                    setTimeout(() => {
+                        canvas.remove();
+                    }, 1000);
+                }, 5000);
+            }
+        }));
+    });
+    </script> -->
 
     <script>
-    function paymentSuccess() {
-    return {
-        init() {
-        //   this.startConfetti();
-        
-        //   // Track conversion
-        //   if (window.analytics) {
-        //     analytics.track('Payment Completed', {
-        //       amount: {{ order.amount }},
-        //       currency: '{{ order.currency }}',
-        //       order_id: '{{ order.id }}'
-        //     });
-        //   }
-        // },
-        
-        startConfetti(); {
-        const canvas = document.getElementById('confetti-canvas');
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        
-        const ctx = canvas.getContext('2d');
-        const particles = [];
-        const colors = ['#6366f1', '#ec4899', '#f59e0b', '#10b981', '#3b82f6'];
-        
-        // Create particles
-        for (let i = 0; i < 150; i++) {
-            particles.push({
-            x: Math.random() * canvas.width,
-            y: -Math.random() * canvas.height,
-            size: Math.random() * 8 + 3,
-            color: colors[Math.floor(Math.random() * colors.length)],
-            speed: Math.random() * 3 + 2,
-            rotation: Math.random() * 360,
-            rotationSpeed: Math.random() * 5 - 2.5
-            });
-        }
-        
-        // Animation loop
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
-            particles.forEach(particle => {
-            ctx.save();
-            ctx.translate(particle.x, particle.y);
-            ctx.rotate(particle.rotation * Math.PI / 180);
-            
-            ctx.fillStyle = particle.color;
-            ctx.fillRect(-particle.size / 2, -particle.size / 2, particle.size, particle.size);
-            
-            ctx.restore();
-            
-            particle.y += particle.speed;
-            particle.rotation += particle.rotationSpeed;
-            
-            // Reset particles that go off screen
-            if (particle.y > canvas.height) {
-                particle.y = -10;
-                particle.x = Math.random() * canvas.width;
-            }
-            });
-            
-            requestAnimationFrame(animate);
-        }
-        
-        animate();
-        
-        // Stop after 5 seconds
-        setTimeout(() => {
-            canvas.style.opacity = '0';
-            setTimeout(() => {
-            canvas.remove();
-            }, 1000);
-        }, 5000);
-        }
-    }
-    }
-    }
-    </script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('paymentSuccess', () => ({
+                init() {
+                    this.startConfetti();
+                    
+                    // Track conversion (uncomment when needed)
+                    if (window.analytics) {
+                        analytics.track('Payment Completed', {
+                            amount: '{{ order.amount }}',
+                            currency: '{{ order.currency }}',
+                            order_id: '{{ order.id }}'
+                        });
+                    }
+                },
+                
+                animationId: null,
+                particles: [],
+                
+                startConfetti() {
+                    const canvas = document.getElementById('confetti-canvas');
+                    if (!canvas) return;
+                    
+                    // Initialize canvas
+                    this.resizeCanvas(canvas);
+                    window.addEventListener('resize', () => this.resizeCanvas(canvas));
+                    
+                    const ctx = canvas.getContext('2d');
+                    const colors = ['#6366f1', '#ec4899', '#f59e0b', '#10b981', '#3b82f6'];
+                    
+                    // Adjust particle count based on device
+                    const particleCount = this.isMobile() ? 80 : 150;
+                    
+                    // Create particles
+                    this.particles = Array.from({ length: particleCount }, () => ({
+                        x: Math.random() * canvas.width,
+                        y: -Math.random() * canvas.height,
+                        size: Math.random() * 8 + 3,
+                        color: colors[Math.floor(Math.random() * colors.length)],
+                        speed: Math.random() * 3 + 2,
+                        rotation: Math.random() * 360,
+                        rotationSpeed: Math.random() * 5 - 2.5,
+                        shape: Math.random() > 0.5 ? 'rect' : 'circle'
+                    }));
+                    
+                    // Start animation loop
+                    this.animateConfetti(ctx, canvas);
+                },
+                
+                animateConfetti(ctx, canvas) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    this.particles.forEach(particle => {
+                        ctx.save();
+                        ctx.translate(particle.x, particle.y);
+                        ctx.rotate(particle.rotation * Math.PI / 180);
+                        
+                        ctx.fillStyle = particle.color;
+                        
+                        // More performant drawing with shape variation
+                        if (particle.shape === 'circle') {
+                            ctx.beginPath();
+                            ctx.arc(0, 0, particle.size/2, 0, Math.PI * 2);
+                            ctx.fill();
+                        } else {
+                            ctx.beginPath();
+                            ctx.rect(-particle.size/2, -particle.size/2, particle.size, particle.size);
+                            ctx.fill();
+                        }
+                        
+                        ctx.restore();
+                        
+                        // Update particle position
+                        particle.y += particle.speed;
+                        particle.rotation += particle.rotationSpeed;
+                        
+                        // Add slight horizontal movement for more natural feel
+                        particle.x += Math.sin(Date.now() * 0.001) * 0.5;
+                        
+                        // Reset particles that go off screen
+                        if (particle.y > canvas.height) {
+                            particle.y = -10;
+                            particle.x = Math.random() * canvas.width;
+                        }
+                    });
+                    
+                    // Continuous animation
+                    this.animationId = requestAnimationFrame(() => this.animateConfetti(ctx, canvas));
+                },
+                
+                resizeCanvas(canvas) {
+                    canvas.width = window.innerWidth;
+                    canvas.height = window.innerHeight;
+                },
+                
+                isMobile() {
+                    return /Android|iPhone|iPad/i.test(navigator.userAgent);
+                },
+                
+                // Clean up when component is removed
+                stopConfetti() {
+                    if (this.animationId) {
+                        cancelAnimationFrame(this.animationId);
+                    }
+                }
+            }));
+        });
 
+        // To stop the confetti
+        // Alpine.store('paymentSuccess').stopConfetti();
+        </script>
 {% endblock %}

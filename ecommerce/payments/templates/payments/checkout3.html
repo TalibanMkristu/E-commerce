@@ -333,6 +333,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script>  
 function checkout() {
+
   return {
     currentStep: 1,
     checkoutSteps: ['Information', 'Payment', 'Review'],
@@ -357,6 +358,8 @@ function checkout() {
     elements: null,
     cardElement: null,
     isLoading: true,
+
+    
     
     async init() {
       try {
@@ -499,6 +502,7 @@ function checkout() {
     
     async loadSavedCards() {
       try {
+        
         const response = await fetch('{% url "payments:get-saved-cards" %}', {
           method: 'GET',
           headers: {
@@ -593,7 +597,7 @@ function checkout() {
         formData.append('optInMarketing', 'on');
       }
 
-      fetch('{% url "payments:checkout" %}', {
+      fetch('', {
         method: 'POST',
         headers: {
           'X-CSRFToken': '{{ csrf_token }}'
@@ -683,7 +687,7 @@ function checkout() {
     async processCardPayment() {
       try {
         // Step 1: Create a payment intent
-        const intentResponse = await fetch('{% url "payments:checkout" %}', {
+        const intentResponse = await fetch('', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -732,7 +736,7 @@ function checkout() {
         }
 
         // Step 3: Confirm backend payment
-        const confirmResponse = await fetch('{% url "payments:checkout" %}', {
+        const confirmResponse = await fetch('', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -770,7 +774,7 @@ function checkout() {
 
     async processPayPalPayment() {
       try {
-        const response = await fetch('{% url "payments:checkout" %}', {
+        const response = await fetch('', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -804,7 +808,7 @@ function checkout() {
     
     async processBankTransfer() {
       try {
-        const response = await fetch('{% url "payments:checkout" %}', {
+        const response = await fetch('', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

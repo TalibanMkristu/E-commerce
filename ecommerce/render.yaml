@@ -6,7 +6,7 @@ databases:
 
 services:
   - type: web
-    name: your-django-app
+    name: ecommerce
     env: python
     region: ohio  # or singapore, frankfurt, etc.
     plan: free  # or "starter", "standard" for production
